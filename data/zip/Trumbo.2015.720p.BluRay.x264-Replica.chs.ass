@@ -1,0 +1,2005 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,STKaiti,20,&H00E0E0E0,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.30,0:00:20.52,Default,,0000,0000,0000,,{\blur3\fnSTKaiti\fs16\1c&H3CF1F3&\b0}字幕制作: {\1c&HFF8000&\b0}呆呆@CMCT{\r}
+Dialogue: 0,0:01:05.56,0:01:08.24,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1930年代经济大萧条与法西斯崛起
+Dialogue: 0,0:01:08.28,0:01:11.77,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}数以千计的美国人加入美国共产党
+Dialogue: 0,0:01:12.44,0:01:15.44,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}二战时美国与苏联同盟后
+Dialogue: 0,0:01:15.48,0:01:18.70,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}更多人加入了美国共产党
+Dialogue: 0,0:01:20.74,0:01:22.65,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}编剧家达尔顿·特朗勃长期倡议劳工权益
+Dialogue: 0,0:01:22.69,0:01:24.82,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}也在1943年成为共产党员
+Dialogue: 0,0:01:25.58,0:01:32.09,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}但冷战却使美国共产党员们饱受质疑
+Dialogue: 0,0:01:35.05,0:01:39.04,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1947年 洛杉矶北部
+Dialogue: 0,0:02:15.00,0:02:17.09,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}奥斯卡最佳改编剧本提名《女人万岁》
+Dialogue: 0,0:02:18.75,0:02:21.61,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《强尼上战场》原著 达尔顿·特朗勃
+Dialogue: 0,0:02:24.02,0:02:27.35,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《比翼鸟》
+Dialogue: 0,0:02:29.89,0:02:35.39,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}编剧 达尔顿·特朗勃
+Dialogue: 0,0:02:37.15,0:02:40.09,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《温柔的伙伴》主演 金杰·罗杰斯
+Dialogue: 0,0:02:48.58,0:02:53.04,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}没人想死得早 死得穷 死得孤独
+Dialogue: 0,0:16:20.60,0:16:22.52,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}传票
+Dialogue: 0,0:16:43.08,0:16:47.50,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1947年 九月
+Dialogue: 0,0:17:10.52,0:17:13.28,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}罗纳德·里根 演员公会主席
+Dialogue: 0,0:17:38.68,0:17:42.60,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}洛伊布鲁尔 国际戏剧舞台工作者联盟西岸代表
+Dialogue: 0,0:17:43.52,0:17:47.81,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}山姆·伍德 导演 守护美国理想电影联盟共同创办人
+Dialogue: 0,0:18:03.22,0:18:07.46,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}罗伯特·泰勒 演员
+Dialogue: 0,0:24:11.53,0:24:15.91,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}好莱坞十君子被指控藐视国会
+Dialogue: 0,0:26:34.50,0:26:37.63,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}电影片厂开除共产党员
+Dialogue: 0,0:28:40.96,0:28:44.38,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1949年6月 华盛顿特区
+Dialogue: 0,0:30:09.97,0:30:13.43,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}安公主 我从未和男人独处
+Dialogue: 0,0:31:15.74,0:31:17.08,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}罗斯国际影业
+Dialogue: 0,0:35:01.68,0:35:04.40,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1949年9月
+Dialogue: 0,0:36:33.19,0:36:36.86,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}维利·拉特利奇死于脑溢血 终年55岁
+Dialogue: 0,0:37:19.15,0:37:23.28,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1950年6月
+Dialogue: 0,0:37:25.49,0:37:27.11,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}解救好莱坞十君子
+Dialogue: 0,0:38:41.81,0:38:42.92,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}爱许兰 肯塔基州
+Dialogue: 0,0:39:46.63,0:39:49.63,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1950年8月
+Dialogue: 0,0:42:51.96,0:42:57.07,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}新一波好莱坞共产分子审讯开始
+Dialogue: 0,0:45:29.93,0:45:33.40,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}特克萨卡纳州立监狱
+Dialogue: 0,0:47:09.49,0:47:13.73,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}守护美国理想电影联盟
+Dialogue: 0,0:47:16.70,0:47:17.70,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}主席 约翰·韦恩
+Dialogue: 0,0:49:21.33,0:49:25.08,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}共产党员都是莫斯科间谍
+Dialogue: 0,0:49:26.80,0:49:30.09,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1951年4月
+Dialogue: 0,0:51:13.77,0:51:15.48,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}土地出售
+Dialogue: 0,0:52:36.65,0:52:38.23,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}金氏兄弟电影公司
+Dialogue: 0,0:55:13.76,0:55:16.08,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}高地公园 加利福尼亚 1952年
+Dialogue: 0,0:56:03.80,0:56:05.00,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}特朗勃家收
+Dialogue: 0,0:56:08.97,0:56:11.36,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}欢迎来到本社区 叛徒
+Dialogue: 0,0:56:24.88,0:56:26.59,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}滚蛋
+Dialogue: 0,0:57:02.62,0:57:05.70,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1953年1月
+Dialogue: 0,0:57:06.08,0:57:08.83,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}罗马假日
+Dialogue: 0,0:57:08.97,0:57:12.49,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}编剧 伊恩·麦克连·汉特
+Dialogue: 0,1:02:08.93,1:02:10.22,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}南方不要黑鬼
+Dialogue: 0,1:03:02.23,1:03:03.58,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}安非他命
+Dialogue: 0,1:06:41.91,1:06:45.16,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1954年3月
+Dialogue: 0,1:31:28.39,1:31:29.75,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《勇敢的人》
+Dialogue: 0,1:31:47.38,1:31:51.92,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1957年1月
+Dialogue: 0,1:32:41.38,1:32:44.10,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1957年3月
+Dialogue: 0,1:37:25.63,1:37:29.25,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1958年12月
+Dialogue: 0,1:39:50.27,1:39:52.48,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《出埃及记》
+Dialogue: 0,1:47:57.72,1:48:00.72,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}奥图·普莱明杰宣布 《出埃及记》由达尔顿·特朗勃编剧
+Dialogue: 0,1:51:09.07,1:51:12.95,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}《斯巴达克斯》
+Dialogue: 0,1:51:31.07,1:51:32.39,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}执行制作 寇克·道格拉斯
+Dialogue: 0,1:51:32.97,1:51:35.18,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}编剧 达尔顿·特朗勃
+Dialogue: 0,1:52:36.66,1:52:39.25,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}华盛顿特区 1961年2月
+Dialogue: 0,1:53:39.73,1:53:42.40,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}洛杉矶 1970年3月
+Dialogue: 0,1:58:05.40,1:58:06.79,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}特朗勃终于在1975年
+Dialogue: 0,1:58:06.82,1:58:10.95,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}拿到因《勇敢的人》获得的奥斯卡奖
+Dialogue: 0,1:58:12.29,1:58:17.16,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}他于1976年过世 享年70岁
+Dialogue: 0,1:58:18.42,1:58:20.63,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}1993年 克莉欧代替特朗勃领取
+Dialogue: 0,1:58:20.67,1:58:23.64,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}因《罗马假日》获得的奥斯卡奖
+Dialogue: 0,1:58:24.90,1:58:26.89,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}克莉欧 于2009年过世 享年93岁
+Dialogue: 0,1:58:27.18,1:58:29.94,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}她一直没有再婚
+Dialogue: 0,1:58:31.35,1:58:35.00,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}好莱坞有数百人被列入黑名单
+Dialogue: 0,1:58:35.02,1:58:38.40,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}而全美则有数千人受到不白之冤
+Dialogue: 0,1:58:40.02,1:58:44.19,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}许多教师 军人 政府员工及家属
+Dialogue: 0,1:58:44.26,1:58:48.39,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}因此失业 破产 离婚 甚至自杀
+Dialogue: 0,1:58:49.78,1:58:53.72,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}非美活动调查委员会 持续调查国民
+Dialogue: 0,1:58:53.80,1:58:56.00,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}直到1975年为止
+Dialogue: 0,1:58:57.17,1:59:08.55,Default,,0,0,0,,{\fnMicrosoft YaHei\fs18\bord0\shad0\1c&HE0E0E0\an8}别走开 后面还有精采片段
+Dialogue: 0,0:03:06.93,0:03:07.98,Default,,0,0,0,,{\blur3}你想要什么 洛可？
+Dialogue: 0,0:03:08.56,0:03:09.73,Default,,0,0,0,,{\blur3}人们希望的
+Dialogue: 0,0:03:10.27,0:03:13.44,Default,,0,0,0,,{\blur3}只是不想死得早 死得穷 死得孤独
+Dialogue: 0,0:03:13.52,0:03:14.52,Default,,0,0,0,,{\blur3}曼尼
+Dialogue: 0,0:03:14.77,0:03:17.40,Default,,0,0,0,,{\blur3}那些家伙…
+Dialogue: 0,0:03:17.49,0:03:20.07,Default,,0,0,0,,{\blur3}如果我不交出他们想要的东西
+Dialogue: 0,0:03:20.15,0:03:22.07,Default,,0,0,0,,{\blur3}他们会杀了我
+Dialogue: 0,0:03:23.37,0:03:24.37,Default,,0,0,0,,{\blur3}别动 洛可
+Dialogue: 0,0:03:24.83,0:03:27.08,Default,,0,0,0,,{\blur3}如果我们不跟那些家伙作对
+Dialogue: 0,0:03:27.16,0:03:28.91,Default,,0,0,0,,{\blur3}或许你能…
+Dialogue: 0,0:03:29.79,0:03:31.21,Default,,0,0,0,,{\blur3}- 烦 讨厌 - 卡
+Dialogue: 0,0:03:33.71,0:03:34.75,Default,,0,0,0,,{\blur3}抱歉 各位
+Dialogue: 0,0:03:34.84,0:03:36.42,Default,,0,0,0,,{\blur3}我们再来一次 艾迪 我不知道发生了什么
+Dialogue: 0,0:03:36.50,0:03:37.51,Default,,0,0,0,,{\blur3}对不起 山姆
+Dialogue: 0,0:03:38.05,0:03:40.47,Default,,0,0,0,,{\blur3}偏偏在编剧来的时候出糗
+Dialogue: 0,0:03:40.72,0:03:42.72,Default,,0,0,0,,{\blur3}虽然他来了 但我们跟他不是一伙的
+Dialogue: 0,0:03:43.89,0:03:46.39,Default,,0,0,0,,{\blur3}我的精彩台词是什么 特朗勃？
+Dialogue: 0,0:03:46.47,0:03:48.60,Default,,0,0,0,,{\blur3}我正好拿在手上
+Dialogue: 0,0:03:52.31,0:03:56.19,Default,,0,0,0,,{\blur3}"或许你能如愿活得长长久久"
+Dialogue: 0,0:03:57.86,0:03:59.36,Default,,0,0,0,,{\blur3}那你要我对抗什么？
+Dialogue: 0,0:04:00.07,0:04:03.74,Default,,0,0,0,,{\blur3}大家和平共处 友善待人嘛
+Dialogue: 0,0:04:03.82,0:04:05.33,Default,,0,0,0,,{\blur3}没这回事 这里可是美国
+Dialogue: 0,0:04:06.87,0:04:09.87,Default,,0,0,0,,{\blur3}好吧 那性爱和金钱呢？
+Dialogue: 0,0:04:10.50,0:04:12.91,Default,,0,0,0,,{\blur3}这才像话 二件大家最爱的事物
+Dialogue: 0,0:04:13.08,0:04:13.79,Default,,0,0,0,,{\blur3}是
+Dialogue: 0,0:04:13.88,0:04:15.96,Default,,0,0,0,,{\blur3}每个美国公民的小小信仰
+Dialogue: 0,0:04:17.30,0:04:18.34,Default,,0,0,0,,{\blur3}好 重拍一次
+Dialogue: 0,0:04:20.01,0:04:21.59,Default,,0,0,0,,{\blur3}米高梅找来了黄金阵容
+Dialogue: 0,0:04:21.67,0:04:24.51,Default,,0,0,0,,{\blur3}山姆·伍德 导演 达尔顿·特朗勃 重写剧本
+Dialogue: 0,0:04:24.59,0:04:25.76,Default,,0,0,0,,{\blur3}罢工使一切停摆
+Dialogue: 0,0:04:25.85,0:04:26.89,Default,,0,0,0,,{\blur3}老天有眼
+Dialogue: 0,0:04:26.97,0:04:27.97,Default,,0,0,0,,{\blur3}根本不该让你工作
+Dialogue: 0,0:04:28.06,0:04:31.41,Default,,0,0,0,,{\blur3}你跨越警戒线去布景工人罢工阵营
+Dialogue: 0,0:04:31.43,0:04:34.19,Default,,0,0,0,,{\blur3}他们到底关剧本什么事？
+Dialogue: 0,0:04:35.10,0:04:38.44,Default,,0,0,0,,{\blur3}剧本中的场景由他们搭建
+Dialogue: 0,0:04:38.52,0:04:40.74,Default,,0,0,0,,{\blur3}而他们搭的场景由你拍摄
+Dialogue: 0,0:04:40.82,0:04:42.86,Default,,0,0,0,,{\blur3}你靠拍片赚进大把银子
+Dialogue: 0,0:04:42.95,0:04:45.95,Default,,0,0,0,,{\blur3}为何他们不能？为何我们不能帮他们？
+Dialogue: 0,0:04:46.03,0:04:48.45,Default,,0,0,0,,{\blur3}你家有游泳池 还好意思谈共产主义
+Dialogue: 0,0:04:48.68,0:04:50.20,Default,,0,0,0,,{\blur3}拜托 你赢了
+Dialogue: 0,0:04:50.29,0:04:52.41,Default,,0,0,0,,{\blur3}山姆 罢工结束了
+Dialogue: 0,0:04:52.50,0:04:54.62,Default,,0,0,0,,{\blur3}你只是想当一个仁慈的胜利者
+Dialogue: 0,0:04:54.71,0:04:56.50,Default,,0,0,0,,{\blur3}你们这些人真是没完没了
+Dialogue: 0,0:04:56.71,0:04:57.96,Default,,0,0,0,,{\blur3}罢工接二连三
+Dialogue: 0,0:04:58.04,0:04:59.34,Default,,0,0,0,,{\blur3}"你们这些人"？
+Dialogue: 0,0:04:59.42,0:05:00.46,Default,,0,0,0,,{\blur3}我们不顾一切只为追求正义
+Dialogue: 0,0:05:00.55,0:05:01.59,Default,,0,0,0,,{\blur3}好吧 你都知道什么？
+Dialogue: 0,0:05:01.71,0:05:02.72,Default,,0,0,0,,{\blur3}我们都 一笑而过
+Dialogue: 0,0:05:02.80,0:05:05.59,Default,,0,0,0,,{\blur3}- 我们为何不休息他六个月？- 别 山姆
+Dialogue: 0,0:05:06.14,0:05:07.72,Default,,0,0,0,,{\blur3}- 那我也要来罢工 - 恭喜你
+Dialogue: 0,0:05:07.80,0:05:09.81,Default,,0,0,0,,{\blur3}抗议那些罢工的人
+Dialogue: 0,0:05:09.89,0:05:10.89,Default,,0,0,0,,{\blur3}山姆 山姆
+Dialogue: 0,0:05:11.06,0:05:12.39,Default,,0,0,0,,{\blur3}这次我绝不会越线过去你的阵营
+Dialogue: 0,0:05:12.48,0:05:13.73,Default,,0,0,0,,{\blur3}我受够了 特朗勃
+Dialogue: 0,0:05:13.81,0:05:15.94,Default,,0,0,0,,{\blur3}你知道什么？
+Dialogue: 0,0:05:16.06,0:05:17.77,Default,,0,0,0,,{\blur3}我已经浪费够多时间…
+Dialogue: 0,0:05:17.90,0:05:18.86,Default,,0,0,0,,{\blur3}你这不是在帮忙 艾迪
+Dialogue: 0,0:05:18.94,0:05:21.15,Default,,0,0,0,,{\blur3}山姆 我们得讨论明天要拍的戏
+Dialogue: 0,0:05:21.23,0:05:23.57,Default,,0,0,0,,{\blur3}真是一场灾难 是谁写的烂戏？
+Dialogue: 0,0:05:24.28,0:05:25.41,Default,,0,0,0,,{\blur3}不过 首先
+Dialogue: 0,0:05:25.49,0:05:27.07,Default,,0,0,0,,{\blur3}我可以请你跳一支舞吗？
+Dialogue: 0,0:05:27.16,0:05:28.87,Default,,0,0,0,,{\blur3}艾迪 你把我的酒弄洒了
+Dialogue: 0,0:05:28.95,0:05:30.16,Default,,0,0,0,,{\blur3}好玩吗？
+Dialogue: 0,0:05:32.75,0:05:34.08,Default,,0,0,0,,{\blur3}永远都这么好玩
+Dialogue: 0,0:05:34.91,0:05:36.08,Default,,0,0,0,,{\blur3}霍珀小姐
+Dialogue: 0,0:05:38.29,0:05:40.17,Default,,0,0,0,,{\blur3}欢迎收看《好莱坞日讯》
+Dialogue: 0,0:05:40.25,0:05:43.55,Default,,0,0,0,,{\blur3}顶尖专栏作家赫达霍珀的办公室
+Dialogue: 0,0:05:43.63,0:05:45.88,Default,,0,0,0,,{\blur3}我从电影之都向大家捎来祝福
+Dialogue: 0,0:05:46.35,0:05:48.35,Default,,0,0,0,,{\blur3}这里阳光普照 充满乐趣
+Dialogue: 0,0:05:49.10,0:05:51.60,Default,,0,0,0,,{\blur3}是吗？众多名人聚集于此
+Dialogue: 0,0:05:52.14,0:05:53.88,Default,,0,0,0,,{\blur3}丹尼凯 亨佛莱鲍嘉
+Dialogue: 0,0:05:53.94,0:05:56.00,Default,,0,0,0,,{\blur3}以及他美丽的新娘 洛琳·白考儿
+Dialogue: 0,0:05:56.10,0:05:59.14,Default,,0,0,0,,{\blur3}他们都宣称与罢工的剧组人员站在一起
+Dialogue: 0,0:05:59.20,0:06:00.86,Default,,0,0,0,,{\blur3}要求提高工资
+Dialogue: 0,0:06:01.15,0:06:03.48,Default,,0,0,0,,{\blur3}联合罢工迅速转为暴力抗争
+Dialogue: 0,0:06:04.32,0:06:09.12,Default,,0,0,0,,{\blur3}实则由危险的激进份子策动
+Dialogue: 0,0:06:09.45,0:06:13.79,Default,,0,0,0,,{\blur3}这是《双重保险》中的艾迪华·罗宾森
+Dialogue: 0,0:06:13.87,0:06:17.25,Default,,0,0,0,,{\blur3}这是达尔顿·特朗勃
+Dialogue: 0,0:06:17.33,0:06:20.79,Default,,0,0,0,,{\blur3}和很多参加并支持罢工的人一样
+Dialogue: 0,0:06:20.88,0:06:23.05,Default,,0,0,0,,{\blur3}他也是共产党员
+Dialogue: 0,0:06:23.13,0:06:25.55,Default,,0,0,0,,{\blur3}联合罢工的幕后黑手是谁？
+Dialogue: 0,0:06:25.63,0:06:27.34,Default,,0,0,0,,{\blur3}你们创造了电影
+Dialogue: 0,0:06:29.64,0:06:30.68,Default,,0,0,0,,{\blur3}这样公平吗？
+Dialogue: 0,0:06:30.80,0:06:31.76,Default,,0,0,0,,{\blur3}不公平 不公平
+Dialogue: 0,0:06:31.85,0:06:33.47,Default,,0,0,0,,{\blur3}我们的民选众议员
+Dialogue: 0,0:06:34.68,0:06:36.51,Default,,0,0,0,,{\blur3}约翰·帕奈尔·汤马斯
+Dialogue: 0,0:06:36.68,0:06:39.57,Default,,0,0,0,,{\blur3}将率领非美活动调查委员会找出答案
+Dialogue: 0,0:06:39.69,0:06:43.52,Default,,0,0,0,,{\blur3}共产主义不是远在天边的威胁
+Dialogue: 0,0:06:43.65,0:06:45.49,Default,,0,0,0,,{\blur3}最危险的共产分子就在美国
+Dialogue: 0,0:06:45.57,0:06:48.03,Default,,0,0,0,,{\blur3}掌握了广播与银幕
+Dialogue: 0,0:06:48.15,0:06:49.99,Default,,0,0,0,,{\blur3}控制了旗下的员工与工会
+Dialogue: 0,0:06:50.49,0:06:54.95,Default,,0,0,0,,{\blur3}我们必须认清 他们就是敌人
+Dialogue: 0,0:06:55.04,0:06:58.58,Default,,0,0,0,,{\blur3}共产分子的目标是统治世界
+Dialogue: 0,0:06:58.66,0:07:01.17,Default,,0,0,0,,{\blur3}他们发起新型战争
+Dialogue: 0,0:07:01.25,0:07:02.50,Default,,0,0,0,,{\blur3}冷战
+Dialogue: 0,0:07:02.59,0:07:05.00,Default,,0,0,0,,{\blur3}企图败坏民主价值
+Dialogue: 0,0:07:05.09,0:07:07.76,Default,,0,0,0,,{\blur3}并推翻这个国家
+Dialogue: 0,0:07:10.26,0:07:12.43,Default,,0,0,0,,{\blur3}梅兹睡着了
+Dialogue: 0,0:07:12.51,0:07:15.81,Default,,0,0,0,,{\blur3}你就是新闻里的那个人？
+Dialogue: 0,0:07:15.89,0:07:17.06,Default,,0,0,0,,{\blur3}是我没错
+Dialogue: 0,0:07:19.94,0:07:21.10,Default,,0,0,0,,{\blur3}叛徒
+Dialogue: 0,0:07:22.73,0:07:24.40,Default,,0,0,0,,{\blur3}天啊 亲爱的
+Dialogue: 0,0:07:24.52,0:07:26.03,Default,,0,0,0,,{\blur3}没事 我没事 这伤不到我
+Dialogue: 0,0:07:26.11,0:07:27.24,Default,,0,0,0,,{\blur3}真的？
+Dialogue: 0,0:07:27.69,0:07:29.70,Default,,0,0,0,,{\blur3}来吧 我们走
+Dialogue: 0,0:07:33.07,0:07:34.20,Default,,0,0,0,,{\blur3}爸
+Dialogue: 0,0:07:35.03,0:07:37.58,Default,,0,0,0,,{\blur3}你是共产党员吗？
+Dialogue: 0,0:07:37.70,0:07:38.91,Default,,0,0,0,,{\blur3}我是
+Dialogue: 0,0:07:41.29,0:07:43.42,Default,,0,0,0,,{\blur3}这样犯法吗？
+Dialogue: 0,0:07:43.54,0:07:44.96,Default,,0,0,0,,{\blur3}没有
+Dialogue: 0,0:07:47.71,0:07:52.64,Default,,0,0,0,,{\blur3}那个戴宽帽的女士说 你是危险的激进分子
+Dialogue: 0,0:07:53.55,0:07:54.55,Default,,0,0,0,,{\blur3}是吗？
+Dialogue: 0,0:07:55.89,0:07:58.43,Default,,0,0,0,,{\blur3}激进分子？或许吧
+Dialogue: 0,0:07:59.73,0:08:03.98,Default,,0,0,0,,{\blur3}只有那些泼可乐的人才会觉得我危险
+Dialogue: 0,0:08:04.81,0:08:06.52,Default,,0,0,0,,{\blur3}我热爱国家
+Dialogue: 0,0:08:06.61,0:08:08.99,Default,,0,0,0,,{\blur3}我们有一个好政府
+Dialogue: 0,0:08:09.07,0:08:12.95,Default,,0,0,0,,{\blur3}但还可以好上加好 你不觉得吗？
+Dialogue: 0,0:08:15.24,0:08:16.91,Default,,0,0,0,,{\blur3}妈是共产党员吗？
+Dialogue: 0,0:08:17.83,0:08:18.91,Default,,0,0,0,,{\blur3}不是
+Dialogue: 0,0:08:20.58,0:08:21.75,Default,,0,0,0,,{\blur3}那我呢？
+Dialogue: 0,0:08:23.37,0:08:27.38,Default,,0,0,0,,{\blur3}那么 我们来做个正规测验吧
+Dialogue: 0,0:08:27.46,0:08:29.09,Default,,0,0,0,,{\blur3}有一天 妈妈做了你最爱的午餐
+Dialogue: 0,0:08:29.21,0:08:30.59,Default,,0,0,0,,{\blur3}火腿起司三明治
+Dialogue: 0,0:08:30.72,0:08:32.09,Default,,0,0,0,,{\blur3}火腿起司三明治
+Dialogue: 0,0:08:32.22,0:08:35.85,Default,,0,0,0,,{\blur3}到了学校 你发现有人没午餐吃
+Dialogue: 0,0:08:35.93,0:08:36.93,Default,,0,0,0,,{\blur3}你会怎么办？
+Dialogue: 0,0:08:37.76,0:08:38.85,Default,,0,0,0,,{\blur3}分享
+Dialogue: 0,0:08:38.97,0:08:40.06,Default,,0,0,0,,{\blur3}分享？
+Dialogue: 0,0:08:40.14,0:08:42.56,Default,,0,0,0,,{\blur3}你不会叫他们去找工作？
+Dialogue: 0,0:08:42.64,0:08:43.77,Default,,0,0,0,,{\blur3}不会
+Dialogue: 0,0:08:44.60,0:08:47.44,Default,,0,0,0,,{\blur3}你不会给他们提供利率6%的贷款？这很明智的
+Dialogue: 0,0:08:47.57,0:08:48.61,Default,,0,0,0,,{\blur3}爸
+Dialogue: 0,0:08:49.11,0:08:51.82,Default,,0,0,0,,{\blur3}那你是不把他们放在眼里？
+Dialogue: 0,0:08:51.94,0:08:52.95,Default,,0,0,0,,{\blur3}我不会
+Dialogue: 0,0:08:53.95,0:08:56.20,Default,,0,0,0,,{\blur3}那么…
+Dialogue: 0,0:08:56.28,0:08:57.74,Default,,0,0,0,,{\blur3}你就是个小共产分子
+Dialogue: 0,0:08:59.91,0:09:02.87,Default,,0,0,0,,{\blur3}特朗勃 你讲的话总是只有自己听得懂
+Dialogue: 0,0:09:02.96,0:09:06.17,Default,,0,0,0,,{\blur3}你是共产党员 我是民主党员
+Dialogue: 0,0:09:06.29,0:09:07.75,Default,,0,0,0,,{\blur3}这二个都是合法政党
+Dialogue: 0,0:09:07.84,0:09:11.55,Default,,0,0,0,,{\blur3}你们虽然又贱又烂 但并不违法
+Dialogue: 0,0:09:11.63,0:09:12.97,Default,,0,0,0,,{\blur3}- 你等着瞧 - 汉特
+Dialogue: 0,0:09:13.51,0:09:16.39,Default,,0,0,0,,{\blur3}叫你朋友别再偏执 好好喝酒
+Dialogue: 0,0:09:16.47,0:09:18.43,Default,,0,0,0,,{\blur3}我还觉得他不够偏执呢
+Dialogue: 0,0:09:18.80,0:09:20.47,Default,,0,0,0,,{\blur3}你不会也这样吧
+Dialogue: 0,0:09:20.60,0:09:21.89,Default,,0,0,0,,{\blur3}你的冰块没了
+Dialogue: 0,0:09:21.97,0:09:26.19,Default,,0,0,0,,{\blur3}我自作主张做了一本小册子
+Dialogue: 0,0:09:26.31,0:09:30.27,Default,,0,0,0,,{\blur3}主题是 国会还没注意到
+Dialogue: 0,0:09:30.36,0:09:32.19,Default,,0,0,0,,{\blur3}有个东西叫宪法第一修正案
+Dialogue: 0,0:09:32.32,0:09:35.32,Default,,0,0,0,,{\blur3}他们当然知道 只是不放在眼里
+Dialogue: 0,0:09:35.45,0:09:37.82,Default,,0,0,0,,{\blur3}他们只在乎这场美妙的新战争
+Dialogue: 0,0:09:38.45,0:09:40.37,Default,,0,0,0,,{\blur3}他们热爱战争 这场战争正合他们的意
+Dialogue: 0,0:09:40.49,0:09:43.87,Default,,0,0,0,,{\blur3}因为既含糊不清 又恐怖而昂贵
+Dialogue: 0,0:09:44.00,0:09:47.54,Default,,0,0,0,,{\blur3}赞成的就是英雄 反对的就是叛徒
+Dialogue: 0,0:09:47.67,0:09:48.75,Default,,0,0,0,,{\blur3}正是如此 谢谢
+Dialogue: 0,0:09:48.83,0:09:50.38,Default,,0,0,0,,{\blur3}亚伦 别在画旁吸烟
+Dialogue: 0,0:09:50.50,0:09:54.63,Default,,0,0,0,,{\blur3}别天真地以为他们拍完宣传影片就算了
+Dialogue: 0,0:09:54.72,0:09:58.26,Default,,0,0,0,,{\blur3}我决定深入敌方阵营
+Dialogue: 0,0:09:58.34,0:10:00.01,Default,,0,0,0,,{\blur3}你不会是指守护美国理想电影联盟吧？
+Dialogue: 0,0:10:00.14,0:10:01.10,Default,,0,0,0,,{\blur3}正是
+Dialogue: 0,0:10:01.18,0:10:02.85,Default,,0,0,0,,{\blur3}你疯了吗？
+Dialogue: 0,0:10:02.97,0:10:05.71,Default,,0,0,0,,{\blur3}艾迪 他们是演员 作家和导演
+Dialogue: 0,0:10:05.77,0:10:06.85,Default,,0,0,0,,{\blur3}就像我们一样
+Dialogue: 0,0:10:07.08,0:10:09.52,Default,,0,0,0,,{\blur3}他们是纳粹 只是太过小气不愿买制服
+Dialogue: 0,0:10:09.65,0:10:11.07,Default,,0,0,0,,{\blur3}他们把国会议员都请来了
+Dialogue: 0,0:10:11.19,0:10:14.49,Default,,0,0,0,,{\blur3}他们不就是山姆·伍德和赫达·霍珀吗？
+Dialogue: 0,0:10:15.36,0:10:18.95,Default,,0,0,0,,{\blur3}不要妖魔化我们不了解的人
+Dialogue: 0,0:10:19.03,0:10:20.03,Default,,0,0,0,,{\blur3}我赞成
+Dialogue: 0,0:10:20.16,0:10:22.95,Default,,0,0,0,,{\blur3}你知道 他们请到谁来演讲吗？
+Dialogue: 0,0:10:23.04,0:10:25.87,Default,,0,0,0,,{\blur3}各位女士先生 欢迎约翰·韦恩
+Dialogue: 0,0:10:33.21,0:10:36.13,Default,,0,0,0,,{\blur3}我想谈谈一个我热爱的地方
+Dialogue: 0,0:10:36.22,0:10:38.26,Default,,0,0,0,,{\blur3}不 不是好莱坞
+Dialogue: 0,0:10:38.88,0:10:43.11,Default,,0,0,0,,{\blur3}我喜欢好莱坞 但我更热爱美国
+Dialogue: 0,0:10:45.73,0:10:50.06,Default,,0,0,0,,{\blur3}美国代表的就是自由
+Dialogue: 0,0:10:50.19,0:10:53.82,Default,,0,0,0,,{\blur3}不惜加入世界大战也要捍卫到底
+Dialogue: 0,0:10:55.36,0:10:58.24,Default,,0,0,0,,{\blur3}想加入共产党？那就去吧
+Dialogue: 0,0:10:58.36,0:11:00.68,Default,,0,0,0,,{\blur3}但我在华府的朋友
+Dialogue: 0,0:11:00.74,0:11:03.16,Default,,0,0,0,,{\blur3}认为你们必须回答几个问题
+Dialogue: 0,0:11:03.24,0:11:04.79,Default,,0,0,0,,{\blur3}我真不晓得 他这么会说话
+Dialogue: 0,0:11:04.91,0:11:06.41,Default,,0,0,0,,{\blur3}如果你们还想加入共产党…
+Dialogue: 0,0:11:06.54,0:11:08.66,Default,,0,0,0,,{\blur3}- 因为他不是在表演 这才是他 - 去莫斯科吧
+Dialogue: 0,0:11:08.75,0:11:12.63,Default,,0,0,0,,{\blur3}去加入莫斯科大剧院芭蕾舞剧团吧
+Dialogue: 0,0:11:16.59,0:11:19.18,Default,,0,0,0,,{\blur3}先生 想了解宪法第一修正案吗？
+Dialogue: 0,0:11:19.26,0:11:21.15,Default,,0,0,0,,{\blur3}- 学习一点新知 - 你知道自己的权利吗？
+Dialogue: 0,0:11:21.26,0:11:22.89,Default,,0,0,0,,{\blur3}介绍宪法第一修正案的小册子
+Dialogue: 0,0:11:22.97,0:11:25.26,Default,,0,0,0,,{\blur3}- 只是份轻松读物 - 旅途愉快
+Dialogue: 0,0:11:27.14,0:11:28.14,Default,,0,0,0,,{\blur3}谢谢你 山姆
+Dialogue: 0,0:11:31.15,0:11:32.19,Default,,0,0,0,,{\blur3}再见
+Dialogue: 0,0:11:32.27,0:11:33.27,Default,,0,0,0,,{\blur3}印小册子是要钱的
+Dialogue: 0,0:11:33.40,0:11:35.48,Default,,0,0,0,,{\blur3}想了解宪法第一修正案吗？
+Dialogue: 0,0:11:35.61,0:11:36.57,Default,,0,0,0,,{\blur3}这简直是场恶梦
+Dialogue: 0,0:11:36.65,0:11:37.74,Default,,0,0,0,,{\blur3}达顿
+Dialogue: 0,0:11:38.44,0:11:40.91,Default,,0,0,0,,{\blur3}赫达 晚安
+Dialogue: 0,0:11:40.99,0:11:42.82,Default,,0,0,0,,{\blur3}亲爱的艾迪
+Dialogue: 0,0:11:42.95,0:11:44.12,Default,,0,0,0,,{\blur3}赫达
+Dialogue: 0,0:11:45.33,0:11:46.58,Default,,0,0,0,,{\blur3}新帽子？
+Dialogue: 0,0:11:46.66,0:11:47.95,Default,,0,0,0,,{\blur3}每天都要换一顶
+Dialogue: 0,0:11:49.62,0:11:51.79,Default,,0,0,0,,{\blur3}你最近有去看电影吗 达顿？
+Dialogue: 0,0:11:52.63,0:11:55.84,Default,,0,0,0,,{\blur3}杜克 你们说他是不是棒极了？
+Dialogue: 0,0:11:55.96,0:11:58.51,Default,,0,0,0,,{\blur3}我只是说出该说的话 你好 艾迪
+Dialogue: 0,0:11:59.34,0:12:00.47,Default,,0,0,0,,{\blur3}你好 杜克
+Dialogue: 0,0:12:00.59,0:12:02.13,Default,,0,0,0,,{\blur3}听说你和朋友们印了本小册子
+Dialogue: 0,0:12:02.59,0:12:04.30,Default,,0,0,0,,{\blur3}- 有人拿吗？- 还没
+Dialogue: 0,0:12:05.47,0:12:08.28,Default,,0,0,0,,{\blur3}你想拿一本吗？我们是共产党员
+Dialogue: 0,0:12:09.10,0:12:11.02,Default,,0,0,0,,{\blur3}他是剧作家
+Dialogue: 0,0:12:11.14,0:12:13.40,Default,,0,0,0,,{\blur3}这里没有人会拿你们的册子
+Dialogue: 0,0:12:13.48,0:12:14.81,Default,,0,0,0,,{\blur3}为什么？
+Dialogue: 0,0:12:14.94,0:12:19.07,Default,,0,0,0,,{\blur3}上面只说国会没有权力调查
+Dialogue: 0,0:12:19.15,0:12:21.99,Default,,0,0,0,,{\blur3}我们给谁投票 去哪里祷告
+Dialogue: 0,0:12:22.11,0:12:25.16,Default,,0,0,0,,{\blur3}以及调查我们的思想言行和电影制作
+Dialogue: 0,0:12:25.28,0:12:27.91,Default,,0,0,0,,{\blur3}你好 我叫达尔顿·特朗勃
+Dialogue: 0,0:12:27.99,0:12:32.08,Default,,0,0,0,,{\blur3}只要国会认定是威胁 就有权力查到底
+Dialogue: 0,0:12:32.16,0:12:36.17,Default,,0,0,0,,{\blur3}我们反对这样 重点是…
+Dialogue: 0,0:12:36.29,0:12:38.80,Default,,0,0,0,,{\blur3}我们都应该有犯错的权利
+Dialogue: 0,0:12:39.46,0:12:43.01,Default,,0,0,0,,{\blur3}想谈权利 先告诉我你站在哪一边
+Dialogue: 0,0:12:43.13,0:12:44.76,Default,,0,0,0,,{\blur3}俄国已经没有朋友了
+Dialogue: 0,0:12:44.84,0:12:45.89,Default,,0,0,0,,{\blur3}你们赶快清醒吧
+Dialogue: 0,0:12:46.01,0:12:49.56,Default,,0,0,0,,{\blur3}因为新时代已经到来了
+Dialogue: 0,0:12:50.06,0:12:51.06,Default,,0,0,0,,{\blur3}然后呢？
+Dialogue: 0,0:12:52.52,0:12:54.19,Default,,0,0,0,,{\blur3}或许这时代不适合你这种人
+Dialogue: 0,0:12:54.31,0:12:57.57,Default,,0,0,0,,{\blur3}我这种人？哪一种？
+Dialogue: 0,0:12:57.69,0:13:01.03,Default,,0,0,0,,{\blur3}不明白我们如何打赢大战的人
+Dialogue: 0,0:13:01.86,0:13:05.20,Default,,0,0,0,,{\blur3}真有趣 这是你第二次提及战事
+Dialogue: 0,0:13:05.32,0:13:08.41,Default,,0,0,0,,{\blur3}我以前在冲绳当战地记者
+Dialogue: 0,0:13:09.20,0:13:11.54,Default,,0,0,0,,{\blur3}赫达的儿子被派驻在菲律宾
+Dialogue: 0,0:13:11.66,0:13:15.04,Default,,0,0,0,,{\blur3}艾迪在欧洲的战争情报局工作
+Dialogue: 0,0:13:15.75,0:13:17.04,Default,,0,0,0,,{\blur3}你当时在哪里服役呢？
+Dialogue: 0,0:13:18.42,0:13:19.50,Default,,0,0,0,,{\blur3}你想说什么？
+Dialogue: 0,0:13:19.59,0:13:21.34,Default,,0,0,0,,{\blur3}没什么 杜克
+Dialogue: 0,0:13:22.76,0:13:27.20,Default,,0,0,0,,{\blur3}如果你在二战中也有战功
+Dialogue: 0,0:13:27.60,0:13:30.14,Default,,0,0,0,,{\blur3}就请说清楚你被派驻何处
+Dialogue: 0,0:13:30.22,0:13:34.44,Default,,0,0,0,,{\blur3}你在片场 化着妆 射空包弹
+Dialogue: 0,0:13:35.39,0:13:38.44,Default,,0,0,0,,{\blur3}如果你要揍我 我想先拿下眼镜
+Dialogue: 0,0:13:40.73,0:13:42.69,Default,,0,0,0,,{\blur3}杜克 我们走
+Dialogue: 0,0:13:43.69,0:13:47.53,Default,,0,0,0,,{\blur3}谢谢你 达顿 我的下个专栏有东西写了
+Dialogue: 0,0:13:47.62,0:13:49.33,Default,,0,0,0,,{\blur3}幸好你不想妖魔化任何人
+Dialogue: 0,0:13:49.41,0:13:51.24,Default,,0,0,0,,{\blur3}否则事情就尴尬了
+Dialogue: 0,0:13:53.04,0:13:54.50,Default,,0,0,0,,{\blur3}曼尼不会说"多情"这个字
+Dialogue: 0,0:13:54.58,0:13:55.62,Default,,0,0,0,,{\blur3}等等
+Dialogue: 0,0:13:55.75,0:13:58.54,Default,,0,0,0,,{\blur3}保罗 请给我二包烟
+Dialogue: 0,0:13:58.63,0:14:00.96,Default,,0,0,0,,{\blur3}- 给你 - 谢谢
+Dialogue: 0,0:14:01.09,0:14:02.21,Default,,0,0,0,,{\blur3}钱给你
+Dialogue: 0,0:14:08.80,0:14:12.60,Default,,0,0,0,,{\blur3}天啊 她真是无所不在
+Dialogue: 0,0:14:12.72,0:14:17.14,Default,,0,0,0,,{\blur3}这份合约将让你成为好莱坞薪酬最高的编剧
+Dialogue: 0,0:14:17.27,0:14:19.81,Default,,0,0,0,,{\blur3}也就是全世界收入最高的剧作家
+Dialogue: 0,0:14:20.61,0:14:21.65,Default,,0,0,0,,{\blur3}这是你应得的
+Dialogue: 0,0:14:21.77,0:14:24.90,Default,,0,0,0,,{\blur3}你深信自己写出的快乐结局
+Dialogue: 0,0:14:24.99,0:14:27.15,Default,,0,0,0,,{\blur3}所以观众才会买单
+Dialogue: 0,0:14:27.28,0:14:29.57,Default,,0,0,0,,{\blur3}米高梅也才会雇用你 是吧 路易？
+Dialogue: 0,0:14:29.66,0:14:33.79,Default,,0,0,0,,{\blur3}我不想让你们太容易得逞 那我在哪儿签名？
+Dialogue: 0,0:14:38.62,0:14:39.58,Default,,0,0,0,,{\blur3}只有一个条件
+Dialogue: 0,0:14:39.67,0:14:41.59,Default,,0,0,0,,{\blur3}如想替我工作
+Dialogue: 0,0:14:41.67,0:14:45.92,Default,,0,0,0,,{\blur3}就不要再让我看到这种东西
+Dialogue: 0,0:14:48.76,0:14:50.93,Default,,0,0,0,,{\blur3}不会的 我保证
+Dialogue: 0,0:14:51.01,0:14:52.01,Default,,0,0,0,,{\blur3}很好
+Dialogue: 0,0:14:52.14,0:14:54.35,Default,,0,0,0,,{\blur3}只要你不再读赫达霍珀的专栏
+Dialogue: 0,0:15:00.98,0:15:02.36,Default,,0,0,0,,{\blur3}路易跟你说了什么？
+Dialogue: 0,0:15:02.48,0:15:04.32,Default,,0,0,0,,{\blur3}别再提了
+Dialogue: 0,0:15:04.44,0:15:07.11,Default,,0,0,0,,{\blur3}我一直食不下咽 我的工作还不够辛苦吗？
+Dialogue: 0,0:15:07.19,0:15:09.57,Default,,0,0,0,,{\blur3}一点也不累
+Dialogue: 0,0:15:09.66,0:15:13.53,Default,,0,0,0,,{\blur3}你觉得在爆出新闻后 说服梅尔签下你很容易么？
+Dialogue: 0,0:15:13.66,0:15:18.85,Default,,0,0,0,,{\blur3}公司提供破纪录的三年合约 供你在纸上胡说八道
+Dialogue: 0,0:15:19.02,0:15:20.45,Default,,0,0,0,,{\blur3}不用谢我了
+Dialogue: 0,0:15:24.50,0:15:26.80,Default,,0,0,0,,{\blur3}亲爱的 现在不是时候
+Dialogue: 0,0:15:26.88,0:15:27.92,Default,,0,0,0,,{\blur3}拜托 妈
+Dialogue: 0,0:15:28.01,0:15:29.63,Default,,0,0,0,,{\blur3}她真的可以
+Dialogue: 0,0:15:29.72,0:15:30.88,Default,,0,0,0,,{\blur3}- 请她表演 - 可以怎样？
+Dialogue: 0,0:15:31.01,0:15:32.60,Default,,0,0,0,,{\blur3}克莉欧 是真的吗？
+Dialogue: 0,0:15:32.68,0:15:34.05,Default,,0,0,0,,{\blur3}你们瞧
+Dialogue: 0,0:15:36.10,0:15:37.10,Default,,0,0,0,,{\blur3}- 特朗勃… - 来啊
+Dialogue: 0,0:15:40.23,0:15:41.56,Default,,0,0,0,,{\blur3}你这是在向我挑战
+Dialogue: 0,0:15:41.69,0:15:42.69,Default,,0,0,0,,{\blur3}大家注意
+Dialogue: 0,0:15:43.36,0:15:44.86,Default,,0,0,0,,{\blur3}我有个非凡的母亲
+Dialogue: 0,0:15:44.98,0:15:46.86,Default,,0,0,0,,{\blur3}也就是 星妈
+Dialogue: 0,0:15:49.36,0:15:52.70,Default,,0,0,0,,{\blur3}杂技演员的悲惨童年
+Dialogue: 0,0:15:53.57,0:15:55.83,Default,,0,0,0,,{\blur3}天啊 你参加了多久的演出？
+Dialogue: 0,0:15:55.91,0:15:58.37,Default,,0,0,0,,{\blur3}直到我15岁 基本上算是强迫劳动
+Dialogue: 0,0:16:01.42,0:16:03.17,Default,,0,0,0,,{\blur3}- 厉害 - 真精彩
+Dialogue: 0,0:16:13.43,0:16:14.51,Default,,0,0,0,,{\blur3}达尔顿·特朗勃先生？
+Dialogue: 0,0:16:15.55,0:16:16.56,Default,,0,0,0,,{\blur3}是我
+Dialogue: 0,0:16:19.43,0:16:20.43,Default,,0,0,0,,{\blur3}我们华盛顿见
+Dialogue: 0,0:16:27.40,0:16:28.69,Default,,0,0,0,,{\blur3}祝你们野餐愉快
+Dialogue: 0,0:16:29.54,0:16:30.45,Default,,0,0,0,,{\blur3}我们走
+Dialogue: 0,0:16:30.74,0:16:31.74,Default,,0,0,0,,{\blur3}遵命 史崔普林先生
+Dialogue: 0,0:16:34.45,0:16:38.37,Default,,0,0,0,,{\blur3}我们发出了19张传票
+Dialogue: 0,0:16:38.45,0:16:42.04,Default,,0,0,0,,{\blur3}传唤知悉好莱坞内共党阴谋的人
+Dialogue: 0,0:16:42.12,0:16:43.50,Default,,0,0,0,,{\blur3}什么阴谋？
+Dialogue: 0,0:16:43.58,0:16:46.46,Default,,0,0,0,,{\blur3}企图败坏民主价值
+Dialogue: 0,0:16:46.59,0:16:48.46,Default,,0,0,0,,{\blur3}并推翻这个国家
+Dialogue: 0,0:16:48.59,0:16:50.76,Default,,0,0,0,,{\blur3}利用电影？
+Dialogue: 0,0:16:50.88,0:16:52.47,Default,,0,0,0,,{\blur3}你知道是哪部吗？
+Dialogue: 0,0:16:52.59,0:16:55.39,Default,,0,0,0,,{\blur3}电影是人类史上最具影响力的工具
+Dialogue: 0,0:16:55.80,0:16:59.31,Default,,0,0,0,,{\blur3}而隐身幕后的叛徒已染指电影
+Dialogue: 0,0:17:00.27,0:17:04.19,Default,,0,0,0,,{\blur3}众议院非美活动调查委员会成立
+Dialogue: 0,0:17:04.27,0:17:07.06,Default,,0,0,0,,{\blur3}调查好莱坞中可疑的共党分子
+Dialogue: 0,0:17:07.15,0:17:10.44,Default,,0,0,0,,{\blur3}摄影机和一队记者记录了现场的情景
+Dialogue: 0,0:17:12.03,0:17:13.70,Default,,0,0,0,,{\blur3}里根先生你是否知悉
+Dialogue: 0,0:17:16.78,0:17:20.16,Default,,0,0,0,,{\blur3}有一小群人 或多或少
+Dialogue: 0,0:17:20.24,0:17:24.04,Default,,0,0,0,,{\blur3}和共产党有些接触
+Dialogue: 0,0:17:24.12,0:17:27.67,Default,,0,0,0,,{\blur3}你认为他们是破坏分子吗？
+Dialogue: 0,0:17:28.21,0:17:31.71,Default,,0,0,0,,{\blur3}他们有时试图成为破坏分子
+Dialogue: 0,0:17:31.92,0:17:34.01,Default,,0,0,0,,{\blur3}你认为电影界
+Dialogue: 0,0:17:34.09,0:17:36.05,Default,,0,0,0,,{\blur3}已尽力不成为
+Dialogue: 0,0:17:36.14,0:17:38.60,Default,,0,0,0,,{\blur3}颠覆美国的势力吗？
+Dialogue: 0,0:17:38.80,0:17:40.85,Default,,0,0,0,,{\blur3}不 共产党员无所不在
+Dialogue: 0,0:17:41.01,0:17:43.48,Default,,0,0,0,,{\blur3}他们直接向莫斯科汇报
+Dialogue: 0,0:17:43.81,0:17:47.81,Default,,0,0,0,,{\blur3}煽动共产主义的人在许多场合
+Dialogue: 0,0:17:48.06,0:17:49.48,Default,,0,0,0,,{\blur3}试图让我们沦陷于赤色思潮
+Dialogue: 0,0:17:50.69,0:17:52.69,Default,,0,0,0,,{\blur3}但我们的立场坚定不移
+Dialogue: 0,0:17:54.03,0:17:55.65,Default,,0,0,0,,{\blur3}你能指出几位煽动分子吗？
+Dialogue: 0,0:17:57.16,0:18:00.28,Default,,0,0,0,,{\blur3}欧文·皮切尔
+Dialogue: 0,0:18:00.37,0:18:03.20,Default,,0,0,0,,{\blur3}艾迪华·狄米屈克 法兰克·杜托
+Dialogue: 0,0:18:03.48,0:18:04.74,Default,,0,0,0,,{\blur3}若由我作主
+Dialogue: 0,0:18:04.74,0:18:06.56,Default,,0,0,0,,{\blur3}就把他们全送回俄国
+Dialogue: 0,0:18:07.00,0:18:09.46,Default,,0,0,0,,{\blur3}或是其他不毛之地
+Dialogue: 0,0:18:10.25,0:18:13.51,Default,,0,0,0,,{\blur3}我们得在三天内出面作证
+Dialogue: 0,0:18:13.59,0:18:17.18,Default,,0,0,0,,{\blur3}而这会损害我们的名誉
+Dialogue: 0,0:18:17.26,0:18:19.55,Default,,0,0,0,,{\blur3}就算我们被人诋毁 那又如何？
+Dialogue: 0,0:18:19.68,0:18:23.43,Default,,0,0,0,,{\blur3}就用你的方式回答他们每一个问题
+Dialogue: 0,0:18:24.27,0:18:25.73,Default,,0,0,0,,{\blur3}那就别跟他们抬杠
+Dialogue: 0,0:18:25.85,0:18:27.19,Default,,0,0,0,,{\blur3}说得好
+Dialogue: 0,0:18:27.27,0:18:28.48,Default,,0,0,0,,{\blur3}你知道他们给我们起的罪名吗？
+Dialogue: 0,0:18:28.56,0:18:29.69,Default,,0,0,0,,{\blur3}知道
+Dialogue: 0,0:18:31.02,0:18:34.40,Default,,0,0,0,,{\blur3}我们十之八九会被指为藐视国会
+Dialogue: 0,0:18:34.53,0:18:36.53,Default,,0,0,0,,{\blur3}我们会被审判
+Dialogue: 0,0:18:36.61,0:18:38.11,Default,,0,0,0,,{\blur3}我没听错吧？
+Dialogue: 0,0:18:38.20,0:18:39.62,Default,,0,0,0,,{\blur3}我只听到了坐牢
+Dialogue: 0,0:18:39.70,0:18:40.78,Default,,0,0,0,,{\blur3}不见得
+Dialogue: 0,0:18:40.87,0:18:45.12,Default,,0,0,0,,{\blur3}在低等法庭我们应该会输
+Dialogue: 0,0:18:45.20,0:18:47.12,Default,,0,0,0,,{\blur3}- 但上诉之后 - 一定能成功
+Dialogue: 0,0:18:47.21,0:18:50.29,Default,,0,0,0,,{\blur3}最高法院大法官九人中有五人是自由派
+Dialogue: 0,0:18:50.38,0:18:52.21,Default,,0,0,0,,{\blur3}他们认为委员会违宪
+Dialogue: 0,0:18:52.29,0:18:53.38,Default,,0,0,0,,{\blur3}不除不快
+Dialogue: 0,0:18:53.96,0:18:55.46,Default,,0,0,0,,{\blur3}听起来不错
+Dialogue: 0,0:18:56.38,0:18:57.38,Default,,0,0,0,,{\blur3}但我退出
+Dialogue: 0,0:18:59.64,0:19:00.64,Default,,0,0,0,,{\blur3}妮琪再见
+Dialogue: 0,0:19:04.89,0:19:07.85,Default,,0,0,0,,{\blur3}你们的计划我承担不起
+Dialogue: 0,0:19:07.94,0:19:09.65,Default,,0,0,0,,{\blur3}包括上诉最高法院以及法律费用
+Dialogue: 0,0:19:10.23,0:19:12.27,Default,,0,0,0,,{\blur3}桃乐丝一定不会同意
+Dialogue: 0,0:19:12.40,0:19:14.69,Default,,0,0,0,,{\blur3}我的情况已不乐观
+Dialogue: 0,0:19:14.78,0:19:18.65,Default,,0,0,0,,{\blur3}若再赌上所有积蓄 她会带孩子走人
+Dialogue: 0,0:19:18.74,0:19:20.07,Default,,0,0,0,,{\blur3}我帮你出
+Dialogue: 0,0:19:20.99,0:19:24.28,Default,,0,0,0,,{\blur3}开销 旅费 诉讼费全由我付
+Dialogue: 0,0:19:26.41,0:19:27.66,Default,,0,0,0,,{\blur3}可是你明明不喜欢我
+Dialogue: 0,0:19:28.91,0:19:31.92,Default,,0,0,0,,{\blur3}我喜欢你 是你不喜欢我
+Dialogue: 0,0:19:38.63,0:19:40.80,Default,,0,0,0,,{\blur3}你知道吗 我不相信你
+Dialogue: 0,0:19:40.93,0:19:43.30,Default,,0,0,0,,{\blur3}不用我提 你也会继续说下去
+Dialogue: 0,0:19:43.43,0:19:45.22,Default,,0,0,0,,{\blur3}我知道自己有几两重
+Dialogue: 0,0:19:45.31,0:19:47.52,Default,,0,0,0,,{\blur3}我当然希望举国上下焕然新生
+Dialogue: 0,0:19:47.60,0:19:50.69,Default,,0,0,0,,{\blur3}若由我作主 没有人家里能有一座湖
+Dialogue: 0,0:19:50.77,0:19:52.81,Default,,0,0,0,,{\blur3}这样的人生多无趣
+Dialogue: 0,0:19:52.94,0:19:53.90,Default,,0,0,0,,{\blur3}对你而言是如此
+Dialogue: 0,0:19:53.98,0:19:55.61,Default,,0,0,0,,{\blur3}但造湖工人不这么认为
+Dialogue: 0,0:19:56.15,0:19:58.57,Default,,0,0,0,,{\blur3}或许是我错了 但从我们认识以来
+Dialogue: 0,0:19:58.61,0:20:00.28,Default,,0,0,0,,{\blur3}你言论激进
+Dialogue: 0,0:20:00.57,0:20:02.85,Default,,0,0,0,,{\blur3}却仍过着富裕生活
+Dialogue: 0,0:20:04.20,0:20:05.20,Default,,0,0,0,,{\blur3}你没搞错
+Dialogue: 0,0:20:06.99,0:20:10.29,Default,,0,0,0,,{\blur3}我不觉得你会为了做正确的事牺牲这一切
+Dialogue: 0,0:20:13.50,0:20:17.09,Default,,0,0,0,,{\blur3}我反对殉教 也不打没胜算的仗
+Dialogue: 0,0:20:17.17,0:20:18.30,Default,,0,0,0,,{\blur3}没错
+Dialogue: 0,0:20:18.38,0:20:20.63,Default,,0,0,0,,{\blur3}我不愿失去一切 尤其是孩子们
+Dialogue: 0,0:20:22.51,0:20:24.85,Default,,0,0,0,,{\blur3}但我愿意赌一把
+Dialogue: 0,0:20:24.97,0:20:28.89,Default,,0,0,0,,{\blur3}我是激进分子和有钱人的综合体
+Dialogue: 0,0:20:28.97,0:20:32.73,Default,,0,0,0,,{\blur3}激进分子依循耶稣的纯洁教诲奋战
+Dialogue: 0,0:20:33.48,0:20:35.86,Default,,0,0,0,,{\blur3}而有钱人则因撒旦的奸巧获胜
+Dialogue: 0,0:20:37.40,0:20:38.78,Default,,0,0,0,,{\blur3}够了
+Dialogue: 0,0:20:38.90,0:20:40.24,Default,,0,0,0,,{\blur3}怎样？
+Dialogue: 0,0:20:40.32,0:20:44.36,Default,,0,0,0,,{\blur3}拜托你闭嘴 好吗？
+Dialogue: 0,0:20:44.49,0:20:46.66,Default,,0,0,0,,{\blur3}你要我做什么都可以
+Dialogue: 0,0:20:46.74,0:20:49.33,Default,,0,0,0,,{\blur3}只求你别再跟我说这些鬼话
+Dialogue: 0,0:20:54.42,0:20:56.42,Default,,0,0,0,,{\blur3}我无法保证
+Dialogue: 0,0:20:57.21,0:21:00.42,Default,,0,0,0,,{\blur3}传唤的19人中 有10人抵达华盛顿
+Dialogue: 0,0:21:00.51,0:21:04.55,Default,,0,0,0,,{\blur3}开始在非美活动调查委员会面前作证
+Dialogue: 0,0:21:04.68,0:21:06.80,Default,,0,0,0,,{\blur3}特朗勃先生 请举起右手
+Dialogue: 0,0:21:06.89,0:21:09.06,Default,,0,0,0,,{\blur3}请宣誓 接下来所说的
+Dialogue: 0,0:21:09.18,0:21:11.43,Default,,0,0,0,,{\blur3}句句属实
+Dialogue: 0,0:21:12.02,0:21:12.98,Default,,0,0,0,,{\blur3}我发誓
+Dialogue: 0,0:21:13.06,0:21:14.44,Default,,0,0,0,,{\blur3}请坐
+Dialogue: 0,0:21:14.62,0:21:18.97,Default,,0,0,0,,{\blur3}特朗勃先生 接下来我会问你一些问题
+Dialogue: 0,0:21:19.14,0:21:21.35,Default,,0,0,0,,{\blur3}你只需要回答是或不是
+Dialogue: 0,0:21:22.24,0:21:26.37,Default,,0,0,0,,{\blur3}我想回答是或不是 就会回答
+Dialogue: 0,0:21:26.45,0:21:29.12,Default,,0,0,0,,{\blur3}我会回答自己想说的话
+Dialogue: 0,0:21:29.20,0:21:31.94,Default,,0,0,0,,{\blur3}不是每个问题都能用或否来回答
+Dialogue: 0,0:21:32.00,0:21:33.96,Default,,0,0,0,,{\blur3}除非对方是白痴或奴隶
+Dialogue: 0,0:21:34.25,0:21:35.79,Default,,0,0,0,,{\blur3}够了
+Dialogue: 0,0:21:35.87,0:21:37.54,Default,,0,0,0,,{\blur3}你拒绝回答问题吗？
+Dialogue: 0,0:21:37.63,0:21:40.75,Default,,0,0,0,,{\blur3}主席 你的任何问题我都不会拒答
+Dialogue: 0,0:21:40.88,0:21:44.88,Default,,0,0,0,,{\blur3}你现在或曾经是否加入过共产党？
+Dialogue: 0,0:21:44.97,0:21:46.68,Default,,0,0,0,,{\blur3}我想提出证物
+Dialogue: 0,0:21:46.97,0:21:48.14,Default,,0,0,0,,{\blur3}不行 违反规则
+Dialogue: 0,0:21:48.22,0:21:50.26,Default,,0,0,0,,{\blur3}- 证据就是我写的剧本 - 不行
+Dialogue: 0,0:21:50.39,0:21:52.72,Default,,0,0,0,,{\blur3}你可能依此做出这样的判断
+Dialogue: 0,0:21:52.81,0:21:54.27,Default,,0,0,0,,{\blur3}一切由主席裁决
+Dialogue: 0,0:21:54.39,0:21:56.06,Default,,0,0,0,,{\blur3}- 但这是关键 - 不行 没有时间
+Dialogue: 0,0:21:56.14,0:21:57.65,Default,,0,0,0,,{\blur3}你的剧本太长了
+Dialogue: 0,0:21:57.73,0:21:59.56,Default,,0,0,0,,{\blur3}这句话我以前也听过
+Dialogue: 0,0:21:59.65,0:22:03.11,Default,,0,0,0,,{\blur3}你现在或曾经是否加入过共产党？
+Dialogue: 0,0:22:03.90,0:22:06.28,Default,,0,0,0,,{\blur3}你指控我有罪？
+Dialogue: 0,0:22:06.41,0:22:07.53,Default,,0,0,0,,{\blur3}你没有回答问题
+Dialogue: 0,0:22:07.61,0:22:10.33,Default,,0,0,0,,{\blur3}若是如此 我有权与指控我的
+Dialogue: 0,0:22:10.41,0:22:13.58,Default,,0,0,0,,{\blur3}证据与证人对质
+Dialogue: 0,0:22:13.66,0:22:14.79,Default,,0,0,0,,{\blur3}你拒绝回答问题么？
+Dialogue: 0,0:22:14.91,0:22:16.42,Default,,0,0,0,,{\blur3}我想看看你的证据
+Dialogue: 0,0:22:16.50,0:22:19.21,Default,,0,0,0,,{\blur3}是吗？我马上会拿给你看
+Dialogue: 0,0:22:19.29,0:22:20.59,Default,,0,0,0,,{\blur3}很好
+Dialogue: 0,0:22:20.67,0:22:21.84,Default,,0,0,0,,{\blur3}证人请离席
+Dialogue: 0,0:22:21.92,0:22:24.34,Default,,0,0,0,,{\blur3}你认为委员会有权强迫证言
+Dialogue: 0,0:22:24.42,0:22:26.30,Default,,0,0,0,,{\blur3}请你离席
+Dialogue: 0,0:22:26.43,0:22:27.97,Default,,0,0,0,,{\blur3}你指控一个人的思想有罪
+Dialogue: 0,0:22:28.09,0:22:29.26,Default,,0,0,0,,{\blur3}警卫 带他下去
+Dialogue: 0,0:22:29.34,0:22:31.89,Default,,0,0,0,,{\blur3}- 但你没有这样的权利 - 肃静
+Dialogue: 0,0:22:31.97,0:22:34.02,Default,,0,0,0,,{\blur3}上帝会在关键时刻帮助我们
+Dialogue: 0,0:22:34.10,0:22:35.64,Default,,0,0,0,,{\blur3}这就是典型的共产党策略！
+Dialogue: 0,0:22:35.77,0:22:38.31,Default,,0,0,0,,{\blur3}美国也开始办集中营了
+Dialogue: 0,0:22:38.44,0:22:39.65,Default,,0,0,0,,{\blur3}肃静
+Dialogue: 0,0:22:40.02,0:22:41.48,Default,,0,0,0,,{\blur3}请报上姓名
+Dialogue: 0,0:22:41.61,0:22:43.86,Default,,0,0,0,,{\blur3}亚伦赫德 我是剧作家
+Dialogue: 0,0:22:43.94,0:22:46.70,Default,,0,0,0,,{\blur3}如果你不回答我的问题
+Dialogue: 0,0:22:46.78,0:22:48.57,Default,,0,0,0,,{\blur3}将因藐视国会而遭羁押
+Dialogue: 0,0:22:48.66,0:22:50.37,Default,,0,0,0,,{\blur3}我还没有拒绝回答吧？
+Dialogue: 0,0:22:50.45,0:22:53.12,Default,,0,0,0,,{\blur3}你现在或曾经是否加入过共产党？
+Dialogue: 0,0:22:53.81,0:22:55.08,Default,,0,0,0,,{\blur3}我很乐意回答
+Dialogue: 0,0:22:55.20,0:22:57.04,Default,,0,0,0,,{\blur3}但我得先问问我的医生
+Dialogue: 0,0:22:57.12,0:22:58.12,Default,,0,0,0,,{\blur3}- 医生？- 是的
+Dialogue: 0,0:22:58.21,0:22:59.21,Default,,0,0,0,,{\blur3}我不明白
+Dialogue: 0,0:22:59.29,0:23:01.71,Default,,0,0,0,,{\blur3}看他是否能动手术 切除我的良心
+Dialogue: 0,0:23:03.00,0:23:04.46,Default,,0,0,0,,{\blur3}他们都是敌意证人
+Dialogue: 0,0:23:04.55,0:23:07.55,Default,,0,0,0,,{\blur3}这就是典型的共产党策略
+Dialogue: 0,0:23:15.47,0:23:18.44,Default,,0,0,0,,{\blur3}亚伦 你怎么了？
+Dialogue: 0,0:23:21.98,0:23:23.48,Default,,0,0,0,,{\blur3}我得了癌症
+Dialogue: 0,0:23:23.86,0:23:24.90,Default,,0,0,0,,{\blur3}什么？
+Dialogue: 0,0:23:26.86,0:23:28.15,Default,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:23:30.49,0:23:31.82,Default,,0,0,0,,{\blur3}你知道多久了？
+Dialogue: 0,0:23:32.99,0:23:35.04,Default,,0,0,0,,{\blur3}- 三个月前 - 才几个月？
+Dialogue: 0,0:23:36.83,0:23:39.46,Default,,0,0,0,,{\blur3}你有接受治疗吗？
+Dialogue: 0,0:23:39.54,0:23:41.75,Default,,0,0,0,,{\blur3}我不喜欢那些治疗法
+Dialogue: 0,0:23:43.00,0:23:45.05,Default,,0,0,0,,{\blur3}我得了肺癌
+Dialogue: 0,0:23:45.17,0:23:46.92,Default,,0,0,0,,{\blur3}开不开刀都一样糟
+Dialogue: 0,0:23:49.67,0:23:51.93,Default,,0,0,0,,{\blur3}我能帮上什么忙吗？
+Dialogue: 0,0:23:53.85,0:23:56.72,Default,,0,0,0,,{\blur3}你帮不上忙 我得的是癌症
+Dialogue: 0,0:23:56.85,0:23:57.85,Default,,0,0,0,,{\blur3}是 但是
+Dialogue: 0,0:23:57.93,0:23:59.35,Default,,0,0,0,,{\blur3}拜托
+Dialogue: 0,0:24:00.39,0:24:02.94,Default,,0,0,0,,{\blur3}你想帮忙 就确保这计划成功
+Dialogue: 0,0:24:03.94,0:24:05.44,Default,,0,0,0,,{\blur3}我已别无选择
+Dialogue: 0,0:24:23.79,0:24:26.42,Default,,0,0,0,,{\blur3}我们年轻时 自以为神通广大
+Dialogue: 0,0:24:26.55,0:24:28.05,Default,,0,0,0,,{\blur3}我们确实是
+Dialogue: 0,0:24:28.13,0:24:29.55,Default,,0,0,0,,{\blur3}不 我不是
+Dialogue: 0,0:24:30.47,0:24:33.05,Default,,0,0,0,,{\blur3}年轻时我还不知道自己多爱演戏
+Dialogue: 0,0:24:33.14,0:24:37.06,Default,,0,0,0,,{\blur3}直到上年纪后戏约越来越少才明白
+Dialogue: 0,0:24:37.14,0:24:39.56,Default,,0,0,0,,{\blur3}当时我想 我所钟情的事物
+Dialogue: 0,0:24:39.64,0:24:42.19,Default,,0,0,0,,{\blur3}若不再钟情于我 该怎么办？
+Dialogue: 0,0:24:42.27,0:24:43.40,Default,,0,0,0,,{\blur3}挺身而战
+Dialogue: 0,0:24:43.48,0:24:47.32,Default,,0,0,0,,{\blur3}不 你要更深爱它 直到它向你投降
+Dialogue: 0,0:24:48.73,0:24:52.07,Default,,0,0,0,,{\blur3}赫达 你一直在米高梅和我心里
+Dialogue: 0,0:24:55.62,0:24:56.99,Default,,0,0,0,,{\blur3}你儿子最近好吗？
+Dialogue: 0,0:24:57.12,0:24:58.49,Default,,0,0,0,,{\blur3}很好
+Dialogue: 0,0:24:58.58,0:24:59.87,Default,,0,0,0,,{\blur3}还在海军？
+Dialogue: 0,0:25:00.00,0:25:01.25,Default,,0,0,0,,{\blur3}是的 他是上尉了
+Dialogue: 0,0:25:01.83,0:25:03.75,Default,,0,0,0,,{\blur3}你养育了一个真正的英雄
+Dialogue: 0,0:25:03.83,0:25:05.42,Default,,0,0,0,,{\blur3}所以我想告诉他
+Dialogue: 0,0:25:05.50,0:25:08.25,Default,,0,0,0,,{\blur3}我们也跟他一样 努力报效国家
+Dialogue: 0,0:25:08.96,0:25:10.55,Default,,0,0,0,,{\blur3}事情很复杂
+Dialogue: 0,0:25:10.63,0:25:13.59,Default,,0,0,0,,{\blur3}特朗勃等人手上都有合约
+Dialogue: 0,0:25:14.84,0:25:19.43,Default,,0,0,0,,{\blur3}路易 你跟我一样白手起家打下江山
+Dialogue: 0,0:25:19.51,0:25:21.89,Default,,0,0,0,,{\blur3}怎能容许这些废物毁了一切？
+Dialogue: 0,0:25:21.98,0:25:25.27,Default,,0,0,0,,{\blur3}赫达 我经营电影片厂
+Dialogue: 0,0:25:25.35,0:25:27.81,Default,,0,0,0,,{\blur3}你以为每个员工我都喜欢吗？
+Dialogue: 0,0:25:27.94,0:25:29.52,Default,,0,0,0,,{\blur3}该长大了
+Dialogue: 0,0:25:30.86,0:25:35.53,Default,,0,0,0,,{\blur3}不如我向3500万读者明确指出
+Dialogue: 0,0:25:36.11,0:25:40.29,Default,,0,0,0,,{\blur3}哪些好莱坞大佬不愿开除叛徒
+Dialogue: 0,0:25:41.79,0:25:45.46,Default,,0,0,0,,{\blur3}不如写出这些赤色分子的本名吧
+Dialogue: 0,0:25:45.54,0:25:51.25,Default,,0,0,0,,{\blur3}雅各布·华纳 杰克·华纳 塞缪尔·戈尔德温 山姆·高德温
+Dialogue: 0,0:25:51.34,0:25:54.42,Default,,0,0,0,,{\blur3}当然还有你 路易·梅尔
+Dialogue: 0,0:25:54.51,0:25:55.97,Default,,0,0,0,,{\blur3}请你放尊重点
+Dialogue: 0,0:25:56.05,0:25:58.89,Default,,0,0,0,,{\blur3}40年前你还在犹太家乡挨饿
+Dialogue: 0,0:25:58.97,0:26:02.56,Default,,0,0,0,,{\blur3}世上最伟大国家接纳你 赐你金钱权势
+Dialogue: 0,0:26:02.64,0:26:05.56,Default,,0,0,0,,{\blur3}但当我们需要你时 你却袖手旁观
+Dialogue: 0,0:26:05.64,0:26:08.15,Default,,0,0,0,,{\blur3}在我读者的心目中
+Dialogue: 0,0:26:08.23,0:26:10.69,Default,,0,0,0,,{\blur3}犹太佬正是如此
+Dialogue: 0,0:26:10.82,0:26:11.82,Default,,0,0,0,,{\blur3}滚出去
+Dialogue: 0,0:26:15.15,0:26:17.41,Default,,0,0,0,,{\blur3}路易 我很喜欢你
+Dialogue: 0,0:26:18.82,0:26:20.99,Default,,0,0,0,,{\blur3}我在这片厂度过许多愉快岁月
+Dialogue: 0,0:26:21.49,0:26:23.50,Default,,0,0,0,,{\blur3}当然不是在你办公室里
+Dialogue: 0,0:26:23.58,0:26:25.87,Default,,0,0,0,,{\blur3}你总是想在沙发上要我
+Dialogue: 0,0:26:26.00,0:26:29.00,Default,,0,0,0,,{\blur3}我只能尽力维护贞操 却仍差点失守
+Dialogue: 0,0:26:29.67,0:26:30.92,Default,,0,0,0,,{\blur3}但是斗转星移
+Dialogue: 0,0:26:31.50,0:26:33.51,Default,,0,0,0,,{\blur3}现在换我笑着上你了
+Dialogue: 0,0:26:38.59,0:26:42.81,Default,,0,0,0,,{\blur3}所有片厂一致同意开除好莱坞十君子
+Dialogue: 0,0:26:42.89,0:26:45.39,Default,,0,0,0,,{\blur3}不提供补偿 决议立即生效
+Dialogue: 0,0:26:45.52,0:26:50.11,Default,,0,0,0,,{\blur3}所有片厂都不会雇用共产党员
+Dialogue: 0,0:26:50.19,0:26:52.32,Default,,0,0,0,,{\blur3}或任何不愿配合对抗
+Dialogue: 0,0:26:52.40,0:26:55.36,Default,,0,0,0,,{\blur3}这可怕的新威胁的人
+Dialogue: 0,0:26:55.90,0:27:00.37,Default,,0,0,0,,{\blur3}20年来 他一直是影迷的最爱
+Dialogue: 0,0:27:00.45,0:27:04.29,Default,,0,0,0,,{\blur3}但你们发现了吗？最近电影里都没有他
+Dialogue: 0,0:27:04.37,0:27:06.00,Default,,0,0,0,,{\blur3}票房不好？
+Dialogue: 0,0:27:06.08,0:27:08.83,Default,,0,0,0,,{\blur3}不 是政治立场不对
+Dialogue: 0,0:27:08.92,0:27:12.54,Default,,0,0,0,,{\blur3}对艾迪·华罗宾森而言 这真是个坏消息
+Dialogue: 0,0:27:13.04,0:27:14.38,Default,,0,0,0,,{\blur3}谢谢各位出席
+Dialogue: 0,0:27:14.46,0:27:18.47,Default,,0,0,0,,{\blur3}好莱坞十君子将为所有电影人上法庭
+Dialogue: 0,0:27:19.26,0:27:21.22,Default,,0,0,0,,{\blur3}这将会是场漫长昂贵的诉讼
+Dialogue: 0,0:27:21.30,0:27:24.97,Default,,0,0,0,,{\blur3}请尽量慷慨解囊 捐助辩护基金
+Dialogue: 0,0:27:25.06,0:27:27.06,Default,,0,0,0,,{\blur3}感谢各位莅临
+Dialogue: 0,0:27:28.73,0:27:30.65,Default,,0,0,0,,{\blur3}- 晚安 亲爱的 - 祝你好运
+Dialogue: 0,0:27:30.73,0:27:31.90,Default,,0,0,0,,{\blur3}- 晚安先生 谢谢 - 再见
+Dialogue: 0,0:27:33.06,0:27:35.71,Default,,0,0,0,,{\blur3}聚会比不过去年
+Dialogue: 0,0:27:35.78,0:27:38.28,Default,,0,0,0,,{\blur3}那么有声有色 是吧？
+Dialogue: 0,0:27:38.40,0:27:40.45,Default,,0,0,0,,{\blur3}那些自由主义者在哪里？
+Dialogue: 0,0:27:40.57,0:27:42.82,Default,,0,0,0,,{\blur3}去找律师或精神科医生了
+Dialogue: 0,0:27:42.91,0:27:44.33,Default,,0,0,0,,{\blur3}应该两者都有
+Dialogue: 0,0:27:45.83,0:27:47.00,Default,,0,0,0,,{\blur3}捐给辩护基金
+Dialogue: 0,0:27:47.12,0:27:48.25,Default,,0,0,0,,{\blur3}艾迪…
+Dialogue: 0,0:27:49.16,0:27:50.54,Default,,0,0,0,,{\blur3}你最近有工作吗？
+Dialogue: 0,0:27:50.62,0:27:52.92,Default,,0,0,0,,{\blur3}生意有点清淡
+Dialogue: 0,0:27:56.13,0:27:57.13,Default,,0,0,0,,{\blur3}你卖了一幅画
+Dialogue: 0,0:27:58.92,0:28:00.13,Default,,0,0,0,,{\blur3}梵高那幅
+Dialogue: 0,0:28:01.59,0:28:03.43,Default,,0,0,0,,{\blur3}卖了个好价钱
+Dialogue: 0,0:28:03.51,0:28:04.80,Default,,0,0,0,,{\blur3}艾迪…
+Dialogue: 0,0:28:06.26,0:28:09.06,Default,,0,0,0,,{\blur3}天啊 你看这数字 艾迪我不能收
+Dialogue: 0,0:28:09.14,0:28:10.48,Default,,0,0,0,,{\blur3}我没事 收下吧
+Dialogue: 0,0:28:10.60,0:28:13.27,Default,,0,0,0,,{\blur3}不行 实在太多了
+Dialogue: 0,0:28:15.98,0:28:17.28,Default,,0,0,0,,{\blur3}收下
+Dialogue: 0,0:28:19.19,0:28:21.20,Default,,0,0,0,,{\blur3}艾迪 我…
+Dialogue: 0,0:28:21.28,0:28:23.99,Default,,0,0,0,,{\blur3}你所做的一切…
+Dialogue: 0,0:28:25.20,0:28:28.41,Default,,0,0,0,,{\blur3}他想说的是 他爱你
+Dialogue: 0,0:28:28.50,0:28:32.96,Default,,0,0,0,,{\blur3}我也爱他 脸上长疣的混蛋
+Dialogue: 0,0:28:33.88,0:28:37.80,Default,,0,0,0,,{\blur3}要是你想贿赂陪审团 有人给莫奈的画出了高价
+Dialogue: 0,0:28:40.13,0:28:43.68,Default,,0,0,0,,{\blur3}美国政府控告达尔顿·特朗勃一案
+Dialogue: 0,0:28:44.47,0:28:48.56,Default,,0,0,0,,{\blur3}陪审团认定被告藐视国会罪名成立
+Dialogue: 0,0:28:50.98,0:28:52.89,Default,,0,0,0,,{\blur3}特朗勃先生
+Dialogue: 0,0:28:54.23,0:28:56.27,Default,,0,0,0,,{\blur3}我们车上见
+Dialogue: 0,0:28:56.36,0:28:58.32,Default,,0,0,0,,{\blur3}特朗勃先生 你是否藐视国会？
+Dialogue: 0,0:28:58.40,0:29:00.82,Default,,0,0,0,,{\blur3}我当然看不起他们
+Dialogue: 0,0:29:00.90,0:29:03.36,Default,,0,0,0,,{\blur3}只是我以为陪审团将理解为什么
+Dialogue: 0,0:29:03.49,0:29:07.62,Default,,0,0,0,,{\blur3}最高法院会迅速驳回陪审团的裁定
+Dialogue: 0,0:29:07.70,0:29:10.70,Default,,0,0,0,,{\blur3}终结这出国会史上最羞耻的闹剧
+Dialogue: 0,0:29:10.83,0:29:12.79,Default,,0,0,0,,{\blur3}够了 没别的话可说
+Dialogue: 0,0:29:12.87,0:29:14.04,Default,,0,0,0,,{\blur3}采访结束
+Dialogue: 0,0:29:14.54,0:29:16.13,Default,,0,0,0,,{\blur3}你的经济状况如何？
+Dialogue: 0,0:29:16.21,0:29:18.75,Default,,0,0,0,,{\blur3}穷到喝西北风了 怎样？
+Dialogue: 0,0:29:18.84,0:29:22.76,Default,,0,0,0,,{\blur3}你欠我三万元 上诉费用还要加倍
+Dialogue: 0,0:29:22.84,0:29:24.30,Default,,0,0,0,,{\blur3}那我最好赶紧去开工赚钱
+Dialogue: 0,0:29:24.38,0:29:27.93,Default,,0,0,0,,{\blur3}做什么？你没有能力做别的事
+Dialogue: 0,0:29:28.85,0:29:30.72,Default,,0,0,0,,{\blur3}好莱坞大反攻
+Dialogue: 0,0:29:32.02,0:29:33.52,Default,,0,0,0,,{\blur3}我是葛雷哥莱毕克
+Dialogue: 0,0:29:33.60,0:29:35.23,Default,,0,0,0,,{\blur3}美国已近乎歇斯底里
+Dialogue: 0,0:29:35.35,0:29:37.48,Default,,0,0,0,,{\blur3}指控所谓的共产党员
+Dialogue: 0,0:29:37.60,0:29:38.82,Default,,0,0,0,,{\blur3}威胁国民自由
+Dialogue: 0,0:29:40.07,0:29:42.78,Default,,0,0,0,,{\blur3}非美活动调查委员会则延续了此悲剧
+Dialogue: 0,0:29:43.78,0:29:45.36,Default,,0,0,0,,{\blur3}我是露西·波儿
+Dialogue: 0,0:29:45.74,0:29:50.29,Default,,0,0,0,,{\blur3}我们都同意 应该捍卫美国宪法
+Dialogue: 0,0:29:50.37,0:29:54.96,Default,,0,0,0,,{\blur3}但使反对者噤声并非正当作为
+Dialogue: 0,0:29:55.04,0:29:58.17,Default,,0,0,0,,{\blur3}我们必须捍卫对方表达且被聆听的权利
+Dialogue: 0,0:29:58.25,0:30:00.88,Default,,0,0,0,,{\blur3}各项自由都是牵一发动全身
+Dialogue: 0,0:30:00.96,0:30:03.01,Default,,0,0,0,,{\blur3}有一项沦陷 其他便岌岌可危
+Dialogue: 0,0:30:03.09,0:30:05.01,Default,,0,0,0,,{\blur3}一柱垮塌
+Dialogue: 0,0:30:05.09,0:30:07.05,Default,,0,0,0,,{\blur3}大厦将倾
+Dialogue: 0,0:30:18.40,0:30:20.40,Default,,0,0,0,,{\blur3}过几天你就能回家了
+Dialogue: 0,0:30:22.23,0:30:25.20,Default,,0,0,0,,{\blur3}听起来你还能活下去
+Dialogue: 0,0:30:25.28,0:30:28.11,Default,,0,0,0,,{\blur3}他们得治好我 才能送我进监牢
+Dialogue: 0,0:30:30.62,0:30:31.74,Default,,0,0,0,,{\blur3}你觉得如何？
+Dialogue: 0,0:30:32.58,0:30:36.25,Default,,0,0,0,,{\blur3}只能用一边肺呼吸 感觉只吸到一半
+Dialogue: 0,0:30:37.25,0:30:41.63,Default,,0,0,0,,{\blur3}亚伦 我听说桃乐丝的事了
+Dialogue: 0,0:30:41.75,0:30:43.88,Default,,0,0,0,,{\blur3}没错 她离开了
+Dialogue: 0,0:30:43.96,0:30:47.09,Default,,0,0,0,,{\blur3}她总是很会挑时间
+Dialogue: 0,0:30:48.59,0:30:50.05,Default,,0,0,0,,{\blur3}我很遗憾
+Dialogue: 0,0:30:50.14,0:30:53.26,Default,,0,0,0,,{\blur3}是啊 她怎么能就这样远走高飞？
+Dialogue: 0,0:30:56.85,0:30:58.65,Default,,0,0,0,,{\blur3}外头状况如何？
+Dialogue: 0,0:31:00.02,0:31:01.86,Default,,0,0,0,,{\blur3}大家都很嫉妒你
+Dialogue: 0,0:31:04.69,0:31:06.74,Default,,0,0,0,,{\blur3}当然
+Dialogue: 0,0:31:06.82,0:31:08.78,Default,,0,0,0,,{\blur3}我得到了苦窑里最棒的房间
+Dialogue: 0,0:31:09.95,0:31:11.95,Default,,0,0,0,,{\blur3}你一定知道 因为钱是你出的
+Dialogue: 0,0:31:13.87,0:31:16.08,Default,,0,0,0,,{\blur3}- 恭喜你 巴迪 - 谢谢各位
+Dialogue: 0,0:31:16.16,0:31:18.58,Default,,0,0,0,,{\blur3}谁需要那些片厂？我完全独立自主
+Dialogue: 0,0:31:18.67,0:31:21.46,Default,,0,0,0,,{\blur3}有底片 有华尔街的资金
+Dialogue: 0,0:31:21.54,0:31:24.25,Default,,0,0,0,,{\blur3}还有最棒的老板 我自己
+Dialogue: 0,0:31:24.34,0:31:25.84,Default,,0,0,0,,{\blur3}干杯
+Dialogue: 0,0:31:29.72,0:31:31.30,Default,,0,0,0,,{\blur3}你这个疯子
+Dialogue: 0,0:31:31.39,0:31:34.81,Default,,0,0,0,,{\blur3}等这鬼官司结束 所有电影都交给你写
+Dialogue: 0,0:31:35.97,0:31:37.48,Default,,0,0,0,,{\blur3}怎么才能结束呢？
+Dialogue: 0,0:31:37.73,0:31:39.02,Default,,0,0,0,,{\blur3}感谢老天 我不关心政治
+Dialogue: 0,0:31:39.98,0:31:41.94,Default,,0,0,0,,{\blur3}如果他们传唤我 指控我 我会说
+Dialogue: 0,0:31:42.02,0:31:43.98,Default,,0,0,0,,{\blur3}抱歉 我不是故意的
+Dialogue: 0,0:31:44.82,0:31:46.65,Default,,0,0,0,,{\blur3}接着国会问你
+Dialogue: 0,0:31:46.73,0:31:49.65,Default,,0,0,0,,{\blur3}你是否曾加入民主党？
+Dialogue: 0,0:31:51.07,0:31:56.52,Default,,0,0,0,,{\blur3}我是民主党员 天啊 我觉得糟透了
+Dialogue: 0,0:31:57.08,0:32:00.67,Default,,0,0,0,,{\blur3}然后他们会要你供出民主党员名单
+Dialogue: 0,0:32:00.75,0:32:03.25,Default,,0,0,0,,{\blur3}例如比尔 厄尔 奈特和汤姆
+Dialogue: 0,0:32:06.30,0:32:08.09,Default,,0,0,0,,{\blur3}我会说 去吃屎吧
+Dialogue: 0,0:32:08.67,0:32:10.34,Default,,0,0,0,,{\blur3}真的吗？
+Dialogue: 0,0:32:10.43,0:32:13.30,Default,,0,0,0,,{\blur3}有哪些银行愿意资助政府的敌人？
+Dialogue: 0,0:32:14.68,0:32:18.35,Default,,0,0,0,,{\blur3}除非供出朋友的名字 否则拿不到钱
+Dialogue: 0,0:32:18.43,0:32:22.35,Default,,0,0,0,,{\blur3}他们永远无法工作 但如此你才能存活
+Dialogue: 0,0:32:27.65,0:32:30.45,Default,,0,0,0,,{\blur3}我们彼此相熟 包括我们的家人
+Dialogue: 0,0:32:31.82,0:32:32.86,Default,,0,0,0,,{\blur3}我们是朋友
+Dialogue: 0,0:32:35.16,0:32:37.29,Default,,0,0,0,,{\blur3}你会怎么做 巴迪？
+Dialogue: 0,0:32:41.83,0:32:43.71,Default,,0,0,0,,{\blur3}只有你
+Dialogue: 0,0:32:43.79,0:32:45.96,Default,,0,0,0,,{\blur3}会毁了别人一生最美好的一天
+Dialogue: 0,0:32:46.04,0:32:48.21,Default,,0,0,0,,{\blur3}只有你
+Dialogue: 0,0:32:54.68,0:32:56.55,Default,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:32:57.72,0:33:00.14,Default,,0,0,0,,{\blur3}"根据协议…"
+Dialogue: 0,0:33:05.73,0:33:07.73,Default,,0,0,0,,{\blur3}她会怎么说？
+Dialogue: 0,0:33:09.73,0:33:11.74,Default,,0,0,0,,{\blur3}公主会说什么？
+Dialogue: 0,0:33:19.24,0:33:22.08,Default,,0,0,0,,{\blur3}可恶 烂透了
+Dialogue: 0,0:33:25.88,0:33:28.17,Default,,0,0,0,,{\blur3}"应该一点都不像才对"
+Dialogue: 0,0:33:28.38,0:33:30.71,Default,,0,0,0,,{\blur3}"这让我有点担心"
+Dialogue: 0,0:33:32.42,0:33:34.76,Default,,0,0,0,,{\blur3}早安 妮可拉
+Dialogue: 0,0:33:35.09,0:33:37.55,Default,,0,0,0,,{\blur3}我以为你不能写剧本了
+Dialogue: 0,0:33:38.26,0:33:43.69,Default,,0,0,0,,{\blur3}不 只是剧本上不能有我的名字
+Dialogue: 0,0:33:43.94,0:33:45.60,Default,,0,0,0,,{\blur3}或直接付钱给我
+Dialogue: 0,0:33:45.77,0:33:47.19,Default,,0,0,0,,{\blur3}这是什么状况？
+Dialogue: 0,0:33:50.23,0:33:51.73,Default,,0,0,0,,{\blur3}状况不太好
+Dialogue: 0,0:33:52.94,0:33:56.78,Default,,0,0,0,,{\blur3}这故事很有趣 轻松又浪漫
+Dialogue: 0,0:33:57.28,0:33:58.37,Default,,0,0,0,,{\blur3}是谁写的？
+Dialogue: 0,0:33:58.45,0:34:01.58,Default,,0,0,0,,{\blur3}你写的 老弟
+Dialogue: 0,0:34:01.87,0:34:03.79,Default,,0,0,0,,{\blur3}我的剧本写上你的名字
+Dialogue: 0,0:34:03.96,0:34:06.62,Default,,0,0,0,,{\blur3}交给公司就成了
+Dialogue: 0,0:34:06.79,0:34:10.92,Default,,0,0,0,,{\blur3}我没被传唤或列入黑名单只是侥幸
+Dialogue: 0,0:34:11.09,0:34:12.63,Default,,0,0,0,,{\blur3}下一波审讯即将展开
+Dialogue: 0,0:34:12.80,0:34:14.76,Default,,0,0,0,,{\blur3}我也可能会被停工或解雇
+Dialogue: 0,0:34:14.92,0:34:16.22,Default,,0,0,0,,{\blur3}那手脚要更快
+Dialogue: 0,0:34:16.30,0:34:19.55,Default,,0,0,0,,{\blur3}剧本卖成了 我们五五分帐
+Dialogue: 0,0:34:19.89,0:34:23.31,Default,,0,0,0,,{\blur3}荒唐 我收一成就好
+Dialogue: 0,0:34:23.64,0:34:27.65,Default,,0,0,0,,{\blur3}你收二成 不 三成 这是我的底线
+Dialogue: 0,0:34:27.94,0:34:29.48,Default,,0,0,0,,{\blur3}你是全世界最烂的生意人
+Dialogue: 0,0:34:30.82,0:34:32.28,Default,,0,0,0,,{\blur3}我讨厌这片名
+Dialogue: 0,0:34:32.40,0:34:33.82,Default,,0,0,0,,{\blur3}我也是
+Dialogue: 0,0:34:34.90,0:34:36.11,Default,,0,0,0,,{\blur3}哪里不好？
+Dialogue: 0,0:34:36.15,0:34:37.95,Default,,0,0,0,,{\blur3}- 《公主与乡巴佬》？ - 是啊
+Dialogue: 0,0:34:38.11,0:34:40.49,Default,,0,0,0,,{\blur3}拜托 听起来像出偶剧
+Dialogue: 0,0:34:41.49,0:34:42.62,Default,,0,0,0,,{\blur3}那就改掉吧
+Dialogue: 0,0:34:42.74,0:34:43.83,Default,,0,0,0,,{\blur3}改了
+Dialogue: 0,0:34:47.75,0:34:50.00,Default,,0,0,0,,{\blur3}真的？你觉得这个名字更好？
+Dialogue: 0,0:34:50.08,0:34:52.09,Default,,0,0,0,,{\blur3}《罗马假日》
+Dialogue: 0,0:34:52.46,0:34:53.84,Default,,0,0,0,,{\blur3}我喜欢
+Dialogue: 0,0:34:54.30,0:34:55.55,Default,,0,0,0,,{\blur3}谁让你加入的？
+Dialogue: 0,0:34:55.67,0:34:57.01,Default,,0,0,0,,{\blur3}我
+Dialogue: 0,0:34:57.51,0:34:59.51,Default,,0,0,0,,{\blur3}她是我最喜欢的特朗勃家庭成员
+Dialogue: 0,0:35:00.18,0:35:01.94,Default,,0,0,0,,{\blur3}我要立法
+Dialogue: 0,0:35:02.11,0:35:04.68,Default,,0,0,0,,{\blur3}在此国家危急时刻
+Dialogue: 0,0:35:05.10,0:35:08.02,Default,,0,0,0,,{\blur3}所有共产党员都会被送进俘虏收容所
+Dialogue: 0,0:35:08.19,0:35:09.85,Default,,0,0,0,,{\blur3}总统支持此案么？
+Dialogue: 0,0:35:09.94,0:35:11.11,Default,,0,0,0,,{\blur3}他最好能支持
+Dialogue: 0,0:35:11.27,0:35:15.03,Default,,0,0,0,,{\blur3}帕奈尔 我们得谈谈你的员工
+Dialogue: 0,0:35:15.99,0:35:16.99,Default,,0,0,0,,{\blur3}我先失陪了
+Dialogue: 0,0:35:18.20,0:35:21.87,Default,,0,0,0,,{\blur3}这些都是我家乡的合法支薪员工
+Dialogue: 0,0:35:22.03,0:35:24.54,Default,,0,0,0,,{\blur3}但你没告诉我 他们都是你的亲戚
+Dialogue: 0,0:35:24.70,0:35:25.79,Default,,0,0,0,,{\blur3}这完全合法
+Dialogue: 0,0:35:25.87,0:35:28.37,Default,,0,0,0,,{\blur3}可是他们都没缴税
+Dialogue: 0,0:35:28.71,0:35:30.88,Default,,0,0,0,,{\blur3}等你的律师到场后再说吧
+Dialogue: 0,0:35:40.22,0:35:41.84,Default,,0,0,0,,{\blur3}不
+Dialogue: 0,0:35:42.47,0:35:43.89,Default,,0,0,0,,{\blur3}特朗勃太太 你好
+Dialogue: 0,0:35:44.06,0:35:45.47,Default,,0,0,0,,{\blur3}杰夫
+Dialogue: 0,0:35:45.97,0:35:48.48,Default,,0,0,0,,{\blur3}太太 你该付我工钱了
+Dialogue: 0,0:35:48.73,0:35:50.74,Default,,0,0,0,,{\blur3}抱歉
+Dialogue: 0,0:35:50.80,0:35:52.91,Default,,0,0,0,,{\blur3}我的人都要养家
+Dialogue: 0,0:35:53.31,0:35:55.40,Default,,0,0,0,,{\blur3}我丈夫无法工作
+Dialogue: 0,0:35:55.53,0:35:57.07,Default,,0,0,0,,{\blur3}我们四处欠债
+Dialogue: 0,0:35:57.24,0:35:59.07,Default,,0,0,0,,{\blur3}- 太太 拜托 - 真的很抱歉
+Dialogue: 0,0:35:59.24,0:36:03.57,Default,,0,0,0,,{\blur3}克莉欧 我们有钱了
+Dialogue: 0,0:36:04.74,0:36:06.54,Default,,0,0,0,,{\blur3}拿去吧 杰夫
+Dialogue: 0,0:36:07.12,0:36:09.87,Default,,0,0,0,,{\blur3}你们的生活真刺激
+Dialogue: 0,0:36:10.75,0:36:12.92,Default,,0,0,0,,{\blur3}谢谢你的帮忙
+Dialogue: 0,0:36:13.04,0:36:14.42,Default,,0,0,0,,{\blur3}也谢谢你贝蒂
+Dialogue: 0,0:36:14.59,0:36:16.25,Default,,0,0,0,,{\blur3}我们成功了
+Dialogue: 0,0:36:16.38,0:36:19.05,Default,,0,0,0,,{\blur3}派拉蒙买了《罗马假日》
+Dialogue: 0,0:36:19.22,0:36:21.59,Default,,0,0,0,,{\blur3}亲爱的 伊恩刚刚…
+Dialogue: 0,0:36:21.93,0:36:22.93,Default,,0,0,0,,{\blur3}怎么了？
+Dialogue: 0,0:36:23.05,0:36:24.11,Default,,0,0,0,,{\blur3}拉特利奇大法官死了
+Dialogue: 0,0:36:24.34,0:36:26.31,Default,,0,0,0,,{\blur3}上个月死的是墨菲
+Dialogue: 0,0:36:26.43,0:36:27.47,Default,,0,0,0,,{\blur3}拉特利奇也死了
+Dialogue: 0,0:36:27.77,0:36:29.27,Default,,0,0,0,,{\blur3}昨晚过世
+Dialogue: 0,0:36:38.57,0:36:40.78,Default,,0,0,0,,{\blur3}别担心
+Dialogue: 0,0:36:42.11,0:36:46.24,Default,,0,0,0,,{\blur3}一切都会没事的
+Dialogue: 0,0:36:47.41,0:36:49.70,Default,,0,0,0,,{\blur3}自由派大法官不占多数
+Dialogue: 0,0:36:49.79,0:36:52.42,Default,,0,0,0,,{\blur3}上诉将被驳回
+Dialogue: 0,0:36:53.62,0:36:57.63,Default,,0,0,0,,{\blur3}也就是说 我们都要准备坐牢
+Dialogue: 0,0:37:06.51,0:37:10.81,Default,,0,0,0,,{\blur3}就算从头来过 我也不会改变任何决定
+Dialogue: 0,0:37:13.69,0:37:15.98,Default,,0,0,0,,{\blur3}一年后我们再问问彼此吧
+Dialogue: 0,0:37:27.12,0:37:28.37,Default,,0,0,0,,{\blur3}帮我个忙
+Dialogue: 0,0:37:28.70,0:37:30.95,Default,,0,0,0,,{\blur3}我不在时帮我保管这个
+Dialogue: 0,0:37:32.62,0:37:34.04,Default,,0,0,0,,{\blur3}谢谢你 亲爱的
+Dialogue: 0,0:37:36.38,0:37:39.38,Default,,0,0,0,,{\blur3}每天都要逗妈妈笑
+Dialogue: 0,0:37:39.67,0:37:40.80,Default,,0,0,0,,{\blur3}一言为定？
+Dialogue: 0,0:37:40.92,0:37:42.01,Default,,0,0,0,,{\blur3}好的
+Dialogue: 0,0:37:43.22,0:37:46.22,Default,,0,0,0,,{\blur3}我的小可爱去哪了？
+Dialogue: 0,0:37:56.52,0:37:57.86,Default,,0,0,0,,{\blur3}- 敬好莱坞十君子 - 谢谢
+Dialogue: 0,0:38:04.36,0:38:05.91,Default,,0,0,0,,{\blur3}敬好莱坞十君子
+Dialogue: 0,0:38:07.03,0:38:08.53,Default,,0,0,0,,{\blur3}你们是英雄
+Dialogue: 0,0:38:43.03,0:38:46.07,Default,,0,0,0,,{\blur3}28美分 金色打火机
+Dialogue: 0,0:38:46.90,0:38:50.80,Default,,0,0,0,,{\blur3}皮夹 烟盒
+Dialogue: 0,0:38:55.04,0:38:56.08,Default,,0,0,0,,{\blur3}举手
+Dialogue: 0,0:38:57.62,0:39:00.42,Default,,0,0,0,,{\blur3}张开嘴巴 张大点
+Dialogue: 0,0:39:01.04,0:39:04.59,Default,,0,0,0,,{\blur3}头转右边 转左边
+Dialogue: 0,0:39:05.46,0:39:06.97,Default,,0,0,0,,{\blur3}头往后仰
+Dialogue: 0,0:39:08.43,0:39:10.09,Default,,0,0,0,,{\blur3}腿张开
+Dialogue: 0,0:39:12.39,0:39:14.60,Default,,0,0,0,,{\blur3}拿起阴囊 拉起来
+Dialogue: 0,0:39:16.73,0:39:18.10,Default,,0,0,0,,{\blur3}转身
+Dialogue: 0,0:39:19.90,0:39:21.73,Default,,0,0,0,,{\blur3}拨开屁股
+Dialogue: 0,0:39:23.94,0:39:27.24,Default,,0,0,0,,{\blur3}蹲下 咳嗽
+Dialogue: 0,0:39:30.61,0:39:32.12,Default,,0,0,0,,{\blur3}转身
+Dialogue: 0,0:39:34.79,0:39:36.12,Default,,0,0,0,,{\blur3}出去
+Dialogue: 0,0:39:37.50,0:39:38.79,Default,,0,0,0,,{\blur3}下一位
+Dialogue: 0,0:39:47.34,0:39:49.63,Default,,0,0,0,,{\blur3}典狱长要我好好处置
+Dialogue: 0,0:39:49.80,0:39:51.47,Default,,0,0,0,,{\blur3}他想要更好的工作？
+Dialogue: 0,0:39:51.64,0:39:53.97,Default,,0,0,0,,{\blur3}我就派他去管该死的储藏室
+Dialogue: 0,0:39:54.14,0:39:55.68,Default,,0,0,0,,{\blur3}因为我知道典狱长不知道的事
+Dialogue: 0,0:40:04.98,0:40:08.65,Default,,0,0,0,,{\blur3}货都搬下来了 卡车司机要我们签收
+Dialogue: 0,0:40:20.33,0:40:24.17,Default,,0,0,0,,{\blur3}其实 他需要签在这里
+Dialogue: 0,0:40:34.72,0:40:39.23,Default,,0,0,0,,{\blur3}如果你需要任何协助
+Dialogue: 0,0:40:39.39,0:40:42.90,Default,,0,0,0,,{\blur3}我以前在烘焙坊做进出货
+Dialogue: 0,0:40:43.90,0:40:45.31,Default,,0,0,0,,{\blur3}我听说你是剧作家
+Dialogue: 0,0:40:45.44,0:40:46.86,Default,,0,0,0,,{\blur3}身兼二职
+Dialogue: 0,0:40:47.02,0:40:48.53,Default,,0,0,0,,{\blur3}也是共产党员
+Dialogue: 0,0:40:49.82,0:40:52.20,Default,,0,0,0,,{\blur3}你们这些人有什么毛病？
+Dialogue: 0,0:40:52.57,0:40:53.86,Default,,0,0,0,,{\blur3}美国是个伟大的国家
+Dialogue: 0,0:40:53.99,0:40:55.24,Default,,0,0,0,,{\blur3}我同意
+Dialogue: 0,0:40:57.03,0:40:58.37,Default,,0,0,0,,{\blur3}你会打字吗？
+Dialogue: 0,0:41:05.21,0:41:06.42,Default,,0,0,0,,{\blur3}停
+Dialogue: 0,0:41:10.34,0:41:13.18,Default,,0,0,0,,{\blur3}但愿我能识字
+Dialogue: 0,0:41:19.68,0:41:23.06,Default,,0,0,0,,{\blur3}"退还货品协议"
+Dialogue: 0,0:41:23.73,0:41:27.23,Default,,0,0,0,,{\blur3}"应准备一式三份文件"
+Dialogue: 0,0:41:27.40,0:41:30.57,Default,,0,0,0,,{\blur3}"归档于储藏室 运送处与典狱长室"
+Dialogue: 0,0:41:32.61,0:41:34.61,Default,,0,0,0,,{\blur3}你以为我会请你教我识字
+Dialogue: 0,0:41:34.78,0:41:37.07,Default,,0,0,0,,{\blur3}然后跟你握手说
+Dialogue: 0,0:41:37.24,0:41:40.20,Default,,0,0,0,,{\blur3}"感谢改变我的一生"
+Dialogue: 0,0:41:40.29,0:41:42.04,Default,,0,0,0,,{\blur3}"我不会忘记你"
+Dialogue: 0,0:41:46.42,0:41:51.05,Default,,0,0,0,,{\blur3}我杀了想抢我酒吧的白人 被判20年
+Dialogue: 0,0:41:51.30,0:41:54.09,Default,,0,0,0,,{\blur3}我不介意再干一次
+Dialogue: 0,0:41:54.93,0:41:59.26,Default,,0,0,0,,{\blur3}我会搞死瞧不起我的人
+Dialogue: 0,0:41:59.39,0:42:02.73,Default,,0,0,0,,{\blur3}让你享受在比佛利山庄没吃过的苦头
+Dialogue: 0,0:42:03.27,0:42:06.44,Default,,0,0,0,,{\blur3}我现在要努力申请假释
+Dialogue: 0,0:42:06.73,0:42:08.61,Default,,0,0,0,,{\blur3}你要帮我吗？
+Dialogue: 0,0:42:13.82,0:42:17.49,Default,,0,0,0,,{\blur3}欢迎来到该死的储藏室 同志
+Dialogue: 0,0:42:24.33,0:42:28.46,Default,,0,0,0,,{\blur3}克莉欧 我不计算过了几天或几小时
+Dialogue: 0,0:42:29.13,0:42:30.96,Default,,0,0,0,,{\blur3}而是数秒度日
+Dialogue: 0,0:42:31.30,0:42:36.59,Default,,0,0,0,,{\blur3}有时我以为自己将因厌倦或恐惧而死
+Dialogue: 0,0:42:37.18,0:42:38.80,Default,,0,0,0,,{\blur3}这里并不可怕
+Dialogue: 0,0:42:38.93,0:42:42.18,Default,,0,0,0,,{\blur3}目前所有挑战我都能克服
+Dialogue: 0,0:42:42.43,0:42:45.14,Default,,0,0,0,,{\blur3}我不怕与日俱增的无聊
+Dialogue: 0,0:42:45.31,0:42:51.02,Default,,0,0,0,,{\blur3}也不怕在丑恶不幸的打斗后平静醒来
+Dialogue: 0,0:42:52.65,0:42:56.99,Default,,0,0,0,,{\blur3}不 我怕的是出去之后
+Dialogue: 0,0:42:57.45,0:43:00.12,Default,,0,0,0,,{\blur3}不知道家庭和国家会变成什么模样
+Dialogue: 0,0:43:01.83,0:43:04.33,Default,,0,0,0,,{\blur3}并非所有消息都值得忧虑
+Dialogue: 0,0:43:04.83,0:43:09.00,Default,,0,0,0,,{\blur3}有些事情超乎想像
+Dialogue: 0,0:43:09.54,0:43:12.00,Default,,0,0,0,,{\blur3}却轻易抖落于现实之中
+Dialogue: 0,0:43:12.21,0:43:16.84,Default,,0,0,0,,{\blur3}现实开了一个大玩笑
+Dialogue: 0,0:43:17.01,0:43:21.35,Default,,0,0,0,,{\blur3}把约翰·帕奈尔·汤马斯送进监狱里
+Dialogue: 0,0:43:21.85,0:43:24.35,Default,,0,0,0,,{\blur3}他因逃漏税入狱
+Dialogue: 0,0:43:25.02,0:43:28.64,Default,,0,0,0,,{\blur3}瞧瞧我们 二只笼中鸟
+Dialogue: 0,0:43:29.69,0:43:32.65,Default,,0,0,0,,{\blur3}只不过 你是真的犯了罪才进来
+Dialogue: 0,0:43:37.65,0:43:40.20,Default,,0,0,0,,{\blur3}撇开一切种种
+Dialogue: 0,0:43:40.66,0:43:45.66,Default,,0,0,0,,{\blur3}我已是不幸之人中最幸运的了
+Dialogue: 0,0:43:46.20,0:43:49.87,Default,,0,0,0,,{\blur3}你和孩子们是我的温暖 食粮
+Dialogue: 0,0:43:50.04,0:43:53.42,Default,,0,0,0,,{\blur3}衣被 平静与活力
+Dialogue: 0,0:43:54.00,0:43:56.21,Default,,0,0,0,,{\blur3}因为你们永远都在我心中
+Dialogue: 0,0:43:57.05,0:44:01.43,Default,,0,0,0,,{\blur3}爱你的7551号囚犯
+Dialogue: 0,0:44:07.02,0:44:12.91,Default,,0,0,0,,{\blur3}子弹 炸药和拳头无法打败日本鬼子
+Dialogue: 0,0:44:13.08,0:44:13.86,Default,,0,0,0,,{\blur3}是的
+Dialogue: 0,0:44:13.94,0:44:15.11,Default,,0,0,0,,{\blur3}让他们血流成河吧
+Dialogue: 0,0:44:15.52,0:44:18.24,Default,,0,0,0,,{\blur3}流血多的一方就输
+Dialogue: 0,0:44:18.78,0:44:20.86,Default,,0,0,0,,{\blur3}我们不会输的
+Dialogue: 0,0:44:21.20,0:44:22.32,Default,,0,0,0,,{\blur3}对不对？
+Dialogue: 0,0:44:22.45,0:44:23.57,Default,,0,0,0,,{\blur3}对
+Dialogue: 0,0:44:30.91,0:44:32.08,Default,,0,0,0,,{\blur3}你输了
+Dialogue: 0,0:44:32.25,0:44:33.94,Default,,0,0,0,,{\blur3}我就知道
+Dialogue: 0,0:44:39.05,0:44:40.88,Default,,0,0,0,,{\blur3}你认识约翰·韦恩？
+Dialogue: 0,0:44:41.01,0:44:42.88,Default,,0,0,0,,{\blur3}认识
+Dialogue: 0,0:44:44.89,0:44:47.10,Default,,0,0,0,,{\blur3}他是怎样的人？
+Dialogue: 0,0:44:47.94,0:44:49.71,Default,,0,0,0,,{\blur3}你们一定会喜欢彼此
+Dialogue: 0,0:44:51.44,0:44:54.61,Default,,0,0,0,,{\blur3}很美吧？来吧
+Dialogue: 0,0:44:56.61,0:44:58.23,Default,,0,0,0,,{\blur3}妈 我想到一个新招
+Dialogue: 0,0:45:00.94,0:45:02.45,Default,,0,0,0,,{\blur3}等一下
+Dialogue: 0,0:45:03.49,0:45:05.74,Default,,0,0,0,,{\blur3}过来 你会吓到那匹马
+Dialogue: 0,0:45:05.95,0:45:08.45,Default,,0,0,0,,{\blur3}妈 快点过来
+Dialogue: 0,0:45:08.95,0:45:12.00,Default,,0,0,0,,{\blur3}艾迪·华罗宾森 你是否现在或曾经？
+Dialogue: 0,0:45:12.22,0:45:13.46,Default,,0,0,0,,{\blur3}为共产党员
+Dialogue: 0,0:45:13.62,0:45:17.80,Default,,0,0,0,,{\blur3}我现在不是 以前也没加入过
+Dialogue: 0,0:45:17.96,0:45:20.92,Default,,0,0,0,,{\blur3}我一直是信奉自由主义的民主党员
+Dialogue: 0,0:45:21.09,0:45:22.76,Default,,0,0,0,,{\blur3}但多年来 在你家中
+Dialogue: 0,0:45:22.93,0:45:25.18,Default,,0,0,0,,{\blur3}曾举行过多次政治集会
+Dialogue: 0,0:45:25.26,0:45:26.64,Default,,0,0,0,,{\blur3}参与者都是共产党员
+Dialogue: 0,0:45:26.80,0:45:29.65,Default,,0,0,0,,{\blur3}是的 我现在才搞清楚
+Dialogue: 0,0:45:31.18,0:45:35.48,Default,,0,0,0,,{\blur3}我家举行过无数活动与募款
+Dialogue: 0,0:45:35.60,0:45:37.77,Default,,0,0,0,,{\blur3}就在战时
+Dialogue: 0,0:45:38.32,0:45:40.69,Default,,0,0,0,,{\blur3}当时我不清楚
+Dialogue: 0,0:45:40.82,0:45:44.03,Default,,0,0,0,,{\blur3}他们隶属什么组织
+Dialogue: 0,0:45:44.15,0:45:46.28,Default,,0,0,0,,{\blur3}进行什么工作
+Dialogue: 0,0:45:46.87,0:45:50.37,Default,,0,0,0,,{\blur3}我从没想过他们可能是共产党员
+Dialogue: 0,0:45:51.16,0:45:55.96,Default,,0,0,0,,{\blur3}他们愚弄 利用 欺骗了我
+Dialogue: 0,0:45:56.13,0:45:57.58,Default,,0,0,0,,{\blur3}谁利用你？
+Dialogue: 0,0:45:57.71,0:45:59.17,Default,,0,0,0,,{\blur3}呃…
+Dialogue: 0,0:45:59.82,0:46:04.51,Default,,0,0,0,,{\blur3}或许就是这股邪恶势力策动所有组织
+Dialogue: 0,0:46:04.55,0:46:07.51,Default,,0,0,0,,{\blur3}请说出你知道的人名
+Dialogue: 0,0:46:15.19,0:46:16.35,Default,,0,0,0,,{\blur3}罗宾森先生？
+Dialogue: 0,0:46:19.82,0:46:22.69,Default,,0,0,0,,{\blur3}有艾伯特·马尔兹
+Dialogue: 0,0:46:26.36,0:46:30.70,Default,,0,0,0,,{\blur3}法兰克·杜托 还有其他人
+Dialogue: 0,0:46:30.87,0:46:32.62,Default,,0,0,0,,{\blur3}被他们称为政委的高层人士是
+Dialogue: 0,0:46:36.37,0:46:37.71,Default,,0,0,0,,{\blur3}亚伦·赫德？
+Dialogue: 0,0:46:37.88,0:46:39.21,Default,,0,0,0,,{\blur3}没错 亚伦·赫德
+Dialogue: 0,0:46:40.00,0:46:41.63,Default,,0,0,0,,{\blur3}我不认识迪麦特雷克
+Dialogue: 0,0:46:41.75,0:46:43.38,Default,,0,0,0,,{\blur3}我现在成了政委
+Dialogue: 0,0:46:43.55,0:46:47.55,Default,,0,0,0,,{\blur3}伊恩·麦克连·汉特 以及…
+Dialogue: 0,0:46:49.34,0:46:53.02,Default,,0,0,0,,{\blur3}达尔顿·特朗勃
+Dialogue: 0,0:46:55.06,0:46:56.48,Default,,0,0,0,,{\blur3}谢谢你 罗宾森先生
+Dialogue: 0,0:46:56.85,0:46:58.06,Default,,0,0,0,,{\blur3}谢谢 先生
+Dialogue: 0,0:46:58.23,0:47:00.73,Default,,0,0,0,,{\blur3}主席 我没有问题了
+Dialogue: 0,0:47:01.57,0:47:03.69,Default,,0,0,0,,{\blur3}在这里 谁敢这样打小报告
+Dialogue: 0,0:47:04.53,0:47:07.07,Default,,0,0,0,,{\blur3}你就死定了
+Dialogue: 0,0:47:17.79,0:47:20.04,Default,,0,0,0,,{\blur3}艾迪尽了责任 应当回到工作岗位
+Dialogue: 0,0:47:20.21,0:47:22.92,Default,,0,0,0,,{\blur3}不行 他是被逼才开口的
+Dialogue: 0,0:47:23.25,0:47:25.46,Default,,0,0,0,,{\blur3}重点是他说了
+Dialogue: 0,0:47:26.76,0:47:30.18,Default,,0,0,0,,{\blur3}勇敢的男人与男孩们 正与共产主义作战
+Dialogue: 0,0:47:30.26,0:47:33.56,Default,,0,0,0,,{\blur3}我们难以想像他们做了何等牺牲
+Dialogue: 0,0:47:33.93,0:47:36.43,Default,,0,0,0,,{\blur3}而你却担心这个混帐的电影事业？
+Dialogue: 0,0:47:36.93,0:47:39.56,Default,,0,0,0,,{\blur3}我多希望艾迪及其党羽们的死
+Dialogue: 0,0:47:39.65,0:47:42.98,Default,,0,0,0,,{\blur3}能换取朝鲜战场一个男孩的性命
+Dialogue: 0,0:47:43.32,0:47:44.78,Default,,0,0,0,,{\blur3}艾迪都合作了
+Dialogue: 0,0:47:44.90,0:47:47.11,Default,,0,0,0,,{\blur3}难道不能得到好处？
+Dialogue: 0,0:47:47.78,0:47:49.28,Default,,0,0,0,,{\blur3}这样不对
+Dialogue: 0,0:47:49.40,0:47:50.82,Default,,0,0,0,,{\blur3}说话小心点 杜克
+Dialogue: 0,0:47:51.11,0:47:52.49,Default,,0,0,0,,{\blur3}什么意思 赫达？
+Dialogue: 0,0:47:54.41,0:47:58.00,Default,,0,0,0,,{\blur3}要是我不小心会怎样？
+Dialogue: 0,0:47:58.58,0:48:01.42,Default,,0,0,0,,{\blur3}我不晓得原来你这么软趴趴
+Dialogue: 0,0:48:01.75,0:48:05.46,Default,,0,0,0,,{\blur3}是啊 我就是柔软好抱
+Dialogue: 0,0:48:13.26,0:48:14.93,Default,,0,0,0,,{\blur3}以你为荣
+Dialogue: 0,0:48:15.01,0:48:17.64,Default,,0,0,0,,{\blur3}这事不容易 但你做得很好
+Dialogue: 0,0:48:18.60,0:48:19.94,Default,,0,0,0,,{\blur3}谢谢 杜克
+Dialogue: 0,0:48:20.31,0:48:23.52,Default,,0,0,0,,{\blur3}我会致电片厂 片约将蜂拥而至
+Dialogue: 0,0:48:29.36,0:48:30.82,Default,,0,0,0,,{\blur3}好的
+Dialogue: 0,0:48:34.66,0:48:35.83,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,0:48:46.33,0:48:49.32,Default,,0,0,0,,{\blur3}美国史上和平时期最大的间谍案
+Dialogue: 0,0:48:49.46,0:48:54.00,Default,,0,0,0,,{\blur3}已迈入高潮 罗森堡夫妇被判处死刑
+Dialogue: 0,0:48:54.14,0:48:57.18,Default,,0,0,0,,{\blur3}因为他们将核弹机密泄漏给苏俄
+Dialogue: 0,0:48:58.39,0:49:00.78,Default,,0,0,0,,{\blur3}威斯康辛州的初级参议员 约瑟夫·麦卡锡
+Dialogue: 0,0:49:01.02,0:49:04.02,Default,,0,0,0,,{\blur3}正加速调查可疑的共党分子
+Dialogue: 0,0:49:04.19,0:49:07.19,Default,,0,0,0,,{\blur3}他们可能已渗透入政府 军队和学校
+Dialogue: 0,0:49:07.36,0:49:12.24,Default,,0,0,0,,{\blur3}敌人让叛徒和骗子
+Dialogue: 0,0:49:12.40,0:49:15.03,Default,,0,0,0,,{\blur3}潜入我们的政府进行工作
+Dialogue: 0,0:49:15.70,0:49:17.91,Default,,0,0,0,,{\blur3}在大学教职员中
+Dialogue: 0,0:49:18.04,0:49:21.25,Default,,0,0,0,,{\blur3}一个共产党员都不能留
+Dialogue: 0,0:49:21.57,0:49:24.76,Default,,0,0,0,,{\blur3}人们必须忠诚 否则就是不忠诚
+Dialogue: 0,0:49:30.17,0:49:31.55,Default,,0,0,0,,{\blur3}谢谢你 比利
+Dialogue: 0,0:50:38.45,0:50:40.03,Default,,0,0,0,,{\blur3}他们来了
+Dialogue: 0,0:50:40.12,0:50:41.79,Default,,0,0,0,,{\blur3}他们到家了 爸爸
+Dialogue: 0,0:50:45.79,0:50:49.42,Default,,0,0,0,,{\blur3}巨人进攻
+Dialogue: 0,0:50:49.50,0:50:52.38,Default,,0,0,0,,{\blur3}我的孩子怎么变得这么漂亮了
+Dialogue: 0,0:50:52.46,0:50:53.46,Default,,0,0,0,,{\blur3}爸爸 我们好想你
+Dialogue: 0,0:50:53.59,0:50:56.17,Default,,0,0,0,,{\blur3}- 克里斯多福 梅兹 - 你好 爸爸
+Dialogue: 0,0:50:56.97,0:50:58.30,Default,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:50:58.93,0:51:00.80,Default,,0,0,0,,{\blur3}妮可拉 瞧瞧你
+Dialogue: 0,0:51:00.93,0:51:02.81,Default,,0,0,0,,{\blur3}她个子可真高
+Dialogue: 0,0:51:03.81,0:51:05.10,Default,,0,0,0,,{\blur3}这是口红吗？
+Dialogue: 0,0:51:05.23,0:51:06.52,Default,,0,0,0,,{\blur3}爸…
+Dialogue: 0,0:51:08.19,0:51:11.31,Default,,0,0,0,,{\blur3}我好想念你们 你们每个人
+Dialogue: 0,0:51:27.00,0:51:29.21,Default,,0,0,0,,{\blur3}真是抱歉…
+Dialogue: 0,0:51:29.50,0:51:34.38,Default,,0,0,0,,{\blur3}巴迪 你好吗？
+Dialogue: 0,0:51:35.46,0:51:37.17,Default,,0,0,0,,{\blur3}我对你无话可说
+Dialogue: 0,0:51:44.39,0:51:46.31,Default,,0,0,0,,{\blur3}监狱似乎让我们染上了瘟疫
+Dialogue: 0,0:51:46.48,0:51:50.73,Default,,0,0,0,,{\blur3}是啊 巴迪·罗斯一直都这么讨人厌
+Dialogue: 0,0:51:51.06,0:51:52.15,Default,,0,0,0,,{\blur3}是啊
+Dialogue: 0,0:51:52.27,0:51:53.36,Default,,0,0,0,,{\blur3}他日子也不好过
+Dialogue: 0,0:51:53.90,0:51:55.69,Default,,0,0,0,,{\blur3}- 三部电影都赔钱 - 真的吗？
+Dialogue: 0,0:51:57.53,0:51:59.99,Default,,0,0,0,,{\blur3}他想出卖灵魂 却不知灵魂在哪里
+Dialogue: 0,0:52:02.37,0:52:05.20,Default,,0,0,0,,{\blur3}希望他能撑到打完官司再破产
+Dialogue: 0,0:52:05.37,0:52:07.54,Default,,0,0,0,,{\blur3}是吗 谁告他？
+Dialogue: 0,0:52:08.04,0:52:10.00,Default,,0,0,0,,{\blur3}你 我和大家
+Dialogue: 0,0:52:10.28,0:52:10.80,Default,,0,0,0,,{\blur3}天哪
+Dialogue: 0,0:52:10.97,0:52:12.58,Default,,0,0,0,,{\blur3}用他们的资本主义对付他们
+Dialogue: 0,0:52:12.75,0:52:14.84,Default,,0,0,0,,{\blur3}上民事法庭索赔
+Dialogue: 0,0:52:15.00,0:52:16.55,Default,,0,0,0,,{\blur3}- 以报一箭之仇 - 不 不
+Dialogue: 0,0:52:16.71,0:52:18.26,Default,,0,0,0,,{\blur3}要他们举手立誓
+Dialogue: 0,0:52:18.38,0:52:20.22,Default,,0,0,0,,{\blur3}别说了 老天
+Dialogue: 0,0:52:20.38,0:52:22.89,Default,,0,0,0,,{\blur3}难道你在法庭待的时间还不够吗？
+Dialogue: 0,0:52:23.05,0:52:25.10,Default,,0,0,0,,{\blur3}我可是受够了 老天爷
+Dialogue: 0,0:52:25.26,0:52:26.89,Default,,0,0,0,,{\blur3}不然我们该怎么做？
+Dialogue: 0,0:52:28.27,0:52:32.52,Default,,0,0,0,,{\blur3}做一件所有人以为我们做不到的事
+Dialogue: 0,0:52:36.07,0:52:39.66,Default,,0,0,0,,{\blur3}你是大剧作家 我们拍的都是烂片
+Dialogue: 0,0:52:39.74,0:52:41.24,Default,,0,0,0,,{\blur3}我不懂要怎么合作
+Dialogue: 0,0:52:42.28,0:52:44.32,Default,,0,0,0,,{\blur3}金先生 我是剧作家
+Dialogue: 0,0:52:44.41,0:52:46.54,Default,,0,0,0,,{\blur3}如果我写不出烂片 我会挨饿的
+Dialogue: 0,0:52:46.62,0:52:48.41,Default,,0,0,0,,{\blur3}特朗勃 我们付不起你的片酬
+Dialogue: 0,0:52:49.58,0:52:54.33,Default,,0,0,0,,{\blur3}那部片的剧本你们付了多少钱？
+Dialogue: 0,0:52:54.42,0:52:56.75,Default,,0,0,0,,{\blur3}《恫村五虎》
+Dialogue: 0,0:52:59.59,0:53:00.76,Default,,0,0,0,,{\blur3}1200元
+Dialogue: 0,0:53:02.59,0:53:06.85,Default,,0,0,0,,{\blur3}好 我就写一部电影给你 1200元
+Dialogue: 0,0:53:06.93,0:53:08.64,Default,,0,0,0,,{\blur3}而且不愿署名？
+Dialogue: 0,0:53:08.77,0:53:10.98,Default,,0,0,0,,{\blur3}才不是 是你们不想放我的名字
+Dialogue: 0,0:53:11.42,0:53:12.44,Default,,0,0,0,,{\blur3}没错
+Dialogue: 0,0:53:13.02,0:53:17.02,Default,,0,0,0,,{\blur3}特别是如果你还在从事那些活动
+Dialogue: 0,0:53:17.11,0:53:18.19,Default,,0,0,0,,{\blur3}还没收手？
+Dialogue: 0,0:53:18.69,0:53:20.15,Default,,0,0,0,,{\blur3}这辈子脱不了身
+Dialogue: 0,0:53:21.49,0:53:23.11,Default,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:53:23.61,0:53:24.78,Default,,0,0,0,,{\blur3}你有什么想法？
+Dialogue: 0,0:53:25.95,0:53:28.91,Default,,0,0,0,,{\blur3}这个… 我刚刚出狱
+Dialogue: 0,0:53:29.02,0:53:30.33,Default,,0,0,0,,{\blur3}何不拍部犯罪电影？
+Dialogue: 0,0:53:30.45,0:53:33.12,Default,,0,0,0,,{\blur3}一位歹徒的崛起与没落
+Dialogue: 0,0:53:33.21,0:53:34.83,Default,,0,0,0,,{\blur3}这种题材我看到过几次
+Dialogue: 0,0:53:34.96,0:53:36.79,Default,,0,0,0,,{\blur3}因为容易赚钱啊
+Dialogue: 0,0:53:36.88,0:53:39.00,Default,,0,0,0,,{\blur3}好 我何时能收到？
+Dialogue: 0,0:53:40.05,0:53:41.30,Default,,0,0,0,,{\blur3}三天内
+Dialogue: 0,0:53:41.38,0:53:43.76,Default,,0,0,0,,{\blur3}三天内写完一百页的剧本？
+Dialogue: 0,0:53:43.84,0:53:45.59,Default,,0,0,0,,{\blur3}你想搞我吗？
+Dialogue: 0,0:53:45.68,0:53:47.72,Default,,0,0,0,,{\blur3}你如果敢搞我 我就搞死你
+Dialogue: 0,0:53:48.97,0:53:51.14,Default,,0,0,0,,{\blur3}金先生 这句话我曾经听过
+Dialogue: 0,0:53:52.73,0:53:54.64,Default,,0,0,0,,{\blur3}牢里的人 肯定更有气势
+Dialogue: 0,0:54:31.01,0:54:32.02,Default,,0,0,0,,{\blur3}不 老板
+Dialogue: 0,0:54:33.85,0:54:34.94,Default,,0,0,0,,{\blur3}他
+Dialogue: 0,0:54:40.02,0:54:43.61,Default,,0,0,0,,{\blur3}你在开什么玩笑？海米 快过来
+Dialogue: 0,0:54:45.20,0:54:49.91,Default,,0,0,0,,{\blur3}海米 快雇用他 他是天才 写得太好了
+Dialogue: 0,0:54:50.40,0:54:53.79,Default,,0,0,0,,{\blur3}稍等 你看我们手头的剧本《沼泽杀手》
+Dialogue: 0,0:54:53.87,0:54:56.37,Default,,0,0,0,,{\blur3}里头最棒的角色是沼泽
+Dialogue: 0,0:54:56.54,0:54:57.54,Default,,0,0,0,,{\blur3}《女子监狱》
+Dialogue: 0,0:54:57.62,0:54:59.17,Default,,0,0,0,,{\blur3}女人穿内衣打架
+Dialogue: 0,0:54:59.25,0:55:01.46,Default,,0,0,0,,{\blur3}题材很棒 但写得烂透了
+Dialogue: 0,0:55:01.54,0:55:02.59,Default,,0,0,0,,{\blur3}还有吗 海米？
+Dialogue: 0,0:55:02.71,0:55:03.80,Default,,0,0,0,,{\blur3}海盗电影 但拍海太贵了
+Dialogue: 0,0:55:04.21,0:55:05.22,Default,,0,0,0,,{\blur3}确实
+Dialogue: 0,0:55:05.80,0:55:06.93,Default,,0,0,0,,{\blur3}全部改写
+Dialogue: 0,0:55:07.05,0:55:10.05,Default,,0,0,0,,{\blur3}还有更多等着你
+Dialogue: 0,0:55:14.22,0:55:16.52,Default,,0,0,0,,{\blur3}你们觉得新家的环境如何？
+Dialogue: 0,0:55:16.60,0:55:18.10,Default,,0,0,0,,{\blur3}- 我喜欢 - 很棒
+Dialogue: 0,0:55:18.23,0:55:19.60,Default,,0,0,0,,{\blur3}没错 爸
+Dialogue: 0,0:55:24.51,0:55:26.62,Default,,0,0,0,,{\blur3}住在城里感觉一定很棒
+Dialogue: 0,0:55:28.41,0:55:30.12,Default,,0,0,0,,{\blur3}你们瞧
+Dialogue: 0,0:55:35.29,0:55:38.00,Default,,0,0,0,,{\blur3}- 喝点汽水吧 - 谢谢
+Dialogue: 0,0:55:38.08,0:55:39.54,Default,,0,0,0,,{\blur3}辛苦了 还搬得动吗？
+Dialogue: 0,0:55:39.62,0:55:41.25,Default,,0,0,0,,{\blur3}- 没问题 - 没问题 谢谢
+Dialogue: 0,0:55:49.80,0:55:50.97,Default,,0,0,0,,{\blur3}我们忘记拿毛巾了
+Dialogue: 0,0:55:51.09,0:55:53.64,Default,,0,0,0,,{\blur3}糟糕 等等我
+Dialogue: 0,0:56:21.46,0:56:23.13,Default,,0,0,0,,{\blur3}梅兹…嘘…
+Dialogue: 0,0:56:41.14,0:56:47.65,Default,,0,0,0,,{\blur3}世上有许多愤怒却无知的人
+Dialogue: 0,0:56:49.15,0:56:52.16,Default,,0,0,0,,{\blur3}他们的繁殖速度似乎屡破纪录
+Dialogue: 0,0:56:53.24,0:56:55.58,Default,,0,0,0,,{\blur3}我们是一家人
+Dialogue: 0,0:56:55.66,0:57:00.08,Default,,0,0,0,,{\blur3}必须彼此陪伴 保持警惕
+Dialogue: 0,0:57:14.55,0:57:16.43,Default,,0,0,0,,{\blur3}"真理之口"
+Dialogue: 0,0:57:16.51,0:57:20.06,Default,,0,0,0,,{\blur3}传说如果说谎的人手伸进去
+Dialogue: 0,0:57:20.18,0:57:22.27,Default,,0,0,0,,{\blur3}就会被咬掉
+Dialogue: 0,0:57:22.52,0:57:24.27,Default,,0,0,0,,{\blur3}真可怕
+Dialogue: 0,0:57:25.06,0:57:26.11,Default,,0,0,0,,{\blur3}你来试试看
+Dialogue: 0,0:57:31.40,0:57:33.68,Default,,0,0,0,,{\blur3}你先来
+Dialogue: 0,0:57:35.37,0:57:36.53,Default,,0,0,0,,{\blur3}没问题
+Dialogue: 0,0:57:49.59,0:57:50.80,Default,,0,0,0,,{\blur3}开玩笑的
+Dialogue: 0,0:57:50.88,0:57:52.55,Default,,0,0,0,,{\blur3}你这个人 怎么这样
+Dialogue: 0,0:57:53.55,0:57:56.59,Default,,0,0,0,,{\blur3}《罗马假日》票房大卖 好评连连
+Dialogue: 0,0:57:56.72,0:58:00.21,Default,,0,0,0,,{\blur3}我九个月没工作了 你呢？
+Dialogue: 0,0:58:01.60,0:58:03.39,Default,,0,0,0,,{\blur3}难以糊口
+Dialogue: 0,0:58:03.48,0:58:07.15,Default,,0,0,0,,{\blur3}金氏兄弟给的酬劳太少
+Dialogue: 0,0:58:07.23,0:58:10.57,Default,,0,0,0,,{\blur3}但他们对剧本的需求 就像军队对卫生纸
+Dialogue: 0,0:58:10.98,0:58:14.70,Default,,0,0,0,,{\blur3}不求品质 只求数量
+Dialogue: 0,0:58:14.78,0:58:19.08,Default,,0,0,0,,{\blur3}我原以为舍弃对电影的艺术追求
+Dialogue: 0,0:58:19.16,0:58:21.79,Default,,0,0,0,,{\blur3}剧本能轻易在一周内交出
+Dialogue: 0,0:58:21.91,0:58:25.58,Default,,0,0,0,,{\blur3}但要持续取悦二位弹珠台销售员
+Dialogue: 0,0:58:25.67,0:58:28.46,Default,,0,0,0,,{\blur3}结果却是难上青天
+Dialogue: 0,0:58:28.59,0:58:31.71,Default,,0,0,0,,{\blur3}我开始成了家里的陌生人
+Dialogue: 0,0:58:31.80,0:58:36.80,Default,,0,0,0,,{\blur3}一周工作七天 每天18小时
+Dialogue: 0,0:58:36.93,0:58:39.60,Default,,0,0,0,,{\blur3}进度却越来越落后
+Dialogue: 0,0:58:40.60,0:58:42.64,Default,,0,0,0,,{\blur3}他们需要五个你
+Dialogue: 0,0:58:46.19,0:58:48.98,Default,,0,0,0,,{\blur3}问题是 这些左翼分子会写剧本？
+Dialogue: 0,0:58:49.11,0:58:51.90,Default,,0,0,0,,{\blur3}短小精悍 穿灰西装的
+Dialogue: 0,0:58:51.98,0:58:54.15,Default,,0,0,0,,{\blur3}是伊恩·麦克连·汉特
+Dialogue: 0,0:58:54.28,0:58:55.40,Default,,0,0,0,,{\blur3}写《罗马假日》的人
+Dialogue: 0,0:58:55.49,0:58:57.28,Default,,0,0,0,,{\blur3}最近被传唤的人
+Dialogue: 0,0:58:57.36,0:58:59.78,Default,,0,0,0,,{\blur3}刚被提名奥斯卡奖的人
+Dialogue: 0,0:58:59.87,0:59:02.54,Default,,0,0,0,,{\blur3}那桌人都被提名过
+Dialogue: 0,0:59:03.33,0:59:07.87,Default,,0,0,0,,{\blur3}艾伯特·贝西 艾卓安·史考特 亚伦·赫德
+Dialogue: 0,0:59:07.96,0:59:12.28,Default,,0,0,0,,{\blur3}小文拉纳 艾伯特·马尔兹 以及…
+Dialogue: 0,0:59:16.38,0:59:18.18,Default,,0,0,0,,{\blur3}这样吧
+Dialogue: 0,0:59:18.30,0:59:20.55,Default,,0,0,0,,{\blur3}我来找写手合作
+Dialogue: 0,0:59:20.64,0:59:22.60,Default,,0,0,0,,{\blur3}对方提供剧本给我
+Dialogue: 0,0:59:22.68,0:59:24.18,Default,,0,0,0,,{\blur3}够好我就交给你们
+Dialogue: 0,0:59:24.31,0:59:27.35,Default,,0,0,0,,{\blur3}不够好我就改写
+Dialogue: 0,0:59:27.81,0:59:29.98,Default,,0,0,0,,{\blur3}你们觉得满意再付钱
+Dialogue: 0,0:59:30.06,0:59:33.32,Default,,0,0,0,,{\blur3}这些剧作家 他们都是…
+Dialogue: 0,0:59:34.32,0:59:35.99,Default,,0,0,0,,{\blur3}他们都是黑…
+Dialogue: 0,0:59:36.07,0:59:37.07,Default,,0,0,0,,{\blur3}黑名单
+Dialogue: 0,0:59:37.15,0:59:38.61,Default,,0,0,0,,{\blur3}拜托 你也太胆小了吧
+Dialogue: 0,0:59:39.99,0:59:41.95,Default,,0,0,0,,{\blur3}我们正在和共产分子交战
+Dialogue: 0,0:59:42.03,0:59:44.12,Default,,0,0,0,,{\blur3}- 我们并没有 - 这是新型态的战争
+Dialogue: 0,0:59:44.20,0:59:46.00,Default,,0,0,0,,{\blur3}没错 根本不存在的战争 超新潮的
+Dialogue: 0,0:59:46.50,0:59:49.42,Default,,0,0,0,,{\blur3}- 那罗森堡夫妇呢？- 他们怎么了？
+Dialogue: 0,0:59:49.54,0:59:50.58,Default,,0,0,0,,{\blur3}他们偷了核弹的秘密
+Dialogue: 0,0:59:50.67,0:59:53.17,Default,,0,0,0,,{\blur3}他们只是没有躲过眼线
+Dialogue: 0,0:59:54.09,0:59:57.26,Default,,0,0,0,,{\blur3}我们既然已经雇了打手
+Dialogue: 0,0:59:58.84,1:00:00.05,Default,,0,0,0,,{\blur3}就要写出轰动世界的作品
+Dialogue: 0,1:00:06.60,1:00:07.60,Default,,0,0,0,,{\blur3}好的
+Dialogue: 0,1:00:07.68,1:00:09.27,Default,,0,0,0,,{\blur3}你原有五份工作
+Dialogue: 0,1:00:10.44,1:00:12.40,Default,,0,0,0,,{\blur3}现在被我们拿走了 你怎么办？
+Dialogue: 0,1:00:12.52,1:00:16.23,Default,,0,0,0,,{\blur3}我就有时间再去找五份工作和五个写手
+Dialogue: 0,1:00:16.36,1:00:20.32,Default,,0,0,0,,{\blur3}你们每个人如法炮制
+Dialogue: 0,1:00:20.41,1:00:23.07,Default,,0,0,0,,{\blur3}这样下去 我们就会垄断市场
+Dialogue: 0,1:00:23.20,1:00:27.16,Default,,0,0,0,,{\blur3}亚伦 你真狡诈
+Dialogue: 0,1:00:28.54,1:00:31.17,Default,,0,0,0,,{\blur3}谁想写出轰动世界的电影？
+Dialogue: 0,1:00:31.25,1:00:32.92,Default,,0,0,0,,{\blur3}谁不想？
+Dialogue: 0,1:00:33.04,1:00:36.34,Default,,0,0,0,,{\blur3}我们接下来要在黑夜里
+Dialogue: 0,1:00:36.42,1:00:40.43,Default,,0,0,0,,{\blur3}在浓雾中与陌生人做生意
+Dialogue: 0,1:00:42.55,1:00:43.93,Default,,0,0,0,,{\blur3}这只是一种形容
+Dialogue: 0,1:00:44.39,1:00:46.31,Default,,0,0,0,,{\blur3}我们要经营家族事业
+Dialogue: 0,1:00:46.39,1:00:48.98,Default,,0,0,0,,{\blur3}接上新的电话线后 接听电话时
+Dialogue: 0,1:00:49.06,1:00:53.02,Default,,0,0,0,,{\blur3}千万别说 这里是特朗勃家
+Dialogue: 0,1:00:53.06,1:00:57.32,Default,,0,0,0,,{\blur3}我会用不同笔名和不同的制片人合作
+Dialogue: 0,1:00:57.40,1:00:59.78,Default,,0,0,0,,{\blur3}不论谁来电 记得来找我
+Dialogue: 0,1:00:59.90,1:01:01.07,Default,,0,0,0,,{\blur3}或留言
+Dialogue: 0,1:01:06.74,1:01:07.91,Default,,0,0,0,,{\blur3}喂
+Dialogue: 0,1:01:08.04,1:01:09.12,Default,,0,0,0,,{\blur3}约翰·亚伯特在吗？
+Dialogue: 0,1:01:09.25,1:01:10.75,Default,,0,0,0,,{\blur3}他不在 方便留言吗？
+Dialogue: 0,1:01:10.83,1:01:14.13,Default,,0,0,0,,{\blur3}不论何时都要有人应门
+Dialogue: 0,1:01:16.13,1:01:19.26,Default,,0,0,0,,{\blur3}我来收莎莉·史塔波斐的邮件
+Dialogue: 0,1:01:22.47,1:01:24.01,Default,,0,0,0,,{\blur3}可以请令堂签名吗？
+Dialogue: 0,1:01:28.64,1:01:29.68,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:01:32.44,1:01:36.02,Default,,0,0,0,,{\blur3}你们要学习听写 速记和打字
+Dialogue: 0,1:01:36.11,1:01:40.36,Default,,0,0,0,,{\blur3}成年人则负担最重要的工作
+Dialogue: 0,1:01:40.44,1:01:41.44,Default,,0,0,0,,{\blur3}秘密快递
+Dialogue: 0,1:01:42.36,1:01:46.95,Default,,0,0,0,,{\blur3}使命必达 且不能让人生疑
+Dialogue: 0,1:01:47.03,1:01:49.79,Default,,0,0,0,,{\blur3}有问题或担忧吗？
+Dialogue: 0,1:01:50.37,1:01:52.37,Default,,0,0,0,,{\blur3}- 妮可拉 请说 - 有时间表吗？
+Dialogue: 0,1:01:52.46,1:01:53.50,Default,,0,0,0,,{\blur3}什么？
+Dialogue: 0,1:01:53.62,1:01:54.71,Default,,0,0,0,,{\blur3}我得安排时间做作业
+Dialogue: 0,1:01:54.79,1:01:58.13,Default,,0,0,0,,{\blur3}募款支持争取黑人投票权
+Dialogue: 0,1:01:58.21,1:02:01.55,Default,,0,0,0,,{\blur3}每周五 学生会还要开会
+Dialogue: 0,1:02:01.63,1:02:02.97,Default,,0,0,0,,{\blur3}我必须…
+Dialogue: 0,1:02:03.05,1:02:05.05,Default,,0,0,0,,{\blur3}别担心 会有办法的 宝贝
+Dialogue: 0,1:02:05.80,1:02:06.80,Default,,0,0,0,,{\blur3}是吧？
+Dialogue: 0,1:02:08.85,1:02:12.52,Default,,0,0,0,,{\blur3}人们持续抗争 近期最高法院
+Dialogue: 0,1:02:12.64,1:02:14.64,Default,,0,0,0,,{\blur3}可能得回应种族隔离政策
+Dialogue: 0,1:02:14.97,1:02:17.08,Default,,0,0,0,,{\blur3}南方城镇的黑人
+Dialogue: 0,1:02:17.08,1:02:19.02,Default,,0,0,0,,{\blur3}大量走上街头
+Dialogue: 0,1:02:19.15,1:02:22.49,Default,,0,0,0,,{\blur3}当地执法者正加强控制
+Dialogue: 0,1:02:22.57,1:02:26.36,Default,,0,0,0,,{\blur3}许多未经证明的消息指出 可能发生暴动
+Dialogue: 0,1:02:26.49,1:02:30.28,Default,,0,0,0,,{\blur3}但不确定发起暴动的是示威者
+Dialogue: 0,1:02:30.37,1:02:31.91,Default,,0,0,0,,{\blur3}妮可拉
+Dialogue: 0,1:02:32.04,1:02:33.58,Default,,0,0,0,,{\blur3}还是白人义务联防队
+Dialogue: 0,1:02:33.70,1:02:36.29,Default,,0,0,0,,{\blur3}除了南方 整个国家
+Dialogue: 0,1:02:36.37,1:02:38.67,Default,,0,0,0,,{\blur3}好了 给你
+Dialogue: 0,1:02:38.75,1:02:41.00,Default,,0,0,0,,{\blur3}只改了几个地方 错得不多
+Dialogue: 0,1:02:41.55,1:02:42.59,Default,,0,0,0,,{\blur3}不错
+Dialogue: 0,1:02:42.67,1:02:45.51,Default,,0,0,0,,{\blur3}薪资最高的政府官员
+Dialogue: 0,1:02:45.59,1:02:48.01,Default,,0,0,0,,{\blur3}应该全面公开他们的收入
+Dialogue: 0,1:02:48.34,1:02:51.51,Default,,0,0,0,,{\blur3}今日节目到此结束
+Dialogue: 0,1:03:16.62,1:03:19.63,Default,,0,0,0,,{\blur3}谁是"葛拉汉·塔波"？
+Dialogue: 0,1:03:21.38,1:03:22.84,Default,,0,0,0,,{\blur3}写了《色情修女》
+Dialogue: 0,1:03:22.92,1:03:24.05,Default,,0,0,0,,{\blur3}是我
+Dialogue: 0,1:03:24.17,1:03:25.26,Default,,0,0,0,,{\blur3}干得好
+Dialogue: 0,1:03:26.09,1:03:29.51,Default,,0,0,0,,{\blur3}写《马戏团杀手》的艾伍德卡尔
+Dialogue: 0,1:03:29.59,1:03:31.47,Default,,0,0,0,,{\blur3}需要改进 我猜到小丑是凶手了
+Dialogue: 0,1:03:31.55,1:03:33.22,Default,,0,0,0,,{\blur3}凶手永远都是小丑
+Dialogue: 0,1:03:34.39,1:03:36.93,Default,,0,0,0,,{\blur3}《外星人与农庄女》是你写的？
+Dialogue: 0,1:03:37.06,1:03:38.06,Default,,0,0,0,,{\blur3}是的
+Dialogue: 0,1:03:38.64,1:03:42.11,Default,,0,0,0,,{\blur3}你笔下的外星人谈论劳工权益
+Dialogue: 0,1:03:42.77,1:03:44.94,Default,,0,0,0,,{\blur3}资本主义的病灶
+Dialogue: 0,1:03:45.57,1:03:48.15,Default,,0,0,0,,{\blur3}以及布尔乔亚的自满
+Dialogue: 0,1:03:48.24,1:03:50.70,Default,,0,0,0,,{\blur3}我根本看不懂 烂透了
+Dialogue: 0,1:03:50.78,1:03:52.53,Default,,0,0,0,,{\blur3}我的创作理念是…
+Dialogue: 0,1:03:52.62,1:03:54.24,Default,,0,0,0,,{\blur3}我付钱请你写的是
+Dialogue: 0,1:03:54.33,1:03:58.87,Default,,0,0,0,,{\blur3}大头外星人在干草堆上女人的故事
+Dialogue: 0,1:03:58.96,1:04:00.12,Default,,0,0,0,,{\blur3}而你写了这些垃圾
+Dialogue: 0,1:04:00.25,1:04:03.67,Default,,0,0,0,,{\blur3}会害我被传唤且名声扫地
+Dialogue: 0,1:04:04.96,1:04:06.30,Default,,0,0,0,,{\blur3}重写
+Dialogue: 0,1:04:07.13,1:04:08.63,Default,,0,0,0,,{\blur3}该死的法兰克金
+Dialogue: 0,1:04:08.76,1:04:11.51,Default,,0,0,0,,{\blur3}我承诺要改写到他开心为止
+Dialogue: 0,1:04:11.59,1:04:15.26,Default,,0,0,0,,{\blur3}你要为了这种垃圾开夜车？
+Dialogue: 0,1:04:15.35,1:04:16.35,Default,,0,0,0,,{\blur3}为了什么
+Dialogue: 0,1:04:16.43,1:04:19.02,Default,,0,0,0,,{\blur3}达到他的文学与政治标准？
+Dialogue: 0,1:04:19.10,1:04:22.81,Default,,0,0,0,,{\blur3}这东西不该扯上任何政治标准
+Dialogue: 0,1:04:22.94,1:04:25.65,Default,,0,0,0,,{\blur3}这是《外星人与农庄女》 拜托
+Dialogue: 0,1:04:25.78,1:04:27.11,Default,,0,0,0,,{\blur3}你到底在想什么？
+Dialogue: 0,1:04:27.19,1:04:28.53,Default,,0,0,0,,{\blur3}我在想
+Dialogue: 0,1:04:28.61,1:04:32.03,Default,,0,0,0,,{\blur3}这就是我写作的初衷 写出重要的事物
+Dialogue: 0,1:04:32.11,1:04:33.45,Default,,0,0,0,,{\blur3}你还记得吗？
+Dialogue: 0,1:04:33.53,1:04:37.66,Default,,0,0,0,,{\blur3}我是曾入围普利兹奖的记者
+Dialogue: 0,1:04:37.79,1:04:41.12,Default,,0,0,0,,{\blur3}我在西班牙服役 还认识海明威
+Dialogue: 0,1:04:41.21,1:04:43.96,Default,,0,0,0,,{\blur3}- 我真的认识他 - 胡说
+Dialogue: 0,1:04:44.04,1:04:45.17,Default,,0,0,0,,{\blur3}他也认识我
+Dialogue: 0,1:04:45.29,1:04:47.67,Default,,0,0,0,,{\blur3}假如在巴黎的酒吧遇见他
+Dialogue: 0,1:04:47.80,1:04:49.13,Default,,0,0,0,,{\blur3}他可能不记得我名字
+Dialogue: 0,1:04:49.22,1:04:50.26,Default,,0,0,0,,{\blur3}但至少会招手
+Dialogue: 0,1:04:50.34,1:04:51.68,Default,,0,0,0,,{\blur3}希望如此
+Dialogue: 0,1:04:51.80,1:04:54.80,Default,,0,0,0,,{\blur3}你得过该死的国家图书奖
+Dialogue: 0,1:04:55.39,1:04:56.85,Default,,0,0,0,,{\blur3}但现在我们在做什么？
+Dialogue: 0,1:05:01.52,1:05:02.52,Default,,0,0,0,,{\blur3}回到正题
+Dialogue: 0,1:05:03.48,1:05:05.57,Default,,0,0,0,,{\blur3}外星人让农庄女怀孕了
+Dialogue: 0,1:05:05.65,1:05:06.73,Default,,0,0,0,,{\blur3}- 没错 - 为什么？
+Dialogue: 0,1:05:06.82,1:05:10.28,Default,,0,0,0,,{\blur3}因为他想播种并繁殖新的物种
+Dialogue: 0,1:05:10.36,1:05:11.53,Default,,0,0,0,,{\blur3}- 然后占领地球？ - 不
+Dialogue: 0,1:05:11.65,1:05:15.16,Default,,0,0,0,,{\blur3}因为她让他想起家乡的女孩
+Dialogue: 0,1:05:15.74,1:05:16.78,Default,,0,0,0,,{\blur3}但他头这么大
+Dialogue: 0,1:05:16.87,1:05:19.00,Default,,0,0,0,,{\blur3}他家乡的女孩 头一定也很大
+Dialogue: 0,1:05:19.08,1:05:21.29,Default,,0,0,0,,{\blur3}人不会迷恋外表
+Dialogue: 0,1:05:21.37,1:05:22.83,Default,,0,0,0,,{\blur3}他爱上了她
+Dialogue: 0,1:05:23.83,1:05:25.25,Default,,0,0,0,,{\blur3}好吧
+Dialogue: 0,1:05:25.33,1:05:27.59,Default,,0,0,0,,{\blur3}你想太多了
+Dialogue: 0,1:05:32.26,1:05:34.09,Default,,0,0,0,,{\blur3}- 你还好吗？ - 还好
+Dialogue: 0,1:05:34.18,1:05:35.89,Default,,0,0,0,,{\blur3}要不要休息一下？
+Dialogue: 0,1:05:36.01,1:05:37.68,Default,,0,0,0,,{\blur3}不 请继续
+Dialogue: 0,1:05:40.85,1:05:42.23,Default,,0,0,0,,{\blur3}好吧
+Dialogue: 0,1:05:42.35,1:05:46.44,Default,,0,0,0,,{\blur3}难道你不怀念过去的时光？
+Dialogue: 0,1:05:46.52,1:05:47.90,Default,,0,0,0,,{\blur3}不说是伟大 但至少是好作品
+Dialogue: 0,1:05:49.19,1:05:52.03,Default,,0,0,0,,{\blur3}你脑中一定有很多好点子 是吧？
+Dialogue: 0,1:05:52.90,1:05:54.70,Default,,0,0,0,,{\blur3}有几个
+Dialogue: 0,1:05:54.78,1:05:57.70,Default,,0,0,0,,{\blur3}其中有一个萦绕不去
+Dialogue: 0,1:05:57.78,1:06:03.50,Default,,0,0,0,,{\blur3}好几年前 克莉欧和我在墨西哥看斗牛
+Dialogue: 0,1:06:03.58,1:06:06.58,Default,,0,0,0,,{\blur3}那只牛死了
+Dialogue: 0,1:06:06.75,1:06:11.01,Default,,0,0,0,,{\blur3}成千上万的观众却在欢呼
+Dialogue: 0,1:06:11.09,1:06:12.92,Default,,0,0,0,,{\blur3}除了三个人
+Dialogue: 0,1:06:13.05,1:06:17.93,Default,,0,0,0,,{\blur3}克莉欧 我 我们前面的一个小男孩
+Dialogue: 0,1:06:19.93,1:06:21.60,Default,,0,0,0,,{\blur3}他哭了
+Dialogue: 0,1:06:23.98,1:06:26.10,Default,,0,0,0,,{\blur3}我一直好奇他哭的原因
+Dialogue: 0,1:06:28.11,1:06:30.48,Default,,0,0,0,,{\blur3}等你找到答案后 就会写出来了
+Dialogue: 0,1:06:32.61,1:06:37.41,Default,,0,0,0,,{\blur3}答应我 别交给该死的法兰克金
+Dialogue: 0,1:06:38.66,1:06:39.91,Default,,0,0,0,,{\blur3}拜托
+Dialogue: 0,1:06:41.58,1:06:45.29,Default,,0,0,0,,{\blur3}颁发最佳编剧奖的演员也热爱阅读
+Dialogue: 0,1:06:45.37,1:06:46.79,Default,,0,0,0,,{\blur3}欢迎柯克·道格拉斯
+Dialogue: 0,1:06:46.87,1:06:49.84,Default,,0,0,0,,{\blur3}妮琪 快点
+Dialogue: 0,1:06:49.92,1:06:52.00,Default,,0,0,0,,{\blur3}是谁颁奖？
+Dialogue: 0,1:06:53.55,1:06:54.88,Default,,0,0,0,,{\blur3}来了来了
+Dialogue: 0,1:06:58.89,1:07:00.18,Default,,0,0,0,,{\blur3}信封
+Dialogue: 0,1:07:02.43,1:07:05.64,Default,,0,0,0,,{\blur3}奥斯卡得主是
+Dialogue: 0,1:07:05.73,1:07:08.56,Default,,0,0,0,,{\blur3}《罗马假日》编剧 伊恩·麦克连·汉特
+Dialogue: 0,1:07:08.65,1:07:12.90,Default,,0,0,0,,{\blur3}万岁 爸 你得奖了
+Dialogue: 0,1:07:12.98,1:07:15.19,Default,,0,0,0,,{\blur3}爸 太棒了
+Dialogue: 0,1:07:19.53,1:07:22.62,Default,,0,0,0,,{\blur3}我代表伊恩·麦克连·汉特领奖
+Dialogue: 0,1:07:22.70,1:07:24.91,Default,,0,0,0,,{\blur3}我们可以过幸福快乐的生活了吗？
+Dialogue: 0,1:07:36.30,1:07:38.88,Default,,0,0,0,,{\blur3}我不想要
+Dialogue: 0,1:07:38.97,1:07:40.93,Default,,0,0,0,,{\blur3}我也不想要
+Dialogue: 0,1:07:41.01,1:07:42.30,Default,,0,0,0,,{\blur3}上面写了你的名字
+Dialogue: 0,1:07:43.64,1:07:44.77,Default,,0,0,0,,{\blur3}但剧本是你写的
+Dialogue: 0,1:07:45.18,1:07:46.73,Default,,0,0,0,,{\blur3}他们把奖给了你
+Dialogue: 0,1:07:48.81,1:07:50.86,Default,,0,0,0,,{\blur3}它让我创造了奇迹
+Dialogue: 0,1:07:52.61,1:07:54.32,Default,,0,0,0,,{\blur3}这是轰动世界的剧本
+Dialogue: 0,1:07:56.24,1:07:57.53,Default,,0,0,0,,{\blur3}- 爸 - 在
+Dialogue: 0,1:07:57.61,1:07:59.20,Default,,0,0,0,,{\blur3}有你的电话
+Dialogue: 0,1:07:59.32,1:08:00.95,Default,,0,0,0,,{\blur3}找哪个名字？
+Dialogue: 0,1:08:01.03,1:08:03.41,Default,,0,0,0,,{\blur3}找你 一个叫巴迪·罗斯的人打来的
+Dialogue: 0,1:08:06.20,1:08:11.08,Default,,0,0,0,,{\blur3}看来传言是真的？《罗马假日》是你写的？
+Dialogue: 0,1:08:13.92,1:08:15.96,Default,,0,0,0,,{\blur3}我能帮上什么忙吗 巴迪？
+Dialogue: 0,1:08:16.59,1:08:20.84,Default,,0,0,0,,{\blur3}电影票房失利 让我坠入万丈深渊
+Dialogue: 0,1:08:20.93,1:08:22.76,Default,,0,0,0,,{\blur3}终于要拍一部
+Dialogue: 0,1:08:22.85,1:08:23.97,Default,,0,0,0,,{\blur3}超级大片
+Dialogue: 0,1:08:24.05,1:08:27.52,Default,,0,0,0,,{\blur3}我找来三位巨星 但剧本…
+Dialogue: 0,1:08:29.23,1:08:32.10,Default,,0,0,0,,{\blur3}别提了 根本没剧本
+Dialogue: 0,1:08:32.19,1:08:34.65,Default,,0,0,0,,{\blur3}我找了11个作家都写不好 演员即将退出
+Dialogue: 0,1:08:34.73,1:08:38.69,Default,,0,0,0,,{\blur3}若真如此 我将失去一切
+Dialogue: 0,1:08:39.32,1:08:41.70,Default,,0,0,0,,{\blur3}你何时要拍？
+Dialogue: 0,1:08:41.78,1:08:43.12,Default,,0,0,0,,{\blur3}十天后
+Dialogue: 0,1:08:44.37,1:08:45.79,Default,,0,0,0,,{\blur3}有任何参考资料吗？
+Dialogue: 0,1:08:52.12,1:08:54.92,Default,,0,0,0,,{\blur3}当然 我无法让你署名
+Dialogue: 0,1:08:55.00,1:08:57.00,Default,,0,0,0,,{\blur3}开拍后才能支付酬劳
+Dialogue: 0,1:09:00.63,1:09:03.47,Default,,0,0,0,,{\blur3}要是你唾弃我 我不会怪你
+Dialogue: 0,1:09:04.60,1:09:06.97,Default,,0,0,0,,{\blur3}但我们曾经合作过好作品
+Dialogue: 0,1:09:08.43,1:09:09.98,Default,,0,0,0,,{\blur3}真的
+Dialogue: 0,1:09:13.77,1:09:15.11,Default,,0,0,0,,{\blur3}拜托你
+Dialogue: 0,1:09:17.90,1:09:22.15,Default,,0,0,0,,{\blur3}我还要帮金氏兄弟改写一部剧本
+Dialogue: 0,1:09:22.24,1:09:23.86,Default,,0,0,0,,{\blur3}无法两者兼顾
+Dialogue: 0,1:09:25.07,1:09:27.70,Default,,0,0,0,,{\blur3}剧本在这里 我需要你帮忙接手
+Dialogue: 0,1:09:28.91,1:09:30.70,Default,,0,0,0,,{\blur3}好让你帮助伟大的巴迪·罗斯
+Dialogue: 0,1:09:31.87,1:09:34.12,Default,,0,0,0,,{\blur3}这样我们才能继续消灭那张黑名单
+Dialogue: 0,1:09:34.21,1:09:36.34,Default,,0,0,0,,{\blur3}天啊 又来了
+Dialogue: 0,1:09:36.42,1:09:39.05,Default,,0,0,0,,{\blur3}如果巴迪拿到好剧本 会是部卖座大片
+Dialogue: 0,1:09:39.13,1:09:40.13,Default,,0,0,0,,{\blur3}剧本是你给他的
+Dialogue: 0,1:09:40.21,1:09:41.84,Default,,0,0,0,,{\blur3}我是卖给他
+Dialogue: 0,1:09:41.92,1:09:43.47,Default,,0,0,0,,{\blur3}为了赚钱 这就是我们写剧本的目的
+Dialogue: 0,1:09:43.55,1:09:44.59,Default,,0,0,0,,{\blur3}就为了钱
+Dialogue: 0,1:09:44.68,1:09:46.97,Default,,0,0,0,,{\blur3}你怎么看不清这点？
+Dialogue: 0,1:09:47.05,1:09:51.23,Default,,0,0,0,,{\blur3}拍出卖座片 我们就能继续接拍大片
+Dialogue: 0,1:09:51.31,1:09:54.56,Default,,0,0,0,,{\blur3}讽刺地终结这腐败的一切
+Dialogue: 0,1:09:54.65,1:09:57.19,Default,,0,0,0,,{\blur3}所有被封杀的剧作家都活跃得很
+Dialogue: 0,1:09:57.27,1:09:59.44,Default,,0,0,0,,{\blur3}天哪 你一定要讲得这么
+Dialogue: 0,1:09:59.53,1:10:01.82,Default,,0,0,0,,{\blur3}冠冕堂皇吗？
+Dialogue: 0,1:10:01.90,1:10:04.20,Default,,0,0,0,,{\blur3}我不会帮你协助巴迪·罗斯
+Dialogue: 0,1:10:04.28,1:10:05.74,Default,,0,0,0,,{\blur3}天啊
+Dialogue: 0,1:10:05.82,1:10:07.45,Default,,0,0,0,,{\blur3}- 你总是要拒绝我的好点子 - 不 我…
+Dialogue: 0,1:10:07.58,1:10:09.91,Default,,0,0,0,,{\blur3}让我们有所作为吧
+Dialogue: 0,1:10:09.99,1:10:11.66,Default,,0,0,0,,{\blur3}那些混蛋做了伤天害理的事
+Dialogue: 0,1:10:11.75,1:10:14.96,Default,,0,0,0,,{\blur3}我们应该把他们告到一败涂地
+Dialogue: 0,1:10:15.08,1:10:17.13,Default,,0,0,0,,{\blur3}- 包括那些议员 - 好主意
+Dialogue: 0,1:10:17.21,1:10:18.21,Default,,0,0,0,,{\blur3}- 还有制作人 - 太棒了
+Dialogue: 0,1:10:18.29,1:10:19.71,Default,,0,0,0,,{\blur3}- 还有片厂 - 这样更好
+Dialogue: 0,1:10:19.80,1:10:21.67,Default,,0,0,0,,{\blur3}- 我们应该告上法庭 - 很好
+Dialogue: 0,1:10:21.76,1:10:24.17,Default,,0,0,0,,{\blur3}继续打败仗 把钱都送给律师
+Dialogue: 0,1:10:24.26,1:10:25.84,Default,,0,0,0,,{\blur3}我情愿为正义而败
+Dialogue: 0,1:10:25.93,1:10:27.01,Default,,0,0,0,,{\blur3}为什么？
+Dialogue: 0,1:10:27.09,1:10:29.39,Default,,0,0,0,,{\blur3}失败就是失败
+Dialogue: 0,1:10:29.47,1:10:34.31,Default,,0,0,0,,{\blur3}你输 我输 大家都输
+Dialogue: 0,1:10:34.39,1:10:36.23,Default,,0,0,0,,{\blur3}你看不出来吗？
+Dialogue: 0,1:10:36.31,1:10:39.86,Default,,0,0,0,,{\blur3}国家依然噤若寒蝉 死气沉沉
+Dialogue: 0,1:10:40.52,1:10:42.99,Default,,0,0,0,,{\blur3}你真以为可以这样过一辈子吗？
+Dialogue: 0,1:10:43.07,1:10:44.86,Default,,0,0,0,,{\blur3}我是过不完了
+Dialogue: 0,1:10:47.74,1:10:51.66,Default,,0,0,0,,{\blur3}亚伦 我们办得到的
+Dialogue: 0,1:10:51.74,1:10:54.00,Default,,0,0,0,,{\blur3}我们能打败他们 我们能赢
+Dialogue: 0,1:10:54.08,1:10:55.96,Default,,0,0,0,,{\blur3}- 我不在乎输赢 - 胡说
+Dialogue: 0,1:10:56.04,1:10:57.17,Default,,0,0,0,,{\blur3}每个人都想赢
+Dialogue: 0,1:10:57.25,1:10:59.79,Default,,0,0,0,,{\blur3}不 你想赢 我想改变世界
+Dialogue: 0,1:10:59.88,1:11:02.59,Default,,0,0,0,,{\blur3}- 只要赢了就能改变世界 - 才怪
+Dialogue: 0,1:11:02.67,1:11:05.55,Default,,0,0,0,,{\blur3}你只想赢得一座标着你名字的奥斯卡奖
+Dialogue: 0,1:11:05.63,1:11:09.68,Default,,0,0,0,,{\blur3}这样就能赚更多钱来 为那些白痴写一堆烂戏
+Dialogue: 0,1:11:09.76,1:11:13.18,Default,,0,0,0,,{\blur3}你真幼稚 我得把什么都解释清楚吗
+Dialogue: 0,1:11:13.27,1:11:14.11,Default,,0,0,0,,{\blur3}不必解释
+Dialogue: 0,1:11:14.35,1:11:15.64,Default,,0,0,0,,{\blur3}- 你真的不必解释 - 滚吧
+Dialogue: 0,1:11:15.73,1:11:18.31,Default,,0,0,0,,{\blur3}你想做什么都可以
+Dialogue: 0,1:11:18.40,1:11:20.94,Default,,0,0,0,,{\blur3}但别假装你重振事业之后
+Dialogue: 0,1:11:21.02,1:11:23.86,Default,,0,0,0,,{\blur3}就能拯救全人类 好吗？
+Dialogue: 0,1:11:23.94,1:11:25.95,Default,,0,0,0,,{\blur3}我这么做是为了大家
+Dialogue: 0,1:11:29.24,1:11:30.62,Default,,0,0,0,,{\blur3}亚伦
+Dialogue: 0,1:11:43.67,1:11:46.22,Default,,0,0,0,,{\blur3}愚不可及
+Dialogue: 0,1:12:28.38,1:12:32.39,Default,,0,0,0,,{\blur3}祝你生日快乐
+Dialogue: 0,1:12:32.47,1:12:36.97,Default,,0,0,0,,{\blur3}祝你生日快乐 亲爱的妮可拉
+Dialogue: 0,1:12:37.68,1:12:42.19,Default,,0,0,0,,{\blur3}祝你生日快乐
+Dialogue: 0,1:12:42.86,1:12:44.40,Default,,0,0,0,,{\blur3}许个愿
+Dialogue: 0,1:12:46.61,1:12:47.99,Default,,0,0,0,,{\blur3}我拍到了
+Dialogue: 0,1:12:48.61,1:12:50.36,Default,,0,0,0,,{\blur3}甜蜜16岁
+Dialogue: 0,1:12:50.45,1:12:52.07,Default,,0,0,0,,{\blur3}靠你妹妹近一点
+Dialogue: 0,1:12:52.16,1:12:53.32,Default,,0,0,0,,{\blur3}克里斯 一起来
+Dialogue: 0,1:12:53.70,1:12:55.62,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:12:55.70,1:12:57.37,Default,,0,0,0,,{\blur3}我们真不用去敲爸爸的门？
+Dialogue: 0,1:12:58.20,1:12:59.50,Default,,0,0,0,,{\blur3}不用
+Dialogue: 0,1:12:59.58,1:13:00.79,Default,,0,0,0,,{\blur3}他连五分钟都抽不出来？
+Dialogue: 0,1:13:00.91,1:13:02.08,Default,,0,0,0,,{\blur3}是啊
+Dialogue: 0,1:13:03.04,1:13:04.25,Default,,0,0,0,,{\blur3}二分钟呢？
+Dialogue: 0,1:13:04.38,1:13:05.54,Default,,0,0,0,,{\blur3}妮可
+Dialogue: 0,1:13:05.63,1:13:07.50,Default,,0,0,0,,{\blur3}一分钟就好
+Dialogue: 0,1:13:12.43,1:13:13.84,Default,,0,0,0,,{\blur3}克里斯 拿个好点的盘子 谢谢
+Dialogue: 0,1:13:13.93,1:13:15.60,Default,,0,0,0,,{\blur3}- 好的 妈妈 - 谢谢
+Dialogue: 0,1:13:19.85,1:13:21.10,Default,,0,0,0,,{\blur3}爸
+Dialogue: 0,1:13:22.98,1:13:24.90,Default,,0,0,0,,{\blur3}- 爸 - 走开
+Dialogue: 0,1:13:26.40,1:13:27.94,Default,,0,0,0,,{\blur3}我们在吃生日蛋糕
+Dialogue: 0,1:13:28.03,1:13:31.78,Default,,0,0,0,,{\blur3}如果你听到我在工作 就别敲门
+Dialogue: 0,1:13:31.86,1:13:33.74,Default,,0,0,0,,{\blur3}但这是我的生日
+Dialogue: 0,1:13:33.82,1:13:36.12,Default,,0,0,0,,{\blur3}别敲门 千万不要
+Dialogue: 0,1:13:36.20,1:13:38.83,Default,,0,0,0,,{\blur3}就算房子着火 你也不想知道？
+Dialogue: 0,1:13:38.91,1:13:42.66,Default,,0,0,0,,{\blur3}我在澡盆里 泡着水呢
+Dialogue: 0,1:13:42.75,1:13:46.63,Default,,0,0,0,,{\blur3}我敢说就算全国都失火
+Dialogue: 0,1:13:46.71,1:13:50.13,Default,,0,0,0,,{\blur3}我还是能继续为这个家做牛做马
+Dialogue: 0,1:13:50.21,1:13:52.97,Default,,0,0,0,,{\blur3}我只求不受打扰
+Dialogue: 0,1:13:53.05,1:13:56.30,Default,,0,0,0,,{\blur3}去你的 只不过是切个生日蛋糕
+Dialogue: 0,1:13:57.55,1:13:59.89,Default,,0,0,0,,{\blur3}怎样？太荒谬了
+Dialogue: 0,1:14:01.02,1:14:04.39,Default,,0,0,0,,{\blur3}我不知道进行到哪里了 天啊
+Dialogue: 0,1:14:09.07,1:14:13.40,Default,,0,0,0,,{\blur3}或许你能如愿活得长长久久
+Dialogue: 0,1:14:13.49,1:14:16.20,Default,,0,0,0,,{\blur3}但你将永远无法安心入眠
+Dialogue: 0,1:14:16.28,1:14:20.91,Default,,0,0,0,,{\blur3}你会一辈子害怕夜里发出的声响
+Dialogue: 0,1:14:20.99,1:14:25.33,Default,,0,0,0,,{\blur3}我们都将如此 我不能害你变成这样
+Dialogue: 0,1:14:25.42,1:14:27.96,Default,,0,0,0,,{\blur3}因此我必须说服你
+Dialogue: 0,1:14:40.64,1:14:45.02,Default,,0,0,0,,{\blur3}毕竟这就是朋友该做的事
+Dialogue: 0,1:15:01.45,1:15:03.04,Default,,0,0,0,,{\blur3}别帮他说话
+Dialogue: 0,1:15:03.12,1:15:05.16,Default,,0,0,0,,{\blur3}他知道自己错了
+Dialogue: 0,1:15:05.25,1:15:07.46,Default,,0,0,0,,{\blur3}但他完全没道歉
+Dialogue: 0,1:15:07.54,1:15:08.79,Default,,0,0,0,,{\blur3}我觉得你让他大吃一惊
+Dialogue: 0,1:15:09.38,1:15:11.84,Default,,0,0,0,,{\blur3}他不习惯家里还有其他大人在
+Dialogue: 0,1:15:11.92,1:15:14.46,Default,,0,0,0,,{\blur3}他总是对的
+Dialogue: 0,1:15:14.55,1:15:16.59,Default,,0,0,0,,{\blur3}你怎么能受得了？
+Dialogue: 0,1:15:16.68,1:15:19.01,Default,,0,0,0,,{\blur3}有时确实难以忍受 尤其是最近
+Dialogue: 0,1:15:21.01,1:15:23.69,Default,,0,0,0,,{\blur3}不如跟我一起去躺楼下
+Dialogue: 0,1:15:24.02,1:15:25.39,Default,,0,0,0,,{\blur3}我想给你看一样东西
+Dialogue: 0,1:15:31.82,1:15:32.90,Default,,0,0,0,,{\blur3}有看见我的手套吗？
+Dialogue: 0,1:15:35.94,1:15:37.28,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:15:47.62,1:15:49.71,Default,,0,0,0,,{\blur3}你拿这当他的头来打吗？
+Dialogue: 0,1:15:53.25,1:15:56.01,Default,,0,0,0,,{\blur3}不 但你可以
+Dialogue: 0,1:16:11.23,1:16:14.36,Default,,0,0,0,,{\blur3}妮可 剧本好了吗？
+Dialogue: 0,1:16:14.44,1:16:15.44,Default,,0,0,0,,{\blur3}太棒了
+Dialogue: 0,1:16:15.94,1:16:18.07,Default,,0,0,0,,{\blur3}跟你爸说…
+Dialogue: 0,1:16:41.18,1:16:45.06,Default,,0,0,0,,{\blur3}你好 我找亚伦·赫德
+Dialogue: 0,1:16:45.14,1:16:46.93,Default,,0,0,0,,{\blur3}特朗勃先生 我是安德鲁
+Dialogue: 0,1:16:47.93,1:16:51.23,Default,,0,0,0,,{\blur3}天啊 你长这么大了
+Dialogue: 0,1:16:52.31,1:16:56.11,Default,,0,0,0,,{\blur3}我想你爸
+Dialogue: 0,1:16:56.28,1:16:58.53,Default,,0,0,0,,{\blur3}一定说过我的坏话
+Dialogue: 0,1:16:58.61,1:17:00.03,Default,,0,0,0,,{\blur3}我跟你保证
+Dialogue: 0,1:17:00.11,1:17:02.82,Default,,0,0,0,,{\blur3}他说的都是真的
+Dialogue: 0,1:17:02.91,1:17:05.16,Default,,0,0,0,,{\blur3}他在家吗？
+Dialogue: 0,1:17:07.04,1:17:09.33,Default,,0,0,0,,{\blur3}抱歉 我以为你有听到消息
+Dialogue: 0,1:17:26.56,1:17:28.10,Default,,0,0,0,,{\blur3}- 真遗憾 - 非常感谢
+Dialogue: 0,1:17:32.10,1:17:33.44,Default,,0,0,0,,{\blur3}安德鲁
+Dialogue: 0,1:17:35.48,1:17:37.36,Default,,0,0,0,,{\blur3}约书亚
+Dialogue: 0,1:17:37.44,1:17:40.44,Default,,0,0,0,,{\blur3}爸爸留了一样东西给你
+Dialogue: 0,1:17:40.53,1:17:41.65,Default,,0,0,0,,{\blur3}是份记录
+Dialogue: 0,1:17:42.49,1:17:45.24,Default,,0,0,0,,{\blur3}记了他欠你和其他人的钱
+Dialogue: 0,1:17:47.91,1:17:50.29,Default,,0,0,0,,{\blur3}抱歉 我也希望能把钱还清
+Dialogue: 0,1:17:53.12,1:17:54.42,Default,,0,0,0,,{\blur3}别这么说 安德鲁
+Dialogue: 0,1:17:56.04,1:17:57.59,Default,,0,0,0,,{\blur3}是我欠他的
+Dialogue: 0,1:18:01.34,1:18:03.30,Default,,0,0,0,,{\blur3}这些都是我欠的债
+Dialogue: 0,1:18:05.93,1:18:07.26,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:18:31.08,1:18:32.62,Default,,0,0,0,,{\blur3}你好 艾迪
+Dialogue: 0,1:18:35.79,1:18:37.92,Default,,0,0,0,,{\blur3}没想到你会来找我
+Dialogue: 0,1:18:42.96,1:18:44.38,Default,,0,0,0,,{\blur3}有什么事吗？
+Dialogue: 0,1:18:45.05,1:18:46.55,Default,,0,0,0,,{\blur3}亚伦死了
+Dialogue: 0,1:18:46.64,1:18:48.85,Default,,0,0,0,,{\blur3}我在外景拍戏时听说了
+Dialogue: 0,1:18:53.98,1:18:57.35,Default,,0,0,0,,{\blur3}这是你当初捐给辩护基金的钱
+Dialogue: 0,1:18:57.44,1:18:59.69,Default,,0,0,0,,{\blur3}我们欠你的 包括亚伦在内
+Dialogue: 0,1:18:59.77,1:19:02.03,Default,,0,0,0,,{\blur3}不 我不打算要回来
+Dialogue: 0,1:19:02.23,1:19:04.32,Default,,0,0,0,,{\blur3}但我们希望把账结清
+Dialogue: 0,1:19:06.03,1:19:09.28,Default,,0,0,0,,{\blur3}什么意思？你话中有话
+Dialogue: 0,1:19:10.62,1:19:13.95,Default,,0,0,0,,{\blur3}你 亚伦和好莱坞十君子都瞧不起我
+Dialogue: 0,1:19:19.54,1:19:22.50,Default,,0,0,0,,{\blur3}好吧 但请听我解释
+Dialogue: 0,1:19:26.55,1:19:28.68,Default,,0,0,0,,{\blur3}在你坐牢之后
+Dialogue: 0,1:19:31.01,1:19:33.35,Default,,0,0,0,,{\blur3}我一整年都没有工作
+Dialogue: 0,1:19:35.60,1:19:38.02,Default,,0,0,0,,{\blur3}没有戏约 连试演都没有
+Dialogue: 0,1:19:38.90,1:19:43.19,Default,,0,0,0,,{\blur3}人人都与我保持距离
+Dialogue: 0,1:19:43.28,1:19:44.36,Default,,0,0,0,,{\blur3}那些我爱的人
+Dialogue: 0,1:19:46.57,1:19:48.49,Default,,0,0,0,,{\blur3}以及靠我发大财的人
+Dialogue: 0,1:19:50.28,1:19:51.66,Default,,0,0,0,,{\blur3}我被传唤至委员会
+Dialogue: 0,1:19:51.74,1:19:54.33,Default,,0,0,0,,{\blur3}可是为什么 我可什么也没做
+Dialogue: 0,1:19:54.41,1:19:57.87,Default,,0,0,0,,{\blur3}我们什么都没做 只是不懂事的小娃儿
+Dialogue: 0,1:19:58.62,1:20:01.59,Default,,0,0,0,,{\blur3}没做任何不法勾当
+Dialogue: 0,1:20:02.79,1:20:04.63,Default,,0,0,0,,{\blur3}我只想回到原本的生活
+Dialogue: 0,1:20:06.30,1:20:10.05,Default,,0,0,0,,{\blur3}他们掌握了每一个名字 包括你和亚伦
+Dialogue: 0,1:20:10.14,1:20:14.39,Default,,0,0,0,,{\blur3}我提供的资讯 他们早就有了
+Dialogue: 0,1:20:14.47,1:20:19.35,Default,,0,0,0,,{\blur3}我终结了这一切 仅此而已
+Dialogue: 0,1:20:19.44,1:20:25.19,Default,,0,0,0,,{\blur3}艾迪 提供他们无权过问的资讯
+Dialogue: 0,1:20:25.28,1:20:29.24,Default,,0,0,0,,{\blur3}没办法终结任何事情
+Dialogue: 0,1:20:29.32,1:20:32.53,Default,,0,0,0,,{\blur3}你要教我该怎么做吗？
+Dialogue: 0,1:20:33.58,1:20:35.62,Default,,0,0,0,,{\blur3}像你对付议会那样？
+Dialogue: 0,1:20:37.08,1:20:40.04,Default,,0,0,0,,{\blur3}难道你以这件事情为荣吗？
+Dialogue: 0,1:20:40.12,1:20:43.92,Default,,0,0,0,,{\blur3}谁有资格感到荣耀？
+Dialogue: 0,1:20:44.00,1:20:45.42,Default,,0,0,0,,{\blur3}只有你
+Dialogue: 0,1:20:45.50,1:20:47.55,Default,,0,0,0,,{\blur3}使用那些假名和掩护
+Dialogue: 0,1:20:47.63,1:20:49.01,Default,,0,0,0,,{\blur3}成功重返编剧事业
+Dialogue: 0,1:20:49.09,1:20:52.09,Default,,0,0,0,,{\blur3}而我却必须每天亲身面对世界
+Dialogue: 0,1:20:52.18,1:20:53.76,Default,,0,0,0,,{\blur3}这是我的工作
+Dialogue: 0,1:20:56.06,1:20:58.77,Default,,0,0,0,,{\blur3}我没办法化身为另一个人
+Dialogue: 0,1:20:58.85,1:21:00.94,Default,,0,0,0,,{\blur3}我当时别无选择
+Dialogue: 0,1:21:01.02,1:21:03.10,Default,,0,0,0,,{\blur3}你做得心甘情愿 艾迪
+Dialogue: 0,1:21:04.52,1:21:06.53,Default,,0,0,0,,{\blur3}为了获得更大的成功
+Dialogue: 0,1:21:07.94,1:21:10.86,Default,,0,0,0,,{\blur3}接拍更多电影 赚更多钱
+Dialogue: 0,1:21:11.66,1:21:14.66,Default,,0,0,0,,{\blur3}买更多死人画的烂东西挂在墙上
+Dialogue: 0,1:21:22.46,1:21:27.17,Default,,0,0,0,,{\blur3}我的事我自己承担 但你害亚伦
+Dialogue: 0,1:21:27.25,1:21:29.42,Default,,0,0,0,,{\blur3}少活了多少年
+Dialogue: 0,1:21:31.05,1:21:34.64,Default,,0,0,0,,{\blur3}只为了昭告天下 自己是个叛逆天才？
+Dialogue: 0,1:21:39.31,1:21:41.23,Default,,0,0,0,,{\blur3}你必须承担这个责任
+Dialogue: 0,1:21:53.91,1:21:55.66,Default,,0,0,0,,{\blur3}一个人喝吗？
+Dialogue: 0,1:21:57.16,1:21:58.33,Default,,0,0,0,,{\blur3}我愿意
+Dialogue: 0,1:21:59.54,1:22:02.08,Default,,0,0,0,,{\blur3}你最近都在忙什么？
+Dialogue: 0,1:22:04.29,1:22:08.13,Default,,0,0,0,,{\blur3}赫达 也许再喝一杯我就会告诉你
+Dialogue: 0,1:22:08.21,1:22:09.80,Default,,0,0,0,,{\blur3}那我请你
+Dialogue: 0,1:22:10.59,1:22:11.84,Default,,0,0,0,,{\blur3}一样的再来一杯
+Dialogue: 0,1:22:12.01,1:22:13.26,Default,,0,0,0,,{\blur3}是 霍珀小姐
+Dialogue: 0,1:22:14.72,1:22:17.10,Default,,0,0,0,,{\blur3}拜托 我听见谣言了
+Dialogue: 0,1:22:19.06,1:22:22.31,Default,,0,0,0,,{\blur3}告诉我 你仍在战场上英勇奋战
+Dialogue: 0,1:22:23.64,1:22:25.52,Default,,0,0,0,,{\blur3}快来打我的脸
+Dialogue: 0,1:22:25.60,1:22:27.90,Default,,0,0,0,,{\blur3}告诉我你在偷偷写哪一部片
+Dialogue: 0,1:22:27.98,1:22:29.48,Default,,0,0,0,,{\blur3}或许我已经听说过了
+Dialogue: 0,1:22:31.78,1:22:33.11,Default,,0,0,0,,{\blur3}或许吧
+Dialogue: 0,1:22:33.19,1:22:36.11,Default,,0,0,0,,{\blur3}抱歉 拍片忙坏我了
+Dialogue: 0,1:22:36.20,1:22:38.87,Default,,0,0,0,,{\blur3}巴迪 你认识达尔顿·特朗勃吗？
+Dialogue: 0,1:22:42.00,1:22:45.58,Default,,0,0,0,,{\blur3}认识 我们以前曾经合作过
+Dialogue: 0,1:22:45.67,1:22:47.17,Default,,0,0,0,,{\blur3}是在米高梅吗？好几百年前的事了
+Dialogue: 0,1:22:47.25,1:22:49.63,Default,,0,0,0,,{\blur3}很高兴再次见到你 巴迪
+Dialogue: 0,1:22:50.88,1:22:52.67,Default,,0,0,0,,{\blur3}听说你的新剧本难产
+Dialogue: 0,1:22:52.76,1:22:54.30,Default,,0,0,0,,{\blur3}或许你该雇用他
+Dialogue: 0,1:22:54.38,1:22:57.68,Default,,0,0,0,,{\blur3}他以前写得很好但很贵 现在应该会便宜点
+Dialogue: 0,1:22:57.76,1:23:01.22,Default,,0,0,0,,{\blur3}你以前不愿意 但巴迪把你供出来了
+Dialogue: 0,1:23:03.18,1:23:05.69,Default,,0,0,0,,{\blur3}你不知道吗？
+Dialogue: 0,1:23:05.77,1:23:07.90,Default,,0,0,0,,{\blur3}谣传他雇用了一个不该雇的人
+Dialogue: 0,1:23:07.98,1:23:10.98,Default,,0,0,0,,{\blur3}所以他被传唤出庭作证
+Dialogue: 0,1:23:11.07,1:23:13.65,Default,,0,0,0,,{\blur3}过程不公开 没上新闻 这样能容易点
+Dialogue: 0,1:23:13.74,1:23:15.65,Default,,0,0,0,,{\blur3}所以他当然就把你供出来了
+Dialogue: 0,1:23:17.28,1:23:20.03,Default,,0,0,0,,{\blur3}现在他已恢复清白 继续拍片
+Dialogue: 0,1:23:20.12,1:23:22.70,Default,,0,0,0,,{\blur3}一切都要感谢你
+Dialogue: 0,1:23:27.96,1:23:31.34,Default,,0,0,0,,{\blur3}要喝一杯吗？你看起来需要酒精
+Dialogue: 0,1:23:34.05,1:23:36.68,Default,,0,0,0,,{\blur3}你相信吗？民主党竟然赞成种族隔离
+Dialogue: 0,1:23:36.76,1:23:38.84,Default,,0,0,0,,{\blur3}保守的南方民主党人
+Dialogue: 0,1:23:38.93,1:23:41.30,Default,,0,0,0,,{\blur3}我们已开始联名上书消除种族差别待遇
+Dialogue: 0,1:23:41.39,1:23:42.47,Default,,0,0,0,,{\blur3}联名书在这里
+Dialogue: 0,1:23:42.56,1:23:44.02,Default,,0,0,0,,{\blur3}已有超过一千人签名
+Dialogue: 0,1:23:44.10,1:23:47.85,Default,,0,0,0,,{\blur3}那我很乐意当第一千零一个
+Dialogue: 0,1:23:47.94,1:23:49.77,Default,,0,0,0,,{\blur3}这是新的剧本
+Dialogue: 0,1:23:49.85,1:23:53.23,Default,,0,0,0,,{\blur3}要送去阿古拉山给海米金
+Dialogue: 0,1:23:54.53,1:23:56.95,Default,,0,0,0,,{\blur3}阿古拉山？我以为金氏兄弟在好莱坞
+Dialogue: 0,1:23:57.03,1:23:58.70,Default,,0,0,0,,{\blur3}不 这是改过的剧本
+Dialogue: 0,1:23:58.78,1:24:01.83,Default,,0,0,0,,{\blur3}今晚就要拍 必须立刻送到拍摄现场
+Dialogue: 0,1:24:01.91,1:24:03.45,Default,,0,0,0,,{\blur3}阿古拉山距离60几公里
+Dialogue: 0,1:24:03.54,1:24:05.62,Default,,0,0,0,,{\blur3}是的 克里斯现在知道了
+Dialogue: 0,1:24:05.70,1:24:06.71,Default,,0,0,0,,{\blur3}他去不了
+Dialogue: 0,1:24:08.37,1:24:09.42,Default,,0,0,0,,{\blur3}什么？
+Dialogue: 0,1:24:09.50,1:24:12.13,Default,,0,0,0,,{\blur3}他有约会 要带女生去看电影
+Dialogue: 0,1:24:12.21,1:24:17.17,Default,,0,0,0,,{\blur3}那么 妮可拉 就由你送去
+Dialogue: 0,1:24:17.26,1:24:18.26,Default,,0,0,0,,{\blur3}我要示威
+Dialogue: 0,1:24:18.34,1:24:20.76,Default,,0,0,0,,{\blur3}示威游行需要准时开始？
+Dialogue: 0,1:24:21.43,1:24:22.43,Default,,0,0,0,,{\blur3}我送去吧
+Dialogue: 0,1:24:22.55,1:24:23.56,Default,,0,0,0,,{\blur3}妮可拉会送
+Dialogue: 0,1:24:23.64,1:24:25.43,Default,,0,0,0,,{\blur3}我说了我不行
+Dialogue: 0,1:24:25.56,1:24:27.31,Default,,0,0,0,,{\blur3}小姐 你必须送去
+Dialogue: 0,1:24:27.39,1:24:28.48,Default,,0,0,0,,{\blur3}这很重要
+Dialogue: 0,1:24:28.60,1:24:29.64,Default,,0,0,0,,{\blur3}这也很重要
+Dialogue: 0,1:24:29.73,1:24:31.31,Default,,0,0,0,,{\blur3}这对我而言很重要
+Dialogue: 0,1:24:31.40,1:24:34.86,Default,,0,0,0,,{\blur3}约会对他而言很重要 你想别的办法
+Dialogue: 0,1:24:44.33,1:24:46.54,Default,,0,0,0,,{\blur3}动作快点 人家马上就要
+Dialogue: 0,1:24:59.63,1:25:01.34,Default,,0,0,0,,{\blur3}亲爱的
+Dialogue: 0,1:25:03.01,1:25:06.85,Default,,0,0,0,,{\blur3}她离家不算太久 现在也不算太晚
+Dialogue: 0,1:25:10.19,1:25:13.69,Default,,0,0,0,,{\blur3}显然她是故意要让我们担心
+Dialogue: 0,1:25:20.45,1:25:23.11,Default,,0,0,0,,{\blur3}你知道我何时决定离开哈尔的吗？
+Dialogue: 0,1:25:23.20,1:25:25.37,Default,,0,0,0,,{\blur3}哈尔是谁？
+Dialogue: 0,1:25:25.45,1:25:27.12,Default,,0,0,0,,{\blur3}我的第一任丈夫
+Dialogue: 0,1:25:27.20,1:25:29.33,Default,,0,0,0,,{\blur3}我的老天爷啊
+Dialogue: 0,1:25:31.37,1:25:32.87,Default,,0,0,0,,{\blur3}就在婚礼当晚
+Dialogue: 0,1:25:34.00,1:25:36.21,Default,,0,0,0,,{\blur3}我第一次结婚那天
+Dialogue: 0,1:25:36.29,1:25:39.46,Default,,0,0,0,,{\blur3}如果你一定要谈不愉快的陈年旧事
+Dialogue: 0,1:25:39.55,1:25:42.63,Default,,0,0,0,,{\blur3}那我得喝一杯才能撑下去
+Dialogue: 0,1:25:43.05,1:25:45.68,Default,,0,0,0,,{\blur3}我觉得没办法跟他一起养育孩子
+Dialogue: 0,1:25:46.01,1:25:47.64,Default,,0,0,0,,{\blur3}感谢老天
+Dialogue: 0,1:25:47.72,1:25:51.39,Default,,0,0,0,,{\blur3}他会欺凌我和孩子们
+Dialogue: 0,1:25:51.52,1:25:54.73,Default,,0,0,0,,{\blur3}我们一家将永远过着不幸的日子
+Dialogue: 0,1:25:55.69,1:25:56.90,Default,,0,0,0,,{\blur3}但是你不同
+Dialogue: 0,1:25:58.02,1:26:01.07,Default,,0,0,0,,{\blur3}我以为你永远不会变成那样
+Dialogue: 0,1:26:01.19,1:26:04.07,Default,,0,0,0,,{\blur3}不论外界多少风雨
+Dialogue: 0,1:26:04.16,1:26:05.32,Default,,0,0,0,,{\blur3}你真正最重视的
+Dialogue: 0,1:26:05.41,1:26:08.33,Default,,0,0,0,,{\blur3}一定是家人
+Dialogue: 0,1:26:08.41,1:26:10.20,Default,,0,0,0,,{\blur3}当然 我最重视家人
+Dialogue: 0,1:26:10.33,1:26:12.08,Default,,0,0,0,,{\blur3}不
+Dialogue: 0,1:26:13.50,1:26:14.50,Default,,0,0,0,,{\blur3}你变了
+Dialogue: 0,1:26:17.09,1:26:19.25,Default,,0,0,0,,{\blur3}你不明白自己可能失去什么
+Dialogue: 0,1:26:19.34,1:26:20.59,Default,,0,0,0,,{\blur3}拜托
+Dialogue: 0,1:26:20.67,1:26:22.76,Default,,0,0,0,,{\blur3}我的事业
+Dialogue: 0,1:26:22.88,1:26:24.93,Default,,0,0,0,,{\blur3}宪法第一修正案 这个国家
+Dialogue: 0,1:26:25.01,1:26:26.14,Default,,0,0,0,,{\blur3}还有什么
+Dialogue: 0,1:26:26.26,1:26:27.43,Default,,0,0,0,,{\blur3}我们一家人
+Dialogue: 0,1:26:27.51,1:26:30.01,Default,,0,0,0,,{\blur3}你会失去我们
+Dialogue: 0,1:26:30.10,1:26:34.69,Default,,0,0,0,,{\blur3}从监狱回来后你不说话 不关心问候
+Dialogue: 0,1:26:34.77,1:26:36.77,Default,,0,0,0,,{\blur3}只会愤怒咆啸
+Dialogue: 0,1:26:36.90,1:26:39.86,Default,,0,0,0,,{\blur3}我一直在等你用木槌敲打餐桌
+Dialogue: 0,1:26:39.94,1:26:44.03,Default,,0,0,0,,{\blur3}原来在被世界贱弃之余
+Dialogue: 0,1:26:44.11,1:26:47.66,Default,,0,0,0,,{\blur3}我还得对抗
+Dialogue: 0,1:26:47.78,1:26:49.70,Default,,0,0,0,,{\blur3}- 自己家里的暴动 - 暴动？
+Dialogue: 0,1:26:49.78,1:26:53.45,Default,,0,0,0,,{\blur3}而我每个手指都在努力让家人温饱
+Dialogue: 0,1:26:53.58,1:26:55.79,Default,,0,0,0,,{\blur3}苦难的不只是你
+Dialogue: 0,1:26:55.92,1:26:57.71,Default,,0,0,0,,{\blur3}我们都受到了伤害
+Dialogue: 0,1:26:57.79,1:27:00.96,Default,,0,0,0,,{\blur3}妮可 我 还有你的朋友
+Dialogue: 0,1:27:01.09,1:27:03.21,Default,,0,0,0,,{\blur3}朋友？哪来的朋友？
+Dialogue: 0,1:27:03.30,1:27:06.22,Default,,0,0,0,,{\blur3}谁还有闲情逸致交朋友？
+Dialogue: 0,1:27:06.30,1:27:08.47,Default,,0,0,0,,{\blur3}我身边不是盟军就是敌人
+Dialogue: 0,1:27:08.55,1:27:10.22,Default,,0,0,0,,{\blur3}容不下别人了
+Dialogue: 0,1:27:10.31,1:27:11.39,Default,,0,0,0,,{\blur3}我们都知道
+Dialogue: 0,1:27:12.81,1:27:13.81,Default,,0,0,0,,{\blur3}很好
+Dialogue: 0,1:27:13.93,1:27:16.64,Default,,0,0,0,,{\blur3}讨论结束
+Dialogue: 0,1:27:17.94,1:27:21.23,Default,,0,0,0,,{\blur3}这不是讨论 我在向你宣战
+Dialogue: 0,1:27:22.98,1:27:26.32,Default,,0,0,0,,{\blur3}我不会把孩子让恶霸教养
+Dialogue: 0,1:27:43.46,1:27:44.46,Default,,0,0,0,,{\blur3}马上回来
+Dialogue: 0,1:27:44.59,1:27:45.59,Default,,0,0,0,,{\blur3}好的
+Dialogue: 0,1:27:56.64,1:28:00.98,Default,,0,0,0,,{\blur3}我不想在朋友面前和你吵架 但我不打算回家
+Dialogue: 0,1:28:02.19,1:28:03.94,Default,,0,0,0,,{\blur3}我不是来跟你吵架的
+Dialogue: 0,1:28:09.20,1:28:13.45,Default,,0,0,0,,{\blur3}你母亲不是个多话的人
+Dialogue: 0,1:28:13.53,1:28:14.54,Default,,0,0,0,,{\blur3}一般而言是如此
+Dialogue: 0,1:28:15.37,1:28:16.54,Default,,0,0,0,,{\blur3}因此
+Dialogue: 0,1:28:16.66,1:28:19.71,Default,,0,0,0,,{\blur3}她总能让我听见自己的声音
+Dialogue: 0,1:28:19.79,1:28:21.38,Default,,0,0,0,,{\blur3}真了不起
+Dialogue: 0,1:28:22.38,1:28:26.67,Default,,0,0,0,,{\blur3}我不是很喜欢最近的自己
+Dialogue: 0,1:28:27.72,1:28:31.89,Default,,0,0,0,,{\blur3}主要是因为我的声音
+Dialogue: 0,1:28:32.97,1:28:36.22,Default,,0,0,0,,{\blur3}透露出我有多么恐惧
+Dialogue: 0,1:28:38.89,1:28:43.06,Default,,0,0,0,,{\blur3}怕伤害了你
+Dialogue: 0,1:28:43.19,1:28:44.73,Default,,0,0,0,,{\blur3}和其他家人
+Dialogue: 0,1:28:48.74,1:28:53.24,Default,,0,0,0,,{\blur3}要是最后我们输光一切 该怎么办？
+Dialogue: 0,1:28:56.41,1:29:01.42,Default,,0,0,0,,{\blur3}所以我挺身而战
+Dialogue: 0,1:29:03.33,1:29:05.92,Default,,0,0,0,,{\blur3}否则我也不知道该怎么办
+Dialogue: 0,1:29:06.05,1:29:07.76,Default,,0,0,0,,{\blur3}任何碍事的人
+Dialogue: 0,1:29:07.84,1:29:11.88,Default,,0,0,0,,{\blur3}都会让我大发雷霆
+Dialogue: 0,1:29:14.26,1:29:19.68,Default,,0,0,0,,{\blur3}但我从不觉得你碍事
+Dialogue: 0,1:29:19.77,1:29:21.73,Default,,0,0,0,,{\blur3}一次也没有
+Dialogue: 0,1:29:22.77,1:29:25.40,Default,,0,0,0,,{\blur3}真不敢相信我竟会对你如此生气
+Dialogue: 0,1:29:27.28,1:29:30.53,Default,,0,0,0,,{\blur3}我一直想变得像你一样
+Dialogue: 0,1:29:34.53,1:29:38.79,Default,,0,0,0,,{\blur3}恐怕你已经成功了
+Dialogue: 0,1:29:43.12,1:29:44.88,Default,,0,0,0,,{\blur3}我们已经知道了
+Dialogue: 0,1:29:44.96,1:29:47.80,Default,,0,0,0,,{\blur3}世界很小 谣言不会空穴来风
+Dialogue: 0,1:29:47.92,1:29:50.72,Default,,0,0,0,,{\blur3}你必须解雇道顿·特朗勃一干人等
+Dialogue: 0,1:29:50.80,1:29:53.22,Default,,0,0,0,,{\blur3}否则你将面临抗议 新闻报料 抵制
+Dialogue: 0,1:29:53.30,1:29:55.26,Default,,0,0,0,,{\blur3}我们会把你逐出电影界
+Dialogue: 0,1:29:55.80,1:29:56.89,Default,,0,0,0,,{\blur3}"我们"？
+Dialogue: 0,1:29:56.97,1:30:01.31,Default,,0,0,0,,{\blur3}守护美国理想电影联盟
+Dialogue: 0,1:30:01.39,1:30:03.73,Default,,0,0,0,,{\blur3}包括我 罗纳德·里根 赫达·霍珀
+Dialogue: 0,1:30:03.81,1:30:06.31,Default,,0,0,0,,{\blur3}公会 片厂老板 以及约翰·韦恩
+Dialogue: 0,1:30:06.44,1:30:07.57,Default,,0,0,0,,{\blur3}我喜欢约翰·韦恩
+Dialogue: 0,1:30:07.69,1:30:08.82,Default,,0,0,0,,{\blur3}我会介绍给你认识
+Dialogue: 0,1:30:08.94,1:30:10.49,Default,,0,0,0,,{\blur3}你们可以一起拍片
+Dialogue: 0,1:30:10.61,1:30:12.74,Default,,0,0,0,,{\blur3}太棒了
+Dialogue: 0,1:30:12.82,1:30:15.20,Default,,0,0,0,,{\blur3}可惜我们
+Dialogue: 0,1:30:15.32,1:30:16.78,Default,,0,0,0,,{\blur3}- 当不成朋友 - 嘿 法兰克
+Dialogue: 0,1:30:16.95,1:30:19.42,Default,,0,0,0,,{\blur3}- 你不让我雇用工会的人？- 法兰克 法兰克
+Dialogue: 0,1:30:19.42,1:30:21.83,Default,,0,0,0,,{\blur3}我就去闹区找酒鬼和妓女
+Dialogue: 0,1:30:22.50,1:30:23.58,Default,,0,0,0,,{\blur3}我才不在乎
+Dialogue: 0,1:30:23.66,1:30:25.46,Default,,0,0,0,,{\blur3}- 我专拍垃圾片 - 法兰克！
+Dialogue: 0,1:30:26.50,1:30:29.13,Default,,0,0,0,,{\blur3}想在报纸上称我为赤色分子？随你便
+Dialogue: 0,1:30:29.25,1:30:32.13,Default,,0,0,0,,{\blur3}看我电影的人根本不识字
+Dialogue: 0,1:30:34.59,1:30:38.13,Default,,0,0,0,,{\blur3}我拍片为的是钱和女人 要多少有多少
+Dialogue: 0,1:30:38.47,1:30:40.01,Default,,0,0,0,,{\blur3}想拿就拿去
+Dialogue: 0,1:30:40.10,1:30:41.27,Default,,0,0,0,,{\blur3}我不会告你
+Dialogue: 0,1:30:41.35,1:30:43.88,Default,,0,0,0,,{\blur3}但这会是你被我打死前
+Dialogue: 0,1:30:43.94,1:30:45.27,Default,,0,0,0,,{\blur3}看见的最后画面
+Dialogue: 0,1:30:45.35,1:30:46.35,Default,,0,0,0,,{\blur3}蒂芬妮 送客
+Dialogue: 0,1:30:46.44,1:30:47.69,Default,,0,0,0,,{\blur3}来了
+Dialogue: 0,1:30:59.37,1:31:00.62,Default,,0,0,0,,{\blur3}你来干嘛？
+Dialogue: 0,1:31:03.70,1:31:05.46,Default,,0,0,0,,{\blur3}- 我写了新剧本 - 是吗？
+Dialogue: 0,1:31:05.54,1:31:09.88,Default,,0,0,0,,{\blur3}是一出家庭剧
+Dialogue: 0,1:31:10.55,1:31:12.21,Default,,0,0,0,,{\blur3}这个故事一直放在我心里
+Dialogue: 0,1:31:12.34,1:31:16.13,Default,,0,0,0,,{\blur3}关于一个墨西哥男孩与他养的牛
+Dialogue: 0,1:31:16.55,1:31:18.55,Default,,0,0,0,,{\blur3}听起来不太卖钱 片名叫什么？
+Dialogue: 0,1:31:19.35,1:31:22.97,Default,,0,0,0,,{\blur3}《勇敢的人》 但有一个问题
+Dialogue: 0,1:31:23.06,1:31:24.23,Default,,0,0,0,,{\blur3}成本高吗？
+Dialogue: 0,1:31:24.39,1:31:25.56,Default,,0,0,0,,{\blur3}烂问题
+Dialogue: 0,1:31:26.56,1:31:28.15,Default,,0,0,0,,{\blur3}这是个好剧本
+Dialogue: 0,1:31:45.16,1:31:49.08,Default,,0,0,0,,{\blur3}谁告诉你的？他们还说了什么？
+Dialogue: 0,1:31:54.42,1:31:57.55,Default,,0,0,0,,{\blur3}你也是 谢谢 法兰克
+Dialogue: 0,1:32:00.09,1:32:01.35,Default,,0,0,0,,{\blur3}怎么了？
+Dialogue: 0,1:32:03.60,1:32:07.06,Default,,0,0,0,,{\blur3}《勇敢的人》入围了奥斯卡
+Dialogue: 0,1:32:11.27,1:32:14.19,Default,,0,0,0,,{\blur3}- 真的吗？- 真的
+Dialogue: 0,1:32:16.78,1:32:18.53,Default,,0,0,0,,{\blur3}太疯狂了
+Dialogue: 0,1:32:19.07,1:32:20.87,Default,,0,0,0,,{\blur3}不就和《罗马假日》当时一样？
+Dialogue: 0,1:32:20.95,1:32:23.37,Default,,0,0,0,,{\blur3}海米 和《罗马假日》天差地别
+Dialogue: 0,1:32:23.95,1:32:26.95,Default,,0,0,0,,{\blur3}《罗马假日》的挂名编剧真有其人
+Dialogue: 0,1:32:27.08,1:32:29.04,Default,,0,0,0,,{\blur3}他们还可以发奖
+Dialogue: 0,1:32:29.12,1:32:33.59,Default,,0,0,0,,{\blur3}但劳勃瑞奇是捏造的名字 谁去领奖？
+Dialogue: 0,1:32:34.38,1:32:36.11,Default,,0,0,0,,{\blur3}或许不会得奖
+Dialogue: 0,1:32:36.13,1:32:38.72,Default,,0,0,0,,{\blur3}这部片又没多好 无意冒犯
+Dialogue: 0,1:32:38.80,1:32:40.22,Default,,0,0,0,,{\blur3}我不介意
+Dialogue: 0,1:32:40.30,1:32:42.55,Default,,0,0,0,,{\blur3}欢迎电影界最美丽的
+Dialogue: 0,1:32:42.64,1:32:45.81,Default,,0,0,0,,{\blur3}黛博拉·蔻儿
+Dialogue: 0,1:32:51.98,1:32:55.32,Default,,0,0,0,,{\blur3}奥斯卡最佳编剧入围的有
+Dialogue: 0,1:32:55.40,1:32:57.32,Default,,0,0,0,,{\blur3}劳勃·瑞奇的《勇敢的人》
+Dialogue: 0,1:32:57.44,1:32:59.99,Default,,0,0,0,,{\blur3}李奥·凯驰的《艾迪杜钦传》
+Dialogue: 0,1:33:00.07,1:33:02.74,Default,,0,0,0,,{\blur3}尚·保罗·沙特的《奇异的爱情》
+Dialogue: 0,1:33:02.82,1:33:05.91,Default,,0,0,0,,{\blur3}以及塞沙尔·萨瓦提尼的《风烛泪》
+Dialogue: 0,1:33:05.99,1:33:07.79,Default,,0,0,0,,{\blur3}请把信封给我
+Dialogue: 0,1:33:10.67,1:33:12.25,Default,,0,0,0,,{\blur3}得奖的是《勇敢的人》劳勃·瑞奇
+Dialogue: 0,1:33:12.33,1:33:13.33,Default,,0,0,0,,{\blur3}爸！
+Dialogue: 0,1:33:19.80,1:33:21.01,Default,,0,0,0,,{\blur3}他是谁？
+Dialogue: 0,1:33:21.09,1:33:24.26,Default,,0,0,0,,{\blur3}由编剧工会副主席
+Dialogue: 0,1:33:24.35,1:33:26.68,Default,,0,0,0,,{\blur3}杰斯·拉斯基二世 代为领奖
+Dialogue: 0,1:33:27.18,1:33:30.22,Default,,0,0,0,,{\blur3}我代劳勃·瑞奇与他的优美故事
+Dialogue: 0,1:33:30.31,1:33:31.64,Default,,0,0,0,,{\blur3}谢谢各位
+Dialogue: 0,1:33:31.94,1:33:33.31,Default,,0,0,0,,{\blur3}真诡异
+Dialogue: 0,1:33:36.69,1:33:38.99,Default,,0,0,0,,{\blur3}我到处找不到瑞奇先生 显然他…
+Dialogue: 0,1:33:39.11,1:33:41.20,Default,,0,0,0,,{\blur3}劳勃·瑞奇究竟是何方神圣？
+Dialogue: 0,1:33:41.70,1:33:43.03,Default,,0,0,0,,{\blur3}我得挂了
+Dialogue: 0,1:33:43.11,1:33:45.53,Default,,0,0,0,,{\blur3}最好不要是谣传的那个人
+Dialogue: 0,1:33:45.62,1:33:47.03,Default,,0,0,0,,{\blur3}特朗勃先生
+Dialogue: 0,1:33:47.16,1:33:48.91,Default,,0,0,0,,{\blur3}你就是劳勃·瑞奇？
+Dialogue: 0,1:33:49.02,1:33:50.32,Default,,0,0,0,,{\blur3}《勇敢的人》是不是你的作品？
+Dialogue: 0,1:33:52.37,1:33:55.04,Default,,0,0,0,,{\blur3}我一向不作声称
+Dialogue: 0,1:33:55.13,1:33:58.21,Default,,0,0,0,,{\blur3}自己参与过任何电影
+Dialogue: 0,1:33:58.34,1:34:01.88,Default,,0,0,0,,{\blur3}不然每部电影岂不是都有我的份
+Dialogue: 0,1:34:01.97,1:34:03.97,Default,,0,0,0,,{\blur3}当然烂片除外
+Dialogue: 0,1:34:04.05,1:34:05.64,Default,,0,0,0,,{\blur3}那都是我的敌人们写的
+Dialogue: 0,1:34:05.72,1:34:07.89,Default,,0,0,0,,{\blur3}你在黑名单属于哪个位置？
+Dialogue: 0,1:34:08.39,1:34:11.31,Default,,0,0,0,,{\blur3}我就在黑名单上
+Dialogue: 0,1:34:11.39,1:34:13.56,Default,,0,0,0,,{\blur3}跟另外数千人列在一起
+Dialogue: 0,1:34:13.64,1:34:17.65,Default,,0,0,0,,{\blur3}你是否试图以劳勃·瑞奇的争议终结黑名单？
+Dialogue: 0,1:34:19.40,1:34:23.49,Default,,0,0,0,,{\blur3}《勇敢的人》是部好片
+Dialogue: 0,1:34:23.57,1:34:26.32,Default,,0,0,0,,{\blur3}如果谣传我有参与该片能帮助票房
+Dialogue: 0,1:34:26.41,1:34:28.60,Default,,0,0,0,,{\blur3}我欣然接受
+Dialogue: 0,1:34:28.66,1:34:31.16,Default,,0,0,0,,{\blur3}如果这种作者不明的怪事
+Dialogue: 0,1:34:31.25,1:34:34.92,Default,,0,0,0,,{\blur3}能激起讨论
+Dialogue: 0,1:34:35.04,1:34:36.42,Default,,0,0,0,,{\blur3}那就更好了
+Dialogue: 0,1:34:36.54,1:34:37.71,Default,,0,0,0,,{\blur3}- 特朗勃 - 是
+Dialogue: 0,1:34:38.21,1:34:40.21,Default,,0,0,0,,{\blur3}- 有人来电找你 - 是谁？
+Dialogue: 0,1:34:45.76,1:34:48.10,Default,,0,0,0,,{\blur3}自称寇克·道格拉斯的疯子
+Dialogue: 0,1:34:48.22,1:34:51.93,Default,,0,0,0,,{\blur3}真的？谢谢你 妮可拉
+Dialogue: 0,1:35:04.07,1:35:06.97,Default,,0,0,0,,{\blur3}你是妮可？我是寇克
+Dialogue: 0,1:35:10.91,1:35:12.29,Default,,0,0,0,,{\blur3}寇克
+Dialogue: 0,1:35:12.45,1:35:13.79,Default,,0,0,0,,{\blur3}达顿
+Dialogue: 0,1:35:13.91,1:35:14.96,Default,,0,0,0,,{\blur3}抱歉
+Dialogue: 0,1:35:15.04,1:35:17.71,Default,,0,0,0,,{\blur3}最近有太多恶作剧电话
+Dialogue: 0,1:35:17.79,1:35:19.46,Default,,0,0,0,,{\blur3}- 我能想像 - 请坐
+Dialogue: 0,1:35:19.59,1:35:20.63,Default,,0,0,0,,{\blur3}想喝什么？
+Dialogue: 0,1:35:20.75,1:35:21.80,Default,,0,0,0,,{\blur3}不必了 谢谢
+Dialogue: 0,1:35:21.88,1:35:23.05,Default,,0,0,0,,{\blur3}好的
+Dialogue: 0,1:35:26.47,1:35:28.14,Default,,0,0,0,,{\blur3}- 所以？- 我接了一支新片
+Dialogue: 0,1:35:28.93,1:35:30.18,Default,,0,0,0,,{\blur3}刚刚收到剧本
+Dialogue: 0,1:35:31.72,1:35:34.14,Default,,0,0,0,,{\blur3}看来是长达七小时的娱乐大片
+Dialogue: 0,1:35:34.23,1:35:35.56,Default,,0,0,0,,{\blur3}可是没有一页有趣
+Dialogue: 0,1:35:36.81,1:35:40.06,Default,,0,0,0,,{\blur3}但里头有个动人故事
+Dialogue: 0,1:35:40.15,1:35:44.49,Default,,0,0,0,,{\blur3}关于一个试图对抗全世界的男人
+Dialogue: 0,1:35:45.32,1:35:49.82,Default,,0,0,0,,{\blur3}这有点意思
+Dialogue: 0,1:35:49.95,1:35:53.74,Default,,0,0,0,,{\blur3}身为奴隶的他 起义反抗罗马帝国
+Dialogue: 0,1:35:56.16,1:35:57.50,Default,,0,0,0,,{\blur3}片名叫什么？
+Dialogue: 0,1:35:58.08,1:35:59.92,Default,,0,0,0,,{\blur3}《斯巴达克斯》
+Dialogue: 0,1:36:00.00,1:36:01.00,Default,,0,0,0,,{\blur3}不不不
+Dialogue: 0,1:36:01.13,1:36:04.00,Default,,0,0,0,,{\blur3}我不能说自己正在写什么
+Dialogue: 0,1:36:04.09,1:36:08.51,Default,,0,0,0,,{\blur3}只能说 既然有黑名单 就有黑市
+Dialogue: 0,1:36:09.76,1:36:12.18,Default,,0,0,0,,{\blur3}是的 你可以引用这段话
+Dialogue: 0,1:36:12.47,1:36:17.02,Default,,0,0,0,,{\blur3}看见我的名字上报 会让一些人抓狂
+Dialogue: 0,1:36:17.10,1:36:18.69,Default,,0,0,0,,{\blur3}他来了
+Dialogue: 0,1:36:18.81,1:36:20.27,Default,,0,0,0,,{\blur3}- 你好 寇克 - 你好 赫达
+Dialogue: 0,1:36:21.19,1:36:23.61,Default,,0,0,0,,{\blur3}他是我朋友 鲍伯·史崔普林
+Dialogue: 0,1:36:23.69,1:36:26.44,Default,,0,0,0,,{\blur3}来自非美活动调查委员会
+Dialogue: 0,1:36:26.53,1:36:27.99,Default,,0,0,0,,{\blur3}道格拉斯先生 你好
+Dialogue: 0,1:36:29.03,1:36:30.53,Default,,0,0,0,,{\blur3}史崔普林先生 你好
+Dialogue: 0,1:36:37.37,1:36:38.54,Default,,0,0,0,,{\blur3}喝点东西吗
+Dialogue: 0,1:36:38.66,1:36:39.83,Default,,0,0,0,,{\blur3}不了 谢谢
+Dialogue: 0,1:36:41.00,1:36:42.46,Default,,0,0,0,,{\blur3}你有要事找我？
+Dialogue: 0,1:36:43.50,1:36:46.17,Default,,0,0,0,,{\blur3}只要你雇用了达尔顿·特朗勃
+Dialogue: 0,1:36:48.22,1:36:49.55,Default,,0,0,0,,{\blur3}我雇谁是我的事
+Dialogue: 0,1:36:49.72,1:36:51.05,Default,,0,0,0,,{\blur3}不 道格拉斯先生
+Dialogue: 0,1:36:52.22,1:36:53.47,Default,,0,0,0,,{\blur3}这关我们的事
+Dialogue: 0,1:36:54.05,1:36:55.06,Default,,0,0,0,,{\blur3}为什么
+Dialogue: 0,1:36:55.18,1:36:57.31,Default,,0,0,0,,{\blur3}因为我们要维护美国的安全
+Dialogue: 0,1:36:57.39,1:36:59.06,Default,,0,0,0,,{\blur3}怎么维护？
+Dialogue: 0,1:36:59.14,1:37:02.40,Default,,0,0,0,,{\blur3}要不请你上证人席看看吧
+Dialogue: 0,1:37:03.15,1:37:06.65,Default,,0,0,0,,{\blur3}赫达 你朋友打算恐吓我？
+Dialogue: 0,1:37:06.73,1:37:09.74,Default,,0,0,0,,{\blur3}他只是想让你知道 该怎么做事
+Dialogue: 0,1:37:09.99,1:37:12.49,Default,,0,0,0,,{\blur3}或许我不喜欢这样做事
+Dialogue: 0,1:37:13.32,1:37:15.83,Default,,0,0,0,,{\blur3}寇克 我们认识多年
+Dialogue: 0,1:37:15.91,1:37:18.41,Default,,0,0,0,,{\blur3}你什么时候变成了一个混帐？
+Dialogue: 0,1:37:19.58,1:37:23.92,Default,,0,0,0,,{\blur3}我一直都是个混帐 只是你没发现
+Dialogue: 0,1:37:45.77,1:37:46.77,Default,,0,0,0,,{\blur3}什么事？
+Dialogue: 0,1:37:46.86,1:37:50.11,Default,,0,0,0,,{\blur3}我想见这部戏的编剧
+Dialogue: 0,1:37:50.19,1:37:51.78,Default,,0,0,0,,{\blur3}请进
+Dialogue: 0,1:37:53.91,1:37:55.07,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:37:58.95,1:38:00.96,Default,,0,0,0,,{\blur3}我是奥图·普莱明杰
+Dialogue: 0,1:38:03.29,1:38:04.54,Default,,0,0,0,,{\blur3}我是个导演
+Dialogue: 0,1:38:05.92,1:38:06.96,Default,,0,0,0,,{\blur3}抱歉
+Dialogue: 0,1:38:07.09,1:38:10.71,Default,,0,0,0,,{\blur3}我几个小时前才刚忙完
+Dialogue: 0,1:38:10.80,1:38:12.63,Default,,0,0,0,,{\blur3}我读完了你的剧本
+Dialogue: 0,1:38:12.72,1:38:14.22,Default,,0,0,0,,{\blur3}怎么可能？
+Dialogue: 0,1:38:14.30,1:38:16.60,Default,,0,0,0,,{\blur3}我今天早上才寄出的
+Dialogue: 0,1:38:17.26,1:38:20.39,Default,,0,0,0,,{\blur3}我是奥图·普莱明杰 我是导演
+Dialogue: 0,1:38:21.93,1:38:23.31,Default,,0,0,0,,{\blur3}请进
+Dialogue: 0,1:38:31.40,1:38:33.57,Default,,0,0,0,,{\blur3}我最小的孩子认为
+Dialogue: 0,1:38:33.65,1:38:37.74,Default,,0,0,0,,{\blur3}养鸟可以纾压
+Dialogue: 0,1:38:37.83,1:38:40.45,Default,,0,0,0,,{\blur3}我都是吃烤鸟纾压
+Dialogue: 0,1:38:43.75,1:38:47.17,Default,,0,0,0,,{\blur3}寇克·道格拉斯委托你的剧本 写完了吗？
+Dialogue: 0,1:38:48.17,1:38:52.59,Default,,0,0,0,,{\blur3}不 但我有两周的圣诞假期
+Dialogue: 0,1:38:52.67,1:38:56.18,Default,,0,0,0,,{\blur3}这段期间你要跟我一起工作
+Dialogue: 0,1:38:56.30,1:38:57.34,Default,,0,0,0,,{\blur3}是吗？
+Dialogue: 0,1:38:58.18,1:39:01.10,Default,,0,0,0,,{\blur3}如果你跟你的剧本一样聪明
+Dialogue: 0,1:39:01.18,1:39:03.81,Default,,0,0,0,,{\blur3}并且与你的名声一样贪婪
+Dialogue: 0,1:39:06.02,1:39:08.27,Default,,0,0,0,,{\blur3}我们要改编小说《出埃及记》
+Dialogue: 0,1:39:08.36,1:39:09.44,Default,,0,0,0,,{\blur3}你读过吗？
+Dialogue: 0,1:39:09.52,1:39:10.86,Default,,0,0,0,,{\blur3}没有
+Dialogue: 0,1:39:11.03,1:39:12.36,Default,,0,0,0,,{\blur3}是本超级畅销书
+Dialogue: 0,1:39:13.28,1:39:15.65,Default,,0,0,0,,{\blur3}几乎难看得要死
+Dialogue: 0,1:39:16.11,1:39:20.12,Default,,0,0,0,,{\blur3}但里头有个好故事
+Dialogue: 0,1:39:22.04,1:39:24.87,Default,,0,0,0,,{\blur3}我没概念
+Dialogue: 0,1:39:25.00,1:39:27.21,Default,,0,0,0,,{\blur3}但我找来了保罗·纽曼
+Dialogue: 0,1:39:27.33,1:39:31.13,Default,,0,0,0,,{\blur3}我们谈过了 他有点谨慎
+Dialogue: 0,1:39:31.21,1:39:34.21,Default,,0,0,0,,{\blur3}但价钱谈拢 他就会接受
+Dialogue: 0,1:39:34.30,1:39:35.97,Default,,0,0,0,,{\blur3}你要接吗？
+Dialogue: 0,1:39:36.84,1:39:40.39,Default,,0,0,0,,{\blur3}这是唯一能赶走他的方法
+Dialogue: 0,1:39:40.51,1:39:41.56,Default,,0,0,0,,{\blur3}这很要紧
+Dialogue: 0,1:39:43.22,1:39:44.89,Default,,0,0,0,,{\blur3}可怜的普莱明杰先生
+Dialogue: 0,1:39:44.98,1:39:47.48,Default,,0,0,0,,{\blur3}他以为他是猫 而你才是老鼠
+Dialogue: 0,1:40:02.91,1:40:04.80,Default,,0,0,0,,{\blur3}瞧瞧 太棒了
+Dialogue: 0,1:40:05.02,1:40:06.33,Default,,0,0,0,,{\blur3}梅兹那是什么？俄罗斯娃娃？
+Dialogue: 0,1:40:08.67,1:40:10.75,Default,,0,0,0,,{\blur3}这是什么 圣诞老人？
+Dialogue: 0,1:40:10.83,1:40:13.75,Default,,0,0,0,,{\blur3}献给圣诞婆婆的小心意
+Dialogue: 0,1:40:13.88,1:40:15.09,Default,,0,0,0,,{\blur3}我等等再拆
+Dialogue: 0,1:40:15.17,1:40:16.26,Default,,0,0,0,,{\blur3}圣诞节结束了
+Dialogue: 0,1:40:19.01,1:40:20.18,Default,,0,0,0,,{\blur3}好吧
+Dialogue: 0,1:40:21.72,1:40:23.26,Default,,0,0,0,,{\blur3}你读了最新写的那几场戏？
+Dialogue: 0,1:40:23.35,1:40:26.52,Default,,0,0,0,,{\blur3}糟透了 继续保持这种水准
+Dialogue: 0,1:40:26.60,1:40:29.60,Default,,0,0,0,,{\blur3}你的名字就会在我的电影里出现
+Dialogue: 0,1:40:30.44,1:40:31.94,Default,,0,0,0,,{\blur3}以承受骂名
+Dialogue: 0,1:40:40.07,1:40:42.70,Default,,0,0,0,,{\blur3}好了 拿去
+Dialogue: 0,1:40:47.71,1:40:51.13,Default,,0,0,0,,{\blur3}你好 山米
+Dialogue: 0,1:40:51.29,1:40:55.05,Default,,0,0,0,,{\blur3}你知道它是寇克·道格拉斯送的吗？
+Dialogue: 0,1:40:55.13,1:40:57.13,Default,,0,0,0,,{\blur3}它会害你分心
+Dialogue: 0,1:40:57.26,1:40:59.22,Default,,0,0,0,,{\blur3}完全不会
+Dialogue: 0,1:40:59.30,1:41:02.55,Default,,0,0,0,,{\blur3}我给它取名为山姆·杰克森
+Dialogue: 0,1:41:02.64,1:41:03.97,Default,,0,0,0,,{\blur3}《斯巴达克斯》就是他写的
+Dialogue: 0,1:41:07.06,1:41:08.31,Default,,0,0,0,,{\blur3}如何？
+Dialogue: 0,1:41:10.14,1:41:11.81,Default,,0,0,0,,{\blur3}- 有进步 - 感谢老天
+Dialogue: 0,1:41:11.90,1:41:15.40,Default,,0,0,0,,{\blur3}但还不是天才之作
+Dialogue: 0,1:41:16.48,1:41:20.57,Default,,0,0,0,,{\blur3}奥图 如果每场戏都很精彩
+Dialogue: 0,1:41:20.65,1:41:23.82,Default,,0,0,0,,{\blur3}你的电影会变得单调乏味
+Dialogue: 0,1:41:24.32,1:41:26.49,Default,,0,0,0,,{\blur3}我告诉你
+Dialogue: 0,1:41:26.62,1:41:30.66,Default,,0,0,0,,{\blur3}你把每一场戏写得精彩无比
+Dialogue: 0,1:41:30.75,1:41:33.50,Default,,0,0,0,,{\blur3}而我会导得高潮迭起
+Dialogue: 0,1:41:36.50,1:41:37.50,Default,,0,0,0,,{\blur3}什么事 亲爱的？
+Dialogue: 0,1:41:40.34,1:41:41.76,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:41:41.84,1:41:43.34,Default,,0,0,0,,{\blur3}哈啰 寇克
+Dialogue: 0,1:41:44.18,1:41:46.26,Default,,0,0,0,,{\blur3}圣诞快乐 谢谢你 梅兹
+Dialogue: 0,1:41:46.35,1:41:48.60,Default,,0,0,0,,{\blur3}奥图 你好吗？
+Dialogue: 0,1:41:49.14,1:41:51.14,Default,,0,0,0,,{\blur3}我很好 寇克
+Dialogue: 0,1:41:52.14,1:41:53.98,Default,,0,0,0,,{\blur3}我无意打断你们
+Dialogue: 0,1:41:55.36,1:41:58.44,Default,,0,0,0,,{\blur3}不 没这回事
+Dialogue: 0,1:41:58.53,1:42:00.86,Default,,0,0,0,,{\blur3}奥图 请让我们谈谈
+Dialogue: 0,1:42:00.99,1:42:01.99,Default,,0,0,0,,{\blur3}一会儿就好
+Dialogue: 0,1:42:07.53,1:42:09.37,Default,,0,0,0,,{\blur3}我还以为撞见了自己的老婆
+Dialogue: 0,1:42:10.70,1:42:11.79,Default,,0,0,0,,{\blur3}你喜欢他吗？
+Dialogue: 0,1:42:11.87,1:42:13.87,Default,,0,0,0,,{\blur3}可怕极了
+Dialogue: 0,1:42:14.04,1:42:16.17,Default,,0,0,0,,{\blur3}他竟然付费买我的服务
+Dialogue: 0,1:42:17.00,1:42:18.05,Default,,0,0,0,,{\blur3}我也是
+Dialogue: 0,1:42:18.13,1:42:21.55,Default,,0,0,0,,{\blur3}按约定 我会在1月2日向你交稿
+Dialogue: 0,1:42:21.63,1:42:24.38,Default,,0,0,0,,{\blur3}我只需要你拨冗几天 写几场新戏
+Dialogue: 0,1:42:24.47,1:42:27.30,Default,,0,0,0,,{\blur3}当然 但要等2号以后
+Dialogue: 0,1:42:28.22,1:42:31.14,Default,,0,0,0,,{\blur3}我也不想这样 但我没遇过
+Dialogue: 0,1:42:31.23,1:42:35.15,Default,,0,0,0,,{\blur3}比库伯·力克更令人头痛的导演
+Dialogue: 0,1:42:35.23,1:42:37.73,Default,,0,0,0,,{\blur3}最糟的是 他是对的
+Dialogue: 0,1:42:39.73,1:42:42.65,Default,,0,0,0,,{\blur3}我不想拒绝你 但…
+Dialogue: 0,1:42:45.41,1:42:49.58,Default,,0,0,0,,{\blur3}这是我们之间的秘密
+Dialogue: 0,1:42:49.70,1:42:51.16,Default,,0,0,0,,{\blur3}当然
+Dialogue: 0,1:42:53.58,1:42:55.54,Default,,0,0,0,,{\blur3}普莱明杰宣称
+Dialogue: 0,1:42:56.58,1:42:58.59,Default,,0,0,0,,{\blur3}他说
+Dialogue: 0,1:42:58.71,1:43:01.17,Default,,0,0,0,,{\blur3}"继续保持这种水准"
+Dialogue: 0,1:43:01.26,1:43:05.18,Default,,0,0,0,,{\blur3}"你的名字就会在我的电影里出现"
+Dialogue: 0,1:43:05.76,1:43:07.68,Default,,0,0,0,,{\blur3}- 真的吗？ - 没错
+Dialogue: 0,1:43:07.76,1:43:10.51,Default,,0,0,0,,{\blur3}一字不假
+Dialogue: 0,1:43:15.77,1:43:17.23,Default,,0,0,0,,{\blur3}保持联系
+Dialogue: 0,1:43:17.35,1:43:18.77,Default,,0,0,0,,{\blur3}很好
+Dialogue: 0,1:43:18.86,1:43:20.07,Default,,0,0,0,,{\blur3}圣诞快乐
+Dialogue: 0,1:43:20.19,1:43:21.40,Default,,0,0,0,,{\blur3}你也是
+Dialogue: 0,1:43:25.28,1:43:27.95,Default,,0,0,0,,{\blur3}我猜他想要你回去
+Dialogue: 0,1:43:28.03,1:43:30.62,Default,,0,0,0,,{\blur3}不
+Dialogue: 0,1:43:30.70,1:43:35.50,Default,,0,0,0,,{\blur3}他来串门 顺便讨论演职人员名单
+Dialogue: 0,1:43:38.17,1:43:39.96,Default,,0,0,0,,{\blur3}《斯巴达克斯》的名单？
+Dialogue: 0,1:43:42.34,1:43:46.22,Default,,0,0,0,,{\blur3}我不能透露任何细节
+Dialogue: 0,1:43:46.30,1:43:47.63,Default,,0,0,0,,{\blur3}你懂的
+Dialogue: 0,1:43:49.34,1:43:52.51,Default,,0,0,0,,{\blur3}休息五分钟 大家五分钟后回来
+Dialogue: 0,1:43:54.43,1:43:55.64,Default,,0,0,0,,{\blur3}寇克
+Dialogue: 0,1:43:56.60,1:43:59.40,Default,,0,0,0,,{\blur3}赫达·霍珀说 如果你不解雇特朗勃
+Dialogue: 0,1:43:59.48,1:44:00.52,Default,,0,0,0,,{\blur3}退伍军人协会将发动抵制活动
+Dialogue: 0,1:44:00.61,1:44:02.90,Default,,0,0,0,,{\blur3}艾德 本片剧本与他无关
+Dialogue: 0,1:44:02.98,1:44:04.36,Default,,0,0,0,,{\blur3}片中没有他的名字
+Dialogue: 0,1:44:04.44,1:44:05.90,Default,,0,0,0,,{\blur3}有什么好抵制的？
+Dialogue: 0,1:44:05.99,1:44:08.49,Default,,0,0,0,,{\blur3}寇克 不好意思
+Dialogue: 0,1:44:08.57,1:44:10.07,Default,,0,0,0,,{\blur3}请让我们独处一会儿
+Dialogue: 0,1:44:10.16,1:44:14.08,Default,,0,0,0,,{\blur3}二千万美国人明确表示
+Dialogue: 0,1:44:14.16,1:44:18.46,Default,,0,0,0,,{\blur3}你不解雇一位编剧 他们就不买票
+Dialogue: 0,1:44:19.08,1:44:22.42,Default,,0,0,0,,{\blur3}这里有50人 选一个吧
+Dialogue: 0,1:44:43.36,1:44:45.07,Default,,0,0,0,,{\blur3}我可以插句话吗？
+Dialogue: 0,1:44:45.15,1:44:46.28,Default,,0,0,0,,{\blur3}请说
+Dialogue: 0,1:44:47.36,1:44:51.99,Default,,0,0,0,,{\blur3}他知道内幕 他看见寇克·道格拉斯进出
+Dialogue: 0,1:44:52.07,1:44:54.49,Default,,0,0,0,,{\blur3}以及奥图·普莱明杰和他的劳斯莱斯
+Dialogue: 0,1:44:56.45,1:44:59.67,Default,,0,0,0,,{\blur3}他是个白痴 但他并不笨
+Dialogue: 0,1:45:00.04,1:45:02.17,Default,,0,0,0,,{\blur3}他向联邦调查局告密了吗？
+Dialogue: 0,1:45:02.25,1:45:04.54,Default,,0,0,0,,{\blur3}国会呢？
+Dialogue: 0,1:45:04.63,1:45:07.98,Default,,0,0,0,,{\blur3}没有 因为他们能给你的惩罚早就给了
+Dialogue: 0,1:45:09.17,1:45:11.51,Default,,0,0,0,,{\blur3}那座奥斯卡奖是属于你的
+Dialogue: 0,1:45:13.30,1:45:14.35,Default,,0,0,0,,{\blur3}去拿回来吧
+Dialogue: 0,1:45:15.56,1:45:20.89,Default,,0,0,0,,{\blur3}天啊 你一点都不像我
+Dialogue: 0,1:45:20.98,1:45:22.31,Default,,0,0,0,,{\blur3}你比我更可怕
+Dialogue: 0,1:45:29.11,1:45:31.70,Default,,0,0,0,,{\blur3}请你正式声明 你是劳勃·瑞奇？
+Dialogue: 0,1:45:31.78,1:45:32.78,Default,,0,0,0,,{\blur3}是的
+Dialogue: 0,1:45:32.86,1:45:34.32,Default,,0,0,0,,{\blur3}我看过名单了
+Dialogue: 0,1:45:34.41,1:45:35.62,Default,,0,0,0,,{\blur3}上面都是假名
+Dialogue: 0,1:45:35.70,1:45:37.62,Default,,0,0,0,,{\blur3}《勇敢的人》是你写的？
+Dialogue: 0,1:45:37.70,1:45:38.91,Default,,0,0,0,,{\blur3}没错
+Dialogue: 0,1:45:40.04,1:45:41.04,Default,,0,0,0,,{\blur3}艾德 我等等回电给你
+Dialogue: 0,1:45:41.12,1:45:43.67,Default,,0,0,0,,{\blur3}为何你现在站出来？
+Dialogue: 0,1:45:43.75,1:45:46.46,Default,,0,0,0,,{\blur3}我被非美活动调查委员会
+Dialogue: 0,1:45:46.55,1:45:48.71,Default,,0,0,0,,{\blur3}彻底调查过
+Dialogue: 0,1:45:48.80,1:45:53.05,Default,,0,0,0,,{\blur3}我实在好奇 为何没人
+Dialogue: 0,1:45:53.14,1:45:56.10,Default,,0,0,0,,{\blur3}审查这个组织
+Dialogue: 0,1:45:56.18,1:45:58.60,Default,,0,0,0,,{\blur3}以及他们对电影产业造成的影响？
+Dialogue: 0,1:45:58.68,1:46:03.10,Default,,0,0,0,,{\blur3}该组织的宗旨是 揪出敌方特工
+Dialogue: 0,1:46:04.15,1:46:08.69,Default,,0,0,0,,{\blur3}揭露共产阴谋 并制定反叛乱法
+Dialogue: 0,1:46:08.78,1:46:12.90,Default,,0,0,0,,{\blur3}但经过了数千小时
+Dialogue: 0,1:46:12.99,1:46:15.74,Default,,0,0,0,,{\blur3}耗费了数百万元之后
+Dialogue: 0,1:46:15.82,1:46:19.29,Default,,0,0,0,,{\blur3}没有任何特工被揪出
+Dialogue: 0,1:46:19.37,1:46:23.92,Default,,0,0,0,,{\blur3}没有任何阴谋被揭露 没有任何法条被制定
+Dialogue: 0,1:46:24.58,1:46:29.59,Default,,0,0,0,,{\blur3}他们所做的只是否定别人的工作权
+Dialogue: 0,1:46:30.21,1:46:32.09,Default,,0,0,0,,{\blur3}我因此丧失权益
+Dialogue: 0,1:46:32.59,1:46:34.63,Default,,0,0,0,,{\blur3}以及二座奥斯卡奖
+Dialogue: 0,1:46:39.14,1:46:40.43,Default,,0,0,0,,{\blur3}你作何感想？
+Dialogue: 0,1:46:40.52,1:46:43.52,Default,,0,0,0,,{\blur3}深深伤害你的黑名单 竟然只是个笑话
+Dialogue: 0,1:46:43.60,1:46:45.19,Default,,0,0,0,,{\blur3}笑话？
+Dialogue: 0,1:46:49.11,1:46:54.61,Default,,0,0,0,,{\blur3}这张创造出劳勃·瑞奇的黑名单
+Dialogue: 0,1:46:54.70,1:46:59.53,Default,,0,0,0,,{\blur3}我见过它的可怕与残酷
+Dialogue: 0,1:46:59.87,1:47:02.00,Default,,0,0,0,,{\blur3}它可憎地浪费我过去的人生
+Dialogue: 0,1:47:02.08,1:47:06.71,Default,,0,0,0,,{\blur3}我只能长年做个无名氏
+Dialogue: 0,1:47:07.75,1:47:14.30,Default,,0,0,0,,{\blur3}我无法再巧妙捏造出下个劳勃·瑞奇
+Dialogue: 0,1:47:14.38,1:47:17.55,Default,,0,0,0,,{\blur3}或另一座无人能认领的奥斯卡奖
+Dialogue: 0,1:47:19.64,1:47:24.35,Default,,0,0,0,,{\blur3}因为那座小小的
+Dialogue: 0,1:47:24.98,1:47:28.19,Default,,0,0,0,,{\blur3}毫无用处的小金人
+Dialogue: 0,1:47:28.94,1:47:32.07,Default,,0,0,0,,{\blur3}上面沾满了我朋友们的鲜血
+Dialogue: 0,1:47:38.95,1:47:40.12,Default,,0,0,0,,{\blur3}我来接
+Dialogue: 0,1:47:42.45,1:47:45.33,Default,,0,0,0,,{\blur3}喂？你好 奥图
+Dialogue: 0,1:47:45.41,1:47:47.58,Default,,0,0,0,,{\blur3}我读了你最新版的剧本
+Dialogue: 0,1:47:47.67,1:47:48.88,Default,,0,0,0,,{\blur3}你觉得如何？
+Dialogue: 0,1:47:48.96,1:47:54.20,Default,,0,0,0,,{\blur3}纽约时报今天的头版 就是我的回应
+Dialogue: 0,1:48:01.43,1:48:03.43,Default,,0,0,0,,{\blur3}你这么讨厌啊？
+Dialogue: 0,1:48:03.97,1:48:06.85,Default,,0,0,0,,{\blur3}圣诞快乐 特朗勃先生
+Dialogue: 0,1:48:12.61,1:48:14.82,Default,,0,0,0,,{\blur3}艾德 请坐
+Dialogue: 0,1:48:35.59,1:48:38.43,Default,,0,0,0,,{\blur3}- 为什么不杀了他？- 杀啊
+Dialogue: 0,1:48:38.51,1:48:39.72,Default,,0,0,0,,{\blur3}杀了他
+Dialogue: 0,1:48:39.80,1:48:41.18,Default,,0,0,0,,{\blur3}- 快杀啊 你这个蠢货 - 杀了他
+Dialogue: 0,1:48:41.26,1:48:43.22,Default,,0,0,0,,{\blur3}杀…
+Dialogue: 0,1:48:46.85,1:48:49.19,Default,,0,0,0,,{\blur3}很棒 很棒
+Dialogue: 0,1:48:49.27,1:48:51.61,Default,,0,0,0,,{\blur3}马蒂 播放薇瑞妮亚和克拉苏那一幕
+Dialogue: 0,1:48:52.86,1:48:54.77,Default,,0,0,0,,{\blur3}- 听我说 寇克 - 等一下
+Dialogue: 0,1:49:01.49,1:49:05.66,Default,,0,0,0,,{\blur3}华伦 我想请你发一则新闻稿
+Dialogue: 0,1:49:05.74,1:49:08.37,Default,,0,0,0,,{\blur3}该片…等等 华伦
+Dialogue: 0,1:49:08.46,1:49:11.75,Default,,0,0,0,,{\blur3}想到斯巴达克斯 你会想起什么？
+Dialogue: 0,1:49:15.30,1:49:19.60,Default,,0,0,0,,{\blur3}他像只动物般孤身起义
+Dialogue: 0,1:49:20.18,1:49:23.18,Default,,0,0,0,,{\blur3}但他死去那天 却有千千万万人
+Dialogue: 0,1:49:23.26,1:49:25.06,Default,,0,0,0,,{\blur3}愿意替他而死
+Dialogue: 0,1:49:26.68,1:49:29.35,Default,,0,0,0,,{\blur3}这算什么？他是神吗？
+Dialogue: 0,1:49:30.81,1:49:33.52,Default,,0,0,0,,{\blur3}他不是神
+Dialogue: 0,1:49:33.61,1:49:37.28,Default,,0,0,0,,{\blur3}他只是个男人 一个奴隶
+Dialogue: 0,1:49:41.24,1:49:42.41,Default,,0,0,0,,{\blur3}我爱过他
+Dialogue: 0,1:49:43.37,1:49:48.29,Default,,0,0,0,,{\blur3}华伦 新闻稿这么写
+Dialogue: 0,1:49:48.37,1:49:51.75,Default,,0,0,0,,{\blur3}《斯巴达克斯》由达尔顿·特朗勃编剧
+Dialogue: 0,1:49:51.83,1:49:52.83,Default,,0,0,0,,{\blur3}谢谢
+Dialogue: 0,1:49:54.50,1:49:57.67,Default,,0,0,0,,{\blur3}如果你不解雇特朗勃 就由我来动手
+Dialogue: 0,1:49:57.75,1:50:01.38,Default,,0,0,0,,{\blur3}那等我离开后 你可以重拍我的戏份
+Dialogue: 0,1:50:01.47,1:50:06.47,Default,,0,0,0,,{\blur3}艾德 再怎么样
+Dialogue: 0,1:50:06.55,1:50:08.60,Default,,0,0,0,,{\blur3}我演的可是斯巴达克斯呢
+Dialogue: 0,1:50:12.85,1:50:16.94,Default,,0,0,0,,{\blur3}这部电影即将上映 名叫《斯巴达克斯》
+Dialogue: 0,1:50:17.02,1:50:18.78,Default,,0,0,0,,{\blur3}主演 寇克·道格拉斯
+Dialogue: 0,1:50:18.86,1:50:21.78,Default,,0,0,0,,{\blur3}编剧 达尔顿·特朗勃
+Dialogue: 0,1:50:23.61,1:50:26.12,Default,,0,0,0,,{\blur3}如果署名是别的编剧
+Dialogue: 0,1:50:26.20,1:50:27.87,Default,,0,0,0,,{\blur3}请勿相信
+Dialogue: 0,1:50:27.95,1:50:29.62,Default,,0,0,0,,{\blur3}他们已经被我们看穿了
+Dialogue: 0,1:50:36.33,1:50:38.42,Default,,0,0,0,,{\blur3}- 喂？ - 听好了 艾德
+Dialogue: 0,1:50:38.50,1:50:40.80,Default,,0,0,0,,{\blur3}我们会到所有放映的影院外抗议
+Dialogue: 0,1:50:41.08,1:50:42.97,Default,,0,0,0,,{\blur3}除非你今晚撤片
+Dialogue: 0,1:50:43.13,1:50:45.22,Default,,0,0,0,,{\blur3}并将那个叛徒的名字抹掉
+Dialogue: 0,1:50:45.30,1:50:47.14,Default,,0,0,0,,{\blur3}赫达 别这么逼我
+Dialogue: 0,1:50:47.22,1:50:48.39,Default,,0,0,0,,{\blur3}既浪费钱又没意义
+Dialogue: 0,1:50:48.47,1:50:52.56,Default,,0,0,0,,{\blur3}那你和你的电影你的片厂 一起吃屎去吧
+Dialogue: 0,1:50:52.64,1:50:57.11,Default,,0,0,0,,{\blur3}环球影业斥资一千二百万的《斯巴达克斯》
+Dialogue: 0,1:50:57.19,1:51:00.40,Default,,0,0,0,,{\blur3}首映会上许多好莱坞名人现身力挺
+Dialogue: 0,1:51:00.65,1:51:04.82,Default,,0,0,0,,{\blur3}现场的抗议人士也向我们提示着
+Dialogue: 0,1:51:04.90,1:51:07.12,Default,,0,0,0,,{\blur3}本片制作期间引发的政治争议
+Dialogue: 0,1:52:00.13,1:52:01.29,Default,,0,0,0,,{\blur3}克莉欧？
+Dialogue: 0,1:52:05.09,1:52:06.88,Default,,0,0,0,,{\blur3}怎么了 发生什么事？
+Dialogue: 0,1:52:15.48,1:52:19.15,Default,,0,0,0,,{\blur3}一切都结束了 是吧？
+Dialogue: 0,1:52:21.94,1:52:23.48,Default,,0,0,0,,{\blur3}是的 没错
+Dialogue: 0,1:52:27.57,1:52:29.24,Default,,0,0,0,,{\blur3}我们撑过来了
+Dialogue: 0,1:52:33.87,1:52:35.08,Default,,0,0,0,,{\blur3}是的
+Dialogue: 0,1:52:39.67,1:52:42.25,Default,,0,0,0,,{\blur3}肯尼迪总统难得在晚上的私人时间
+Dialogue: 0,1:52:42.34,1:52:45.88,Default,,0,0,0,,{\blur3}看了寇克·道格拉斯的新片《斯巴达克斯》
+Dialogue: 0,1:52:46.34,1:52:49.93,Default,,0,0,0,,{\blur3}记者正在现场 等候总统发言
+Dialogue: 0,1:52:51.14,1:52:53.89,Default,,0,0,0,,{\blur3}总统先生
+Dialogue: 0,1:52:53.97,1:52:55.72,Default,,0,0,0,,{\blur3}对这部颇具争议的电影
+Dialogue: 0,1:52:55.81,1:52:57.35,Default,,0,0,0,,{\blur3}您有何感想？
+Dialogue: 0,1:52:57.43,1:53:00.19,Default,,0,0,0,,{\blur3}我认为拍得很好
+Dialogue: 0,1:53:00.27,1:53:02.56,Default,,0,0,0,,{\blur3}应该会大卖
+Dialogue: 0,1:53:02.65,1:53:06.69,Default,,0,0,0,,{\blur3}肯尼迪暗示认可本片 引发广泛讨论
+Dialogue: 0,1:53:06.78,1:53:09.74,Default,,0,0,0,,{\blur3}原著小说由前共产党员撰写
+Dialogue: 0,1:53:10.28,1:53:13.07,Default,,0,0,0,,{\blur3}剧本也由前共产党员改编
+Dialogue: 0,1:53:13.32,1:53:16.33,Default,,0,0,0,,{\blur3}意味着黑名单的时代或许已经结束了
+Dialogue: 0,1:53:16.41,1:53:19.21,Default,,0,0,0,,{\blur3}寇克·道格拉斯和奥图·普莱明杰
+Dialogue: 0,1:53:19.29,1:53:22.83,Default,,0,0,0,,{\blur3}公开宣称并挂名雇用黑名单上的编剧
+Dialogue: 0,1:53:23.29,1:53:28.55,Default,,0,0,0,,{\blur3}这明确批判了数十年来反共人士对艺术界的反对
+Dialogue: 0,1:53:32.14,1:53:33.76,Default,,0,0,0,,{\blur3}下一位得奖者
+Dialogue: 0,1:53:33.85,1:53:36.56,Default,,0,0,0,,{\blur3}提升了电影的文学境界
+Dialogue: 0,1:53:36.64,1:53:39.52,Default,,0,0,0,,{\blur3}有时候 我们中间有些人
+Dialogue: 0,1:53:39.73,1:53:42.40,Default,,0,0,0,,{\blur3}品德优秀
+Dialogue: 0,1:53:42.48,1:53:45.98,Default,,0,0,0,,{\blur3}牺牲小我 照亮他人
+Dialogue: 0,1:53:46.07,1:53:50.32,Default,,0,0,0,,{\blur3}顺应社会一切准则
+Dialogue: 0,1:53:50.40,1:53:53.41,Default,,0,0,0,,{\blur3}并受到众人的崇敬与爱戴
+Dialogue: 0,1:53:53.49,1:53:56.24,Default,,0,0,0,,{\blur3}达尔顿·特朗勃 肯定不是这样的人
+Dialogue: 0,1:53:59.33,1:54:00.97,Default,,0,0,0,,{\blur3}我很荣幸
+Dialogue: 0,1:54:00.97,1:54:03.88,Default,,0,0,0,,{\blur3}将美国编剧公会终身成就奖
+Dialogue: 0,1:54:03.96,1:54:05.71,Default,,0,0,0,,{\blur3}颁给达尔顿·特朗勃
+Dialogue: 0,1:54:12.68,1:54:13.72,Default,,0,0,0,,{\blur3}恭喜
+Dialogue: 0,1:54:13.80,1:54:15.60,Default,,0,0,0,,{\blur3}谢谢 非常感谢
+Dialogue: 0,1:54:22.06,1:54:25.06,Default,,0,0,0,,{\blur3}感谢各位女士先生
+Dialogue: 0,1:54:26.52,1:54:33.07,Default,,0,0,0,,{\blur3}通常我出席电影人聚会时
+Dialogue: 0,1:54:33.15,1:54:35.95,Default,,0,0,0,,{\blur3}房里都有一只看不见的大象
+Dialogue: 0,1:54:36.03,1:54:37.53,Default,,0,0,0,,{\blur3}那就是我
+Dialogue: 0,1:54:37.62,1:54:41.79,Default,,0,0,0,,{\blur3}所以我想发表以下谈话
+Dialogue: 0,1:54:45.00,1:54:50.34,Default,,0,0,0,,{\blur3}黑名单是邪恶时代的产物
+Dialogue: 0,1:54:50.42,1:54:54.22,Default,,0,0,0,,{\blur3}存活下来的人们
+Dialogue: 0,1:54:54.30,1:54:57.68,Default,,0,0,0,,{\blur3}无一不曾被邪恶染指
+Dialogue: 0,1:54:59.68,1:55:02.98,Default,,0,0,0,,{\blur3}当时的情况
+Dialogue: 0,1:55:03.06,1:55:06.52,Default,,0,0,0,,{\blur3}非个人能够掌控
+Dialogue: 0,1:55:07.40,1:55:10.86,Default,,0,0,0,,{\blur3}而我们的行为反映了自己的天性
+Dialogue: 0,1:55:10.94,1:55:13.82,Default,,0,0,0,,{\blur3}需求及信念
+Dialogue: 0,1:55:13.90,1:55:16.11,Default,,0,0,0,,{\blur3}眼前形势强迫我们做了某些事
+Dialogue: 0,1:55:18.20,1:55:20.70,Default,,0,0,0,,{\blur3}那是个恐惧的年代
+Dialogue: 0,1:55:22.16,1:55:25.50,Default,,0,0,0,,{\blur3}无人可以幸免
+Dialogue: 0,1:55:25.58,1:55:31.25,Default,,0,0,0,,{\blur3}许多人丧失了家园
+Dialogue: 0,1:55:31.88,1:55:34.84,Default,,0,0,0,,{\blur3}家庭分崩离析
+Dialogue: 0,1:55:40.43,1:55:42.14,Default,,0,0,0,,{\blur3}有些人
+Dialogue: 0,1:55:46.69,1:55:49.56,Default,,0,0,0,,{\blur3}甚至葬送了生命
+Dialogue: 0,1:55:53.65,1:55:59.28,Default,,0,0,0,,{\blur3}但当我们回顾那段黑暗时期
+Dialogue: 0,1:55:59.37,1:56:02.16,Default,,0,0,0,,{\blur3}我相信我们偶尔都会
+Dialogue: 0,1:56:03.33,1:56:05.00,Default,,0,0,0,,{\blur3}指认某人是英雄或恶人
+Dialogue: 0,1:56:05.08,1:56:10.71,Default,,0,0,0,,{\blur3}这于事无补
+Dialogue: 0,1:56:10.79,1:56:12.50,Default,,0,0,0,,{\blur3}我们之中没有善与恶
+Dialogue: 0,1:56:13.63,1:56:15.72,Default,,0,0,0,,{\blur3}只有受害者
+Dialogue: 0,1:56:17.97,1:56:21.35,Default,,0,0,0,,{\blur3}因为我们每一个人
+Dialogue: 0,1:56:21.43,1:56:24.68,Default,,0,0,0,,{\blur3}都是被强迫做出当时的言行
+Dialogue: 0,1:56:24.77,1:56:26.18,Default,,0,0,0,,{\blur3}否则我们不会那么做
+Dialogue: 0,1:56:27.98,1:56:31.90,Default,,0,0,0,,{\blur3}我们伤害对方 或受到伤害
+Dialogue: 0,1:56:31.98,1:56:36.07,Default,,0,0,0,,{\blur3}但其实我们 并不想交换那些伤口
+Dialogue: 0,1:56:38.36,1:56:41.95,Default,,0,0,0,,{\blur3}现在看着台下的家人们
+Dialogue: 0,1:56:42.03,1:56:47.40,Default,,0,0,0,,{\blur3}我才明白 当时害他们受了多大的苦难
+Dialogue: 0,1:56:48.83,1:56:50.63,Default,,0,0,0,,{\blur3}这对他们太不公平了
+Dialogue: 0,1:56:54.80,1:57:01.82,Default,,0,0,0,,{\blur3}然而我太太却成功地 维系了家庭
+Dialogue: 0,1:57:02.26,1:57:04.22,Default,,0,0,0,,{\blur3}这令我惊奇不已
+Dialogue: 0,1:57:05.77,1:57:10.44,Default,,0,0,0,,{\blur3}因此 我今晚说的这番话
+Dialogue: 0,1:57:10.52,1:57:13.06,Default,,0,0,0,,{\blur3}并不想
+Dialogue: 0,1:57:13.15,1:57:18.15,Default,,0,0,0,,{\blur3}伤害任何人
+Dialogue: 0,1:57:20.15,1:57:24.33,Default,,0,0,0,,{\blur3}而是试图治愈伤痛
+Dialogue: 0,1:57:26.54,1:57:31.88,Default,,0,0,0,,{\blur3}修补多年来
+Dialogue: 0,1:57:33.38,1:57:37.92,Default,,0,0,0,,{\blur3}不断被撕裂的伤口
+Dialogue: 0,1:57:38.97,1:57:43.05,Default,,0,0,0,,{\blur3}最糟糕的是 这些伤口已刻在我们身上
+Dialogue: 0,1:57:48.85,1:57:51.64,Default,,0,0,0,,{\blur3}谢谢 由衷感谢大家
+Dialogue: 0,2:00:41.15,2:00:43.61,Default,,0,0,0,,{\blur3}若你能领取奥斯卡奖
+Dialogue: 0,2:00:43.69,2:00:45.86,Default,,0,0,0,,{\blur3}你打算做什么？
+Dialogue: 0,2:00:45.94,2:00:50.95,Default,,0,0,0,,{\blur3}我有个女儿 今年13岁
+Dialogue: 0,2:00:52.62,2:00:56.54,Default,,0,0,0,,{\blur3}我从她三岁起被列入黑名单
+Dialogue: 0,2:00:56.62,2:00:58.50,Default,,0,0,0,,{\blur3}她知道
+Dialogue: 0,2:00:58.58,2:01:02.21,Default,,0,0,0,,{\blur3}之后我写的每一部片子
+Dialogue: 0,2:01:02.29,2:01:05.84,Default,,0,0,0,,{\blur3}而她一直保守这些秘密直到现在
+Dialogue: 0,2:01:05.92,2:01:08.13,Default,,0,0,0,,{\blur3}她是个战士
+Dialogue: 0,2:01:08.22,2:01:11.18,Default,,0,0,0,,{\blur3}儿时当朋友问她
+Dialogue: 0,2:01:11.26,2:01:14.60,Default,,0,0,0,,{\blur3}"我爸是做这个的 你爸做什么？"
+Dialogue: 0,2:01:14.68,2:01:19.02,Default,,0,0,0,,{\blur3}这对她而言是个头痛的问题
+Dialogue: 0,2:01:19.10,2:01:22.77,Default,,0,0,0,,{\blur3}从她三岁起一直纠缠到现在
+Dialogue: 0,2:01:22.86,2:01:25.98,Default,,0,0,0,,{\blur3}她说不出自己的父亲是谁
+Dialogue: 0,2:01:26.07,2:01:29.03,Default,,0,0,0,,{\blur3}以及他到底从事什么职业
+Dialogue: 0,2:01:30.70,2:01:34.16,Default,,0,0,0,,{\blur3}我想
+Dialogue: 0,2:01:34.24,2:01:38.33,Default,,0,0,0,,{\blur3}如果我能拿到那座奥斯卡 我会送给她
+Dialogue: 0,2:01:39.75,2:01:42.29,Default,,0,0,0,,{\blur3}我想我会告诉她
+Dialogue: 0,2:01:42.38,2:01:45.00,Default,,0,0,0,,{\blur3}现在 这个秘密
+Dialogue: 0,2:01:45.09,2:01:48.38,Default,,0,0,0,,{\blur3}你不用再承担了
+Dialogue: 0,2:01:49.30,2:01:54.14,Default,,0,0,0,,{\blur3}我会告诉她 我们的名字终于又能 重见天日
+

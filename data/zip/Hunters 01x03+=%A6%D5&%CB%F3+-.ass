@@ -1,0 +1,561 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 718
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 猎人,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:20.50,0:02:24.00,猎人,,0,0,0,,{\clip(473,426,810,470)\fade(656,97)\fs80\fscx95\b1\fsp25\shad0\bord0\c&HCCDEED&\t(864,3600,1,\fs90\fsp40\c&HE5EFEA&)\t(3533,3600,1,\blur10)\pos(635.983,505.882)}猎人
+Dialogue: 0,0:02:20.50,0:02:24.00,猎人,,0,0,0,,{\clip(503,470,771,540)\fade(656,97)\fs80\fscx95\b1\fsp25\shad0\bord0\c&H97A693&\t(864,3600,1,\fs90\fsp40\c&HE5EFEA&)\t(3533,3600,1,\blur10)\pos(635.983,505.882)}猎人
+Dialogue: 0,0:02:30.30,0:02:32.30,猎人,,0,0,0,,{\fade(364,304)\bord0\fscx90\fs45\b1\fsp4\c&HCDC9CC&\pos(782.013,591.338)}翻译 ICE  ZH
+Dialogue: 0,0:02:33.00,0:02:35.00,猎人,,0,0,0,,{\fade(364,304)\bord0\fscx90\fs45\b1\fsp4\c&HD2CFD0&\pos(813.979,590)}翻译 oo  Ginny
+Dialogue: 0,0:02:36.40,0:02:38.40,猎人,,0,0,0,,{\fade(364,304)\bord0\fscx90\fs45\b1\fsp4\c&HD6CDCC&\pos(932,578.028)}校对/后期 Ginny
+Dialogue: 0,0:02:51.50,0:02:53.50,猎人,,0,0,0,,{\fade(364,304)\bord0\fscx90\fs45\b1\fsp4\c&HCACFCE&\pos(972,586)}压制  猎魔人
+Dialogue: 0,0:02:57.10,0:02:59.10,猎人,,0,0,0,,{\fade(364,304)\bord0\fscx90\fs45\b1\fsp4\c&HDBD2D4&\pos(968,588)}统筹  Ginny
+Dialogue: 0,0:00:00.00,0:43:00.00,Default,,0,0,0,,{\fade(200,2000)\1a&30\3a&30\fs40\bord2\shad0\blur5\3c&H000043&\4c&H0073FF&\b1\fsp0\fs35\t(5700,6770,\1a&ff\4a&f\3c&HECF1F2&)\pos(1213.913,83.2)}EF{\fsp3\4c&H0073FF&}字幕组\N{\fs25\b0\blur10}猎人\N{\fs20\blur10}第一季 第3集
+Dialogue: 0,0:07:37.20,0:07:41.00,Default,,0,0,0,,博亚卡  哥伦比亚
+Dialogue: 0,0:00:01.73,0:00:04.33,Default,,0,0,0,,猎人 前情提要\N{\fnNyala\fs40\shad0\b0}Previously on Hunters...
+Dialogue: 0,0:00:04.39,0:00:06.81,Default,,0,0,0,,那则音频信息中说会发生流血事件 现在的确发生了\N{\fnNyala\fs40\shad0\b0}That audio message said blood would be spilt, and it has been.
+Dialogue: 0,0:00:06.82,0:00:08.01,Default,,0,0,0,,那个带走艾比的混球\N{\fnNyala\fs40\shad0\b0}The bastard who took Abby.
+Dialogue: 0,0:00:08.08,0:00:10.35,Default,,0,0,0,,只要我们找到他 就能找到你妻子\N{\fnNyala\fs40\shad0\b0}We find out where he is, we find your wife.
+Dialogue: 0,0:00:10.42,0:00:12.79,Default,,0,0,0,,我老婆怎么会是你们中的一员呢\N{\fnNyala\fs40\shad0\b0}My wife is not one of you.
+Dialogue: 0,0:00:14.89,0:00:16.89,Default,,0,0,0,,现在想看艾比吗 来吧\N{\fnNyala\fs40\shad0\b0}You wanna see Abby now? Come on.
+Dialogue: 0,0:00:16.96,0:00:19.00,Default,,0,0,0,,我们在仓库里的尸体上采集了一些证物\N{\fnNyala\fs40\shad0\b0}We got some forensics off the body in the warehouse.
+Dialogue: 0,0:00:19.03,0:00:21.86,Default,,0,0,0,,发现受害者体内有海洛因\N{\fnNyala\fs40\shad0\b0}Turns out there was heroin in the victim's system.
+Dialogue: 0,0:00:21.93,0:00:23.43,Default,,0,0,0,,不是艾比\N{\fnNyala\fs40\shad0\b0}It's not Abby.
+Dialogue: 0,0:00:23.50,0:00:26.67,Default,,0,0,0,,我们无处不在 我们所向披靡\N{\fnNyala\fs40\shad0\b0}We're everywhere, and you can't stop us.
+Dialogue: 0,0:00:26.73,0:00:28.60,Default,,0,0,0,,是斯拉维奇的妻子\N{\fnNyala\fs40\shad0\b0}Slavich's wife.
+Dialogue: 0,0:00:31.54,0:00:33.64,Default,,0,0,0,,我把那女人撕成碎片\N{\fnNyala\fs40\shad0\b0}I tore that woman to shreds,
+Dialogue: 0,0:00:33.71,0:00:35.88,Default,,0,0,0,,就像野兽一样 我还喜欢那种感觉\N{\fnNyala\fs40\shad0\b0}like an animal... and I liked it.
+Dialogue: 0,0:00:35.94,0:00:39.31,Default,,0,0,0,,里根特工就像眼镜蛇一样蜕皮\N{\fnNyala\fs40\shad0\b0}Agent Regan is shedding like a freakin' cobra.
+Dialogue: 0,0:00:39.38,0:00:43.82,Default,,0,0,0,,斯拉维奇跟我说的最后一句话就是我们组里有内鬼\N{\fnNyala\fs40\shad0\b0}Slavich's last words to me were about Hunters being inside the ETU.
+Dialogue: 0,0:00:43.82,0:00:45.72,Default,,0,0,0,,里根很困惑\N{\fnNyala\fs40\shad0\b0}Regan's confused.
+Dialogue: 0,0:00:45.79,0:00:47.79,Default,,0,0,0,,他觉得她是他们中的一员\N{\fnNyala\fs40\shad0\b0}He think she's one of them.
+Dialogue: 0,0:00:47.86,0:00:49.89,Default,,0,0,0,,她最好小心\N{\fnNyala\fs40\shad0\b0}She better watch herself.
+Dialogue: 0,0:00:51.83,0:00:55.11,Default,,0,0,0,,塞克莱顿市 西弗吉尼亚州 1997
+Dialogue: 0,0:01:13.84,0:01:16.14,Default,,0,0,0,,- 嘿  - 怎么了 艾莉森\N{\fnNyala\fs40\shad0\b0}- Hey! - What is it, Allison?
+Dialogue: 0,0:01:16.21,0:01:17.91,Default,,0,0,0,,你能不能别玩这个\N{\fnNyala\fs40\shad0\b0}Could you play something else?
+Dialogue: 0,0:01:17.98,0:01:19.18,Default,,0,0,0,,你在逗我吗\N{\fnNyala\fs40\shad0\b0}Are you serious?
+Dialogue: 0,0:01:19.25,0:01:21.18,Default,,0,0,0,,噪音刺得我头疼\N{\fnNyala\fs40\shad0\b0}The noise hurts my head.
+Dialogue: 0,0:01:21.25,0:01:22.78,Default,,0,0,0,,你这人真奇怪\N{\fnNyala\fs40\shad0\b0}You are so weird.
+Dialogue: 0,0:01:49.08,0:01:50.88,Default,,0,0,0,,艾莉森\N{\fnNyala\fs40\shad0\b0}Allison?
+Dialogue: 0,0:01:54.01,0:01:55.35,Default,,0,0,0,,发生什么了\N{\fnNyala\fs40\shad0\b0}What happened?
+Dialogue: 0,0:01:55.42,0:01:56.98,Default,,0,0,0,,你做了什么\N{\fnNyala\fs40\shad0\b0}What'd you do?
+Dialogue: 0,0:01:58.05,0:01:59.09,Default,,0,0,0,,这是意外 爸爸\N{\fnNyala\fs40\shad0\b0}It was an accident, Daddy.
+Dialogue: 0,0:01:59.12,0:02:00.69,Default,,0,0,0,,- 哦 我的天哪  - 对 对不起\N{\fnNyala\fs40\shad0\b0}- Oh, my God. - I'm... I'm sorry!
+Dialogue: 0,0:02:00.75,0:02:01.85,Default,,0,0,0,,- 她没事的  - 泰德 发生什么事了吗\N{\fnNyala\fs40\shad0\b0}- She's okay. - Ted, everything all right out there?
+Dialogue: 0,0:02:01.92,0:02:03.89,Default,,0,0,0,,我们需要帮助 快报警\N{\fnNyala\fs40\shad0\b0}We need help! Call 911!
+Dialogue: 0,0:02:03.96,0:02:06.79,Default,,0,0,0,,打电话报警  他们需要帮助\N{\fnNyala\fs40\shad0\b0}Call 911! They need some help!
+Dialogue: 0,0:02:26.15,0:02:28.78,Default,,0,0,0,,我们在麦卡锡仓库内找到的瘾君子尸体内\N{\fnNyala\fs40\shad0\b0}The junkie body we found in McCarthy's warehouse
+Dialogue: 0,0:02:28.85,0:02:31.28,Default,,0,0,0,,有哥伦比亚·奥尔维多的海洛因\N{\fnNyala\fs40\shad0\b0}had Columbian Olvidos' heroin in her system.
+Dialogue: 0,0:02:31.35,0:02:37.26,Default,,0,0,0,,美国缉毒局去年拍到麦卡锡和五胞胎还有奥尔维多在一起的照片\N{\fnNyala\fs40\shad0\b0}DEA got pictures of McCarthy and the Quins with the Olvidos last year.
+Dialogue: 0,0:02:37.26,0:02:40.73,Default,,0,0,0,,他们对自己面临的事情完全不了解\N{\fnNyala\fs40\shad0\b0}They had no idea who or what they were dealing with.
+Dialogue: 0,0:02:40.79,0:02:43.23,Default,,0,0,0,,五胞胎  是我在仓库见到的那些怪胎\N{\fnNyala\fs40\shad0\b0}Quins? Those are the freaks I saw at the farmhouse.
+Dialogue: 0,0:02:43.30,0:02:44.96,Default,,0,0,0,,对 这是我们起的名字\N{\fnNyala\fs40\shad0\b0}That's what we're calling 'em.
+Dialogue: 0,0:02:45.03,0:02:46.23,Default,,0,0,0,,发生了什么\N{\fnNyala\fs40\shad0\b0}What's happening?
+Dialogue: 0,0:02:49.34,0:02:51.80,Default,,0,0,0,,这些照片是在通往\N{\fnNyala\fs40\shad0\b0}This picture was taken on a road
+Dialogue: 0,0:02:51.87,0:02:55.34,Default,,0,0,0,,哥伦比亚丛林深处一制毒窝点的路上拍的\N{\fnNyala\fs40\shad0\b0}leading to a drug compound deep in the Columbian jungle.
+Dialogue: 0,0:02:55.41,0:02:57.61,Default,,0,0,0,,猎人和海洛因 还有如穆斯林圣战者般的藏身地点\N{\fnNyala\fs40\shad0\b0}Hunters and heroin, and deep like a Mujahidin situation.
+Dialogue: 0,0:02:57.65,0:02:59.78,Default,,0,0,0,,那是筹集资金的最佳方法\N{\fnNyala\fs40\shad0\b0}Tried and true method of raising funds.
+Dialogue: 0,0:02:59.85,0:03:03.52,Default,,0,0,0,,女童子军有饼干 恐怖分子有毒品\N{\fnNyala\fs40\shad0\b0}Girl Scouts have cookies, terrorists have dope.
+Dialogue: 0,0:03:03.58,0:03:06.68,Default,,0,0,0,,里根 你听明白了吗\N{\fnNyala\fs40\shad0\b0}Regan. You getting all this?
+Dialogue: 0,0:03:06.75,0:03:08.52,Default,,0,0,0,,猎人在丛林里倒手毒品\N{\fnNyala\fs40\shad0\b0}The Hunters are running drugs in the jungle,
+Dialogue: 0,0:03:08.59,0:03:10.52,Default,,0,0,0,,你让我和一个新来的人去找他们\N{\fnNyala\fs40\shad0\b0}and you're sending me a new guy to find them.
+Dialogue: 0,0:03:10.59,0:03:12.49,Default,,0,0,0,,- 收到  - 算上我\N{\fnNyala\fs40\shad0\b0}- Got it. - Count me in.
+Dialogue: 0,0:03:12.56,0:03:14.99,Default,,0,0,0,,卡罗尔特工有啃药史 布里格斯\N{\fnNyala\fs40\shad0\b0}Agent Carroll has history with narcotics, Briggs.
+Dialogue: 0,0:03:15.06,0:03:17.70,Default,,0,0,0,,我不是担心他\N{\fnNyala\fs40\shad0\b0}It's not him I'm worried about.
+Dialogue: 0,0:03:17.77,0:03:19.27,Default,,0,0,0,,你难道认为我需要保护吗\N{\fnNyala\fs40\shad0\b0}You think I need protecting?
+Dialogue: 0,0:03:19.33,0:03:20.90,Default,,0,0,0,,不如问问杰西·斯拉维奇吧\N{\fnNyala\fs40\shad0\b0}Oh, let's ask Jessie Slavich.
+Dialogue: 0,0:03:20.97,0:03:24.20,Default,,0,0,0,,因为有里根特工在 你才能坐在这里 闭上你的嘴\N{\fnNyala\fs40\shad0\b0}Agent Regan is the only reason you're still here to shoot your mouth off.
+Dialogue: 0,0:03:24.20,0:03:25.64,Default,,0,0,0,,你和卡罗尔\N{\fnNyala\fs40\shad0\b0}You and Carroll.
+Dialogue: 0,0:03:25.71,0:03:27.07,Default,,0,0,0,,我个人认为\N{\fnNyala\fs40\shad0\b0}My two cents...
+Dialogue: 0,0:03:27.14,0:03:31.31,Default,,0,0,0,,如果我们要去丛林抓猎人的话 多一个士兵不是坏事\N{\fnNyala\fs40\shad0\b0}if we're going into the jungle to catch Hunters, another soldier couldn't hurt.
+Dialogue: 0,0:03:32.85,0:03:34.75,Default,,0,0,0,,好吧 布里格斯 算你一个\N{\fnNyala\fs40\shad0\b0}All right... Briggs, you're in.
+Dialogue: 0,0:03:34.81,0:03:37.25,Default,,0,0,0,,共同合作 找到他们的大本营 捣毁它\N{\fnNyala\fs40\shad0\b0}Work together, find this camp, shut it down.
+Dialogue: 0,0:03:37.32,0:03:40.25,Default,,0,0,0,,抓住任何你能找到的猎人或是同伙\N{\fnNyala\fs40\shad0\b0}Capture any Hunters or collaborators you may find.
+Dialogue: 0,0:03:40.32,0:03:42.89,Default,,0,0,0,,我们之前用过几个当地人\N{\fnNyala\fs40\shad0\b0}There are some local guys we've used before.
+Dialogue: 0,0:03:42.96,0:03:44.19,Default,,0,0,0,,你们可以相信他们\N{\fnNyala\fs40\shad0\b0}You can trust them.
+Dialogue: 0,0:03:44.26,0:03:45.79,Default,,0,0,0,,我来处理麦卡锡的善后工作\N{\fnNyala\fs40\shad0\b0}I'll handle the McCarthy cleanup.
+Dialogue: 0,0:03:45.86,0:03:47.22,Default,,0,0,0,,就这样\N{\fnNyala\fs40\shad0\b0}That is all.
+Dialogue: 0,0:03:51.50,0:03:52.83,Default,,0,0,0,,我要拿走这些\N{\fnNyala\fs40\shad0\b0}I'm taking these.
+Dialogue: 0,0:03:52.90,0:03:54.40,Default,,0,0,0,,你的全家福吗\N{\fnNyala\fs40\shad0\b0}Family pictures?
+Dialogue: 0,0:03:56.27,0:03:58.34,Default,,0,0,0,,开玩笑啦\N{\fnNyala\fs40\shad0\b0}I was kidding.
+Dialogue: 0,0:03:58.41,0:03:59.77,Default,,0,0,0,,别那么严肃\N{\fnNyala\fs40\shad0\b0}Lighten up.
+Dialogue: 0,0:04:04.98,0:04:06.88,Default,,0,0,0,,你依然是位已婚男士吧\N{\fnNyala\fs40\shad0\b0}Thought you were still a married man?
+Dialogue: 0,0:04:06.95,0:04:10.58,Default,,0,0,0,,我不会在这里处理我的皮肤问题的\N{\fnNyala\fs40\shad0\b0}I'm not getting down to my skin in here, so...
+Dialogue: 0,0:04:10.65,0:04:12.58,Default,,0,0,0,,嗯\N{\fnNyala\fs40\shad0\b0}Yeah.
+Dialogue: 0,0:04:13.93,0:04:15.95,Default,,0,0,0,,关于你的皮肤\N{\fnNyala\fs40\shad0\b0}About your skin thing.
+Dialogue: 0,0:04:16.02,0:04:17.56,Default,,0,0,0,,还要讨论这个\N{\fnNyala\fs40\shad0\b0}We're still on that?
+Dialogue: 0,0:04:17.62,0:04:19.06,Default,,0,0,0,,请便\N{\fnNyala\fs40\shad0\b0}Go on.
+Dialogue: 0,0:04:19.13,0:04:21.13,Default,,0,0,0,,还有没有其他方法\N{\fnNyala\fs40\shad0\b0}Is there any other way to, you know,
+Dialogue: 0,0:04:21.19,0:04:24.90,Default,,0,0,0,,辨别某人是不是……\N{\fnNyala\fs40\shad0\b0}tell if someone is... whatever you are.
+Dialogue: 0,0:04:24.97,0:04:27.03,Default,,0,0,0,,我有强烈的欲望 生理上的\N{\fnNyala\fs40\shad0\b0}I get urges, physical urges.
+Dialogue: 0,0:04:27.10,0:04:28.77,Default,,0,0,0,,很难控制\N{\fnNyala\fs40\shad0\b0}They're hard to control.
+Dialogue: 0,0:04:28.84,0:04:31.17,Default,,0,0,0,,你说生理是指\N{\fnNyala\fs40\shad0\b0}You mean physical like...
+Dialogue: 0,0:04:31.24,0:04:33.97,Default,,0,0,0,,是的 没错  还有\N{\fnNyala\fs40\shad0\b0}Yes, that. And other stuff.
+Dialogue: 0,0:04:34.04,0:04:35.61,Default,,0,0,0,,冲动\N{\fnNyala\fs40\shad0\b0}Impulse control.
+Dialogue: 0,0:04:35.68,0:04:37.04,Default,,0,0,0,,饥饿 愤怒\N{\fnNyala\fs40\shad0\b0}Hunger, rage.
+Dialogue: 0,0:04:37.72,0:04:39.78,Default,,0,0,0,,她在抱怨自己的感觉吗\N{\fnNyala\fs40\shad0\b0}Is she blaming her feelings?
+Dialogue: 0,0:04:39.85,0:04:41.85,Default,,0,0,0,,接着就得开始抱怨经前综合征了吧\N{\fnNyala\fs40\shad0\b0}Next she'll say it was PMS.
+Dialogue: 0,0:04:43.68,0:04:44.62,Default,,0,0,0,,饶了她吧\N{\fnNyala\fs40\shad0\b0}Give her a break.
+Dialogue: 0,0:04:45.95,0:04:48.09,Default,,0,0,0,,江山易改本性难移\N{\fnNyala\fs40\shad0\b0}A tiger doesn't change its stripes.
+Dialogue: 0,0:04:48.15,0:04:50.93,Default,,0,0,0,,我们要去的地方 将需要她发挥身上的每一个长处\N{\fnNyala\fs40\shad0\b0}Where we're going, were gonna need everything she's got in her.
+Dialogue: 0,0:05:01.84,0:05:04.93,Default,,0,0,0,,塞克莱顿市 西弗吉尼亚 1997
+Dialogue: 0,0:05:05.99,0:05:08.89,Default,,0,0,0,,艾莉森 你在做什么\N{\fnNyala\fs40\shad0\b0}Allison... what are you doing?
+Dialogue: 0,0:05:10.42,0:05:12.02,Default,,0,0,0,,你说过那个声音会刺痛你的耳朵\N{\fnNyala\fs40\shad0\b0}You said that hurts your ears.
+Dialogue: 0,0:05:12.09,0:05:14.02,Default,,0,0,0,,确实是这样\N{\fnNyala\fs40\shad0\b0}It does.
+Dialogue: 0,0:05:14.09,0:05:15.46,Default,,0,0,0,,亲爱的\N{\fnNyala\fs40\shad0\b0}Sweetie...
+Dialogue: 0,0:05:17.23,0:05:20.30,Default,,0,0,0,,你对妮可做的 不过是个意外\N{\fnNyala\fs40\shad0\b0}What happened to Nicole... was a mistake.
+Dialogue: 0,0:05:20.37,0:05:21.90,Default,,0,0,0,,不 不是的\N{\fnNyala\fs40\shad0\b0}No, it wasn't.
+Dialogue: 0,0:05:21.97,0:05:24.17,Default,,0,0,0,,我想让她停下 所以就推了她\N{\fnNyala\fs40\shad0\b0}I wanted her to stop, so I pushed her.
+Dialogue: 0,0:05:24.24,0:05:27.54,Default,,0,0,0,,但你并不想伤害她\N{\fnNyala\fs40\shad0\b0}But you didn't mean to hurt her.
+Dialogue: 0,0:05:27.61,0:05:29.14,Default,,0,0,0,,这不是你的错\N{\fnNyala\fs40\shad0\b0}This was not your fault.
+Dialogue: 0,0:05:29.21,0:05:30.91,Default,,0,0,0,,可是贾妮和安布尔说是我的错\N{\fnNyala\fs40\shad0\b0}Janine and Amber said it was.
+Dialogue: 0,0:05:30.98,0:05:33.58,Default,,0,0,0,,她们说不想再跟我做朋友了\N{\fnNyala\fs40\shad0\b0}They told me they're not gonna be my friends anymore.
+Dialogue: 0,0:05:36.92,0:05:40.15,Default,,0,0,0,,你之所以会对妮可做那样的事是因为\N{\fnNyala\fs40\shad0\b0}The reason this happened to Nicole...
+Dialogue: 0,0:05:40.22,0:05:42.85,Default,,0,0,0,,我们和一般人不太一样\N{\fnNyala\fs40\shad0\b0}is because we're different.
+Dialogue: 0,0:05:42.92,0:05:45.62,Default,,0,0,0,,你 我 你的妈妈\N{\fnNyala\fs40\shad0\b0}You... me, your mom.
+Dialogue: 0,0:05:49.16,0:05:52.40,Default,,0,0,0,,我要告诉你真相\N{\fnNyala\fs40\shad0\b0}I'm gonna show you the truth.
+Dialogue: 0,0:05:52.46,0:05:54.53,Default,,0,0,0,,可能会有点吓人\N{\fnNyala\fs40\shad0\b0}And it might be scary.
+Dialogue: 0,0:05:56.24,0:05:58.13,Default,,0,0,0,,希望你能足够强大勇敢\N{\fnNyala\fs40\shad0\b0}But I need you to be strong.
+Dialogue: 0,0:06:06.11,0:06:08.18,Default,,0,0,0,,现在 仔细看好了\N{\fnNyala\fs40\shad0\b0}Now, watch closely.
+Dialogue: 0,0:06:08.25,0:06:09.48,Default,,0,0,0,,尽量不要转过身\N{\fnNyala\fs40\shad0\b0}Try not to turn away.
+Dialogue: 0,0:06:10.85,0:06:12.22,Default,,0,0,0,,爸爸 不要  停下 快停下\N{\fnNyala\fs40\shad0\b0}Daddy, no! Stop! Stop!
+Dialogue: 0,0:06:12.28,0:06:13.48,Default,,0,0,0,,- 看着 看好了  - 爸爸 不要这样\N{\fnNyala\fs40\shad0\b0}- Keep... keep watching. - Dad, please!
+Dialogue: 0,0:06:13.55,0:06:15.29,Default,,0,0,0,,不要转头 艾莉森\N{\fnNyala\fs40\shad0\b0}Don't look away, Allison.
+Dialogue: 0,0:06:31.05,0:06:32.35,Default,,0,0,0,,这就是我们的本来面目\N{\fnNyala\fs40\shad0\b0}This is what we are.
+Dialogue: 0,0:06:32.42,0:06:34.95,Default,,0,0,0,,它在我身体里 也在你身体里\N{\fnNyala\fs40\shad0\b0}This is in me, and it's in you, too.
+Dialogue: 0,0:06:35.02,0:06:36.35,Default,,0,0,0,,这也是你伤害妮可的原因\N{\fnNyala\fs40\shad0\b0}And it's why you hurt Nicole...
+Dialogue: 0,0:06:36.42,0:06:38.22,Default,,0,0,0,,我身体里没有这些  没有\N{\fnNyala\fs40\shad0\b0}That isn't inside me. It isn't.
+Dialogue: 0,0:06:38.29,0:06:39.99,Default,,0,0,0,,嘿 没事的\N{\fnNyala\fs40\shad0\b0}Hey... it's okay.
+Dialogue: 0,0:06:40.06,0:06:42.09,Default,,0,0,0,,没事的\N{\fnNyala\fs40\shad0\b0}It's okay.
+Dialogue: 0,0:06:44.16,0:06:46.23,Default,,0,0,0,,我从来没想过要伤害别人\N{\fnNyala\fs40\shad0\b0}I don't ever want to hurt anyone.
+Dialogue: 0,0:06:46.30,0:06:49.06,Default,,0,0,0,,那就不要有这个念头\N{\fnNyala\fs40\shad0\b0}Then don't.
+Dialogue: 0,0:07:46.59,0:07:48.42,Default,,0,0,0,,只靠我们自己 永远都找不到任何东西\N{\fnNyala\fs40\shad0\b0}We'll never find anything in here on our own.
+Dialogue: 0,0:07:48.49,0:07:51.06,Default,,0,0,0,,他们会出现的 他们可是职业杀手\N{\fnNyala\fs40\shad0\b0}They'll turn up. They're hired guns.
+Dialogue: 0,0:07:51.13,0:07:52.73,Default,,0,0,0,,不出现 就不会有钱\N{\fnNyala\fs40\shad0\b0}No show, no dough.
+Dialogue: 0,0:08:04.14,0:08:06.38,Default,,0,0,0,,嗨\N{\fnNyala\fs40\shad0\b0}Hi.
+Dialogue: 0,0:08:06.44,0:08:08.08,Default,,0,0,0,,早上好\N{\fnNyala\fs40\shad0\b0}Good morning.
+Dialogue: 0,0:08:09.88,0:08:11.18,Default,,0,0,0,,我叫卡罗尔\N{\fnNyala\fs40\shad0\b0}I'm Carroll.
+Dialogue: 0,0:08:11.25,0:08:13.98,Default,,0,0,0,,这是布里格斯  里根\N{\fnNyala\fs40\shad0\b0}This is Briggs. Regan.
+Dialogue: 0,0:08:14.05,0:08:16.58,Default,,0,0,0,,杰克逊派我们来的\N{\fnNyala\fs40\shad0\b0}Jackson sent us.
+Dialogue: 0,0:08:16.65,0:08:19.29,Default,,0,0,0,,你们中谁是头儿\N{\fnNyala\fs40\shad0\b0}One of you the C.O.?
+Dialogue: 0,0:08:34.14,0:08:35.97,Default,,0,0,0,,亚历杭德罗\N{\fnNyala\fs40\shad0\b0}Alejandro.
+Dialogue: 0,0:08:36.04,0:08:37.14,Default,,0,0,0,,但他们\N{\fnNyala\fs40\shad0\b0}But they...
+Dialogue: 0,0:08:37.21,0:08:39.34,Default,,0,0,0,,叫我马托\N{\fnNyala\fs40\shad0\b0}call me Mato.
+Dialogue: 0,0:08:40.48,0:08:42.35,Default,,0,0,0,,欢迎来到我的丛林\N{\fnNyala\fs40\shad0\b0}Welcome to my jungle.
+Dialogue: 0,0:08:46.44,0:08:50.87,Default,,0,0,0,,奥尔维多的毒品营地就在这片丛林的某处\N{\fnNyala\fs40\shad0\b0}The Olvidos' drug camp is somewhere in this part of the jungle.
+Dialogue: 0,0:08:50.87,0:08:54.64,Default,,0,0,0,,如果一定要我说的话 我估计在这\N{\fnNyala\fs40\shad0\b0}I had to guess, I'd say here.
+Dialogue: 0,0:08:54.68,0:08:55.91,Default,,0,0,0,,但你也不确定吧\N{\fnNyala\fs40\shad0\b0}But you don't know for sure?
+Dialogue: 0,0:08:57.25,0:08:59.65,Default,,0,0,0,,那片种植园可是由冷血杀手经营的\N{\fnNyala\fs40\shad0\b0}The plantation is run by cold-blooded killers.
+Dialogue: 0,0:08:59.68,0:09:00.91,Default,,0,0,0,,一定藏得严严实实\N{\fnNyala\fs40\shad0\b0}They keep it hidden.
+Dialogue: 0,0:09:00.95,0:09:03.15,Default,,0,0,0,,营地周围都布满陷阱和狙击手\N{\fnNyala\fs40\shad0\b0}Guard the perimeter with traps and snipers.
+Dialogue: 0,0:09:03.19,0:09:06.19,Default,,0,0,0,,而我们这里的人都是 纯爷们\N{\fnNyala\fs40\shad0\b0}And these guys... puro cabrons.
+Dialogue: 0,0:09:06.22,0:09:07.62,Default,,0,0,0,,前多国部队指挥官\N{\fnNyala\fs40\shad0\b0}Former MFC.
+Dialogue: 0,0:09:07.66,0:09:08.62,Default,,0,0,0,,军人\N{\fnNyala\fs40\shad0\b0}Military.
+Dialogue: 0,0:09:08.66,0:09:09.76,Default,,0,0,0,,还有哥伦比亚革命武装力量\N{\fnNyala\fs40\shad0\b0}That and FARC.
+Dialogue: 0,0:09:09.79,0:09:11.16,Default,,0,0,0,,他们都是些\N{\fnNyala\fs40\shad0\b0}They're soldiers we grew up with
+Dialogue: 0,0:09:11.19,0:09:13.26,Default,,0,0,0,,宁愿拿报酬干活也不要逍遥自在的家伙\N{\fnNyala\fs40\shad0\b0}who decided they wanted a payday instead of freedom.
+Dialogue: 0,0:09:13.30,0:09:17.16,Default,,0,0,0,,你应该感谢杰克逊和他在中情局的朋友\N{\fnNyala\fs40\shad0\b0}You can thank Jackson and his CIA friends for that.
+Dialogue: 0,0:09:17.20,0:09:19.80,Default,,0,0,0,,所以守卫糖果店的都是些小孩子\N{\fnNyala\fs40\shad0\b0}So they got kids guarding the candy store.
+Dialogue: 0,0:09:19.84,0:09:22.20,Default,,0,0,0,,糖果店的主人是小孩子\N{\fnNyala\fs40\shad0\b0}Kids own the candy store.
+Dialogue: 0,0:09:22.24,0:09:25.07,Default,,0,0,0,,而奥尔维多家族 他们从不开玩笑\N{\fnNyala\fs40\shad0\b0}The Olvidos, they don't play.
+Dialogue: 0,0:09:25.11,0:09:26.84,Default,,0,0,0,,要是你偷东西的话 他们会把你眼睛挖出来\N{\fnNyala\fs40\shad0\b0}They cut your eyes out for stealing.
+Dialogue: 0,0:09:26.88,0:09:28.71,Default,,0,0,0,,但如果是你的话\N{\fnNyala\fs40\shad0\b0}But you...
+Dialogue: 0,0:09:28.71,0:09:30.58,Default,,0,0,0,,他们可能会索取点别的
+Dialogue: 0,0:09:32.38,0:09:36.75,Default,,0,0,0,,但从没有人能闯入那个营地\N{\fnNyala\fs40\shad0\b0}But no one has ever made it to that camp uninvited.
+Dialogue: 0,0:09:36.79,0:09:40.96,Default,,0,0,0,,军队 缉毒局 都不曾有过\N{\fnNyala\fs40\shad0\b0}Not the army, not your DEA... no one.
+Dialogue: 0,0:09:40.99,0:09:42.62,Default,,0,0,0,,你们确定要这么做吗\N{\fnNyala\fs40\shad0\b0}You're sure you want to do this?
+Dialogue: 0,0:09:42.66,0:09:44.66,Default,,0,0,0,,怎么 你害怕了\N{\fnNyala\fs40\shad0\b0}Why, you getting cold feet?
+Dialogue: 0,0:09:44.69,0:09:46.73,Default,,0,0,0,,我\N{\fnNyala\fs40\shad0\b0}Me?
+Dialogue: 0,0:09:46.76,0:09:49.13,Default,,0,0,0,,没有 我只想确定 大难临头之时\N{\fnNyala\fs40\shad0\b0}No... I just want to be sure you won't run away
+Dialogue: 0,0:09:49.16,0:09:50.87,Default,,0,0,0,,你会不会转身就逃\N{\fnNyala\fs40\shad0\b0}when the fan hits the shit.
+Dialogue: 0,0:09:51.77,0:09:53.84,Default,,0,0,0,,你还是担心自己吧\N{\fnNyala\fs40\shad0\b0}You worry about your own.
+Dialogue: 0,0:09:54.02,0:09:57.30,Default,,0,0,0,,我们绝不会当缩头乌龟\N{\fnNyala\fs40\shad0\b0}We're sure as hell not backing down.
+Dialogue: 0,0:10:11.90,0:10:15.14,Default,,0,0,0,,马托说制毒营地就在十英里开外的地方\N{\fnNyala\fs40\shad0\b0}Mato says the drug camp is ten miles in.
+Dialogue: 0,0:10:15.20,0:10:17.33,Default,,0,0,0,,他傍晚前会把我们带到那里\N{\fnNyala\fs40\shad0\b0}He'll get us there by nightfall.
+Dialogue: 0,0:10:19.32,0:10:22.92,Default,,0,0,0,,对于一个在坎大哈（阿富汗城市）执行过任务的人来说 这都不算什么吧\N{\fnNyala\fs40\shad0\b0}Not bad for a guy who did his tours of duty in Kandahar.
+Dialogue: 0,0:10:23.16,0:10:26.60,Default,,0,0,0,,我宁可去阿富汗 也不愿意来这种满是蕨类植物的山沟\N{\fnNyala\fs40\shad0\b0}I'd take Afghanistan over this FernGully shit any day.
+Dialogue: 0,0:10:26.68,0:10:28.92,Default,,0,0,0,,我也讨厌绿乎乎的东西\N{\fnNyala\fs40\shad0\b0}Yeah, I hate this green stuff, too.
+Dialogue: 0,0:10:29.10,0:10:33.22,Default,,0,0,0,,你不是吃素么  这些在你眼里 不就跟沙拉一样么\N{\fnNyala\fs40\shad0\b0}You're a vegetarian. Isn't this all just... salad?
+Dialogue: 0,0:10:42.64,0:10:45.00,Default,,0,0,0,,我现在是跟着朵拉(卡通片人物）去探险么\N{\fnNyala\fs40\shad0\b0}Now I'm being led by Dora the Explorer.
+Dialogue: 0,0:10:45.10,0:10:47.56,Default,,0,0,0,,态度放尊重点\N{\fnNyala\fs40\shad0\b0}Best keep that attitude to yourself.
+Dialogue: 0,0:10:47.99,0:10:49.32,Default,,0,0,0,,我们必须谨慎\N{\fnNyala\fs40\shad0\b0}We need it.
+Dialogue: 0,0:10:49.49,0:10:52.16,Default,,0,0,0,,尤其猎人就在附近之时\N{\fnNyala\fs40\shad0\b0}Especially if there are Hunters out there.
+Dialogue: 0,0:10:53.43,0:10:55.56,Default,,0,0,0,,奥尔维多的欢迎方式\N{\fnNyala\fs40\shad0\b0}An Olvidos welcome.
+Dialogue: 0,0:10:55.97,0:10:57.66,Default,,0,0,0,,女士优先\N{\fnNyala\fs40\shad0\b0}Ladies first.
+Dialogue: 0,0:11:12.65,0:11:15.22,Default,,0,0,0,,你听见什么动静了吗\N{\fnNyala\fs40\shad0\b0}You hearing anything?
+Dialogue: 0,0:11:43.85,0:11:46.18,Default,,0,0,0,,放下武器  等一下  放下武器\N{\fnNyala\fs40\shad0\b0}Drop the weapon now! Hold on! Drop!
+Dialogue: 0,0:11:47.58,0:11:48.92,Default,,0,0,0,,马托\N{\fnNyala\fs40\shad0\b0}Mato!
+Dialogue: 0,0:11:58.09,0:11:59.14,Default,,0,0,0,,- 不要开火  - 等等\N{\fnNyala\fs40\shad0\b0}- Hold fire! - Wait!
+Dialogue: 0,0:11:59.22,0:12:00.93,Default,,0,0,0,,不要开火\N{\fnNyala\fs40\shad0\b0}Hold fire!
+Dialogue: 0,0:12:22.42,0:12:23.54,Default,,0,0,0,,是工人\N{\fnNyala\fs40\shad0\b0}Workers.
+Dialogue: 0,0:12:23.75,0:12:25.12,Default,,0,0,0,,有武器\N{\fnNyala\fs40\shad0\b0}Armed.
+Dialogue: 0,0:12:25.22,0:12:27.25,Default,,0,0,0,,足以杀掉我们所有人\N{\fnNyala\fs40\shad0\b0}They could have killed us all.
+Dialogue: 0,0:12:56.05,0:12:57.67,Default,,0,0,0,,放下武器\N{\fnNyala\fs40\shad0\b0}Drop the weapon.
+Dialogue: 0,0:13:01.36,0:13:02.54,Default,,0,0,0,,我不会伤害你的\N{\fnNyala\fs40\shad0\b0}I'm not gonna hurt you.
+Dialogue: 0,0:13:02.66,0:13:05.84,Default,,0,0,0,,别害怕 你现在已经安全了\N{\fnNyala\fs40\shad0\b0}Don't worry, now you're safe.
+Dialogue: 0,0:13:05.98,0:13:08.10,Default,,0,0,0,,我不会伤害你的\N{\fnNyala\fs40\shad0\b0}I'm not gonna hurt you.
+Dialogue: 0,0:13:08.43,0:13:10.13,Default,,0,0,0,,你现在没事了\N{\fnNyala\fs40\shad0\b0}You're okay now.
+Dialogue: 0,0:13:12.57,0:13:14.37,Default,,0,0,0,,你安全了\N{\fnNyala\fs40\shad0\b0}You're safe.
+Dialogue: 0,0:13:20.14,0:13:21.66,Default,,0,0,0,,他们是你的家人吗\N{\fnNyala\fs40\shad0\b0}This is your family?
+Dialogue: 0,0:13:21.76,0:13:22.98,Default,,0,0,0,,对吗\N{\fnNyala\fs40\shad0\b0}This?
+Dialogue: 0,0:13:26.32,0:13:28.33,Default,,0,0,0,,你的家人呢\N{\fnNyala\fs40\shad0\b0}What happened with your family?
+Dialogue: 0,0:13:29.36,0:13:33.34,Default,,0,0,0,,她从林子里冲出来 带走了我妈妈\N{\fnNyala\fs40\shad0\b0}She came out of the jungle and took my Mom.
+Dialogue: 0,0:13:34.04,0:13:35.62,Default,,0,0,0,,她说了什么\N{\fnNyala\fs40\shad0\b0}What did she say?
+Dialogue: 0,0:13:35.89,0:13:39.16,Default,,0,0,0,,有人从林子里冲出来 带走了她妈妈\N{\fnNyala\fs40\shad0\b0}Someone came out of the jungle and took her mother.
+Dialogue: 0,0:13:41.30,0:13:42.62,Default,,0,0,0,,小妹妹\N{\fnNyala\fs40\shad0\b0}Friend.
+Dialogue: 0,0:13:42.68,0:13:44.20,Default,,0,0,0,,是谁\N{\fnNyala\fs40\shad0\b0}Who?
+Dialogue: 0,0:13:44.37,0:13:46.77,Default,,0,0,0,,谁带走了你妈妈\N{\fnNyala\fs40\shad0\b0}Who took your Mom?
+Dialogue: 0,0:13:49.36,0:13:51.97,Default,,0,0,0,,怪物\N{\fnNyala\fs40\shad0\b0}A monster.
+Dialogue: 0,0:13:57.87,0:14:02.23,Default,,0,0,0,,塞克莱顿市 西佛吉尼亚州 2005年
+Dialogue: 0,0:14:08.46,0:14:09.86,Default,,0,0,0,,艾莉森\N{\fnNyala\fs40\shad0\b0}Allison!
+Dialogue: 0,0:14:11.03,0:14:12.48,Default,,0,0,0,,艾莉森 开门\N{\fnNyala\fs40\shad0\b0}Allison, open the door!
+Dialogue: 0,0:14:22.64,0:14:24.30,Default,,0,0,0,,你在干嘛  你疯了吗\N{\fnNyala\fs40\shad0\b0}What are you doing? Are you crazy?
+Dialogue: 0,0:14:24.40,0:14:26.94,Default,,0,0,0,,- 不就是大麻么  - 你现在必须离开这儿\N{\fnNyala\fs40\shad0\b0}- It's just weed. - You need to leave, now.
+Dialogue: 0,0:14:27.37,0:14:28.40,Default,,0,0,0,,啊 天啊\N{\fnNyala\fs40\shad0\b0}Oh, my God!
+Dialogue: 0,0:14:28.40,0:14:30.10,Default,,0,0,0,,刚刚那是地震吗  出什么事了\N{\fnNyala\fs40\shad0\b0}Was that an earthquake? What's happening?
+Dialogue: 0,0:14:30.15,0:14:32.41,Default,,0,0,0,,我跟你说过的那些人 那些不可信的人\N{\fnNyala\fs40\shad0\b0}The people I told you about, the ones we can't trust.
+Dialogue: 0,0:14:32.44,0:14:35.32,Default,,0,0,0,,他们在这里  来吧 快点\N{\fnNyala\fs40\shad0\b0}They're here. Come on, hurry.
+Dialogue: 0,0:14:36.58,0:14:38.09,Default,,0,0,0,,我的耳朵\N{\fnNyala\fs40\shad0\b0}My ears!
+Dialogue: 0,0:14:38.95,0:14:39.90,Default,,0,0,0,,妈妈\N{\fnNyala\fs40\shad0\b0}Mom!
+Dialogue: 0,0:14:40.06,0:14:41.28,Default,,0,0,0,,爸爸 我好害怕\N{\fnNyala\fs40\shad0\b0}Dad, I'm scared.
+Dialogue: 0,0:14:41.34,0:14:42.18,Default,,0,0,0,,出什么事了\N{\fnNyala\fs40\shad0\b0}What's happening?
+Dialogue: 0,0:14:42.22,0:14:44.86,Default,,0,0,0,,拿着这个  爬上阿勒格尼山\N{\fnNyala\fs40\shad0\b0}Take this. Climb Allegheny.
+Dialogue: 0,0:14:44.98,0:14:46.66,Default,,0,0,0,,跟着你的直觉走\N{\fnNyala\fs40\shad0\b0}Follow your instincts.
+Dialogue: 0,0:14:46.68,0:14:47.82,Default,,0,0,0,,我脱身后会去找你的\N{\fnNyala\fs40\shad0\b0}I'll come get you when I can.
+Dialogue: 0,0:14:47.86,0:14:49.32,Default,,0,0,0,,但我不能就这么走了  妈妈怎么办\N{\fnNyala\fs40\shad0\b0}But I can't just leave. What about Mom?
+Dialogue: 0,0:14:49.32,0:14:51.00,Default,,0,0,0,,艾莉森 听着 你要勇敢\N{\fnNyala\fs40\shad0\b0}Allison, listen, I need you to be my brave girl.
+Dialogue: 0,0:14:51.04,0:14:53.18,Default,,0,0,0,,好吗  跟直觉走就好了\N{\fnNyala\fs40\shad0\b0}Okay? Just follow your instincts.
+Dialogue: 0,0:14:53.20,0:14:54.88,Default,,0,0,0,,你会没事的\N{\fnNyala\fs40\shad0\b0}You'll be fine.
+Dialogue: 0,0:14:55.34,0:14:58.67,Default,,0,0,0,,赶紧从窗户出去  现在  马上\N{\fnNyala\fs40\shad0\b0}Now out the window. Now. Go, now!
+Dialogue: 0,0:15:24.71,0:15:27.61,Default,,0,0,0,,她说一只怪物带走了她的母亲\N{\fnNyala\fs40\shad0\b0}She says a monster took her mother.
+Dialogue: 0,0:15:28.40,0:15:30.90,Default,,0,0,0,,怪物  什么样的\N{\fnNyala\fs40\shad0\b0}A monster? How it was?
+Dialogue: 0,0:15:31.76,0:15:33.34,Default,,0,0,0,,什么样的\N{\fnNyala\fs40\shad0\b0}How it was?
+Dialogue: 0,0:15:33.52,0:15:34.62,Default,,0,0,0,,再问问她\N{\fnNyala\fs40\shad0\b0}Ask her again.
+Dialogue: 0,0:15:34.64,0:15:37.18,Default,,0,0,0,,我们需要弄清楚她到底看到了什么\N{\fnNyala\fs40\shad0\b0}We need to know exactly what she saw.
+Dialogue: 0,0:15:37.22,0:15:38.71,Default,,0,0,0,,是拉莫哈娜\N{\fnNyala\fs40\shad0\b0}It's La Mojana.
+Dialogue: 0,0:15:38.78,0:15:39.90,Default,,0,0,0,,当地传说里的人物\N{\fnNyala\fs40\shad0\b0}It's a local legend.
+Dialogue: 0,0:15:39.92,0:15:41.72,Default,,0,0,0,,一个可以改变外形的女人\N{\fnNyala\fs40\shad0\b0}A woman that changes shape,
+Dialogue: 0,0:15:41.86,0:15:44.38,Default,,0,0,0,,引诱人进丛林 然后吃了他们\N{\fnNyala\fs40\shad0\b0}takes people into the jungle and eats them.
+Dialogue: 0,0:15:44.56,0:15:47.79,Default,,0,0,0,,毒枭宣传这个传说以阻止农民进入丛林\N{\fnNyala\fs40\shad0\b0}The cartel encourages it to keep peasants out of the jungle.
+Dialogue: 0,0:15:47.89,0:15:49.19,Default,,0,0,0,,是莫哈娜吗\N{\fnNyala\fs40\shad0\b0}It was the Mojana?
+Dialogue: 0,0:15:49.22,0:15:51.53,Default,,0,0,0,,带走你妈妈的那个人\N{\fnNyala\fs40\shad0\b0}That took your Mom?
+Dialogue: 0,0:15:52.56,0:15:54.93,Default,,0,0,0,,是的  拉莫哈娜\N{\fnNyala\fs40\shad0\b0}Yes. La Mojana.
+Dialogue: 0,0:15:55.02,0:15:57.03,Default,,0,0,0,,拉莫哈娜\N{\fnNyala\fs40\shad0\b0}La Mojana.
+Dialogue: 0,0:15:57.26,0:15:58.54,Default,,0,0,0,,我们得把她带回她的营地\N{\fnNyala\fs40\shad0\b0}We need to get her back to the camp.
+Dialogue: 0,0:15:58.54,0:16:00.37,Default,,0,0,0,,不不不  她就待在这里\N{\fnNyala\fs40\shad0\b0}No, no, no... she stays.
+Dialogue: 0,0:16:00.46,0:16:01.78,Default,,0,0,0,,前方险阻未知\N{\fnNyala\fs40\shad0\b0}We're walking into a shit storm,
+Dialogue: 0,0:16:01.78,0:16:03.47,Default,,0,0,0,,我需要人手 抓一个是一个\N{\fnNyala\fs40\shad0\b0}and I need every soldier I got.
+Dialogue: 0,0:16:03.80,0:16:05.64,Default,,0,0,0,,她还是个孩子\N{\fnNyala\fs40\shad0\b0}She's just a kid.
+Dialogue: 0,0:16:05.70,0:16:07.26,Default,,0,0,0,,我要把她带回去\N{\fnNyala\fs40\shad0\b0}I'm taking her back.
+Dialogue: 0,0:16:07.30,0:16:09.34,Default,,0,0,0,,你有任务\N{\fnNyala\fs40\shad0\b0}You got a job to do...
+Dialogue: 0,0:16:09.58,0:16:10.94,Default,,0,0,0,,和我们一起\N{\fnNyala\fs40\shad0\b0}with us.
+Dialogue: 0,0:16:11.16,0:16:12.74,Default,,0,0,0,,弗林说得没错\N{\fnNyala\fs40\shad0\b0}Flynn's right.
+Dialogue: 0,0:16:12.90,0:16:14.44,Default,,0,0,0,,哦  出现了个拉莫哈娜\N{\fnNyala\fs40\shad0\b0}Oh... we got La Mojana out there,
+Dialogue: 0,0:16:14.44,0:16:15.98,Default,,0,0,0,,你就突然离不开我咯\N{\fnNyala\fs40\shad0\b0}and suddenly you need me.
+Dialogue: 0,0:16:16.02,0:16:18.52,Default,,0,0,0,,唷 芭比大兵 她是个大姑娘啦\N{\fnNyala\fs40\shad0\b0}Yo, G.I. Joe Barbie, she's a big girl.
+Dialogue: 0,0:16:18.60,0:16:20.85,Default,,0,0,0,,我在她那么大的时候 都手撕好几人了\N{\fnNyala\fs40\shad0\b0}I was slitting throats when I was her age.
+Dialogue: 0,0:16:21.96,0:16:24.22,Default,,0,0,0,,你想拿到之前杰克逊答应的薪水吗\N{\fnNyala\fs40\shad0\b0}You want your payday like Jackson promised?
+Dialogue: 0,0:16:24.28,0:16:27.13,Default,,0,0,0,,让你最弱的手下带这姑娘回营地\N{\fnNyala\fs40\shad0\b0}Send your weakest man to take the girl back to camp,
+Dialogue: 0,0:16:27.13,0:16:28.74,Default,,0,0,0,,不然的话 我们来带\N{\fnNyala\fs40\shad0\b0}otherwise, we take her.
+Dialogue: 0,0:16:28.80,0:16:30.72,Default,,0,0,0,,你就什么也捞不着\N{\fnNyala\fs40\shad0\b0}And you go home empty-handed.
+Dialogue: 0,0:16:31.80,0:16:33.88,Default,,0,0,0,,你做决定吧 头儿\N{\fnNyala\fs40\shad0\b0}Choice is yours, jefe.
+Dialogue: 0,0:16:39.96,0:16:41.41,Default,,0,0,0,,卡洛斯\N{\fnNyala\fs40\shad0\b0}Carlos.
+Dialogue: 0,0:16:41.72,0:16:44.29,Default,,0,0,0,,卡洛斯 把这女孩儿带回营地
+Dialogue: 0,0:16:44.78,0:16:46.28,Default,,0,0,0,,谢谢\N{\fnNyala\fs40\shad0\b0}Thanks.
+Dialogue: 0,0:16:48.12,0:16:49.72,Default,,0,0,0,,不客气\N{\fnNyala\fs40\shad0\b0}You're welcome.
+Dialogue: 0,0:16:51.75,0:16:53.25,Default,,0,0,0,,走吧\N{\fnNyala\fs40\shad0\b0}Let's go.
+Dialogue: 0,0:17:00.70,0:17:04.80,Default,,0,0,0,,什么时候告诉他 我们是在打怪物 而不是对抗毒枭\N{\fnNyala\fs40\shad0\b0}When do we tell him we're fighting monsters and not a drug cartel?
+Dialogue: 0,0:17:04.96,0:17:06.76,Default,,0,0,0,,什么也不用说\N{\fnNyala\fs40\shad0\b0}We don't tell them anything.
+Dialogue: 0,0:17:06.90,0:17:08.80,Default,,0,0,0,,而且他们也不是怪物\N{\fnNyala\fs40\shad0\b0}And they're not monsters.
+Dialogue: 0,0:17:08.86,0:17:11.30,Default,,0,0,0,,他们只是非人类罢了\N{\fnNyala\fs40\shad0\b0}They're just not human.
+Dialogue: 0,0:17:13.51,0:17:17.82,Default,,0,0,0,,阿勒格尼山脉 西弗吉尼亚州 2005
+Dialogue: 0,0:18:39.73,0:18:43.58,Default,,0,0,0,,如果你在读这个的话 说明我已经不在你身边了\N{\fnNyala\fs40\shad0\b0}If you're reading this, it means I'm no longer with you.
+Dialogue: 0,0:18:43.72,0:18:47.58,Default,,0,0,0,,你现在起得靠自己了 你要坚强\N{\fnNyala\fs40\shad0\b0}You're on your own now, and you have to be strong.
+Dialogue: 0,0:18:47.67,0:18:50.14,Default,,0,0,0,,无论你做什么 我都是你的父亲\N{\fnNyala\fs40\shad0\b0}No matter what you do, I am your father,
+Dialogue: 0,0:18:50.14,0:18:51.98,Default,,0,0,0,,你是我的小心肝\N{\fnNyala\fs40\shad0\b0}and you're my little girl.
+Dialogue: 0,0:18:52.02,0:18:53.94,Default,,0,0,0,,我会永远爱你\N{\fnNyala\fs40\shad0\b0}And I will always love you.
+Dialogue: 0,0:19:40.70,0:19:41.89,Default,,0,0,0,,看看这边\N{\fnNyala\fs40\shad0\b0}Check it out.
+Dialogue: 0,0:19:42.00,0:19:43.35,Default,,0,0,0,,一直向前\N{\fnNyala\fs40\shad0\b0}Straight ahead.
+Dialogue: 0,0:19:45.13,0:19:47.39,Default,,0,0,0,,我觉得我们找到营地了\N{\fnNyala\fs40\shad0\b0}I think we found our camp.
+Dialogue: 0,0:19:56.42,0:19:57.77,Default,,0,0,0,,看来没人啊\N{\fnNyala\fs40\shad0\b0}Looks empty.
+Dialogue: 0,0:19:58.65,0:20:01.04,Default,,0,0,0,,没有看守 什么都没有\N{\fnNyala\fs40\shad0\b0}No guards, nothing.
+Dialogue: 0,0:20:01.16,0:20:02.54,Default,,0,0,0,,废墟\N{\fnNyala\fs40\shad0\b0}Ghost town.
+Dialogue: 0,0:20:04.74,0:20:06.42,Default,,0,0,0,,里根\N{\fnNyala\fs40\shad0\b0}Regan?
+Dialogue: 0,0:20:07.05,0:20:09.45,Default,,0,0,0,,我听不到动静\N{\fnNyala\fs40\shad0\b0}I don't hear a thing.
+Dialogue: 0,0:20:09.74,0:20:12.18,Default,,0,0,0,,我们从下面过去吧\N{\fnNyala\fs40\shad0\b0}Let's move in from below.
+Dialogue: 0,0:21:01.76,0:21:03.03,Default,,0,0,0,,安全\N{\fnNyala\fs40\shad0\b0}Clear.
+Dialogue: 0,0:21:03.04,0:21:06.47,Default,,0,0,0,,空无一人  外面的尸体一定是工人\N{\fnNyala\fs40\shad0\b0}Empty. The bodies outside must be the workers.
+Dialogue: 0,0:21:06.54,0:21:08.91,Default,,0,0,0,,- 大屠杀  - 安全\N{\fnNyala\fs40\shad0\b0}- A massacre. - Clear.
+Dialogue: 0,0:21:16.02,0:21:18.04,Default,,0,0,0,,没有枪伤\N{\fnNyala\fs40\shad0\b0}No bullet wounds.
+Dialogue: 0,0:21:18.12,0:21:21.82,Default,,0,0,0,,没有枪战的痕迹  只有\N{\fnNyala\fs40\shad0\b0}No signs of firefight. Just...
+Dialogue: 0,0:21:21.90,0:21:23.77,Default,,0,0,0,,被分尸的尸体\N{\fnNyala\fs40\shad0\b0}Ripped apart.
+Dialogue: 0,0:21:50.78,0:21:53.10,Default,,0,0,0,,到底是谁这么心狠手辣\N{\fnNyala\fs40\shad0\b0}What the hell could have done this?
+Dialogue: 0,0:22:30.72,0:22:31.92,Default,,0,0,0,,弗林\N{\fnNyala\fs40\shad0\b0}Flynn?
+Dialogue: 0,0:22:32.31,0:22:34.27,Default,,0,0,0,,你发现了什么\N{\fnNyala\fs40\shad0\b0}What did you find?
+Dialogue: 0,0:22:36.14,0:22:38.04,Default,,0,0,0,,脚印\N{\fnNyala\fs40\shad0\b0}Footprints.
+Dialogue: 0,0:22:41.56,0:22:43.46,Default,,0,0,0,,看起来是不久前的\N{\fnNyala\fs40\shad0\b0}They look fresh.
+Dialogue: 0,0:22:59.72,0:23:02.48,Default,,0,0,0,,闭嘴 这是我的问题\N{\fnNyala\fs40\shad0\b0}Shut up, it's my problem.
+Dialogue: 0,0:23:03.88,0:23:07.42,Default,,0,0,0,,嘿 嗯 我们搜索了整个营地\N{\fnNyala\fs40\shad0\b0}Hey... yeah, we searched the entire camp.
+Dialogue: 0,0:23:07.50,0:23:09.44,Default,,0,0,0,,无人生还\N{\fnNyala\fs40\shad0\b0}There's no one left here alive.
+Dialogue: 0,0:23:09.50,0:23:10.86,Default,,0,0,0,,也没发现什么\N{\fnNyala\fs40\shad0\b0}Nothing more to see.
+Dialogue: 0,0:23:10.92,0:23:11.90,Default,,0,0,0,,不 还不能走\N{\fnNyala\fs40\shad0\b0}No, we're not leaving.
+Dialogue: 0,0:23:11.92,0:23:13.92,Default,,0,0,0,,我们现在返程 还能在天黑前回去\N{\fnNyala\fs40\shad0\b0}We go now, we might make it back before dark.
+Dialogue: 0,0:23:13.96,0:23:15.80,Default,,0,0,0,,哦 他们要睡觉了吗\N{\fnNyala\fs40\shad0\b0}Oh, is it past their bedtime?
+Dialogue: 0,0:23:16.00,0:23:17.46,Default,,0,0,0,,是的 是的\N{\fnNyala\fs40\shad0\b0}Yeah... yeah.
+Dialogue: 0,0:23:17.46,0:23:20.14,Default,,0,0,0,,因为我们已经完成了任务 把你们带到营地\N{\fnNyala\fs40\shad0\b0}'Cause we did our job... got you to the camp.
+Dialogue: 0,0:23:20.20,0:23:21.46,Default,,0,0,0,,这是我答应杰克逊的\N{\fnNyala\fs40\shad0\b0}That's what I told Jackson we'd do,
+Dialogue: 0,0:23:21.50,0:23:22.68,Default,,0,0,0,,已经完成了\N{\fnNyala\fs40\shad0\b0}and it's done.
+Dialogue: 0,0:23:23.40,0:23:25.37,Default,,0,0,0,,这是你的林地吗\N{\fnNyala\fs40\shad0\b0}Is this your jungle?
+Dialogue: 0,0:23:26.44,0:23:28.24,Default,,0,0,0,,是的\N{\fnNyala\fs40\shad0\b0}Yes.
+Dialogue: 0,0:23:28.40,0:23:30.51,Default,,0,0,0,,那就拿出你该有的样子\N{\fnNyala\fs40\shad0\b0}Then act like it.
+Dialogue: 0,0:23:35.66,0:23:38.35,Default,,0,0,0,,你们不是为缉毒行动来的\N{\fnNyala\fs40\shad0\b0}You're not here for a drug bust.
+Dialogue: 0,0:23:38.96,0:23:41.52,Default,,0,0,0,,布里格斯 我们一起守夜吧\N{\fnNyala\fs40\shad0\b0}Briggs... let's set up a watch.
+Dialogue: 0,0:23:41.55,0:23:43.38,Default,,0,0,0,,轮流守 一直到明天早上\N{\fnNyala\fs40\shad0\b0}We'll take shifts till morning.
+Dialogue: 0,0:23:43.52,0:23:45.94,Default,,0,0,0,,马托 你和你的部下\N{\fnNyala\fs40\shad0\b0}Mato... you and your men
+Dialogue: 0,0:23:46.02,0:23:47.66,Default,,0,0,0,,可以清理下外面的尸体\N{\fnNyala\fs40\shad0\b0}can clean up the bodies outside.
+Dialogue: 0,0:23:47.72,0:23:49.63,Default,,0,0,0,,我们去搜查制毒室\N{\fnNyala\fs40\shad0\b0}We'll search the lab.
+Dialogue: 0,0:24:16.12,0:24:18.76,Default,,0,0,0,,他们在生产海洛因\N{\fnNyala\fs40\shad0\b0}They were producing heroin.
+Dialogue: 0,0:24:18.90,0:24:20.79,Default,,0,0,0,,看看这\N{\fnNyala\fs40\shad0\b0}Look at this.
+Dialogue: 0,0:24:21.94,0:24:23.68,Default,,0,0,0,,看这个\N{\fnNyala\fs40\shad0\b0}Check this out.
+Dialogue: 0,0:24:23.82,0:24:26.22,Default,,0,0,0,,这具尸体和外面的不同\N{\fnNyala\fs40\shad0\b0}That body wasn't killed like the ones outside.
+Dialogue: 0,0:24:26.22,0:24:27.78,Default,,0,0,0,,伤口和麦卡锡仓库里的\N{\fnNyala\fs40\shad0\b0}It's the same wounds as the junkie
+Dialogue: 0,0:24:27.78,0:24:29.56,Default,,0,0,0,,瘾君子一样\N{\fnNyala\fs40\shad0\b0}in McCarthy's warehouse.
+Dialogue: 0,0:24:31.90,0:24:33.34,Default,,0,0,0,,我捣毁过很多制毒窝点\N{\fnNyala\fs40\shad0\b0}I've raided dozens of drug labs,
+Dialogue: 0,0:24:33.34,0:24:35.54,Default,,0,0,0,,从没见过这样的\N{\fnNyala\fs40\shad0\b0}I've never seen anything like this.
+Dialogue: 0,0:24:51.20,0:24:53.36,Default,,0,0,0,,此事另有隐情\N{\fnNyala\fs40\shad0\b0}Something else was going on.
+Dialogue: 0,0:24:55.86,0:24:57.80,Default,,0,0,0,,还是暖的\N{\fnNyala\fs40\shad0\b0}It's still warm.
+Dialogue: 0,0:24:59.30,0:25:01.43,Default,,0,0,0,,他们在破坏证据\N{\fnNyala\fs40\shad0\b0}They were destroying evidence.
+Dialogue: 0,0:25:01.64,0:25:03.28,Default,,0,0,0,,和人\N{\fnNyala\fs40\shad0\b0}And people.
+Dialogue: 0,0:25:03.50,0:25:05.30,Default,,0,0,0,,计划周全 毫无破绽\N{\fnNyala\fs40\shad0\b0}No loose ends.
+Dialogue: 0,0:25:05.40,0:25:07.80,Default,,0,0,0,,他们好像一直先我们一步\N{\fnNyala\fs40\shad0\b0}Like they were one step ahead of us.
+Dialogue: 0,0:25:08.68,0:25:11.74,Default,,0,0,0,,斯拉维奇跟我说 我们有内鬼\N{\fnNyala\fs40\shad0\b0}Slavich told me they had someone on the inside.
+Dialogue: 0,0:25:11.98,0:25:14.51,Default,,0,0,0,,内鬼  不可能吧\N{\fnNyala\fs40\shad0\b0}A mole? That's crazy.
+Dialogue: 0,0:25:15.46,0:25:16.62,Default,,0,0,0,,那是什么\N{\fnNyala\fs40\shad0\b0}What is that?
+Dialogue: 0,0:25:16.62,0:25:17.44,Default,,0,0,0,,嗯 是外皮\N{\fnNyala\fs40\shad0\b0}Yeah, it's skin.
+Dialogue: 0,0:25:17.44,0:25:18.60,Default,,0,0,0,,嗯\N{\fnNyala\fs40\shad0\b0}Yeah.
+Dialogue: 0,0:25:22.56,0:25:26.58,Default,,0,0,0,,某种身体组织 不是人类的\N{\fnNyala\fs40\shad0\b0}It's some kind of tissue, not human.
+Dialogue: 0,0:25:26.84,0:25:29.16,Default,,0,0,0,,他们到底在这儿干嘛\N{\fnNyala\fs40\shad0\b0}What the hell were they doing here?
+Dialogue: 0,0:25:30.02,0:25:32.52,Default,,0,0,0,,去掉痛苦\N{\fnNyala\fs40\shad0\b0}Taking the pain away.
+Dialogue: 0,0:25:32.69,0:25:36.38,Default,,0,0,0,,芝加哥 伊利诺斯州 2012
+Dialogue: 0,0:26:08.07,0:26:09.54,Default,,0,0,0,,还想拿奖赏么\N{\fnNyala\fs40\shad0\b0}You want a medal?
+Dialogue: 0,0:26:09.67,0:26:11.93,Default,,0,0,0,,我交班时间快到了  滚边儿\N{\fnNyala\fs40\shad0\b0}My break's almost over. Shoo.
+Dialogue: 0,0:26:16.00,0:26:18.18,Default,,0,0,0,,疯婊子\N{\fnNyala\fs40\shad0\b0}Crazy fucking bitch.
+Dialogue: 0,0:26:20.02,0:26:21.68,Default,,0,0,0,,我会打电话给你的\N{\fnNyala\fs40\shad0\b0}I'll call you!
+Dialogue: 0,0:26:21.72,0:26:22.70,Default,,0,0,0,,才怪\N{\fnNyala\fs40\shad0\b0}Not.
+Dialogue: 0,0:26:31.84,0:26:33.46,Default,,0,0,0,,嘿\N{\fnNyala\fs40\shad0\b0}Hey.
+Dialogue: 0,0:26:35.70,0:26:36.78,Default,,0,0,0,,在干什么\N{\fnNyala\fs40\shad0\b0}What are you doin'?
+Dialogue: 0,0:26:38.43,0:26:40.43,Default,,0,0,0,,关你屁事 臭傻逼\N{\fnNyala\fs40\shad0\b0}None of your business, dick wad.
+Dialogue: 0,0:26:40.86,0:26:42.43,Default,,0,0,0,,你说啥\N{\fnNyala\fs40\shad0\b0}What did you say?
+Dialogue: 0,0:26:43.20,0:26:45.47,Default,,0,0,0,,你听到的  蠢驴\N{\fnNyala\fs40\shad0\b0}You heard me, donut ass.
+Dialogue: 0,0:26:49.06,0:26:50.91,Default,,0,0,0,,面对墙站好\N{\fnNyala\fs40\shad0\b0}Up against the wall.
+Dialogue: 0,0:26:54.80,0:26:56.66,Default,,0,0,0,,放了他\N{\fnNyala\fs40\shad0\b0}Let him go!
+Dialogue: 0,0:26:56.86,0:26:58.95,Default,,0,0,0,,放了他 不然我开枪了\N{\fnNyala\fs40\shad0\b0}Let him go, or I'll shoot!
+Dialogue: 0,0:27:08.86,0:27:11.56,Default,,0,0,0,,听见什么没  在外面吗\N{\fnNyala\fs40\shad0\b0}Hear anything? Is it out there?
+Dialogue: 0,0:27:11.62,0:27:13.44,Default,,0,0,0,,我不知道  可能吧\N{\fnNyala\fs40\shad0\b0}I don't know. Could be.
+Dialogue: 0,0:27:13.52,0:27:16.20,Default,,0,0,0,,天没亮 什么也干不了\N{\fnNyala\fs40\shad0\b0}Can't do much till morning.
+Dialogue: 0,0:27:30.46,0:27:33.53,Default,,0,0,0,,至少第一个被五马分尸的会是布里格斯\N{\fnNyala\fs40\shad0\b0}At least Briggs will be the first one getting ripped apart.
+Dialogue: 0,0:27:34.86,0:27:36.64,Default,,0,0,0,,什么\N{\fnNyala\fs40\shad0\b0}What?
+Dialogue: 0,0:27:36.74,0:27:40.18,Default,,0,0,0,,他没让你这个猎人好过吧 处处针对你\N{\fnNyala\fs40\shad0\b0}After all the shit he gives you for being a Hunter?
+Dialogue: 0,0:27:40.56,0:27:43.18,Default,,0,0,0,,布里格斯恨我是有原因的\N{\fnNyala\fs40\shad0\b0}Briggs has his reasons for hating me.
+Dialogue: 0,0:27:43.23,0:27:45.00,Default,,0,0,0,,爱亦是\N{\fnNyala\fs40\shad0\b0}And loving me.
+Dialogue: 0,0:27:45.90,0:27:48.23,Default,,0,0,0,,很复杂\N{\fnNyala\fs40\shad0\b0}It's complicated.
+Dialogue: 0,0:27:48.82,0:27:51.14,Default,,0,0,0,,你们俩\N{\fnNyala\fs40\shad0\b0}Did you two...?
+Dialogue: 0,0:27:51.30,0:27:54.12,Default,,0,0,0,,不不不 天\N{\fnNyala\fs40\shad0\b0}No. No. God, no.
+Dialogue: 0,0:27:54.32,0:27:55.92,Default,,0,0,0,,我不是他的菜\N{\fnNyala\fs40\shad0\b0}I'm not his type.
+Dialogue: 0,0:27:56.24,0:27:57.96,Default,,0,0,0,,而且 他喜欢独来独往\N{\fnNyala\fs40\shad0\b0}Besides, he's kind of a loner,
+Dialogue: 0,0:27:57.96,0:28:00.21,Default,,0,0,0,,我怕你还没看出来\N{\fnNyala\fs40\shad0\b0}in case you hadn't figured that out yet.
+Dialogue: 0,0:28:03.48,0:28:05.66,Default,,0,0,0,,也不能说我怪他\N{\fnNyala\fs40\shad0\b0}Can't say I blame him.
+Dialogue: 0,0:28:05.80,0:28:08.50,Default,,0,0,0,,我见过一些人做出极恶之事\N{\fnNyala\fs40\shad0\b0}I've seen human beings do some heinous shit.
+Dialogue: 0,0:28:08.69,0:28:11.25,Default,,0,0,0,,但我从没见过这样的\N{\fnNyala\fs40\shad0\b0}But I've never seen anything like that.
+Dialogue: 0,0:28:14.66,0:28:16.26,Default,,0,0,0,,来点吧\N{\fnNyala\fs40\shad0\b0}This helps.
+Dialogue: 0,0:28:30.60,0:28:33.08,Default,,0,0,0,,所以酒对你的影响不像\N{\fnNyala\fs40\shad0\b0}So alcohol doesn't affect you like...
+Dialogue: 0,0:28:33.16,0:28:36.30,Default,,0,0,0,,不不  但我喜欢喝酒这种活动\N{\fnNyala\fs40\shad0\b0}No. No. But I like the ritual.
+Dialogue: 0,0:28:36.62,0:28:39.20,Default,,0,0,0,,让我觉得自己是正常人\N{\fnNyala\fs40\shad0\b0}It makes me feel normal.
+Dialogue: 0,0:28:39.48,0:28:41.96,Default,,0,0,0,,我和你相反\N{\fnNyala\fs40\shad0\b0}It's pretty much the opposite for me.
+Dialogue: 0,0:28:42.10,0:28:45.49,Default,,0,0,0,,我喜欢它让我觉得自己没那么正常\N{\fnNyala\fs40\shad0\b0}I like how it makes me feel not normal.
+Dialogue: 0,0:28:52.20,0:28:55.48,Default,,0,0,0,,你是不是一直看起来都那么像\N{\fnNyala\fs40\shad0\b0}Did you always look... so...
+Dialogue: 0,0:28:57.27,0:28:58.74,Default,,0,0,0,,什么  人类\N{\fnNyala\fs40\shad0\b0}What? Human?
+Dialogue: 0,0:29:02.27,0:29:04.72,Default,,0,0,0,,自打我记事起就是\N{\fnNyala\fs40\shad0\b0}As far as I can remember.
+Dialogue: 0,0:29:04.85,0:29:08.24,Default,,0,0,0,,我一直以为自己是呢 直到我父母告诉我不是\N{\fnNyala\fs40\shad0\b0}Thought I was, until my parents told me I wasn't.
+Dialogue: 0,0:29:09.84,0:29:12.22,Default,,0,0,0,,你的妻子 你从没怀疑过\N{\fnNyala\fs40\shad0\b0}Your wife... you never suspected?
+Dialogue: 0,0:29:12.88,0:29:14.54,Default,,0,0,0,,什么\N{\fnNyala\fs40\shad0\b0}What?
+Dialogue: 0,0:29:15.32,0:29:18.12,Default,,0,0,0,,她可能是外星人吗\N{\fnNyala\fs40\shad0\b0}That she could be from outer space?
+Dialogue: 0,0:29:20.96,0:29:22.54,Default,,0,0,0,,不\N{\fnNyala\fs40\shad0\b0}No.
+Dialogue: 0,0:29:22.64,0:29:25.73,Default,,0,0,0,,我特么为什么要那么想\N{\fnNyala\fs40\shad0\b0}Had no damn reason to think she might be.
+Dialogue: 0,0:29:28.23,0:29:30.03,Default,,0,0,0,,但 看着你\N{\fnNyala\fs40\shad0\b0}But, watching you...
+Dialogue: 0,0:29:32.42,0:29:34.60,Default,,0,0,0,,我觉得还真有可能\N{\fnNyala\fs40\shad0\b0}I'd say it's possible.
+Dialogue: 0,0:31:16.82,0:31:17.76,Default,,0,0,0,,米格尔\N{\fnNyala\fs40\shad0\b0}Miguel!
+Dialogue: 0,0:31:17.80,0:31:19.09,Default,,0,0,0,,米格尔 欧内斯托\N{\fnNyala\fs40\shad0\b0}Miguel, Ernesto!
+Dialogue: 0,0:31:19.09,0:31:20.90,Default,,0,0,0,,回来  回来\N{\fnNyala\fs40\shad0\b0}Come back! Come back!
+Dialogue: 0,0:31:20.96,0:31:22.25,Default,,0,0,0,,好运  我逃命去了\N{\fnNyala\fs40\shad0\b0}Good luck. I'll back off.
+Dialogue: 0,0:31:22.28,0:31:24.92,Default,,0,0,0,,米格尔  你在哪里\N{\fnNyala\fs40\shad0\b0}Miguel! Where are you?
+Dialogue: 0,0:31:28.06,0:31:29.89,Default,,0,0,0,,你死定了 你个混蛋\N{\fnNyala\fs40\shad0\b0}You're gonna fry, you bastard.
+Dialogue: 0,0:31:41.33,0:31:43.57,Default,,0,0,0,,马托的手下全被杀死了\N{\fnNyala\fs40\shad0\b0}This killed all of Mato's men.
+Dialogue: 0,0:31:48.77,0:31:50.76,Default,,0,0,0,,那是什么鬼\N{\fnNyala\fs40\shad0\b0}What the hell is that?
+Dialogue: 0,0:31:50.82,0:31:52.90,Default,,0,0,0,,它要逃走了\N{\fnNyala\fs40\shad0\b0}It's getting away.
+Dialogue: 0,0:31:56.46,0:31:58.58,Default,,0,0,0,,那是什么\N{\fnNyala\fs40\shad0\b0}What was that?
+Dialogue: 0,0:31:58.78,0:32:00.68,Default,,0,0,0,,不管是什么\N{\fnNyala\fs40\shad0\b0}Whatever it was...
+Dialogue: 0,0:32:01.14,0:32:02.72,Default,,0,0,0,,反正不是人类\N{\fnNyala\fs40\shad0\b0}it wasn't human.
+Dialogue: 0,0:32:06.94,0:32:09.80,Default,,0,0,0,,我的手机呢  我要叫后援\N{\fnNyala\fs40\shad0\b0}Where's my cell phone? I'm calling in backup.
+Dialogue: 0,0:32:09.82,0:32:12.10,Default,,0,0,0,,如果必要 我真要叫上所有军队\N{\fnNyala\fs40\shad0\b0}The whole God damn army if I have to.
+Dialogue: 0,0:32:12.30,0:32:15.78,Default,,0,0,0,,我们要找到那东西 然后杀了它\N{\fnNyala\fs40\shad0\b0}We will find that thing and go kill it...
+Dialogue: 0,0:32:48.76,0:32:50.97,Default,,0,0,0,,能告诉我 这到底是怎么一回事吗\N{\fnNyala\fs40\shad0\b0}Wanna tell me what the hell that was about?
+Dialogue: 0,0:32:51.42,0:32:54.16,Default,,0,0,0,,保密协议  杰克逊的命令\N{\fnNyala\fs40\shad0\b0}Containment protocol. Jackson's orders.
+Dialogue: 0,0:32:54.31,0:32:58.12,Default,,0,0,0,,他看到太多了  他会说出去的\N{\fnNyala\fs40\shad0\b0}He saw too much. He was about to talk.
+Dialogue: 0,0:32:58.84,0:33:02.14,Default,,0,0,0,,她说得没错  地外反恐行动组的规定\N{\fnNyala\fs40\shad0\b0}She's right. ETU rules.
+Dialogue: 0,0:33:02.20,0:33:03.95,Default,,0,0,0,,我们不能让别人知道这些\N{\fnNyala\fs40\shad0\b0}We can't let any of this get out.
+Dialogue: 0,0:33:05.02,0:33:07.46,Default,,0,0,0,,杀死他手下的东西还在外游荡\N{\fnNyala\fs40\shad0\b0}Whatever killed his men is still out there.
+Dialogue: 0,0:33:07.56,0:33:09.79,Default,,0,0,0,,我们必须通知杰克逊 走吧\N{\fnNyala\fs40\shad0\b0}We need to notify Jackson, get moving.
+Dialogue: 0,0:33:10.12,0:33:12.19,Default,,0,0,0,,里根 如果我没有加入行动组\N{\fnNyala\fs40\shad0\b0}Regan, if I hadn't have joined the unit,
+Dialogue: 0,0:33:12.19,0:33:14.86,Default,,0,0,0,,你也会把我处置掉吗\N{\fnNyala\fs40\shad0\b0}would you have... contained me?
+Dialogue: 0,0:33:20.27,0:33:22.40,Default,,0,0,0,,不是人类外表吗\N{\fnNyala\fs40\shad0\b0}Not in human form?
+Dialogue: 0,0:33:22.44,0:33:23.93,Default,,0,0,0,,那是披着什么皮的怪物\N{\fnNyala\fs40\shad0\b0}Well, what form is it in?
+Dialogue: 0,0:33:23.93,0:33:25.20,Default,,0,0,0,,我也不太清楚\N{\fnNyala\fs40\shad0\b0}I don't know, exactly.
+Dialogue: 0,0:33:25.20,0:33:27.17,Default,,0,0,0,,我只能确定是一个猎人\N{\fnNyala\fs40\shad0\b0}All I know for sure is that it's a Hunter.
+Dialogue: 0,0:33:27.18,0:33:28.51,Default,,0,0,0,,马托也看见了吗\N{\fnNyala\fs40\shad0\b0}And Mato saw it?
+Dialogue: 0,0:33:28.70,0:33:29.52,Default,,0,0,0,,他有没有被\N{\fnNyala\fs40\shad0\b0}Has he been...?
+Dialogue: 0,0:33:29.52,0:33:31.11,Default,,0,0,0,,已经解决了\N{\fnNyala\fs40\shad0\b0}It's been handled.
+Dialogue: 0,0:33:31.34,0:33:33.28,Default,,0,0,0,,你的所谓保密协议 令我们人手紧缺\N{\fnNyala\fs40\shad0\b0}Your protocol left us shorthanded.
+Dialogue: 0,0:33:33.28,0:33:36.15,Default,,0,0,0,,我们需要额外支援  派空中之眼无人机过来\N{\fnNyala\fs40\shad0\b0}We need additional support. Eyes in the sky.
+Dialogue: 0,0:33:36.16,0:33:37.40,Default,,0,0,0,,我尽力而为\N{\fnNyala\fs40\shad0\b0}I'll see what I can do.
+Dialogue: 0,0:33:37.40,0:33:39.34,Default,,0,0,0,,我们现在就需要  等不到明天早上了\N{\fnNyala\fs40\shad0\b0}We need it now. Can't wait till the morning.
+Dialogue: 0,0:33:39.34,0:33:41.69,Default,,0,0,0,,- 明白  - 那东西晚上也能行动\N{\fnNyala\fs40\shad0\b0}- Understood. - That thing can hunt at night.
+Dialogue: 0,0:33:41.69,0:33:42.80,Default,,0,0,0,,它有优势\N{\fnNyala\fs40\shad0\b0}It has the advantage.
+Dialogue: 0,0:33:42.80,0:33:44.54,Default,,0,0,0,,你能定位目标对象的位置吗\N{\fnNyala\fs40\shad0\b0}You have a location on the target?
+Dialogue: 0,0:33:44.54,0:33:46.34,Default,,0,0,0,,它受伤了 而且很害怕\N{\fnNyala\fs40\shad0\b0}It's injured, scared.
+Dialogue: 0,0:33:46.34,0:33:47.62,Default,,0,0,0,,我觉得它会躲到山里去\N{\fnNyala\fs40\shad0\b0}I think it'll head to the mountains.
+Dialogue: 0,0:33:47.64,0:33:49.49,Default,,0,0,0,,你觉得还是你确定\N{\fnNyala\fs40\shad0\b0}You think or you know?
+Dialogue: 0,0:33:49.50,0:33:50.78,Default,,0,0,0,,反正我会这么做\N{\fnNyala\fs40\shad0\b0}That's what I would do.
+Dialogue: 0,0:33:50.78,0:33:53.30,Default,,0,0,0,,就我们对他们语言的了解而言 还算说得过去\N{\fnNyala\fs40\shad0\b0}That makes sense with what we understand about their language.
+Dialogue: 0,0:33:53.33,0:33:55.38,Default,,0,0,0,,地势越高\N{\fnNyala\fs40\shad0\b0}Higher elevation means more miles
+Dialogue: 0,0:33:55.38,0:33:57.30,Default,,0,0,0,,越能先发制人\N{\fnNyala\fs40\shad0\b0}to anticipate potential attacks.
+Dialogue: 0,0:33:57.44,0:33:59.40,Default,,0,0,0,,我们原本一个小时之内就可以派无人机过去\N{\fnNyala\fs40\shad0\b0}We could have a drone out there in an hour.
+Dialogue: 0,0:33:59.40,0:34:00.70,Default,,0,0,0,,出什么状况了\N{\fnNyala\fs40\shad0\b0}And then what happens?
+Dialogue: 0,0:34:00.74,0:34:02.54,Default,,0,0,0,,有个爱荷华州的22岁的\N{\fnNyala\fs40\shad0\b0}22-year-old kid from Iowa
+Dialogue: 0,0:34:02.54,0:34:05.69,Default,,0,0,0,,斯诺登狂饭 用游戏机控制器\N{\fnNyala\fs40\shad0\b0}with an Xbox controller and a Snowden complex
+Dialogue: 0,0:34:05.69,0:34:07.16,Default,,0,0,0,,把无人机黑掉了\N{\fnNyala\fs40\shad0\b0}gets one of these things in his sights?
+Dialogue: 0,0:34:07.18,0:34:08.42,Default,,0,0,0,,怎么解决\N{\fnNyala\fs40\shad0\b0}How do we contain that?
+Dialogue: 0,0:34:08.48,0:34:10.74,Default,,0,0,0,,车到山前必有路\N{\fnNyala\fs40\shad0\b0}We'll cross that bridge when we come to it.
+Dialogue: 0,0:34:10.80,0:34:12.70,Default,,0,0,0,,我会联系兰利\N{\fnNyala\fs40\shad0\b0}I'll reach out to Langley.
+Dialogue: 0,0:34:13.52,0:34:15.44,Default,,0,0,0,,如果我们真想抓到它 现在就应该出发了\N{\fnNyala\fs40\shad0\b0}If we wanna catch this thing, we gotta leave now.
+Dialogue: 0,0:34:15.50,0:34:18.46,Default,,0,0,0,,ETU曾经抓到过跟你不一样的猎人吗\N{\fnNyala\fs40\shad0\b0}Has ETU ever caught one that doesn't look like you?
+Dialogue: 0,0:34:18.94,0:34:21.76,Default,,0,0,0,,我们从未抓到过任何形态的活口\N{\fnNyala\fs40\shad0\b0}We've never captured one alive in any form.
+Dialogue: 0,0:34:22.40,0:34:25.70,Default,,0,0,0,,那么我们这次最好能抓到一个 对吧\N{\fnNyala\fs40\shad0\b0}Then we better... catch this one, right?
+Dialogue: 0,0:34:27.23,0:34:29.47,Default,,0,0,0,,天那么黑 我们怎么找得到它\N{\fnNyala\fs40\shad0\b0}How we gonna find it in the dark?
+Dialogue: 0,0:34:29.52,0:34:32.10,Default,,0,0,0,,有志者事竟成\N{\fnNyala\fs40\shad0\b0}You can find anything if you want it badly enough.
+Dialogue: 0,0:34:36.83,0:34:41.55,Default,,0,0,0,,库克郡惩教中心 伊利诺斯州 芝加哥市 2012年
+Dialogue: 0,0:34:59.58,0:35:01.32,Default,,0,0,0,,艾莉森 你好\N{\fnNyala\fs40\shad0\b0}Hello, Allison.
+Dialogue: 0,0:35:01.50,0:35:03.50,Default,,0,0,0,,我叫特拉斯·杰克逊\N{\fnNyala\fs40\shad0\b0}My name is Truss Jackson.
+Dialogue: 0,0:35:03.60,0:35:05.10,Default,,0,0,0,,我来自国土安全部\N{\fnNyala\fs40\shad0\b0}Homeland Security.
+Dialogue: 0,0:35:10.80,0:35:13.93,Default,,0,0,0,,我不是来伤害你的\N{\fnNyala\fs40\shad0\b0}I'm not here to hurt you.
+Dialogue: 0,0:35:23.74,0:35:26.12,Default,,0,0,0,,看什么看 你个糟老头\N{\fnNyala\fs40\shad0\b0}Stop staring, you dirty old freak.
+Dialogue: 0,0:35:26.26,0:35:28.74,Default,,0,0,0,,怎么着 以前没见过女的\N{\fnNyala\fs40\shad0\b0}What, you never seen a girl before?
+Dialogue: 0,0:35:29.87,0:35:31.87,Default,,0,0,0,,只是没见过你这样的\N{\fnNyala\fs40\shad0\b0}Not like you.
+Dialogue: 0,0:35:33.70,0:35:37.10,Default,,0,0,0,,几年前  我把你的\N{\fnNyala\fs40\shad0\b0}I have an... old photograph of you
+Dialogue: 0,0:35:37.10,0:35:40.09,Default,,0,0,0,,一张老照片录入系统\N{\fnNyala\fs40\shad0\b0}that I put into the system years ago,
+Dialogue: 0,0:35:40.09,0:35:44.13,Default,,0,0,0,,就怕你万一哪天被警察逮捕\N{\fnNyala\fs40\shad0\b0}just in case you ever got arrested.
+Dialogue: 0,0:35:44.86,0:35:46.96,Default,,0,0,0,,就是这张\N{\fnNyala\fs40\shad0\b0}And here you are.
+Dialogue: 0,0:35:51.23,0:35:52.36,Default,,0,0,0,,挺可爱\N{\fnNyala\fs40\shad0\b0}Cute kid.
+Dialogue: 0,0:35:52.64,0:35:53.95,Default,,0,0,0,,但不是我\N{\fnNyala\fs40\shad0\b0}But that's not me.
+Dialogue: 0,0:35:54.21,0:35:56.75,Default,,0,0,0,,艾莉森·里根 来自西佛吉尼亚州的塞克莱顿市\N{\fnNyala\fs40\shad0\b0}Allison Regan of Circleton, West Virginia.
+Dialogue: 0,0:35:56.75,0:35:59.16,Default,,0,0,0,,泰德·里根与利安娜·里根的女儿\N{\fnNyala\fs40\shad0\b0}Daughter of Ted and Liana Regan.
+Dialogue: 0,0:35:59.22,0:36:00.53,Default,,0,0,0,,没听说过\N{\fnNyala\fs40\shad0\b0}Never heard of 'em.
+Dialogue: 0,0:36:00.61,0:36:06.01,Default,,0,0,0,,16岁时 家里被不明入侵者闯入 而失踪\N{\fnNyala\fs40\shad0\b0}Disappeared age 16 after a home invasion by unidentified intruders.
+Dialogue: 0,0:36:06.37,0:36:09.44,Default,,0,0,0,,你确定这不是你吗\N{\fnNyala\fs40\shad0\b0}You sure that's not who you are?
+Dialogue: 0,0:36:30.01,0:36:30.51,Default,,0,0,0,,行动\N{\fnNyala\fs40\shad0\b0}Go.
+Dialogue: 0,0:36:30.77,0:36:32.26,Default,,0,0,0,,兰利不允许\N{\fnNyala\fs40\shad0\b0}Langley said no.
+Dialogue: 0,0:36:32.30,0:36:34.02,Default,,0,0,0,,- 行动终止  - 为什么\N{\fnNyala\fs40\shad0\b0}- You have to abort. - Why?
+Dialogue: 0,0:36:34.12,0:36:34.86,Default,,0,0,0,,见鬼\N{\fnNyala\fs40\shad0\b0}Bullshit!
+Dialogue: 0,0:36:34.93,0:36:36.61,Default,,0,0,0,,如果没有后援 你们不堪一击\N{\fnNyala\fs40\shad0\b0}Without backup, you're vulnerable.
+Dialogue: 0,0:36:36.61,0:36:38.68,Default,,0,0,0,,没有无人机 你们什么都看不见\N{\fnNyala\fs40\shad0\b0}Without a drone, you're blind.
+Dialogue: 0,0:36:38.78,0:36:40.05,Default,,0,0,0,,太危险了\N{\fnNyala\fs40\shad0\b0}It's too dangerous.
+Dialogue: 0,0:36:40.11,0:36:41.78,Default,,0,0,0,,它受伤了  优势在我们这边\N{\fnNyala\fs40\shad0\b0}It's injured. We have the advantage.
+Dialogue: 0,0:36:41.81,0:36:43.90,Default,,0,0,0,,它可是猎人的新变体\N{\fnNyala\fs40\shad0\b0}It's a new form of Hunter.
+Dialogue: 0,0:36:47.02,0:36:47.94,Default,,0,0,0,,行动终止\N{\fnNyala\fs40\shad0\b0}Abort.
+Dialogue: 0,0:36:48.08,0:36:49.42,Default,,0,0,0,,这是命令\N{\fnNyala\fs40\shad0\b0}That's an order.
+Dialogue: 0,0:36:49.62,0:36:51.82,Default,,0,0,0,,信号不好  你要我们汇报吗\N{\fnNyala\fs40\shad0\b0}You're breaking up. You said report?
+Dialogue: 0,0:36:51.86,0:36:53.72,Default,,0,0,0,,行动终止  我说终止\N{\fnNyala\fs40\shad0\b0}Abort! I said abort.
+Dialogue: 0,0:36:53.73,0:36:56.59,Default,,0,0,0,,收到  我们会在完成任务后向您汇报 完毕\N{\fnNyala\fs40\shad0\b0}Copy that! We'll complete the mission and report, over.
+Dialogue: 0,0:36:56.62,0:36:57.62,Default,,0,0,0,,卡罗尔\N{\fnNyala\fs40\shad0\b0}Carroll!
+Dialogue: 0,0:36:58.05,0:36:59.44,Default,,0,0,0,,我们这回要倒大霉了\N{\fnNyala\fs40\shad0\b0}We're gonna catch shit for that.
+Dialogue: 0,0:36:59.48,0:37:01.15,Default,,0,0,0,,最好物有所值\N{\fnNyala\fs40\shad0\b0}Well, we better make it worth it.
+Dialogue: 0,0:37:01.23,0:37:03.03,Default,,0,0,0,,在树上\N{\fnNyala\fs40\shad0\b0}In the trees!
+Dialogue: 0,0:37:24.75,0:37:25.50,Default,,0,0,0,,布里格斯\N{\fnNyala\fs40\shad0\b0}Briggs!
+Dialogue: 0,0:37:26.59,0:37:27.50,Default,,0,0,0,,布里格斯\N{\fnNyala\fs40\shad0\b0}Briggs!
+Dialogue: 0,0:37:32.52,0:37:34.21,Default,,0,0,0,,真特么见鬼\N{\fnNyala\fs40\shad0\b0}You piece of shit!
+Dialogue: 0,0:37:36.93,0:37:39.37,Default,,0,0,0,,- 我没事  - 是那些毒贩子设下的陷阱\N{\fnNyala\fs40\shad0\b0}- I'm okay. - A perimeter trap from the drug cartel.
+Dialogue: 0,0:37:39.39,0:37:40.42,Default,,0,0,0,,用得着你说\N{\fnNyala\fs40\shad0\b0}Oh, now you tell me.
+Dialogue: 0,0:37:40.44,0:37:41.81,Default,,0,0,0,,准备好了吗  数到三\N{\fnNyala\fs40\shad0\b0}Ready? On three.
+Dialogue: 0,0:37:41.81,0:37:43.04,Default,,0,0,0,,- 来吧  - 1\N{\fnNyala\fs40\shad0\b0}- Go on. - One...
+Dialogue: 0,0:37:46.59,0:37:47.88,Default,,0,0,0,,喀嗒声越来越弱了\N{\fnNyala\fs40\shad0\b0}The clicks are getting fainter.
+Dialogue: 0,0:37:47.93,0:37:48.84,Default,,0,0,0,,好吧 你去追吧\N{\fnNyala\fs40\shad0\b0}All right, you go.
+Dialogue: 0,0:37:48.91,0:37:50.28,Default,,0,0,0,,我来照看布里格斯\N{\fnNyala\fs40\shad0\b0}I'll take care of Briggs.
+Dialogue: 0,0:38:06.35,0:38:08.53,Default,,0,0,0,,她会被那个生物撕碎的\N{\fnNyala\fs40\shad0\b0}She could get ripped by whatever that thing is.
+Dialogue: 0,0:38:08.56,0:38:10.02,Default,,0,0,0,,也可能反过来\N{\fnNyala\fs40\shad0\b0}Or she tears it up.
+Dialogue: 0,0:38:10.24,0:38:12.51,Default,,0,0,0,,正好两不耽误 双赢\N{\fnNyala\fs40\shad0\b0}What they call a win-win.
+Dialogue: 0,0:38:12.70,0:38:13.17,Default,,0,0,0,,是啊\N{\fnNyala\fs40\shad0\b0}Right.
+Dialogue: 0,0:38:15.97,0:38:17.86,Default,,0,0,0,,里根又怎么惹着你了\N{\fnNyala\fs40\shad0\b0}So what's your beef with Regan?
+Dialogue: 0,0:38:18.16,0:38:21.12,Default,,0,0,0,,我可不像你那么喜欢人形猎人\N{\fnNyala\fs40\shad0\b0}Oh, I don't like human Hunters like you do.
+Dialogue: 0,0:38:40.56,0:38:42.70,Default,,0,0,0,,她真他妈能干\N{\fnNyala\fs40\shad0\b0}She's been pretty damn useful.
+Dialogue: 0,0:38:43.37,0:38:45.89,Default,,0,0,0,,她不是我见过的唯一一个猎人\N{\fnNyala\fs40\shad0\b0}She's not the only one I've met.
+Dialogue: 0,0:38:47.53,0:38:50.65,Default,,0,0,0,,我曾经与澳洲特种部队在阿富汗执行任务\N{\fnNyala\fs40\shad0\b0}I was with Australian Special Forces in Afghanistan.
+Dialogue: 0,0:38:51.64,0:38:54.06,Default,,0,0,0,,我们还以为找到了恐怖分子的巢穴\N{\fnNyala\fs40\shad0\b0}We thought we were hitting a terrorist cell.
+Dialogue: 0,0:38:54.37,0:38:56.34,Default,,0,0,0,,结果房间里只有一个人\N{\fnNyala\fs40\shad0\b0}Turned out to be just one guy in a room.
+Dialogue: 0,0:38:56.41,0:38:58.16,Default,,0,0,0,,我们两人冲进去\N{\fnNyala\fs40\shad0\b0}Two of us went in.
+Dialogue: 0,0:38:58.21,0:39:00.04,Default,,0,0,0,,火力大开\N{\fnNyala\fs40\shad0\b0}Opened fire, both clips.
+Dialogue: 0,0:39:00.24,0:39:01.04,Default,,0,0,0,,那人毫发未伤\N{\fnNyala\fs40\shad0\b0}Nothing.
+Dialogue: 0,0:39:02.98,0:39:04.06,Default,,0,0,0,,然后\N{\fnNyala\fs40\shad0\b0}And then...
+Dialogue: 0,0:39:05.63,0:39:07.12,Default,,0,0,0,,它扑向布兰登\N{\fnNyala\fs40\shad0\b0}it leapt at Brendan
+Dialogue: 0,0:39:07.18,0:39:08.99,Default,,0,0,0,,把他撕成了碎片\N{\fnNyala\fs40\shad0\b0}and it ripped him apart.
+Dialogue: 0,0:39:10.68,0:39:13.88,Default,,0,0,0,,不慌不忙 戏弄意味十足\N{\fnNyala\fs40\shad0\b0}But slowly... playfully.
+Dialogue: 0,0:39:14.11,0:39:14.94,Default,,0,0,0,,就像猫戏弄老鼠一样\N{\fnNyala\fs40\shad0\b0}Like a cat.
+Dialogue: 0,0:39:16.45,0:39:18.42,Default,,0,0,0,,整个过程中\N{\fnNyala\fs40\shad0\b0}And the whole time,
+Dialogue: 0,0:39:18.85,0:39:20.93,Default,,0,0,0,,它一直盯着我\N{\fnNyala\fs40\shad0\b0}it kept looking at me.
+Dialogue: 0,0:39:22.62,0:39:24.72,Default,,0,0,0,,就像那是一场表演\N{\fnNyala\fs40\shad0\b0}Like it was a show.
+Dialogue: 0,0:39:33.05,0:39:35.05,Default,,0,0,0,,猎人夺走了你所爱之人\N{\fnNyala\fs40\shad0\b0}Hunters took the one you love.
+Dialogue: 0,0:39:37.86,0:39:40.05,Default,,0,0,0,,我也有同样遭遇\N{\fnNyala\fs40\shad0\b0}They did that to me, too.
+Dialogue: 0,0:39:40.41,0:39:42.65,Default,,0,0,0,,你不能相信她\N{\fnNyala\fs40\shad0\b0}You can't trust her.
+Dialogue: 0,0:39:43.17,0:39:46.54,Default,,0,0,0,,不管外表再怎么纯良\N{\fnNyala\fs40\shad0\b0}And whatever they look like on the surface...
+Dialogue: 0,0:39:47.95,0:39:50.00,Default,,0,0,0,,它们骨子里还是恶魔\N{\fnNyala\fs40\shad0\b0}they're monsters underneath.
+Dialogue: 0,0:40:21.55,0:40:25.63,Default,,0,0,0,,伊利诺斯州 芝加哥市 2012年
+Dialogue: 0,0:40:26.68,0:40:28.11,Default,,0,0,0,,你太狠了吧\N{\fnNyala\fs40\shad0\b0}You're ruthless.
+Dialogue: 0,0:40:28.18,0:40:30.05,Default,,0,0,0,,世界尽在我的掌控之中\N{\fnNyala\fs40\shad0\b0}World domination cometh.
+Dialogue: 0,0:40:30.64,0:40:34.14,Default,,0,0,0,,你的杀人本能是来自父母的吗\N{\fnNyala\fs40\shad0\b0}You get the killer instinct from your parents?
+Dialogue: 0,0:40:35.21,0:40:37.55,Default,,0,0,0,,我父母不是早死了么\N{\fnNyala\fs40\shad0\b0}My parents are dead, aren't they?
+Dialogue: 0,0:40:38.16,0:40:40.84,Default,,0,0,0,,其实 我们对你 你的父母\N{\fnNyala\fs40\shad0\b0}Truth is, we don't know much about anything about...
+Dialogue: 0,0:40:41.13,0:40:43.21,Default,,0,0,0,,都了解甚少\N{\fnNyala\fs40\shad0\b0}your parents, about you, about any of it.
+Dialogue: 0,0:40:43.23,0:40:44.58,Default,,0,0,0,,所以你狗屁不懂\N{\fnNyala\fs40\shad0\b0}So you don't know shit.
+Dialogue: 0,0:40:44.70,0:40:46.04,Default,,0,0,0,,你不了解我\N{\fnNyala\fs40\shad0\b0}Not about me.
+Dialogue: 0,0:40:46.25,0:40:47.76,Default,,0,0,0,,没人了解我\N{\fnNyala\fs40\shad0\b0}No one does.
+Dialogue: 0,0:40:57.69,0:41:02.32,Default,,0,0,0,,这么多年来 你一直留着父亲给你的信\N{\fnNyala\fs40\shad0\b0}You kept his letter from your dad for years.
+Dialogue: 0,0:41:11.58,0:41:14.15,Default,,0,0,0,,每个人都需要精神支柱\N{\fnNyala\fs40\shad0\b0}Everybody needs someone.
+Dialogue: 0,0:41:19.72,0:41:21.82,Default,,0,0,0,,你的父母\N{\fnNyala\fs40\shad0\b0}Your parents...
+Dialogue: 0,0:41:22.68,0:41:24.14,Default,,0,0,0,,他们和你一样\N{\fnNyala\fs40\shad0\b0}they were like you.
+Dialogue: 0,0:41:24.36,0:41:25.72,Default,,0,0,0,,对吗\N{\fnNyala\fs40\shad0\b0}Weren't they?
+Dialogue: 0,0:41:26.84,0:41:27.96,Default,,0,0,0,,是\N{\fnNyala\fs40\shad0\b0}Yeah.
+Dialogue: 0,0:41:28.44,0:41:30.32,Default,,0,0,0,,我们一样\N{\fnNyala\fs40\shad0\b0}They were like me.
+Dialogue: 0,0:41:34.82,0:41:36.61,Default,,0,0,0,,那你是什么\N{\fnNyala\fs40\shad0\b0}And what are you?
+Dialogue: 0,0:41:40.27,0:41:42.20,Default,,0,0,0,,我不知道\N{\fnNyala\fs40\shad0\b0}I don't know.
+

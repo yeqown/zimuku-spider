@@ -1,0 +1,917 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.13,0:00:42.98,Default,,0000,0000,0000,,Before my father died, he said the worst thing about growing old
+Dialogue: 0,0:00:43.14,0:00:46.75,Default,,0000,0000,0000,,was that other men stopped seeing you as dangerous.
+Dialogue: 0,0:00:46.91,0:00:52.36,Default,,0000,0000,0000,,I've always remembered that, how being dangerous was sacred, a badge of honor
+Dialogue: 0,0:00:54.02,0:00:56.89,Default,,0000,0000,0000,,You live your life by a code, an ethos.
+Dialogue: 0,0:00:57.05,0:01:02.93,Default,,0000,0000,0000,,Every man does. It's your shoreline. It's what guides you home.
+Dialogue: 0,0:01:03.09,0:01:06.66,Default,,0000,0000,0000,,And, trust me, you're always trying to get home.
+Dialogue: 0,0:02:14.46,0:02:16.74,Default,,0000,0000,0000,,Authorities say the ring is centered in Costa Rica,
+Dialogue: 0,0:02:16.90,0:02:18.40,Default,,0000,0000,0000,,with the primary export being...
+Dialogue: 0,0:02:46.49,0:02:48.87,Default,,0000,0000,0000,,...widely unknown if the war on drugs is connecting them...
+Dialogue: 0,0:02:58.51,0:03:00.95,Default,,0000,0000,0000,,...in the region have been known to retaliate using a...
+Dialogue: 0,0:03:07.88,0:03:09.19,Default,,0000,0000,0000,,...25,000 troops...
+Dialogue: 0,0:03:21.23,0:03:22.97,Default,,0000,0000,0000,,...flying from the US to control that...
+Dialogue: 0,0:03:36.88,0:03:38.59,Default,,0000,0000,0000,,Can we get some ice cream?
+Dialogue: 0,0:03:38.75,0:03:41.25,Default,,0000,0000,0000,,- No, we gotta go. - You always say no.
+Dialogue: 0,0:03:41.42,0:03:44.40,Default,,0000,0000,0000,,- Well, are you gonna buy? - No, you buy.
+Dialogue: 0,0:03:44.55,0:03:46.00,Default,,0000,0000,0000,,OK, what are we getting today?
+Dialogue: 0,0:03:46.15,0:03:49.43,Default,,0000,0000,0000,,- Passion fruit. - OK, passion fruit.
+Dialogue: 0,0:03:51.99,0:03:53.27,Default,,0000,0000,0000,,How about macadamia nut?
+Dialogue: 0,0:04:26.29,0:04:27.93,Default,,0000,0000,0000,,WO...claimed responsibility for the attack
+Dialogue: 0,0:04:28.10,0:04:29.91,Default,,0000,0000,0000,,at the International School in Manila.
+Dialogue: 0,0:04:30.06,0:04:31.57,Default,,0000,0000,0000,,Your father was a reader
+Dialogue: 0,0:04:31.73,0:04:35.88,Default,,0000,0000,0000,,Churchill, of course, but also Faulkner and books about Tecumseh.
+Dialogue: 0,0:04:36.04,0:04:39.88,Default,,0000,0000,0000,,He loved artists who painted people with bodies that looked like boxes.
+Dialogue: 0,0:04:40.04,0:04:41.82,Default,,0000,0000,0000,,I 'd give him hell about that
+Dialogue: 0,0:04:41.98,0:04:43.82,Default,,0000,0000,0000,,He'd just say, "You gotta look harden "
+Dialogue: 0,0:04:52.82,0:04:55.63,Default,,0000,0000,0000,,Ambassador Margullies had long been a strong supporter
+Dialogue: 0,0:04:55.79,0:04:59.00,Default,,0000,0000,0000,,of joint counterterrorism operations conducted within this region.
+Dialogue: 0,0:04:59.16,0:05:02.91,Default,,0000,0000,0000,,Not one group has yet claimed responsibility for the attacks on the International School.
+Dialogue: 0,0:05:03.06,0:05:04.81,Default,,0000,0000,0000,,- Here's your coffee, Rorke. - Thank you, ma'am.
+Dialogue: 0,0:05:07.07,0:05:09.34,Default,,0000,0000,0000,,- Sounds good, thank you. - You're late again, Dave.
+Dialogue: 0,0:05:12.74,0:05:14.85,Default,,0000,0000,0000,,What do you got going on over here?
+Dialogue: 0,0:05:19.31,0:05:22.59,Default,,0000,0000,0000,,- Are you serious, man? - We're not telling anyone yet.
+Dialogue: 0,0:05:22.75,0:05:24.16,Default,,0000,0000,0000,,You a little nervous, though, huh?
+Dialogue: 0,0:05:24.32,0:05:25.76,Default,,0000,0000,0000,,Last time I checked, they don't come with directions.
+Dialogue: 0,0:05:25.92,0:05:27.37,Default,,0000,0000,0000,,Yeah, tell me about it.
+Dialogue: 0,0:05:27.52,0:05:28.47,Default,,0000,0000,0000,,- Hey. - Hey.
+Dialogue: 0,0:05:28.62,0:05:30.33,Default,,0000,0000,0000,,My man here is having a baby.
+Dialogue: 0,0:05:30.49,0:05:32.77,Default,,0000,0000,0000,,Hey, congratulations.
+Dialogue: 0,0:05:32.93,0:05:34.87,Default,,0000,0000,0000,,Hey, everybody, Rorke's having a baby.
+Dialogue: 0,0:05:35.03,0:05:36.63,Default,,0000,0000,0000,,WOCongratulations, Rorke!
+Dialogue: 0,0:05:36.80,0:05:38.37,Default,,0000,0000,0000,,Whoo!
+Dialogue: 0,0:05:38.53,0:05:41.31,Default,,0000,0000,0000,,- What did I just say? - Ah, don't worry about it, man.
+Dialogue: 0,0:05:41.47,0:05:45.38,Default,,0000,0000,0000,,You're gonna be awesome. I'm so excited for you, man. You're gonna be a good dad.
+Dialogue: 0,0:05:45.54,0:05:48.52,Default,,0000,0000,0000,,Hey, tomorrow Jackie and I are heading down to the beach.
+Dialogue: 0,0:05:48.68,0:05:51.85,Default,,0000,0000,0000,,Bring Sandy and the kids. I'll bring an extra board for you.
+Dialogue: 0,0:05:52.01,0:05:54.05,Default,,0000,0000,0000,,- You know I don't surf. - I know you don't surf, but it'll be good
+Dialogue: 0,0:05:54.22,0:05:55.52,Default,,0000,0000,0000,,- to get the families together. - All right.
+Dialogue: 0,0:05:55.68,0:05:59.29,Default,,0000,0000,0000,,But now that you've told everyone in the bar, try and contain yourself tomorrow.
+Dialogue: 0,0:06:00.12,0:06:01.36,Default,,0000,0000,0000,,I will try.
+Dialogue: 0,0:06:09.73,0:06:12.23,Default,,0000,0000,0000,,"Look harden " your father would say.
+Dialogue: 0,0:06:12.40,0:06:15.97,Default,,0000,0000,0000,,I always knew he wasn't just talking about those boxy abstract paintings.
+Dialogue: 0,0:06:17.81,0:06:21.81,Default,,0000,0000,0000,,There 's threats everywhere, and the world is draped in camouflage.
+Dialogue: 0,0:06:44.00,0:06:46.60,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:22.24,0:07:24.65,Default,,0000,0000,0000,,Hey, I'll be right down, all right?
+Dialogue: 0,0:07:26.14,0:07:27.45,Default,,0000,0000,0000,,Whatever you say, Boss.
+Dialogue: 0,0:07:30.45,0:07:31.55,Default,,0000,0000,0000,,WOHow was the ride?
+Dialogue: 0,0:07:31.71,0:07:33.16,Default,,0000,0000,0000,,I left Colombia this morning.
+Dialogue: 0,0:07:33.31,0:07:37.23,Default,,0000,0000,0000,,- Colombia to here in one day? - Piece of cake.
+Dialogue: 0,0:07:37.39,0:07:39.42,Default,,0000,0000,0000,,Anyway, estimates say that Christo is worth
+Dialogue: 0,0:07:39.59,0:07:41.79,Default,,0000,0000,0000,,- close to a billion. - That's with a "B"?
+Dialogue: 0,0:07:41.96,0:07:44.30,Default,,0000,0000,0000,,Yeah, and he gives back a lot to this community over here
+Dialogue: 0,0:07:44.46,0:07:48.00,Default,,0000,0000,0000,,with medical clinics, schools, political donations,
+Dialogue: 0,0:07:48.16,0:07:49.57,Default,,0000,0000,0000,,you name it, so this is the deal:
+Dialogue: 0,0:07:49.73,0:07:51.57,Default,,0000,0000,0000,,They are extremely loyal to him over here.
+Dialogue: 0,0:07:51.73,0:07:54.18,Default,,0000,0000,0000,,When did the DEA hand him over to us?
+Dialogue: 0,0:07:54.34,0:07:57.94,Default,,0000,0000,0000,,When they intercepted a 707 of his filled with Soviet weapons.
+Dialogue: 0,0:07:58.11,0:08:00.42,Default,,0000,0000,0000,,Listen, Langley says that the boys over at NSA,
+Dialogue: 0,0:08:00.58,0:08:03.42,Default,,0000,0000,0000,,they found some interesting intercepts connecting Christo
+Dialogue: 0,0:08:03.58,0:08:06.02,Default,,0000,0000,0000,,to a jihadist network out of Southeast Asia.
+Dialogue: 0,0:08:06.18,0:08:09.25,Default,,0000,0000,0000,,Apparently, Christo and one of the guys running the network,
+Dialogue: 0,0:08:09.42,0:08:10.83,Default,,0000,0000,0000,,they're childhood friends.
+Dialogue: 0,0:08:16.09,0:08:18.13,Default,,0000,0000,0000,,Your father's grandfather gave up his life
+Dialogue: 0,0:08:18.29,0:08:20.83,Default,,0000,0000,0000,,flying a B-24 in World War ll.
+Dialogue: 0,0:08:21.00,0:08:24.03,Default,,0000,0000,0000,,He kept the Liberator aloft just long enough for everyone to jump,
+Dialogue: 0,0:08:24.20,0:08:26.44,Default,,0000,0000,0000,,and then he went down with the plane.
+Dialogue: 0,0:08:26.57,0:08:28.64,Default,,0000,0000,0000,,That's the blood that courses in your veins.
+Dialogue: 0,0:08:29.87,0:08:32.94,Default,,0000,0000,0000,,- Daddy, can I come with you? - You want to come with me?
+Dialogue: 0,0:08:33.11,0:08:35.85,Default,,0000,0000,0000,,Did you feel how cold it is out there? I'll tell you what,
+Dialogue: 0,0:08:36.01,0:08:38.65,Default,,0000,0000,0000,,go hang out with Mommy for a little while, help out with the baby.
+Dialogue: 0,0:08:38.81,0:08:41.69,Default,,0000,0000,0000,,When I come back in, if you still want to go out, I'll take you out with me.
+Dialogue: 0,0:08:41.85,0:08:44.80,Default,,0000,0000,0000,,- Promise? - I promise. Hurry up, go.
+Dialogue: 0,0:08:50.56,0:08:52.56,Default,,0000,0000,0000,,- What's going on, sir? - What's up, brother?
+Dialogue: 0,0:08:52.73,0:08:54.43,Default,,0000,0000,0000,,Nothing much, man.
+Dialogue: 0,0:08:54.56,0:08:55.84,Default,,0000,0000,0000,,Now, I know you got the New York heritage,
+Dialogue: 0,0:08:55.96,0:08:58.31,Default,,0000,0000,0000,,but this isn't exactly like sitting back in Staten Island.
+Dialogue: 0,0:08:58.43,0:09:00.41,Default,,0000,0000,0000,,You got to actually work hard to get through the surf.
+Dialogue: 0,0:09:00.57,0:09:02.01,Default,,0000,0000,0000,,- Yeah, I know. - Twelve-plus years on the Teams,
+Dialogue: 0,0:09:02.17,0:09:03.38,Default,,0000,0000,0000,,and you don't know how to do this?
+Dialogue: 0,0:09:03.54,0:09:05.38,Default,,0000,0000,0000,,Hey, wait till you have five kids, man.
+Dialogue: 0,0:09:05.54,0:09:07.42,Default,,0000,0000,0000,,You'll see how much time you got to play in the surf.
+Dialogue: 0,0:09:07.58,0:09:09.18,Default,,0000,0000,0000,,You ready to get in the drink or what?
+Dialogue: 0,0:09:09.34,0:09:10.65,Default,,0000,0000,0000,,All right, man, lead the way.
+Dialogue: 0,0:09:10.78,0:09:12.69,Default,,0000,0000,0000,,- All right, don't embarrass us. - All right.
+Dialogue: 0,0:09:12.85,0:09:16.92,Default,,0000,0000,0000,,Your father was my Boss, and I was his Chief
+Dialogue: 0,0:09:17.08,0:09:20.90,Default,,0000,0000,0000,,What we knew about each other strengthened our bond as operators.
+Dialogue: 0,0:09:21.06,0:09:24.20,Default,,0000,0000,0000,,There was a brotherhood between us,
+Dialogue: 0,0:09:24.36,0:09:27.13,Default,,0000,0000,0000,,and we depended on each other more than a family.
+Dialogue: 0,0:09:31.57,0:09:34.78,Default,,0000,0000,0000,,Tecumseh said, "Although a single twig will break,
+Dialogue: 0,0:09:34.94,0:09:37.08,Default,,0000,0000,0000,,a bundle of twigs is strong. "
+Dialogue: 0,0:09:46.55,0:09:48.42,Default,,0000,0000,0000,,OK, OK, gracias.
+Dialogue: 0,0:09:48.58,0:09:50.72,Default,,0000,0000,0000,,Wow, this is unbelievable.
+Dialogue: 0,0:09:50.89,0:09:52.92,Default,,0000,0000,0000,,I still can't believe you ordered Chinese in this place.
+Dialogue: 0,0:09:53.09,0:09:55.40,Default,,0000,0000,0000,,It's really good.
+Dialogue: 0,0:10:03.60,0:10:06.17,Default,,0000,0000,0000,,Double word score, 18 points.
+Dialogue: 0,0:10:08.30,0:10:11.72,Default,,0000,0000,0000,,- "Dumb"? - Read it and weep, sugar.
+Dialogue: 0,0:10:15.91,0:10:17.45,Default,,0000,0000,0000,,I'll try not to.
+Dialogue: 0,0:10:18.51,0:10:21.72,Default,,0000,0000,0000,,Look at this, look at this. Thirty-eight points for me.
+Dialogue: 0,0:10:21.88,0:10:23.99,Default,,0000,0000,0000,,"Adumbrating," that's not even a word.
+Dialogue: 0,0:10:24.15,0:10:26.29,Default,,0000,0000,0000,,OK, first of all, it's pronounced "adumbrating,"
+Dialogue: 0,0:10:26.45,0:10:29.09,Default,,0000,0000,0000,,and it means pretending, foreshadowing.
+Dialogue: 0,0:10:30.49,0:10:32.23,Default,,0000,0000,0000,,Hm...
+Dialogue: 0,0:10:32.39,0:10:34.74,Default,,0000,0000,0000,,Guess who's buying dinner tonight, sugar.
+Dialogue: 0,0:10:38.60,0:10:40.74,Default,,0000,0000,0000,,Fine.
+Dialogue: 0,0:10:40.90,0:10:44.21,Default,,0000,0000,0000,,In most cases, officers get tactical partners.
+Dialogue: 0,0:10:44.41,0:10:48.01,Default,,0000,0000,0000,,Langley sets me up with some son of SCRABBLE hustler.
+Dialogue: 0,0:10:48.18,0:10:51.09,Default,,0000,0000,0000,,WOSCRABBLE Yoda, OK? Get it right.
+Dialogue: 0,0:10:53.78,0:10:55.28,Default,,0000,0000,0000,,- How much do I owe you? - Nada.
+Dialogue: 0,0:10:57.42,0:10:59.80,Default,,0000,0000,0000,,Shit.
+Dialogue: 0,0:11:43.83,0:11:46.57,Default,,0000,0000,0000,,Our platoon was headed downrange.
+Dialogue: 0,0:11:47.90,0:11:49.54,Default,,0000,0000,0000,,We had Weimy, our sniper
+Dialogue: 0,0:11:49.70,0:11:52.69,Default,,0000,0000,0000,,He grew up in the middle of the Mojave Desert.
+Dialogue: 0,0:11:52.84,0:11:55.51,Default,,0000,0000,0000,,Most excitement he found as a kid was bowling frozen turkeys
+Dialogue: 0,0:11:55.68,0:11:57.99,Default,,0000,0000,0000,,down the aisle at the grocery store.
+Dialogue: 0,0:11:59.51,0:12:02.52,Default,,0000,0000,0000,,Ray, our comms guy, our radioman,
+Dialogue: 0,0:12:02.68,0:12:05.25,Default,,0000,0000,0000,,he grew up in East LA gangland.
+Dialogue: 0,0:12:05.42,0:12:09.73,Default,,0000,0000,0000,,He had a Silver Star for pulling a wounded teammate out of the fray.
+Dialogue: 0,0:12:09.89,0:12:12.67,Default,,0000,0000,0000,,Sonny, he was made of granite.
+Dialogue: 0,0:12:12.83,0:12:14.67,Default,,0000,0000,0000,,This guy didn't even do push-ups
+Dialogue: 0,0:12:14.83,0:12:17.94,Default,,0000,0000,0000,,'cause he was afraid his chest was gonna get too big.
+Dialogue: 0,0:12:18.10,0:12:21.34,Default,,0000,0000,0000,,Ajay joined the Teams late in his 30s.
+Dialogue: 0,0:12:21.50,0:12:23.71,Default,,0000,0000,0000,,He'd been a Muay Thai fighter early in life.
+Dialogue: 0,0:12:23.87,0:12:27.01,Default,,0000,0000,0000,,Before that, he grew up dirt-poor in Trinidad.
+Dialogue: 0,0:12:28.98,0:12:31.25,Default,,0000,0000,0000,,Mikey had 20 years in the Teams.
+Dialogue: 0,0:12:31.41,0:12:33.98,Default,,0000,0000,0000,,But as humble as he was, you'd never even know it.
+Dialogue: 0,0:12:34.18,0:12:38.39,Default,,0000,0000,0000,,He kept a picture of his wife in his helmet and a lock of her hair in his pocket.
+Dialogue: 0,0:12:38.55,0:12:40.43,Default,,0000,0000,0000,,Quiet as the breeze.
+Dialogue: 0,0:12:41.46,0:12:43.09,Default,,0000,0000,0000,,And finally, Senior Chief
+Dialogue: 0,0:12:43.26,0:12:45.70,Default,,0000,0000,0000,,I couldn't really tell you much about him...
+Dialogue: 0,0:12:48.33,0:12:50.04,Default,,0000,0000,0000,,than have to be interrogated by him.
+Dialogue: 0,0:12:53.80,0:12:55.61,Default,,0000,0000,0000,,That last night at home,
+Dialogue: 0,0:12:55.77,0:12:58.05,Default,,0000,0000,0000,,you think about how you could have been a better dad,
+Dialogue: 0,0:12:58.21,0:13:00.05,Default,,0000,0000,0000,,a better husband.
+Dialogue: 0,0:13:00.21,0:13:04.05,Default,,0000,0000,0000,,That bedtime story you should have read or that anniversary you forgot.
+Dialogue: 0,0:13:04.21,0:13:06.95,Default,,0000,0000,0000,,You don't expect your family to understand what you're doing,
+Dialogue: 0,0:13:07.11,0:13:08.86,Default,,0000,0000,0000,,you just hope they'll accept it.
+Dialogue: 0,0:13:09.05,0:13:12.96,Default,,0000,0000,0000,,When you get home, you hope you can pick up right where you left off
+Dialogue: 0,0:13:13.12,0:13:15.60,Default,,0000,0000,0000,,What up?
+Dialogue: 0,0:13:15.76,0:13:18.90,Default,,0000,0000,0000,,- You putting the wild bunch down? - Yeah, yeah.
+Dialogue: 0,0:13:19.06,0:13:22.63,Default,,0000,0000,0000,,Hey, Senior, you mind giving us a couple minutes, man?
+Dialogue: 0,0:13:22.80,0:13:25.07,Default,,0000,0000,0000,,- Nah, you got 'em, Jefe. - Thanks.
+Dialogue: 0,0:13:26.97,0:13:28.61,Default,,0000,0000,0000,,Hey, fellas, you know I only got so many speeches
+Dialogue: 0,0:13:28.77,0:13:31.91,Default,,0000,0000,0000,,in a given work-up or deployment, but, uh...
+Dialogue: 0,0:13:32.07,0:13:35.78,Default,,0000,0000,0000,,...it's like Chief and I said right at the beginning of this platoon:
+Dialogue: 0,0:13:35.94,0:13:39.52,Default,,0000,0000,0000,,Once we step off on campaign, once this bird's ready and we're downrange,
+Dialogue: 0,0:13:39.68,0:13:41.99,Default,,0000,0000,0000,,everything back home needs to be in balance.
+Dialogue: 0,0:13:42.15,0:13:43.86,Default,,0000,0000,0000,,We 're not gonna be worth a damn to each other or ourselves
+Dialogue: 0,0:13:44.02,0:13:45.69,Default,,0000,0000,0000,,if we get over there and something 's out of whack.
+Dialogue: 0,0:13:45.85,0:13:47.70,Default,,0000,0000,0000,,I mean, if things aren't right with the family,
+Dialogue: 0,0:13:47.86,0:13:50.67,Default,,0000,0000,0000,,things aren't right with the finances or something's off;
+Dialogue: 0,0:13:50.83,0:13:54.07,Default,,0000,0000,0000,,it's gonna put us all out of balance, so we need to have that tight before we launch.
+Dialogue: 0,0:13:54.26,0:13:56.07,Default,,0000,0000,0000,,If somebody's got an issue, bring it up.
+Dialogue: 0,0:13:56.26,0:13:59.30,Default,,0000,0000,0000,,Chief can take care of it, I can take care of it. Everybody's got each other's back.
+Dialogue: 0,0:13:59.47,0:14:02.11,Default,,0000,0000,0000,,Let's make sure we lock that down so when we 're ready to roll,
+Dialogue: 0,0:14:02.24,0:14:04.27,Default,,0000,0000,0000,,all our focus is on the mission.
+Dialogue: 0,0:14:06.34,0:14:08.65,Default,,0000,0000,0000,,For all those who have been downrange,
+Dialogue: 0,0:14:08.81,0:14:12.22,Default,,0000,0000,0000,,to us and those like us, damn few.
+Dialogue: 0,0:14:12.38,0:14:14.29,Default,,0000,0000,0000,,- Cheers. - Hear, hear.
+Dialogue: 0,0:14:24.79,0:14:26.17,Default,,0000,0000,0000,,I still like the name James.
+Dialogue: 0,0:14:26.33,0:14:29.00,Default,,0000,0000,0000,,I'll think about it, if it's a boy.
+Dialogue: 0,0:14:30.36,0:14:31.37,Default,,0000,0000,0000,,Come here.
+Dialogue: 0,0:14:39.84,0:14:42.72,Default,,0000,0000,0000,,- I'm proud of you. - Thanks, baby.
+Dialogue: 0,0:14:45.31,0:14:49.02,Default,,0000,0000,0000,,Hey, little one, you make sure you keep Mama away from Aunt Carol.
+Dialogue: 0,0:14:49.18,0:14:51.19,Default,,0000,0000,0000,,I don't like that chain-smoking at all.
+Dialogue: 0,0:14:51.35,0:14:52.76,Default,,0000,0000,0000,,I got it, Lieutenant.
+Dialogue: 0,0:14:52.92,0:14:54.33,Default,,0000,0000,0000,,- OK. - It's gonna be OK.
+Dialogue: 0,0:14:54.49,0:14:57.53,Default,,0000,0000,0000,,- All right. - It's gonna be fine.
+Dialogue: 0,0:15:03.06,0:15:05.51,Default,,0000,0000,0000,,Try to Keep this as long as you can for a while, yeah?
+Dialogue: 0,0:15:05.67,0:15:07.01,Default,,0000,0000,0000,,Anything else, Commander?
+Dialogue: 0,0:15:07.17,0:15:12.12,Default,,0000,0000,0000,,Yeah. I'd like to be able to look into your eyes when our first child is born.
+Dialogue: 0,0:15:12.27,0:15:14.34,Default,,0000,0000,0000,,You know I'll do my best.
+Dialogue: 0,0:15:21.32,0:15:23.23,Default,,0000,0000,0000,,I love you, baby.
+Dialogue: 0,0:15:27.39,0:15:28.56,Default,,0000,0000,0000,,Love you.
+Dialogue: 0,0:15:34.09,0:15:36.20,Default,,0000,0000,0000,,War is a country of will.
+Dialogue: 0,0:15:36.36,0:15:38.54,Default,,0000,0000,0000,,There 's no room for sympathy.
+Dialogue: 0,0:15:38.70,0:15:43.38,Default,,0000,0000,0000,,If you're not willing to give up everything, you've already lost.
+Dialogue: 0,0:16:13.50,0:16:15.34,Default,,0000,0000,0000,,Tell me, what is it about you Americans that makes
+Dialogue: 0,0:16:15.50,0:16:18.07,Default,,0000,0000,0000,,you feel entitled to fuck with the way I make my living?
+Dialogue: 0,0:16:31.69,0:16:34.63,Default,,0000,0000,0000,,I know who you are, Miss Morales, and I know who you work for.
+Dialogue: 0,0:16:34.79,0:16:37.13,Default,,0000,0000,0000,,So why don't you save us both some time
+Dialogue: 0,0:16:37.29,0:16:39.64,Default,,0000,0000,0000,,and tell me exactly what you think you know?
+Dialogue: 0,0:16:56.18,0:16:59.35,Default,,0000,0000,0000,,How did that feel, Miss Morales?
+Dialogue: 0,0:16:59.51,0:17:01.89,Default,,0000,0000,0000,,Have a great day at the spa.
+Dialogue: 0,0:17:13.56,0:17:15.51,Default,,0000,0000,0000,,Si, jefe.
+Dialogue: 0,0:17:40.92,0:17:43.77,Default,,0000,0000,0000,,It's hotter than two rats screwing in a wool sock out there, yeah?
+Dialogue: 0,0:17:43.92,0:17:46.00,Default,,0000,0000,0000,,Africa-hot... Tarzan couldn't take this heat.
+Dialogue: 0,0:17:46.16,0:17:48.00,Default,,0000,0000,0000,,Anyway, here's the deal. Time to get your frogman on.
+Dialogue: 0,0:17:48.13,0:17:50.40,Default,,0000,0000,0000,,Lights. Three days ago,
+Dialogue: 0,0:17:50.56,0:17:53.55,Default,,0000,0000,0000,,two CIA agents, a Walter Ross and a Miss Lisa Morales,
+Dialogue: 0,0:17:53.70,0:17:56.58,Default,,0000,0000,0000,,were ambushed inside their hotel room here in Costa Rica
+Dialogue: 0,0:17:56.74,0:17:58.88,Default,,0000,0000,0000,,by a unknown amount of heavily armed assholes.
+Dialogue: 0,0:17:59.04,0:18:02.92,Default,,0000,0000,0000,,Unfortunately, Mr. Ross was murdered, and Miss Morales has been abducted.
+Dialogue: 0,0:18:03.08,0:18:05.11,Default,,0000,0000,0000,,We believe that this has been the work
+Dialogue: 0,0:18:05.28,0:18:07.85,Default,,0000,0000,0000,,of a guy named Mikhail Troykavitch, aka Christo.
+Dialogue: 0,0:18:08.02,0:18:09.96,Default,,0000,0000,0000,,LT's going to give you the skinny on him.
+Dialogue: 0,0:18:10.12,0:18:13.76,Default,,0000,0000,0000,,Thanks, Senior. Mikhail Troykavitch, aka Christo.
+Dialogue: 0,0:18:13.92,0:18:16.87,Default,,0000,0000,0000,,This guy is believed to have been working cocaine-for-weapons deals
+Dialogue: 0,0:18:17.02,0:18:20.56,Default,,0000,0000,0000,,between the Russian mafia, the FARC guerrillas, and the Mexican drug cartels
+Dialogue: 0,0:18:20.73,0:18:22.54,Default,,0000,0000,0000,,ever since the late 1990s.
+Dialogue: 0,0:18:22.70,0:18:26.20,Default,,0000,0000,0000,,Now, before she was captured, Morales was working a possible link
+Dialogue: 0,0:18:26.37,0:18:30.11,Default,,0000,0000,0000,,between our boy Christo and this guy Abu Shabal.
+Dialogue: 0,0:18:30.27,0:18:32.55,Default,,0000,0000,0000,,Glory to Allah, Lord of the worlds,
+Dialogue: 0,0:18:32.71,0:18:34.31,Default,,0000,0000,0000,,who has created us as Muslims
+Dialogue: 0,0:18:34.48,0:18:37.65,Default,,0000,0000,0000,,and delivered us with the jihad on his direct path.
+Dialogue: 0,0:18:37.81,0:18:42.32,Default,,0000,0000,0000,,Peace be upon those who follow his direct path till the Day of Judgment.
+Dialogue: 0,0:18:42.48,0:18:45.23,Default,,0000,0000,0000,,Let me explain this to you Americans.
+Dialogue: 0,0:18:45.39,0:18:47.09,Default,,0000,0000,0000,,We are not separatists.
+Dialogue: 0,0:18:47.25,0:18:50.24,Default,,0000,0000,0000,,We Chechens are not a legal part of anyone,
+Dialogue: 0,0:18:50.39,0:18:54.93,Default,,0000,0000,0000,,but you Americans are willingly or unwillingly assisting
+Dialogue: 0,0:18:55.10,0:18:59.81,Default,,0000,0000,0000,,in the genocide of our people by demanding that we obey certain rules,
+Dialogue: 0,0:18:59.97,0:19:04.42,Default,,0000,0000,0000,,and by your continued occupation of all Muslim countries.
+Dialogue: 0,0:19:04.57,0:19:08.35,Default,,0000,0000,0000,,With the grace of Allah, glorious and exalted is he,
+Dialogue: 0,0:19:08.51,0:19:14.36,Default,,0000,0000,0000,,America will never be safe until safety becomes a reality for us.
+Dialogue: 0,0:19:14.52,0:19:16.65,Default,,0000,0000,0000,,Allahu Akbar
+Dialogue: 0,0:19:16.82,0:19:18.92,Default,,0000,0000,0000,,Abu Shabal is a Chechen terrorist
+Dialogue: 0,0:19:19.09,0:19:21.43,Default,,0000,0000,0000,,who's associated with the Beslan School Massacre.
+Dialogue: 0,0:19:21.56,0:19:25.59,Default,,0000,0000,0000,,He's been jumping between training camps in Indonesia and the Philippines.
+Dialogue: 0,0:19:25.76,0:19:29.26,Default,,0000,0000,0000,,Now, the connection between Christo and Abu Shabal is still a little bit fuzzy,
+Dialogue: 0,0:19:29.43,0:19:32.10,Default,,0000,0000,0000,,but if this was the lead that Morales was working on,
+Dialogue: 0,0:19:32.27,0:19:34.68,Default,,0000,0000,0000,,it could be why she was abducted. Senior?
+Dialogue: 0,0:19:34.84,0:19:37.54,Default,,0000,0000,0000,,All right, this is a personnel recovery of Miss Morales.
+Dialogue: 0,0:19:38.77,0:19:40.34,Default,,0000,0000,0000,,All right, who's got questions?
+Dialogue: 0,0:19:40.51,0:19:42.78,Default,,0000,0000,0000,,Senior Chief, you got any updated source intel
+Dialogue: 0,0:19:42.94,0:19:45.62,Default,,0000,0000,0000,,on numbers inside the camp, and what about roving patrols?
+Dialogue: 0,0:19:45.78,0:19:48.69,Default,,0000,0000,0000,,Maybe eight to ten, bro, but we don't know anything about roving patrols.
+Dialogue: 0,0:19:48.85,0:19:50.52,Default,,0000,0000,0000,,You're just gonna have to assume that they're out there
+Dialogue: 0,0:19:50.68,0:19:52.79,Default,,0000,0000,0000,,walking around, squared away. They do this for a living, too.
+Dialogue: 0,0:19:52.95,0:19:55.30,Default,,0000,0000,0000,,Senior, what kind of weapons-on-target are we looking at?
+Dialogue: 0,0:19:55.42,0:19:57.56,Default,,0000,0000,0000,,Heavy weapons. These guys are narco-traffickers,
+Dialogue: 0,0:19:57.72,0:19:59.83,Default,,0000,0000,0000,,so they can have anything from Soviet-bloc DShKs.
+Dialogue: 0,0:19:59.99,0:20:02.74,Default,,0000,0000,0000,,They could have M2HP, .50-cals out there, we don't know.
+Dialogue: 0,0:20:02.90,0:20:06.04,Default,,0000,0000,0000,,So if there is a weapons' emplacement up there, I suggest you guys bring rockets.
+Dialogue: 0,0:20:06.20,0:20:09.74,Default,,0000,0000,0000,,Of course, rockets and foliage don't match, so make sure you got a clear shot.
+Dialogue: 0,0:20:09.90,0:20:11.14,Default,,0000,0000,0000,,All right, what else?
+Dialogue: 0,0:20:11.27,0:20:13.58,Default,,0000,0000,0000,,Any idea whether she's ambulatory or not?
+Dialogue: 0,0:20:13.74,0:20:15.31,Default,,0000,0000,0000,,There was a ton of blood on the scene,
+Dialogue: 0,0:20:15.48,0:20:17.89,Default,,0000,0000,0000,,and a lot of it was Mr. Ross', we confirmed that.
+Dialogue: 0,0:20:18.05,0:20:21.08,Default,,0000,0000,0000,,Miss Morales may have bled there, too, but these guys are savages,
+Dialogue: 0,0:20:21.25,0:20:23.82,Default,,0000,0000,0000,,so you're gonna have to assume that she is non-ambulatory,
+Dialogue: 0,0:20:23.98,0:20:26.26,Default,,0000,0000,0000,,so you're gonna have to bring stuff to carry her out.
+Dialogue: 0,0:20:29.82,0:20:31.83,Default,,0000,0000,0000,,Two minutes to drop.
+Dialogue: 0,0:20:44.04,0:20:46.61,Default,,0000,0000,0000,,Hey, LT.
+Dialogue: 0,0:20:46.77,0:20:50.02,Default,,0000,0000,0000,,You got to let us know who that guy is, so when we get back, we can kick his ass.
+Dialogue: 0,0:20:50.18,0:20:52.05,Default,,0000,0000,0000,,What guy?
+Dialogue: 0,0:20:52.21,0:20:54.72,Default,,0000,0000,0000,,The guy that gave you that fucked-up haircut.
+Dialogue: 0,0:20:57.58,0:20:59.06,Default,,0000,0000,0000,,- Fuck. - Damn, Sonny,
+Dialogue: 0,0:20:59.22,0:21:02.29,Default,,0000,0000,0000,,you should be the last guy to talk. You look like the Dominican Mr. Clean.
+Dialogue: 0,0:21:02.46,0:21:05.46,Default,,0000,0000,0000,,That means my head shines like your gold teeth, huh?
+Dialogue: 0,0:21:05.63,0:21:07.77,Default,,0000,0000,0000,,Don't be like that,
+Dialogue: 0,0:21:07.93,0:21:08.77,Default,,0000,0000,0000,,- that's harsh. - Ramp!
+Dialogue: 0,0:21:10.76,0:21:12.54,Default,,0000,0000,0000,,Mask up.
+Dialogue: 0,0:21:15.64,0:21:19.81,Default,,0000,0000,0000,,Man, I tell you what. The only thing better than this right here is being a dad,
+Dialogue: 0,0:21:19.97,0:21:22.48,Default,,0000,0000,0000,,except for that whole changing diaper thing, but...
+Dialogue: 0,0:21:22.64,0:21:24.75,Default,,0000,0000,0000,,...Sandy does that for me anyway, so...
+Dialogue: 0,0:21:24.91,0:21:26.72,Default,,0000,0000,0000,,I'm actually looking forward to it.
+Dialogue: 0,0:21:28.78,0:21:31.39,Default,,0000,0000,0000,,Blackbeard, green light in ten.
+Dialogue: 0,0:21:35.32,0:21:36.67,Default,,0000,0000,0000,,Five.
+Dialogue: 0,0:24:08.74,0:24:12.12,Default,,0000,0000,0000,,Blackbeard Main, Blackbeard Main, this is Blackbeard Actual.
+Dialogue: 0,0:24:12.28,0:24:13.76,Default,,0000,0000,0000,,Radio check. Over.
+Dialogue: 0,0:24:18.29,0:24:22.89,Default,,0000,0000,0000,,Blackbeard Main, Blackbeard Main, this is Blackbeard Actual. Over.
+Dialogue: 0,0:24:25.33,0:24:26.96,Default,,0000,0000,0000,,Roger; Actual This is Main,
+Dialogue: 0,0:24:27.13,0:24:30.80,Default,,0000,0000,0000,,- We have you Lima Charlie. - Roger, Main.
+Dialogue: 0,0:24:30.96,0:24:34.47,Default,,0000,0000,0000,,All boots are on the ground. I pass T-bird.
+Dialogue: 0,0:24:34.63,0:24:38.17,Default,,0000,0000,0000,,Any traffic for my station at this time?
+Dialogue: 0,0:24:38.34,0:24:41.18,Default,,0000,0000,0000,,Actual, imagery picked up an increase in traffic
+Dialogue: 0,0:24:41.34,0:24:44.08,Default,,0000,0000,0000,,at secondary location, known to be enemy QRF,
+Dialogue: 0,0:24:44.24,0:24:46.16,Default,,0000,0000,0000,,eight clicks from primary target.
+Dialogue: 0,0:24:46.31,0:24:48.82,Default,,0000,0000,0000,,The SWCC boats will insert at 0600 for your extract.
+Dialogue: 0,0:24:48.98,0:24:51.76,Default,,0000,0000,0000,,- How copy? - Roger, Main.
+Dialogue: 0,0:25:01.96,0:25:03.94,Default,,0000,0000,0000,,- You ready? - Roger that, sir.
+Dialogue: 0,0:25:04.10,0:25:07.10,Default,,0000,0000,0000,,We got about 4.7 clicks at three-five-five.
+Dialogue: 0,0:25:10.64,0:25:11.64,Default,,0000,0000,0000,,Take it out.
+Dialogue: 0,0:25:38.06,0:25:40.07,Default,,0000,0000,0000,,Whiplash, one minute out.
+Dialogue: 0,0:25:51.31,0:25:52.69,Default,,0000,0000,0000,,Thirty seconds.
+Dialogue: 0,0:25:55.92,0:25:57.26,Default,,0000,0000,0000,,Ten by ten.
+Dialogue: 0,0:25:59.15,0:26:00.36,Default,,0000,0000,0000,,Whiplash, go.
+Dialogue: 0,0:26:12.37,0:26:13.94,Default,,0000,0000,0000,,All boots on deck.
+Dialogue: 0,0:26:26.91,0:26:28.09,Default,,0000,0000,0000,,Line secure.
+Dialogue: 0,0:26:35.59,0:26:38.97,Default,,0000,0000,0000,,Whiplash, Bucket One and Two are out.
+Dialogue: 0,0:27:17.23,0:27:20.77,Default,,0000,0000,0000,,Whiplash, this is Blackbeard. Radio check. Over.
+Dialogue: 0,0:27:20.93,0:27:23.97,Default,,0000,0000,0000,,Blackbeard, it's Whiplash. Have you loud and clear.
+Dialogue: 0,0:27:24.14,0:27:25.62,Default,,0000,0000,0000,,Standing by on the set.
+Dialogue: 0,0:27:26.51,0:27:29.35,Default,,0000,0000,0000,,Roger, Whiplash. What is your ETA to my pos?
+Dialogue: 0,0:27:29.51,0:27:31.32,Default,,0000,0000,0000,,ETA 20 mikes.
+Dialogue: 0,0:27:31.48,0:27:35.36,Default,,0000,0000,0000,,Be advised, Raven is in flight and pushing to your location.
+Dialogue: 0,0:28:05.78,0:28:07.45,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:28:07.61,0:28:09.12,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:28:11.69,0:28:13.32,Default,,0000,0000,0000,,Hey, sir, we gotta go.
+Dialogue: 0,0:28:20.29,0:28:22.20,Default,,0000,0000,0000,,Roger. Take it out.
+Dialogue: 0,0:28:22.36,0:28:25.21,Default,,0000,0000,0000,,I feel like we're pretty thin. I'd like to take you guys with us.
+Dialogue: 0,0:28:25.37,0:28:29.14,Default,,0000,0000,0000,,Chief, I got a SBT coming up on-step. I got a Raven pushing my pos.
+Dialogue: 0,0:28:29.30,0:28:30.71,Default,,0000,0000,0000,,Weimy and I are in good overwatch position,
+Dialogue: 0,0:28:30.87,0:28:32.82,Default,,0000,0000,0000,,and I got to keep reporting back to Blackbeard Main.
+Dialogue: 0,0:28:32.97,0:28:34.88,Default,,0000,0000,0000,,- We're staying here. - Roger that.
+Dialogue: 0,0:28:47.65,0:28:50.26,Default,,0000,0000,0000,,- Keep it tight. - Got it.
+Dialogue: 0,0:29:17.72,0:29:22.06,Default,,0000,0000,0000,,Whiplash, this is Blackbeard. Assault force is moving to the target early.
+Dialogue: 0,0:29:22.22,0:29:25.10,Default,,0000,0000,0000,,Request immediate fire support.
+Dialogue: 0,0:29:25.26,0:29:27.76,Default,,0000,0000,0000,,Blackbeard, it's Whiplash. Good copy.
+Dialogue: 0,0:29:27.93,0:29:31.77,Default,,0000,0000,0000,,Requesting fire support. Pushing to your location in 15 mikes.
+Dialogue: 0,0:29:56.99,0:29:59.83,Default,,0000,0000,0000,,Whiplash, this is Blackbeard. I have positive control of the Raven.
+Dialogue: 0,0:31:08.56,0:31:10.23,Default,,0000,0000,0000,,Chief, are you set?
+Dialogue: 0,0:31:27.25,0:31:28.35,Default,,0000,0000,0000,,Chief; Chief; hold it
+Dialogue: 0,0:31:32.02,0:31:33.55,Default,,0000,0000,0000,,One o'clock, base of the tower.
+Dialogue: 0,0:31:33.72,0:31:35.03,Default,,0000,0000,0000,,Got him.
+Dialogue: 0,0:31:37.22,0:31:38.90,Default,,0000,0000,0000,,You're clear to the door
+Dialogue: 0,0:32:51.73,0:32:53.44,Default,,0000,0000,0000,,I've got two squilters coming out the back door.
+Dialogue: 0,0:33:16.99,0:33:17.99,Default,,0000,0000,0000,,Going in!
+Dialogue: 0,0:33:22.66,0:33:24.77,Default,,0000,0000,0000,,- Clear! - All clear!
+Dialogue: 0,0:33:27.43,0:33:29.67,Default,,0000,0000,0000,,Weimy, eleven o'clock. Driver's side, truck.
+Dialogue: 0,0:33:30.97,0:33:32.64,Default,,0000,0000,0000,,Got him.
+Dialogue: 0,0:33:37.01,0:33:39.29,Default,,0000,0000,0000,,Fuck.
+Dialogue: 0,0:33:47.99,0:33:49.40,Default,,0000,0000,0000,,- Come on. - Go in! Go in!
+Dialogue: 0,0:33:54.23,0:33:56.14,Default,,0000,0000,0000,,- Clear! - All clear!
+Dialogue: 0,0:33:56.30,0:33:59.44,Default,,0000,0000,0000,,- Target's secure. - Chief, I'm going to get Mikey.
+Dialogue: 0,0:34:11.64,0:34:14.49,Default,,0000,0000,0000,,LT, this is Chief. Target is secure.
+Dialogue: 0,0:34:14.65,0:34:17.42,Default,,0000,0000,0000,,Stand by for confirmation of the package.
+Dialogue: 0,0:34:17.58,0:34:21.96,Default,,0000,0000,0000,,Be advised Mikey is down. Mikey is down. Status to follow.
+Dialogue: 0,0:34:22.16,0:34:23.86,Default,,0000,0000,0000,,Roger. You have the package.
+Dialogue: 0,0:34:32.40,0:34:34.67,Default,,0000,0000,0000,,Chief, I got his cell phone.
+Dialogue: 0,0:34:41.44,0:34:42.75,Default,,0000,0000,0000,,LT? LT?
+Dialogue: 0,0:34:45.18,0:34:47.92,Default,,0000,0000,0000,,Chief, looks like you have two aggressor vehicles approaching from the north,
+Dialogue: 0,0:34:48.08,0:34:51.26,Default,,0000,0000,0000,,about one mike out. You can take the truck outside the west door
+Dialogue: 0,0:34:51.42,0:34:53.52,Default,,0000,0000,0000,,Meet us at extract.
+Dialogue: 0,0:34:53.69,0:34:56.53,Default,,0000,0000,0000,,Miss Morales, I'm bringing you home.
+Dialogue: 0,0:34:56.69,0:34:58.64,Default,,0000,0000,0000,,I just need to ask you a few questions.
+Dialogue: 0,0:35:00.13,0:35:02.54,Default,,0000,0000,0000,,What's your mother's maiden name?
+Dialogue: 0,0:35:04.90,0:35:06.38,Default,,0000,0000,0000,,Rosales.
+Dialogue: 0,0:35:06.53,0:35:08.48,Default,,0000,0000,0000,,What street you were born on?
+Dialogue: 0,0:35:09.30,0:35:11.41,Default,,0000,0000,0000,,Hot Springs.
+Dialogue: 0,0:35:11.57,0:35:15.04,Default,,0000,0000,0000,,All right. Just hang on.
+Dialogue: 0,0:35:15.94,0:35:18.42,Default,,0000,0000,0000,,Whiplash, we have enemy QRF approaching from the north.
+Dialogue: 0,0:35:18.58,0:35:22.42,Default,,0000,0000,0000,,Roger. You have enemy QRF coming in from the north.
+Dialogue: 0,0:35:22.58,0:35:24.65,Default,,0000,0000,0000,,Chief, you need to start your exfil now.
+Dialogue: 0,0:35:24.82,0:35:27.39,Default,,0000,0000,0000,,- We 'll meet you at secondary extract. - Roger that.
+Dialogue: 0,0:35:27.55,0:35:29.26,Default,,0000,0000,0000,,Hey, boys, we gotta roll!
+Dialogue: 0,0:35:30.39,0:35:31.60,Default,,0000,0000,0000,,Shit. Sir, it's those trucks,
+Dialogue: 0,0:35:31.76,0:35:33.17,Default,,0000,0000,0000,,- about 1,000 yards. - Yep.
+Dialogue: 0,0:35:33.33,0:35:35.10,Default,,0000,0000,0000,,Ma'am, I'm taking you out right now.
+Dialogue: 0,0:35:35.26,0:35:38.61,Default,,0000,0000,0000,,Hey, Chief, he took a round to the eye with the exit wound behind the ear.
+Dialogue: 0,0:35:38.76,0:35:41.04,Default,,0000,0000,0000,,He's alive, but we gotta get moving now!
+Dialogue: 0,0:35:41.83,0:35:43.61,Default,,0000,0000,0000,,Weimy, coming out.
+Dialogue: 0,0:35:43.77,0:35:45.34,Default,,0000,0000,0000,,We'll meet you at the rally point.
+Dialogue: 0,0:35:48.34,0:35:50.41,Default,,0000,0000,0000,,Let's go! Let's go! Move it!
+Dialogue: 0,0:35:58.82,0:36:00.76,Default,,0000,0000,0000,,- Heads up! Fast movement on the left! - Right turn! Right turn!
+Dialogue: 0,0:36:08.49,0:36:10.50,Default,,0000,0000,0000,,Hey, man, we're not going to make it to secondary extract.
+Dialogue: 0,0:36:10.66,0:36:12.54,Default,,0000,0000,0000,,I got to find us a route. Stay on this road.
+Dialogue: 0,0:36:12.70,0:36:15.61,Default,,0000,0000,0000,,- Left, left, left. - Left turn! Left turn!
+Dialogue: 0,0:36:15.77,0:36:17.15,Default,,0000,0000,0000,,Mikey, come on, buddy.
+Dialogue: 0,0:36:19.01,0:36:20.35,Default,,0000,0000,0000,,Hey, Chief!
+Dialogue: 0,0:36:22.04,0:36:24.28,Default,,0000,0000,0000,,We're not gonna make secondary extract!
+Dialogue: 0,0:36:24.44,0:36:27.25,Default,,0000,0000,0000,,- You're gonna have to figure it out, man! - Hold on!
+Dialogue: 0,0:36:27.45,0:36:29.39,Default,,0000,0000,0000,,Come on. Stay with me. Stay with me.
+Dialogue: 0,0:36:31.12,0:36:32.15,Default,,0000,0000,0000,,Stay with us.
+Dialogue: 0,0:36:32.32,0:36:35.20,Default,,0000,0000,0000,,Come on, Mike. Wake up. Wake up. Come on, man.
+Dialogue: 0,0:36:39.73,0:36:41.47,Default,,0000,0000,0000,,- Contact! - Pick it up, pick it up.
+Dialogue: 0,0:36:41.59,0:36:44.07,Default,,0000,0000,0000,,Yo, Chief! We can make it to rally point!
+Dialogue: 0,0:36:44.23,0:36:47.54,Default,,0000,0000,0000,,- Sounds good! Pass it to LT! - Come on, man.
+Dialogue: 0,0:36:48.67,0:36:52.55,Default,,0000,0000,0000,,LT, LT, this is assault team. We just lost the secondary extract.
+Dialogue: 0,0:36:52.71,0:36:55.15,Default,,0000,0000,0000,,I say again, we just lost secondary extract.
+Dialogue: 0,0:36:55.31,0:36:56.84,Default,,0000,0000,0000,,Moving to rally point. How copy, over?
+Dialogue: 0,0:37:00.25,0:37:01.92,Default,,0000,0000,0000,,- We're about a click out. - Mikey, wake up.
+Dialogue: 0,0:37:02.88,0:37:03.88,Default,,0000,0000,0000,,One click out!
+Dialogue: 0,0:37:11.82,0:37:13.90,Default,,0000,0000,0000,,Let's go, Mike. Wake up. Come on, buddy.
+Dialogue: 0,0:37:14.06,0:37:16.51,Default,,0000,0000,0000,,Come on, Mikey! Wake up!
+Dialogue: 0,0:37:29.38,0:37:31.08,Default,,0000,0000,0000,,- Good? - Backstage clear.
+Dialogue: 0,0:37:32.61,0:37:33.92,Default,,0000,0000,0000,,Rocket out!
+Dialogue: 0,0:37:48.69,0:37:51.64,Default,,0000,0000,0000,,He's not breathing!
+Dialogue: 0,0:37:51.80,0:37:53.61,Default,,0000,0000,0000,,- Breathe, Mikey! - We're up! We're up!
+Dialogue: 0,0:37:58.10,0:38:00.11,Default,,0000,0000,0000,,Chief, let me get your M-4!
+Dialogue: 0,0:38:01.81,0:38:03.72,Default,,0000,0000,0000,,Sir, what's the status on those boats?
+Dialogue: 0,0:38:03.88,0:38:05.58,Default,,0000,0000,0000,,I lost Whiplash on the run.
+Dialogue: 0,0:38:05.75,0:38:08.66,Default,,0000,0000,0000,,Told 'em you hit the target early. They're coming in hot.
+Dialogue: 0,0:38:08.81,0:38:11.89,Default,,0000,0000,0000,,- Roger that. - Fuck! Take this, man.
+Dialogue: 0,0:38:12.05,0:38:13.22,Default,,0000,0000,0000,,Breathe, Mikey. Come on, Mikey.
+Dialogue: 0,0:38:13.39,0:38:15.42,Default,,0000,0000,0000,,- I got no pulse. - Contact rear!
+Dialogue: 0,0:38:15.59,0:38:16.59,Default,,0000,0000,0000,,Contact rear!
+Dialogue: 0,0:38:18.46,0:38:19.83,Default,,0000,0000,0000,,Holy shit!
+Dialogue: 0,0:38:19.99,0:38:20.99,Default,,0000,0000,0000,,Taking rounds in...
+Dialogue: 0,0:38:25.40,0:38:26.24,Default,,0000,0000,0000,,Pick it up. Pick it up.
+Dialogue: 0,0:38:51.62,0:38:54.97,Default,,0000,0000,0000,,Ajay! QRF coming up the rear!
+Dialogue: 0,0:39:01.13,0:39:04.21,Default,,0000,0000,0000,,Whiplash! Whiplash! Secondary extract is burnt.
+Dialogue: 0,0:39:04.37,0:39:06.04,Default,,0000,0000,0000,,Moving to tertiary extract.
+Dialogue: 0,0:39:06.21,0:39:09.15,Default,,0000,0000,0000,,I have eight packs, seven Sierras, one package.
+Dialogue: 0,0:39:09.31,0:39:10.55,Default,,0000,0000,0000,,Package with multiple wounds.
+Dialogue: 0,0:39:10.71,0:39:13.16,Default,,0000,0000,0000,,The Sierra has gunshot wound to the head.
+Dialogue: 0,0:39:13.31,0:39:15.38,Default,,0000,0000,0000,,This will be a hot extract.
+Dialogue: 0,0:39:21.75,0:39:23.17,Default,,0000,0000,0000,,What the fuck?!
+Dialogue: 0,0:39:23.32,0:39:24.89,Default,,0000,0000,0000,,- Oh, shit! - Mikey, stay down!
+Dialogue: 0,0:39:25.06,0:39:27.16,Default,,0000,0000,0000,,- Keep him down, man! - Where the fuck am I?!
+Dialogue: 0,0:39:27.33,0:39:30.07,Default,,0000,0000,0000,,- Calm down, brother. - Mikey's up, man. Mikey's up.
+Dialogue: 0,0:39:30.23,0:39:33.21,Default,,0000,0000,0000,,Stay down, brother. Calm. Be easy. We're almost out of here.
+Dialogue: 0,0:39:33.37,0:39:34.47,Default,,0000,0000,0000,,We're almost out of here.
+Dialogue: 0,0:39:53.22,0:39:54.56,Default,,0000,0000,0000,,Mikey!
+Dialogue: 0,0:39:54.72,0:39:56.20,Default,,0000,0000,0000,,- Hang on, buddy. - Where are we?
+Dialogue: 0,0:39:56.36,0:39:58.06,Default,,0000,0000,0000,,- We're on our way to extract. - What happened?
+Dialogue: 0,0:39:58.22,0:39:59.86,Default,,0000,0000,0000,,You're good to go. You took one to the face, man.
+Dialogue: 0,0:40:00.03,0:40:01.10,Default,,0000,0000,0000,,You're a hard motherfucker.
+Dialogue: 0,0:40:01.26,0:40:02.40,Default,,0000,0000,0000,,- Did we get her? - Yes.
+Dialogue: 0,0:40:02.56,0:40:03.87,Default,,0000,0000,0000,,- Oh, my God. - We're on our way to extract.
+Dialogue: 0,0:40:04.03,0:40:06.41,Default,,0000,0000,0000,,Ajay, splash it. Splash it.
+Dialogue: 0,0:40:06.57,0:40:09.67,Default,,0000,0000,0000,,Water! Water! Water!
+Dialogue: 0,0:40:12.41,0:40:14.68,Default,,0000,0000,0000,,Going in! Going in!
+Dialogue: 0,0:40:16.68,0:40:17.71,Default,,0000,0000,0000,,I got her! I got her!
+Dialogue: 0,0:40:17.88,0:40:19.02,Default,,0000,0000,0000,,It's fucking going under.
+Dialogue: 0,0:40:19.18,0:40:20.85,Default,,0000,0000,0000,,Out! Get the fuck out!
+Dialogue: 0,0:41:14.50,0:41:16.00,Default,,0000,0000,0000,,It wasn't for nothing.
+Dialogue: 0,0:46:26.91,0:46:28.59,Default,,0000,0000,0000,,You know, from time to time,
+Dialogue: 0,0:46:28.75,0:46:32.56,Default,,0000,0000,0000,,I get to see my old friends from my old life.
+Dialogue: 0,0:46:34.42,0:46:36.42,Default,,0000,0000,0000,,And it's always, always disappointing.
+Dialogue: 0,0:46:38.89,0:46:41.46,Default,,0000,0000,0000,,Some become assholes, other boring,
+Dialogue: 0,0:46:41.63,0:46:44.63,Default,,0000,0000,0000,,and I can't believe I tried to get them in bed all those years ago.
+Dialogue: 0,0:46:48.93,0:46:50.78,Default,,0000,0000,0000,,Hey.
+Dialogue: 0,0:46:50.94,0:46:53.18,Default,,0000,0000,0000,,It is nice not to be disappointed, Yuri.
+Dialogue: 0,0:46:56.58,0:47:00.05,Default,,0000,0000,0000,,- That's not my name. - I know.
+Dialogue: 0,0:47:00.25,0:47:03.59,Default,,0000,0000,0000,,Mohammed Abu Shabal, the son of Shabal
+Dialogue: 0,0:47:03.75,0:47:06.53,Default,,0000,0000,0000,,Come on. Your father's name is Yevgeny.
+Dialogue: 0,0:47:07.59,0:47:08.93,Default,,0000,0000,0000,,Things change.
+Dialogue: 0,0:47:09.90,0:47:11.47,Default,,0000,0000,0000,,Yeah, things have changed.
+Dialogue: 0,0:47:12.64,0:47:15.91,Default,,0000,0000,0000,,That's why this is the last time we might have to see each other for quite some time.
+Dialogue: 0,0:47:16.07,0:47:19.21,Default,,0000,0000,0000,,For I might have to find a hole to hide in.
+Dialogue: 0,0:47:22.31,0:47:23.79,Default,,0000,0000,0000,,I don't understand.
+Dialogue: 0,0:47:24.95,0:47:28.90,Default,,0000,0000,0000,,I'm being watched by the CIA, and I'm not taking any chances.
+Dialogue: 0,0:47:29.05,0:47:32.73,Default,,0000,0000,0000,,As soon as the opportunity presents itself, I'm taking my family south.
+Dialogue: 0,0:47:32.86,0:47:35.06,Default,,0000,0000,0000,,I neither have the energy or the will to fight the Americans.
+Dialogue: 0,0:47:35.23,0:47:37.90,Default,,0000,0000,0000,,What about our deal, Mikhail?
+Dialogue: 0,0:47:38.06,0:47:40.47,Default,,0000,0000,0000,,My men have been training for almost a year now.
+Dialogue: 0,0:47:40.63,0:47:43.61,Default,,0000,0000,0000,,- I have devoted much of my resources... - The deal stands, Yuri.
+Dialogue: 0,0:47:43.77,0:47:45.94,Default,,0000,0000,0000,,Just because I've taken early retirement does not mean
+Dialogue: 0,0:47:46.10,0:47:47.41,Default,,0000,0000,0000,,I'm not holding up my end of the bargain.
+Dialogue: 0,0:47:47.57,0:47:48.57,Default,,0000,0000,0000,,There is so much to be done.
+Dialogue: 0,0:47:48.74,0:47:51.48,Default,,0000,0000,0000,,And it will be, just without me.
+Dialogue: 0,0:47:51.64,0:47:53.18,Default,,0000,0000,0000,,You'll have to use my trusted associates.
+Dialogue: 0,0:47:53.34,0:47:55.08,Default,,0000,0000,0000,,That's not so good for me.
+Dialogue: 0,0:47:55.25,0:47:56.49,Default,,0000,0000,0000,,- Hey... - Hey! Shut up!
+Dialogue: 0,0:47:57.35,0:47:58.33,Default,,0000,0000,0000,,Shut up!
+Dialogue: 0,0:47:58.48,0:48:00.86,Default,,0000,0000,0000,,Stop your fucking bullshit!
+Dialogue: 0,0:48:01.02,0:48:03.83,Default,,0000,0000,0000,,It's not good. Doesn't work. You can't change it like that.
+Dialogue: 0,0:48:03.99,0:48:06.83,Default,,0000,0000,0000,,- Nothing changes. Nothing. - You just told me everything's changed.
+Dialogue: 0,0:48:07.19,0:48:08.69,Default,,0000,0000,0000,,What... What is that? What is that?
+Dialogue: 0,0:48:08.86,0:48:10.77,Default,,0000,0000,0000,,Do you know what I do to get here?!
+Dialogue: 0,0:48:10.93,0:48:13.37,Default,,0000,0000,0000,,Do you know the men who I've had to sacrifice to get here?!
+Dialogue: 0,0:48:13.53,0:48:15.84,Default,,0000,0000,0000,,Do you have any idea?!
+Dialogue: 0,0:48:16.00,0:48:18.10,Default,,0000,0000,0000,,No, you shit! You live up here in this ivory tower!
+Dialogue: 0,0:48:18.27,0:48:20.27,Default,,0000,0000,0000,,You have no... You don't care!
+Dialogue: 0,0:48:37.69,0:48:40.26,Default,,0000,0000,0000,,Hey, Chief, what's the status on Mikey?
+Dialogue: 0,0:48:40.46,0:48:45.00,Default,,0000,0000,0000,,He's definitely gonna lose the eye, but he's... he's hanging tough.
+Dialogue: 0,0:48:46.70,0:48:48.64,Default,,0000,0000,0000,,Hey, I'm gonna get right into this.
+Dialogue: 0,0:48:48.80,0:48:51.30,Default,,0000,0000,0000,,Great job smoke-checking those assholes and getting Morales back.
+Dialogue: 0,0:48:51.47,0:48:54.47,Default,,0000,0000,0000,,It's a bum deal for Mikey, but I gotta tell you what, that was solid work.
+Dialogue: 0,0:48:54.60,0:48:56.64,Default,,0000,0000,0000,,So, Chief, you make sure you get that down to the boys right away.
+Dialogue: 0,0:48:56.81,0:48:57.98,Default,,0000,0000,0000,,- You hear me? - Check.
+Dialogue: 0,0:48:58.14,0:49:01.92,Default,,0000,0000,0000,,All right. Now, Morales, Morales was one tough chick,
+Dialogue: 0,0:49:02.08,0:49:04.42,Default,,0000,0000,0000,,but she should've gotten the stuff up the chain a lot faster
+Dialogue: 0,0:49:04.58,0:49:06.75,Default,,0000,0000,0000,,because this thing is way bigger than we thought it was.
+Dialogue: 0,0:49:06.92,0:49:10.19,Default,,0000,0000,0000,,How is that? I thought this was a cut-and-dry AMCIT recovery.
+Dialogue: 0,0:49:10.35,0:49:13.77,Default,,0000,0000,0000,,Yeah, it was until we got into that phone that you guys picked up in that shithole.
+Dialogue: 0,0:49:13.92,0:49:16.56,Default,,0000,0000,0000,,It turned me on to something that just does not look right at all.
+Dialogue: 0,0:49:16.73,0:49:19.67,Default,,0000,0000,0000,,- And what's not right about it? - Christo and Shabal are a lot closer
+Dialogue: 0,0:49:19.83,0:49:22.50,Default,,0000,0000,0000,,than I thought they were, and Shabal is a wild card, man.
+Dialogue: 0,0:49:22.67,0:49:26.37,Default,,0000,0000,0000,,He is an old-school jihadi that couldn't give a rat's ass about money or drugs.
+Dialogue: 0,0:49:26.54,0:49:28.67,Default,,0000,0000,0000,,Yeah, and his childhood friend, Christo, the dope dealer?
+Dialogue: 0,0:49:28.84,0:49:32.22,Default,,0000,0000,0000,,He is not a dealer, man. He's a smuggler.
+Dialogue: 0,0:49:32.38,0:49:35.69,Default,,0000,0000,0000,,- You have got to be kidding me. - That is exactly what I'm thinking.
+Dialogue: 0,0:49:35.85,0:49:37.52,Default,,0000,0000,0000,,Shabal wants to kill Americans.
+Dialogue: 0,0:49:37.68,0:49:40.82,Default,,0000,0000,0000,,Christo knows how to get fuckers inside America.
+Dialogue: 0,0:49:41.02,0:49:43.29,Default,,0000,0000,0000,,This could be big trouble in little China, fellas.
+Dialogue: 0,0:49:43.45,0:49:44.95,Default,,0000,0000,0000,,They're gonna hit us at home.
+Dialogue: 0,0:49:46.89,0:49:49.46,Default,,0000,0000,0000,,I just got done talking to the boss and the Spec Ops Task Force,
+Dialogue: 0,0:49:49.63,0:49:50.97,Default,,0000,0000,0000,,and this is what's gonna go down.
+Dialogue: 0,0:49:51.13,0:49:53.90,Default,,0000,0000,0000,,I need Ajay and Ray standing by to launch for an SR in two hours.
+Dialogue: 0,0:49:54.06,0:49:56.37,Default,,0000,0000,0000,,They're gonna get some frequent flyer miles on the way to Africa.
+Dialogue: 0,0:49:56.53,0:49:57.91,Default,,0000,0000,0000,,Why Africa?
+Dialogue: 0,0:49:58.07,0:50:00.34,Default,,0000,0000,0000,,We pinned an airfield there with that phone that you got,
+Dialogue: 0,0:50:00.54,0:50:04.58,Default,,0000,0000,0000,,and I think that Shabal is gonna be there doing a weapons transfer on his way west.
+Dialogue: 0,0:50:04.74,0:50:07.31,Default,,0000,0000,0000,,When you say "west," what are we talking about, Mexico west?
+Dialogue: 0,0:50:07.48,0:50:11.82,Default,,0000,0000,0000,,Yeah, Mexico west. That's worst-case scenario.
+Dialogue: 0,0:50:11.98,0:50:13.93,Default,,0000,0000,0000,,You two and the rest of the platoon are gonna stay here on standby.
+Dialogue: 0,0:50:14.08,0:50:15.36,Default,,0000,0000,0000,,You'll be the primary assault force in case
+Dialogue: 0,0:50:15.48,0:50:17.33,Default,,0000,0000,0000,,something goes down anywhere near America.
+Dialogue: 0,0:50:17.49,0:50:19.30,Default,,0000,0000,0000,,- Check. - Check.
+Dialogue: 0,0:50:19.46,0:50:21.44,Default,,0000,0000,0000,,You gonna be around for any questions as they come up?
+Dialogue: 0,0:50:21.59,0:50:25.90,Default,,0000,0000,0000,,No, man. Christo... he pulled a Roman Polanski on my ass and disappeared.
+Dialogue: 0,0:50:26.03,0:50:27.91,Default,,0000,0000,0000,,So I'm gonna link up with SEAL Team Four,
+Dialogue: 0,0:50:28.03,0:50:30.27,Default,,0000,0000,0000,,and we're gonna go hunt his ass down in the South Pacific.
+Dialogue: 0,0:50:30.43,0:50:32.91,Default,,0000,0000,0000,,So it's straight up Mai Tais and palm trees for me, baby.
+Dialogue: 0,0:50:33.07,0:50:34.01,Default,,0000,0000,0000,,Yeah, brother. Go get him.
+Dialogue: 0,0:50:34.17,0:50:35.41,Default,,0000,0000,0000,,- You be cool. - Take it easy.
+Dialogue: 0,0:50:35.57,0:50:37.57,Default,,0000,0000,0000,,Good luck with that baby, Lieutenant.
+Dialogue: 0,0:50:39.68,0:50:42.09,Default,,0000,0000,0000,,- Does everybody know? - Only the important people.
+Dialogue: 0,0:50:42.24,0:50:44.62,Default,,0000,0000,0000,,The important people to who? You?
+Dialogue: 0,0:50:44.78,0:50:47.42,Default,,0000,0000,0000,,I guess so.
+Dialogue: 0,0:50:47.55,0:50:50.53,Default,,0000,0000,0000,,- I'm gonna go brief the boys. - Hey, hold on one second.
+Dialogue: 0,0:50:52.12,0:50:54.16,Default,,0000,0000,0000,,Hey, brother, I've never written one of these before.
+Dialogue: 0,0:50:55.46,0:50:58.00,Default,,0000,0000,0000,,Hey, I'm tracking with you, sir. I am.
+Dialogue: 0,0:50:58.16,0:50:59.76,Default,,0000,0000,0000,,But, to be honest with you,
+Dialogue: 0,0:50:59.90,0:51:03.17,Default,,0000,0000,0000,,I was thinking of calling the command and trying to get you home.
+Dialogue: 0,0:51:03.33,0:51:08.08,Default,,0000,0000,0000,,But now that work's picked up so much, I feel like we really need you here.
+Dialogue: 0,0:51:09.44,0:51:10.97,Default,,0000,0000,0000,,You remember our last cruise to AI Anbar?
+Dialogue: 0,0:51:11.14,0:51:12.98,Default,,0000,0000,0000,,- Yeah. - When you had that final
+Dialogue: 0,0:51:13.14,0:51:15.55,Default,,0000,0000,0000,,turnover op, and you said I didn't need to be there?
+Dialogue: 0,0:51:15.71,0:51:19.18,Default,,0000,0000,0000,,I was laying in bed and I realized the only thing I needed to do now was go home.
+Dialogue: 0,0:51:19.35,0:51:22.02,Default,,0000,0000,0000,,But if something went south on your op,
+Dialogue: 0,0:51:22.18,0:51:24.32,Default,,0000,0000,0000,,I would always regret not being there with you.
+Dialogue: 0,0:51:24.49,0:51:26.97,Default,,0000,0000,0000,,I appreciate you taking care of me big-time, Dave,
+Dialogue: 0,0:51:27.12,0:51:28.80,Default,,0000,0000,0000,,but I'm working some things with the brass.
+Dialogue: 0,0:51:28.96,0:51:32.84,Default,,0000,0000,0000,,If I can, and things slow down, I'm gonna get two weeks off.
+Dialogue: 0,0:51:33.00,0:51:36.14,Default,,0000,0000,0000,,Well, I hope it works out either way. I really do.
+Dialogue: 0,0:51:36.30,0:51:39.51,Default,,0000,0000,0000,,But, if it doesn't, I'm gonna take this piece of paper,
+Dialogue: 0,0:51:39.67,0:51:41.48,Default,,0000,0000,0000,,and I'm gonna make it into a nice paper airplane.
+Dialogue: 0,0:51:41.64,0:51:44.58,Default,,0000,0000,0000,,Beat it.
+Dialogue: 0,0:52:38.09,0:52:39.97,Default,,0000,0000,0000,,We're good, we're good!
+Dialogue: 0,0:52:49.44,0:52:51.44,Default,,0000,0000,0000,,Chief of the Watch, submerge the ship to one-six-zero feet.
+Dialogue: 0,0:52:51.61,0:52:53.42,Default,,0000,0000,0000,,Dive. Dive.
+Dialogue: 0,0:53:05.72,0:53:08.40,Default,,0000,0000,0000,,Scope down. All doors are green.
+Dialogue: 0,0:53:18.43,0:53:20.07,Default,,0000,0000,0000,,- Oh, good. Hey, guys. - Sir.
+Dialogue: 0,0:53:20.24,0:53:21.54,Default,,0000,0000,0000,,- Thank you for getting here so fast. - Sure.
+Dialogue: 0,0:53:21.74,0:53:23.34,Default,,0000,0000,0000,,- Grab a seat, please. - Thank you.
+Dialogue: 0,0:53:23.51,0:53:25.08,Default,,0000,0000,0000,,You'll have Bulldog overhead.
+Dialogue: 0,0:53:27.41,0:53:30.41,Default,,0000,0000,0000,,and bounce it back to us. Do you have any questions?
+Dialogue: 0,0:53:30.58,0:53:33.25,Default,,0000,0000,0000,,Sir, I have a question. We have the rally point and time.
+Dialogue: 0,0:53:33.42,0:53:35.42,Default,,0000,0000,0000,,What if the meeting doesn't take place as scheduled?
+Dialogue: 0,0:53:35.58,0:53:37.83,Default,,0000,0000,0000,,How long do you want us to stay on target?
+Dialogue: 0,0:53:37.99,0:53:41.76,Default,,0000,0000,0000,,Now, this one counts, so I'd plan on being out there for a while.
+Dialogue: 0,0:53:41.92,0:53:44.10,Default,,0000,0000,0000,,- Check. - Are we good?
+Dialogue: 0,0:53:44.26,0:53:45.43,Default,,0000,0000,0000,,- Think so, sir. - Yes, sir.
+Dialogue: 0,0:53:55.44,0:53:59.11,Default,,0000,0000,0000,,Ray and Ajay are rigged up and ready to check each other out.
+Dialogue: 0,0:54:00.21,0:54:01.59,Default,,0000,0000,0000,,Garage door clear.
+Dialogue: 0,0:55:18.42,0:55:19.92,Default,,0000,0000,0000,,- You got a visual? - Yeah.
+Dialogue: 0,0:55:20.09,0:55:21.97,Default,,0000,0000,0000,,Got three trucks moving in.
+Dialogue: 0,0:55:22.12,0:55:26.10,Default,,0000,0000,0000,,A fuel truck, two jeeps, some skinnies in the back.
+Dialogue: 0,0:55:26.26,0:55:27.90,Default,,0000,0000,0000,,One of them has a .50-cal.
+Dialogue: 0,0:55:36.97,0:55:39.18,Default,,0000,0000,0000,,You hear that
+Dialogue: 0,0:55:39.38,0:55:41.55,Default,,0000,0000,0000,,- Yeah, I think that's our plane. - Yeah, we got some inbound.
+Dialogue: 0,0:55:52.39,0:55:55.89,Default,,0000,0000,0000,,'Bout time these guys showed up. Jesus. Let me get my camera.
+Dialogue: 0,0:56:12.91,0:56:15.79,Default,,0000,0000,0000,,Hey, Ray, we got two birds down at the end of the field,
+Dialogue: 0,0:56:15.94,0:56:21.02,Default,,0000,0000,0000,,southeast our pos, no tail IDs.
+Dialogue: 0,0:56:21.18,0:56:23.82,Default,,0000,0000,0000,,- You got that? - Check, no tail IDs.
+Dialogue: 0,0:56:33.03,0:56:35.87,Default,,0000,0000,0000,,Ray, last time I checked, we were in Africa, right?
+Dialogue: 0,0:56:36.03,0:56:37.64,Default,,0000,0000,0000,,Yeah. Why, what's up?
+Dialogue: 0,0:56:39.30,0:56:42.94,Default,,0000,0000,0000,,Dude, there's, like, 16 Filipinos down there,
+Dialogue: 0,0:56:43.11,0:56:44.55,Default,,0000,0000,0000,,all praying to Mecca right now.
+Dialogue: 0,0:56:44.71,0:56:47.52,Default,,0000,0000,0000,,- Filipinos? - Filipinos. Definitely not skinnies.
+Dialogue: 0,0:56:47.68,0:56:50.78,Default,,0000,0000,0000,,I'm picking up the praying. I'm also picking up some Russian.
+Dialogue: 0,0:57:21.98,0:57:25.65,Default,,0000,0000,0000,,Bulldog, Bulldog, Redrum, radio check, over.
+Dialogue: 0,0:57:25.81,0:57:28.09,Default,,0000,0000,0000,,- Good check, copy. - Roger, good check.
+Dialogue: 0,0:57:28.25,0:57:30.20,Default,,0000,0000,0000,,Be advised, we got two sterile aircraft
+Dialogue: 0,0:57:30.35,0:57:34.06,Default,,0000,0000,0000,,departing to the east from following location:
+Dialogue: 0,0:57:37.26,0:57:39.54,Default,,0000,0000,0000,,Please advise when tally target, over.
+Dialogue: 0,0:57:39.70,0:57:43.17,Default,,0000,0000,0000,,Roger Copy, two aircraft, location Ten, Papa...
+Dialogue: 0,0:57:43.33,0:57:46.84,Default,,0000,0000,0000,,Hey, Chief, you are not gonna believe this.
+Dialogue: 0,0:57:47.00,0:57:48.41,Default,,0000,0000,0000,,One of the planes Ray and Ajay tagged
+Dialogue: 0,0:57:48.57,0:57:50.85,Default,,0000,0000,0000,,just landed on Cedros Island off the coast of Mexico.
+Dialogue: 0,0:57:51.01,0:57:54.01,Default,,0000,0000,0000,,It has Shabal on it with an unknown number of jihadis.
+Dialogue: 0,0:57:54.18,0:57:55.38,Default,,0000,0000,0000,,Are you kidding me?
+Dialogue: 0,0:57:55.54,0:57:57.29,Default,,0000,0000,0000,,No, looks like we're gonna get to hit that target.
+Dialogue: 0,0:57:57.45,0:57:59.52,Default,,0000,0000,0000,,Well, Senior and the SWCC boats are punching out.
+Dialogue: 0,0:57:59.68,0:58:02.39,Default,,0000,0000,0000,,They should pull a little more intel for us, so we'll see.
+Dialogue: 0,0:58:02.55,0:58:04.03,Default,,0000,0000,0000,,All right.
+Dialogue: 0,0:58:31.08,0:58:33.99,Default,,0000,0000,0000,,I don't know how long we're staying. Hold on, baby.
+Dialogue: 0,0:58:39.46,0:58:41.44,Default,,0000,0000,0000,,- Be safe. - You know I will.
+Dialogue: 0,0:58:41.59,0:58:44.07,Default,,0000,0000,0000,,- I gotta go, honey, - I love you.
+Dialogue: 0,0:58:44.23,0:58:46.04,Default,,0000,0000,0000,,I love you.
+Dialogue: 0,0:59:31.61,0:59:33.38,Default,,0000,0000,0000,,Bravo Alpha, we're 200 meters out.
+Dialogue: 0,0:59:44.59,0:59:46.59,Default,,0000,0000,0000,,Bravo, you have a Tango on your starboard side.
+Dialogue: 0,0:59:46.79,0:59:48.46,Default,,0000,0000,0000,,MAN 2 Tango on the starboard side.
+Dialogue: 0,0:59:56.73,0:59:59.34,Default,,0000,0000,0000,,Whiskey Charlie, we have a visual on Tango.
+Dialogue: 0,1:00:19.09,1:00:21.36,Default,,0000,0000,0000,,Bravo, you have a Viper at twelve o'clock.
+Dialogue: 0,1:00:50.85,1:00:52.20,Default,,0000,0000,0000,,Get down! Get down!
+Dialogue: 0,1:00:53.69,1:00:56.19,Default,,0000,0000,0000,,Clear! Bridge secure.
+Dialogue: 0,1:00:57.79,1:00:59.24,Default,,0000,0000,0000,,Senior, you're clean
+Dialogue: 0,1:01:35.00,1:01:37.60,Default,,0000,0000,0000,,- English OK? Let's do that. - English is fine.
+Dialogue: 0,1:01:37.77,1:01:39.47,Default,,0000,0000,0000,,Can you cut him loose, please?
+Dialogue: 0,1:01:39.64,1:01:41.64,Default,,0000,0000,0000,,If you get cut loose, you're not gonna do anything crazy, are you?
+Dialogue: 0,1:01:41.80,1:01:44.98,Default,,0000,0000,0000,,A Crazy Ivan? Soto speak.
+Dialogue: 0,1:01:45.14,1:01:47.45,Default,,0000,0000,0000,,So you're Russian, yeah?
+Dialogue: 0,1:01:47.61,1:01:50.11,Default,,0000,0000,0000,,- Yes, I am. - You all right?
+Dialogue: 0,1:01:50.28,1:01:52.78,Default,,0000,0000,0000,,- Yes, I'm good. Thank you. - You're welcome.
+Dialogue: 0,1:01:52.95,1:01:54.33,Default,,0000,0000,0000,,I'm sorry. I don't know your name.
+Dialogue: 0,1:01:54.48,1:01:55.52,Default,,0000,0000,0000,,- I'm Otto. - Otto.
+Dialogue: 0,1:01:55.68,1:01:57.43,Default,,0000,0000,0000,,- Yes. And you are? - Nice to meet you.
+Dialogue: 0,1:01:57.59,1:01:58.62,Default,,0000,0000,0000,,Christo.
+Dialogue: 0,1:01:58.79,1:02:00.53,Default,,0000,0000,0000,,- Crisco? - Christo.
+Dialogue: 0,1:02:01.66,1:02:03.47,Default,,0000,0000,0000,,Troskawicz?
+Dialogue: 0,1:02:03.63,1:02:05.61,Default,,0000,0000,0000,,So how long am I gonna need to keep busting your balls
+Dialogue: 0,1:02:05.76,1:02:07.87,Default,,0000,0000,0000,,about getting one of those patches?
+Dialogue: 0,1:02:08.03,1:02:10.31,Default,,0000,0000,0000,,Ah, yeah, I think it was, like, a one-time deal, man.
+Dialogue: 0,1:02:10.47,1:02:13.31,Default,,0000,0000,0000,,After 9/11, my uncle sent a bunch out for the platoon,
+Dialogue: 0,1:02:13.47,1:02:16.45,Default,,0000,0000,0000,,but, uh, after this go-round, I'll give it to you.
+Dialogue: 0,1:02:16.61,1:02:18.45,Default,,0000,0000,0000,,No, no, I'm not gonna take your family crest.
+Dialogue: 0,1:02:18.57,1:02:21.11,Default,,0000,0000,0000,,All right, good. I didn't want to give it to you anyway.
+Dialogue: 0,1:02:21.28,1:02:23.12,Default,,0000,0000,0000,,Besides, man, I'm pretty sure I saw you
+Dialogue: 0,1:02:23.28,1:02:25.19,Default,,0000,0000,0000,,putting something in your cargo pocket the other day.
+Dialogue: 0,1:02:25.35,1:02:28.99,Default,,0000,0000,0000,,- What's that? - I know I've seen you carrying
+Dialogue: 0,1:02:29.15,1:02:30.86,Default,,0000,0000,0000,,something in that pocket right there.
+Dialogue: 0,1:02:32.39,1:02:33.49,Default,,0000,0000,0000,,What is it?
+Dialogue: 0,1:02:34.79,1:02:35.96,Default,,0000,0000,0000,,That's my grandfather's flag.
+Dialogue: 0,1:02:36.12,1:02:37.69,Default,,0000,0000,0000,,- Nice. - My pop gave it to me,
+Dialogue: 0,1:02:37.86,1:02:39.50,Default,,0000,0000,0000,,and now I'm gonna give it to my boy someday.
+Dialogue: 0,1:02:39.66,1:02:41.66,Default,,0000,0000,0000,,All right. I like that.
+Dialogue: 0,1:02:51.57,1:02:53.14,Default,,0000,0000,0000,,You're sitting on a wonderful boat.
+Dialogue: 0,1:02:53.31,1:02:54.45,Default,,0000,0000,0000,,- It's fabulous. - Thank you. Yes.
+Dialogue: 0,1:02:54.64,1:02:56.92,Default,,0000,0000,0000,,- I believe it's called Starship. - "Starship,"
+Dialogue: 0,1:02:57.08,1:02:58.42,Default,,0000,0000,0000,,I love the way you say Starship.
+Dialogue: 0,1:02:58.58,1:03:01.08,Default,,0000,0000,0000,,It's like Russian. That guy, uh... Star Trek.
+Dialogue: 0,1:03:01.25,1:03:03.35,Default,,0000,0000,0000,,What's his name, Scotty? Oh, no, he was, sorry, Scott.
+Dialogue: 0,1:03:03.52,1:03:05.86,Default,,0000,0000,0000,,- I wouldn't Know. - Yes. You've never seen Star Trek?
+Dialogue: 0,1:03:06.02,1:03:07.69,Default,,0000,0000,0000,,- No. - Oh, that's insane.
+Dialogue: 0,1:03:07.86,1:03:09.34,Default,,0000,0000,0000,,- So here's the problem, pal. - Mm-hm?
+Dialogue: 0,1:03:09.49,1:03:11.53,Default,,0000,0000,0000,,You're worth a lot of money.
+Dialogue: 0,1:03:11.69,1:03:14.87,Default,,0000,0000,0000,,- Or you were worth a lot of money. - I believe I still am.
+Dialogue: 0,1:03:15.03,1:03:16.17,Default,,0000,0000,0000,,- You do? - Yes.
+Dialogue: 0,1:03:16.33,1:03:20.04,Default,,0000,0000,0000,,All right. Let me tell you how the world works there, Crisco.
+Dialogue: 0,1:03:20.20,1:03:21.74,Default,,0000,0000,0000,,- It's Christo. - Sorry?
+Dialogue: 0,1:03:21.90,1:03:23.54,Default,,0000,0000,0000,,- Christo. - Oh, of course. Sorry.
+Dialogue: 0,1:03:23.71,1:03:24.95,Default,,0000,0000,0000,,It's OK.
+Dialogue: 0,1:03:25.11,1:03:26.52,Default,,0000,0000,0000,,Let me tell you how the world really works.
+Dialogue: 0,1:03:26.68,1:03:27.88,Default,,0000,0000,0000,,- Please. - This is no longer your boat.
+Dialogue: 0,1:03:28.04,1:03:31.18,Default,,0000,0000,0000,,Since I walked through that door, you're not the same guy you used to be.
+Dialogue: 0,1:03:31.35,1:03:34.56,Default,,0000,0000,0000,,You're just not. There's nothing I can do to stop that,
+Dialogue: 0,1:03:34.72,1:03:37.70,Default,,0000,0000,0000,,nothing I can do to help you right now, unless you let me help you.
+Dialogue: 0,1:03:37.85,1:03:41.39,Default,,0000,0000,0000,,We need to do this together, pal. You and me.
+Dialogue: 0,1:03:41.56,1:03:45.27,Default,,0000,0000,0000,,So how is it that you're working with these jihadi folks, then?
+Dialogue: 0,1:03:47.03,1:03:48.03,Default,,0000,0000,0000,,You're Jewish, right?
+Dialogue: 0,1:03:50.10,1:03:52.20,Default,,0000,0000,0000,,Shabal is what?
+Dialogue: 0,1:03:54.57,1:03:57.41,Default,,0000,0000,0000,,- You got a friend, like, you grew up with? - Sorry?
+Dialogue: 0,1:03:57.57,1:03:59.45,Default,,0000,0000,0000,,Have you ever had a friend that you grew up with?
+Dialogue: 0,1:03:59.61,1:04:01.82,Default,,0000,0000,0000,,- Yes. - Had, like, played interests, played soccer,
+Dialogue: 0,1:04:01.98,1:04:03.82,Default,,0000,0000,0000,,or... What would you play? Baseball, probably, right?
+Dialogue: 0,1:04:03.98,1:04:05.48,Default,,0000,0000,0000,,- Probably. Yeah. - Yeah.
+Dialogue: 0,1:04:05.65,1:04:06.99,Default,,0000,0000,0000,,And then you went on your separate ways,
+Dialogue: 0,1:04:07.15,1:04:09.96,Default,,0000,0000,0000,,and then some years later, you meet up.
+Dialogue: 0,1:04:10.12,1:04:13.53,Default,,0000,0000,0000,,And you totally didn't recognize the person.
+Dialogue: 0,1:04:13.72,1:04:15.72,Default,,0000,0000,0000,,And that's what happened with Shabal.
+Dialogue: 0,1:04:15.89,1:04:18.50,Default,,0000,0000,0000,,We share a common interest.
+Dialogue: 0,1:04:18.66,1:04:22.90,Default,,0000,0000,0000,,So he came up with this incredible idea because of his beliefs.
+Dialogue: 0,1:04:23.06,1:04:27.34,Default,,0000,0000,0000,,I don't necessarily share his beliefs, but he's a smart guy.
+Dialogue: 0,1:04:27.50,1:04:29.50,Default,,0000,0000,0000,,You know, it's almost like...
+Dialogue: 0,1:04:29.67,1:04:31.28,Default,,0000,0000,0000,,...you know, it's almost like...
+Dialogue: 0,1:04:31.44,1:04:32.58,Default,,0000,0000,0000,,...like this is me.
+Dialogue: 0,1:04:38.41,1:04:41.02,Default,,0000,0000,0000,,- And that's Shabal. - Is it?
+Dialogue: 0,1:04:41.18,1:04:43.16,Default,,0000,0000,0000,,- And America is in-between. - Is it?
+Dialogue: 0,1:04:43.32,1:04:44.35,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,1:04:45.92,1:04:47.16,Default,,0000,0000,0000,,Cool concept, no?
+Dialogue: 0,1:04:47.32,1:04:48.82,Default,,0000,0000,0000,,- Right here? - Yes.
+Dialogue: 0,1:04:50.29,1:04:52.33,Default,,0000,0000,0000,,You think this is some kind of game?
+Dialogue: 0,1:04:54.83,1:04:56.81,Default,,0000,0000,0000,,- Do you? Do you find this amusing? - No. No.
+Dialogue: 0,1:04:56.97,1:04:58.95,Default,,0000,0000,0000,,- I'm not finding... - Do you realize what you're doing here?
+Dialogue: 0,1:04:59.73,1:05:02.15,Default,,0000,0000,0000,,Blackbeard Actual, this is Blackbeard Main.
+Dialogue: 0,1:05:02.30,1:05:04.65,Default,,0000,0000,0000,,Post nation counterpart. Secured target Bravo.
+Dialogue: 0,1:05:04.81,1:05:07.91,Default,,0000,0000,0000,,Report to Tri-Hull. You're clear to move on target Alpha.
+Dialogue: 0,1:05:08.11,1:05:10.78,Default,,0000,0000,0000,,MAN 2 Roger, Main. Clear to target.
+Dialogue: 0,1:05:14.08,1:05:17.36,Default,,0000,0000,0000,,The only people I answer to is my family.
+Dialogue: 0,1:05:17.52,1:05:19.80,Default,,0000,0000,0000,,To my wife and to my child.
+Dialogue: 0,1:05:19.96,1:05:22.03,Default,,0000,0000,0000,,And nobody else.
+Dialogue: 0,1:05:22.19,1:05:25.33,Default,,0000,0000,0000,,- Running late somewhere? - Shit filter's full.
+Dialogue: 0,1:05:25.49,1:05:26.67,Default,,0000,0000,0000,,- Really? - Yeah.
+Dialogue: 0,1:05:26.83,1:05:30.24,Default,,0000,0000,0000,,So here's the problem, pal.
+Dialogue: 0,1:05:30.40,1:05:32.24,Default,,0000,0000,0000,,You do love your family, don't you?
+Dialogue: 0,1:05:33.40,1:05:35.51,Default,,0000,0000,0000,,- Yes, I do. - And what about your daughter?
+Dialogue: 0,1:05:35.67,1:05:37.08,Default,,0000,0000,0000,,What about my daughter?
+Dialogue: 0,1:05:37.24,1:05:39.08,Default,,0000,0000,0000,,Are you looking forward to seeing her again?
+Dialogue: 0,1:05:39.24,1:05:40.91,Default,,0000,0000,0000,,Every minute of my life.
+Dialogue: 0,1:06:03.77,1:06:08.18,Default,,0000,0000,0000,,I wanted you to see that so that you'd think about some things very seriously,
+Dialogue: 0,1:06:08.34,1:06:10.87,Default,,0000,0000,0000,,because you're gonna be sitting in a box somewhere.
+Dialogue: 0,1:06:11.04,1:06:14.85,Default,,0000,0000,0000,,You'll be treated properly and humanely.
+Dialogue: 0,1:06:16.51,1:06:20.79,Default,,0000,0000,0000,,That girl is gonna grow up, and she's gonna get married,
+Dialogue: 0,1:06:20.95,1:06:24.19,Default,,0000,0000,0000,,and your wife is gonna find someone else,
+Dialogue: 0,1:06:24.35,1:06:27.27,Default,,0000,0000,0000,,and you're gonna miss everything.
+Dialogue: 0,1:06:34.46,1:06:37.91,Default,,0000,0000,0000,,If I had done something that would endanger my family,
+Dialogue: 0,1:06:38.07,1:06:40.21,Default,,0000,0000,0000,,I would feel just like you do right now.
+Dialogue: 0,1:06:43.07,1:06:44.98,Default,,0000,0000,0000,,You promise not to touch my family?
+Dialogue: 0,1:06:45.14,1:06:47.05,Default,,0000,0000,0000,,I would never touch your family.
+Dialogue: 0,1:06:48.38,1:06:49.45,Default,,0000,0000,0000,,I would not.
+Dialogue: 0,1:06:56.65,1:06:57.99,Default,,0000,0000,0000,,Are you familiar with...
+Dialogue: 0,1:07:00.39,1:07:01.92,Default,,0000,0000,0000,,...ceramic ball bearings?
+Dialogue: 0,1:07:02.09,1:07:03.47,Default,,0000,0000,0000,,No.
+Dialogue: 0,1:07:04.63,1:07:06.83,Default,,0000,0000,0000,,Just imagine 16 suicide vests
+Dialogue: 0,1:07:07.00,1:07:09.07,Default,,0000,0000,0000,,filled with those ceramic ball bearings,
+Dialogue: 0,1:07:09.23,1:07:13.74,Default,,0000,0000,0000,,slipping by every metal detector and every checkpoint in your country.
+Dialogue: 0,1:07:15.30,1:07:17.75,Default,,0000,0000,0000,,You think your economy is fucked now?
+Dialogue: 0,1:07:19.17,1:07:23.09,Default,,0000,0000,0000,,Just think what the media is gonna do with this. Hm?
+Dialogue: 0,1:07:23.24,1:07:26.56,Default,,0000,0000,0000,,It's gonna make 9/11 look like a fucking walk in the park.
+Dialogue: 0,1:07:26.75,1:07:28.66,Default,,0000,0000,0000,,The grand Central Park.
+Dialogue: 0,1:07:29.95,1:07:31.69,Default,,0000,0000,0000,,So you're telling me...
+Dialogue: 0,1:07:32.85,1:07:38.86,Default,,0000,0000,0000,,...there's 16 jihadis wearing suicide vests.
+Dialogue: 0,1:07:39.19,1:07:42.44,Default,,0000,0000,0000,,They're gonna walk right across the border.
+Dialogue: 0,1:07:43.53,1:07:45.07,Default,,0000,0000,0000,,So where are they going?
+Dialogue: 0,1:07:46.84,1:07:49.71,Default,,0000,0000,0000,,San Diego, San Francisco, Houston...
+Dialogue: 0,1:07:49.87,1:07:51.61,Default,,0000,0000,0000,,You pick a city, they'll be there.
+Dialogue: 0,1:07:51.77,1:07:56.02,Default,,0000,0000,0000,,- And this is happening now? - It's happening as we speak.
+Dialogue: 0,1:07:56.98,1:07:58.29,Default,,0000,0000,0000,,Sorry, what?
+Dialogue: 0,1:07:59.35,1:08:01.85,Default,,0000,0000,0000,,It's happening as we speak.
+Dialogue: 0,1:08:04.29,1:08:06.16,Default,,0000,0000,0000,,How can you stop this?
+Dialogue: 0,1:08:08.62,1:08:10.19,Default,,0000,0000,0000,,I can't.
+Dialogue: 0,1:10:00.34,1:10:03.58,Default,,0000,0000,0000,,Blackbeard Lead, containment element is set.
+Dialogue: 0,1:10:03.74,1:10:04.91,Default,,0000,0000,0000,,Roger.
+Dialogue: 0,1:11:44.27,1:11:45.91,Default,,0000,0000,0000,,Gun! Gun! Gun!
+Dialogue: 0,1:11:47.71,1:11:49.92,Default,,0000,0000,0000,,Clear!
+Dialogue: 0,1:11:50.08,1:11:51.06,Default,,0000,0000,0000,,- Go. - Coming out!
+Dialogue: 0,1:11:55.28,1:11:59.06,Default,,0000,0000,0000,,Rat Pack, this is Blackbeard. We're in contact, midtown, south of the church.
+Dialogue: 0,1:12:08.63,1:12:10.54,Default,,0000,0000,0000,,Contact!
+Dialogue: 0,1:12:25.05,1:12:26.58,Default,,0000,0000,0000,,Contact!
+Dialogue: 0,1:12:30.08,1:12:30.93,Default,,0000,0000,0000,,Changing!
+Dialogue: 0,1:12:37.09,1:12:38.97,Default,,0000,0000,0000,,Blackbeard Lead, what's your pos?
+Dialogue: 0,1:12:39.13,1:12:41.11,Default,,0000,0000,0000,,Overwatch. You're clear to engage.
+Dialogue: 0,1:12:42.26,1:12:43.30,Default,,0000,0000,0000,,Go in hot.
+Dialogue: 0,1:13:05.09,1:13:06.62,Default,,0000,0000,0000,,Frag out!
+Dialogue: 0,1:13:15.96,1:13:19.14,Default,,0000,0000,0000,,Weimy, I've got two squilters heading south in a pickup truck.
+Dialogue: 0,1:13:23.87,1:13:24.87,Default,,0000,0000,0000,,I see 'em.
+Dialogue: 0,1:13:29.28,1:13:31.02,Default,,0000,0000,0000,,Hit those two guys in the truck.
+Dialogue: 0,1:13:52.20,1:13:53.34,Default,,0000,0000,0000,,Rocket!
+Dialogue: 0,1:14:01.41,1:14:02.68,Default,,0000,0000,0000,,Frag out!
+Dialogue: 0,1:15:02.74,1:15:04.74,Default,,0000,0000,0000,,Sir? Sir?
+Dialogue: 0,1:15:04.91,1:15:07.61,Default,,0000,0000,0000,,LT? You all right?
+Dialogue: 0,1:15:13.68,1:15:14.68,Default,,0000,0000,0000,,Damn.
+Dialogue: 0,1:15:14.88,1:15:16.66,Default,,0000,0000,0000,,You check that box, huh?
+Dialogue: 0,1:15:16.82,1:15:18.13,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,1:15:19.99,1:15:21.63,Default,,0000,0000,0000,,Good thing that was a dud. I might've gotten hurt.
+Dialogue: 0,1:15:21.79,1:15:24.93,Default,,0000,0000,0000,,- Yeah. - Whoa.
+Dialogue: 0,1:15:27.23,1:15:28.57,Default,,0000,0000,0000,,Jesus.
+Dialogue: 0,1:15:31.93,1:15:35.14,Default,,0000,0000,0000,,This is not some bush-league vest from an Iraqi hut.
+Dialogue: 0,1:15:35.30,1:15:36.65,Default,,0000,0000,0000,,This is some high-speed shit.
+Dialogue: 0,1:15:38.11,1:15:40.52,Default,,0000,0000,0000,,Maybe we should put this somewhere else, huh?
+Dialogue: 0,1:15:48.48,1:15:50.66,Default,,0000,0000,0000,,Hey, Sonny, find somewhere to put this, would you?
+Dialogue: 0,1:15:57.46,1:16:00.27,Default,,0000,0000,0000,,Target secure. Set security.
+Dialogue: 0,1:16:00.43,1:16:02.84,Default,,0000,0000,0000,,One's to the north, three south.
+Dialogue: 0,1:16:47.94,1:16:49.35,Default,,0000,0000,0000,,Hey, Chief, target's buttoned up.
+Dialogue: 0,1:16:49.51,1:16:51.51,Default,,0000,0000,0000,,- Everything's secure. - Thanks, man.
+Dialogue: 0,1:16:51.68,1:16:54.66,Default,,0000,0000,0000,,WOActual, mission not complete. Stand by for follow-on.
+Dialogue: 0,1:16:54.82,1:16:56.66,Default,,0000,0000,0000,,You only got half that jihadist cell.
+Dialogue: 0,1:16:56.82,1:16:59.99,Default,,0000,0000,0000,,- The target's secure, sir. - This fight isn't over yet.
+Dialogue: 0,1:17:00.15,1:17:03.00,Default,,0000,0000,0000,,Now, listen, the other half of that cell is gonna be crossing the border
+Dialogue: 0,1:17:03.16,1:17:06.47,Default,,0000,0000,0000,,using a tunnel network from Mexicali at 0700.
+Dialogue: 0,1:17:06.63,1:17:09.20,Default,,0000,0000,0000,,We're coordinating with State, but for now the birds will drop you off
+Dialogue: 0,1:17:09.36,1:17:12.64,Default,,0000,0000,0000,,outside the city where your POC is a Commander Pedros.
+Dialogue: 0,1:17:12.80,1:17:14.58,Default,,0000,0000,0000,,I 'll give you more details en route.
+Dialogue: 0,1:17:14.74,1:17:16.87,Default,,0000,0000,0000,,- Actual, how do you copy? - Roger, Main.
+Dialogue: 0,1:17:17.04,1:17:19.04,Default,,0000,0000,0000,,OK, we've got a helo landing on the deck,
+Dialogue: 0,1:17:19.21,1:17:21.35,Default,,0000,0000,0000,,we're gonna meet a Mexican SOF commander and his team.
+Dialogue: 0,1:17:21.51,1:17:24.35,Default,,0000,0000,0000,,They're gonna help infil us to the target and join us on the assault.
+Dialogue: 0,1:17:25.58,1:17:27.72,Default,,0000,0000,0000,,- What the hell are you talking about? - We haven't got all of 'em yet, Chief.
+Dialogue: 0,1:17:27.88,1:17:30.95,Default,,0000,0000,0000,,- And where's the rest of 'em? - They're in Mexicali on the border.
+Dialogue: 0,1:17:31.12,1:17:32.76,Default,,0000,0000,0000,,All right. And the rest of the boys,
+Dialogue: 0,1:17:32.92,1:17:34.06,Default,,0000,0000,0000,,how are they getting back to the ship?
+Dialogue: 0,1:17:34.22,1:17:35.53,Default,,0000,0000,0000,,Bon Homme Richard stayed on station.
+Dialogue: 0,1:17:35.69,1:17:37.60,Default,,0000,0000,0000,,They're gonna send in a Marine element to help exploit the target.
+Dialogue: 0,1:17:37.76,1:17:40.03,Default,,0000,0000,0000,,When they're done, the boys will pull off with them.
+Dialogue: 0,1:17:40.19,1:17:43.11,Default,,0000,0000,0000,,OK. I'm thinking Squad One and myself roll out.
+Dialogue: 0,1:17:43.26,1:17:44.97,Default,,0000,0000,0000,,Perfect. Squad Two stays here, buttons it up,
+Dialogue: 0,1:17:45.13,1:17:46.91,Default,,0000,0000,0000,,- pulls out with the Marines. - OK.
+Dialogue: 0,1:17:53.31,1:17:55.12,Default,,0000,0000,0000,,We're moving north of here through town,
+Dialogue: 0,1:17:55.28,1:17:56.85,Default,,0000,0000,0000,,and crossing at sunrise.
+Dialogue: 0,1:17:57.01,1:17:59.79,Default,,0000,0000,0000,,The other group will get into Texas the following day,
+Dialogue: 0,1:17:59.95,1:18:01.39,Default,,0000,0000,0000,,through Juarez.
+Dialogue: 0,1:18:02.65,1:18:04.15,Default,,0000,0000,0000,,Comprendes ?
+Dialogue: 0,1:18:16.06,1:18:20.01,Default,,0000,0000,0000,,Hey, sir! Who the hell cleared us hot to go to Mexicali anyway?
+Dialogue: 0,1:18:20.17,1:18:22.37,Default,,0000,0000,0000,,This one's going all the way up the flagpole.
+Dialogue: 0,1:18:22.54,1:18:24.17,Default,,0000,0000,0000,,State Department's on it.
+Dialogue: 0,1:19:03.18,1:19:05.75,Default,,0000,0000,0000,,Hey, sir. Channel two.
+Dialogue: 0,1:19:10.82,1:19:12.56,Default,,0000,0000,0000,,Hey, this tempo keeps up like this,
+Dialogue: 0,1:19:12.72,1:19:15.29,Default,,0000,0000,0000,,Jackie's gonna be squeezing that kid out on her own.
+Dialogue: 0,1:19:16.36,1:19:18.50,Default,,0000,0000,0000,,However, we hit this target quick enough,
+Dialogue: 0,1:19:18.63,1:19:20.87,Default,,0000,0000,0000,,you jump on a burro and ride that shit home.
+Dialogue: 0,1:19:21.03,1:19:24.53,Default,,0000,0000,0000,,Hey, I ain't gonna need no burro.
+Dialogue: 0,1:19:26.07,1:19:27.41,Default,,0000,0000,0000,,Did you get your two weeks?
+Dialogue: 0,1:19:27.57,1:19:29.84,Default,,0000,0000,0000,,All that time I was spending on the sat phone,
+Dialogue: 0,1:19:30.00,1:19:32.28,Default,,0000,0000,0000,,it wasn't to convince them to let me go home,
+Dialogue: 0,1:19:32.44,1:19:34.55,Default,,0000,0000,0000,,it was to convince them to leave your ass in charge.
+Dialogue: 0,1:20:42.28,1:20:44.42,Default,,0000,0000,0000,,- Sir. - Lieutenant.
+Dialogue: 0,1:20:44.58,1:20:46.72,Default,,0000,0000,0000,,Seems our governments have been very busy to make this possible, huh?
+Dialogue: 0,1:20:46.88,1:20:48.29,Default,,0000,0000,0000,,All the way to the top, from what I hear.
+Dialogue: 0,1:20:48.45,1:20:50.33,Default,,0000,0000,0000,,There is something that you have to understand.
+Dialogue: 0,1:20:50.48,1:20:54.30,Default,,0000,0000,0000,,My superiors, they're very fearful of a Mexican Mogadishu.
+Dialogue: 0,1:20:54.46,1:20:56.53,Default,,0000,0000,0000,,No Black Hawk Down is what they're saying,
+Dialogue: 0,1:20:56.72,1:20:58.29,Default,,0000,0000,0000,,so we do need to stay under the radar.
+Dialogue: 0,1:20:58.46,1:21:00.44,Default,,0000,0000,0000,,- I understand completely, sir. - Good.
+Dialogue: 0,1:21:00.59,1:21:03.44,Default,,0000,0000,0000,,Your team's presence here is greatly appreciated, but we are out of time.
+Dialogue: 0,1:21:03.60,1:21:05.10,Default,,0000,0000,0000,,- We need to move. - Tell me where, we go.
+Dialogue: 0,1:21:05.27,1:21:06.30,Default,,0000,0000,0000,,Help piece this together for me.
+Dialogue: 0,1:21:06.47,1:21:07.78,Default,,0000,0000,0000,,- OK. - Our intel says
+Dialogue: 0,1:21:07.94,1:21:10.61,Default,,0000,0000,0000,,they're using a tunnel network that is under a milk factory.
+Dialogue: 0,1:21:10.77,1:21:12.75,Default,,0000,0000,0000,,This mean anything to you?
+Dialogue: 0,1:21:12.87,1:21:15.32,Default,,0000,0000,0000,,I know exactly where that is. It's not far from here.
+Dialogue: 0,1:21:15.48,1:21:17.15,Default,,0000,0000,0000,,Then that's where we're going.
+Dialogue: 0,1:21:17.31,1:21:19.12,Default,,0000,0000,0000,,Of all of the places in Mexicali
+Dialogue: 0,1:21:19.28,1:21:21.28,Default,,0000,0000,0000,,that you could have picked, this is probably the worst.
+Dialogue: 0,1:21:21.45,1:21:23.45,Default,,0000,0000,0000,,The cartels control that area from all angles.
+Dialogue: 0,1:21:23.62,1:21:25.29,Default,,0000,0000,0000,,They have us heavily outgunned.
+Dialogue: 0,1:21:25.45,1:21:27.66,Default,,0000,0000,0000,,Simply reaching your target is gonna be very difficult.
+Dialogue: 0,1:21:27.82,1:21:30.39,Default,,0000,0000,0000,,Sir, we have eight foreign nationals heading to our country.
+Dialogue: 0,1:21:30.56,1:21:32.94,Default,,0000,0000,0000,,Needless to say, they are no big fan of ours.
+Dialogue: 0,1:21:33.09,1:21:35.27,Default,,0000,0000,0000,,If they are at that factory, that's where we're going.
+Dialogue: 0,1:21:35.40,1:21:37.57,Default,,0000,0000,0000,,Lieutenant, I'll take you anywhere you need to go,
+Dialogue: 0,1:21:37.73,1:21:40.74,Default,,0000,0000,0000,,but prepare your men for a bigger fight than what you had imagined.
+Dialogue: 0,1:21:40.94,1:21:44.11,Default,,0000,0000,0000,,You're not fighting eight men. You're also fighting the cartel that's protecting them.
+Dialogue: 0,1:21:44.27,1:21:46.51,Default,,0000,0000,0000,,If your targets make it into those tunnels,
+Dialogue: 0,1:21:46.67,1:21:48.68,Default,,0000,0000,0000,,they'll disappear like ghosts.
+Dialogue: 0,1:23:31.08,1:23:32.82,Default,,0000,0000,0000,,You enter the tunnels right here.
+Dialogue: 0,1:23:32.98,1:23:35.12,Default,,0000,0000,0000,,You will walk seven miles to this fork.
+Dialogue: 0,1:23:35.28,1:23:36.85,Default,,0000,0000,0000,,My men will tell you what tunnel to take.
+Dialogue: 0,1:23:37.05,1:23:41.56,Default,,0000,0000,0000,,Once you get to this point, my job is done.
+Dialogue: 0,1:23:41.69,1:23:43.50,Default,,0000,0000,0000,,You're on your own.
+Dialogue: 0,1:24:12.15,1:24:14.93,Default,,0000,0000,0000,,- Lieutenant, we're going now! - Roger that.
+Dialogue: 0,1:24:36.64,1:24:40.61,Default,,0000,0000,0000,,Chief, we're not stopping. We're rolling up on target, hard.
+Dialogue: 0,1:24:40.78,1:24:43.39,Default,,0000,0000,0000,,Roger that, sir. We're about 30 seconds out.
+Dialogue: 0,1:24:57.87,1:25:00.87,Default,,0000,0000,0000,,One mike out from the south entrance.
+Dialogue: 0,1:25:35.80,1:25:37.51,Default,,0000,0000,0000,,Jefe! On the roof!
+Dialogue: 0,1:25:49.18,1:25:51.13,Default,,0000,0000,0000,,We gotta go. Now.
+Dialogue: 0,1:26:23.42,1:26:26.30,Default,,0000,0000,0000,,Sir! Leave two men here!
+Dialogue: 0,1:26:55.02,1:26:56.02,Default,,0000,0000,0000,,Weimy!
+Dialogue: 0,1:26:59.85,1:27:00.85,Default,,0000,0000,0000,,Weimy!
+Dialogue: 0,1:27:02.09,1:27:03.19,Default,,0000,0000,0000,,I need you to lock this shit down!
+Dialogue: 0,1:27:12.00,1:27:13.27,Default,,0000,0000,0000,,Frag out!
+Dialogue: 0,1:27:15.77,1:27:16.98,Default,,0000,0000,0000,,On me.
+Dialogue: 0,1:27:42.80,1:27:44.74,Default,,0000,0000,0000,,You guys got the gate!
+Dialogue: 0,1:27:44.90,1:27:47.47,Default,,0000,0000,0000,,Call! You're going to the front door!
+Dialogue: 0,1:27:50.04,1:27:51.57,Default,,0000,0000,0000,,Go!
+Dialogue: 0,1:28:18.90,1:28:20.21,Default,,0000,0000,0000,,Call!
+Dialogue: 0,1:29:10.98,1:29:12.22,Default,,0000,0000,0000,,Changing!
+Dialogue: 0,1:29:57.93,1:30:00.43,Default,,0000,0000,0000,,Bomb!
+Dialogue: 0,1:30:52.99,1:30:54.09,Default,,0000,0000,0000,,Damn it, sir.
+Dialogue: 0,1:30:54.25,1:30:55.60,Default,,0000,0000,0000,,How you gonna explain that one to my family?
+Dialogue: 0,1:30:55.76,1:30:58.10,Default,,0000,0000,0000,,Get back there so I don't have to, huh?
+Dialogue: 0,1:31:14.41,1:31:15.68,Default,,0000,0000,0000,,Clear!
+Dialogue: 0,1:31:38.23,1:31:40.47,Default,,0000,0000,0000,,Grenade!
+Dialogue: 0,1:32:38.53,1:32:41.03,Default,,0000,0000,0000,,LT!
+Dialogue: 0,1:32:44.70,1:32:46.01,Default,,0000,0000,0000,,Chief, I got him.
+Dialogue: 0,1:33:08.99,1:33:10.66,Default,,0000,0000,0000,,Keep going. I'll cover you.
+Dialogue: 0,1:34:58.00,1:34:59.24,Default,,0000,0000,0000,,Chief.
+Dialogue: 0,1:35:03.80,1:35:06.65,Default,,0000,0000,0000,,Chief!
+Dialogue: 0,1:35:09.24,1:35:11.42,Default,,0000,0000,0000,,Assault Two, this is Assault One.
+Dialogue: 0,1:35:11.58,1:35:15.72,Default,,0000,0000,0000,,Be advised, tunnel is secure and all threats are neutralized.
+Dialogue: 0,1:35:15.92,1:35:18.09,Default,,0000,0000,0000,,LT and Chief are down.
+Dialogue: 0,1:35:18.25,1:35:21.26,Default,,0000,0000,0000,,I say again, LT and Chief are down,
+Dialogue: 0,1:36:17.81,1:36:19.69,Default,,0000,0000,0000,,Your father was a good man.
+Dialogue: 0,1:36:19.85,1:36:22.26,Default,,0000,0000,0000,,Growing up without him is gonna be hard.
+Dialogue: 0,1:36:22.42,1:36:24.42,Default,,0000,0000,0000,,It's gonna hurt.
+Dialogue: 0,1:36:24.58,1:36:28.56,Default,,0000,0000,0000,,You'll feel alone, out to sea, with no shore in sight.
+Dialogue: 0,1:36:28.72,1:36:32.73,Default,,0000,0000,0000,,You'll wooden "Why me? Why him?"
+Dialogue: 0,1:36:44.37,1:36:48.79,Default,,0000,0000,0000,,Remember, you have warrior's blood in your veins.
+Dialogue: 0,1:36:48.94,1:36:51.89,Default,,0000,0000,0000,,The code that made your father who he was is the same code
+Dialogue: 0,1:36:52.05,1:36:55.79,Default,,0000,0000,0000,,that'll make you a man he would admire, respect.
+Dialogue: 0,1:36:57.25,1:37:00.60,Default,,0000,0000,0000,,Put your pain in a box. Lock it down.
+Dialogue: 0,1:37:00.75,1:37:03.79,Default,,0000,0000,0000,,Like those people in the paintings your father liked,
+Dialogue: 0,1:37:03.96,1:37:08.53,Default,,0000,0000,0000,,we are men made up of boxes, chambers of loss and triumph,
+Dialogue: 0,1:37:08.66,1:37:12.04,Default,,0000,0000,0000,,of hurt and hope and love.
+Dialogue: 0,1:37:13.13,1:37:15.77,Default,,0000,0000,0000,,- No one is stronger or more dangerous... - Ready!
+Dialogue: 0,1:37:15.94,1:37:17.64,Default,,0000,0000,0000,,- ...Than a man who can harness emotions. - Aim!
+Dialogue: 0,1:37:17.80,1:37:20.22,Default,,0000,0000,0000,,His past.
+Dialogue: 0,1:37:21.57,1:37:24.25,Default,,0000,0000,0000,,Aim!
+Dialogue: 0,1:37:25.58,1:37:27.82,Default,,0000,0000,0000,,Aim!
+Dialogue: 0,1:37:30.28,1:37:33.23,Default,,0000,0000,0000,,Use it as fuel, as ammunition,
+Dialogue: 0,1:37:33.35,1:37:36.89,Default,,0000,0000,0000,,as ink to write the most important letter of your life.
+Dialogue: 0,1:37:38.32,1:37:41.40,Default,,0000,0000,0000,,On behalf of the President of the United States
+Dialogue: 0,1:37:41.53,1:37:45.67,Default,,0000,0000,0000,,and a grateful nation, I present you this flag
+Dialogue: 0,1:37:45.83,1:37:49.14,Default,,0000,0000,0000,,in recognition of your husband's heroic achievements.
+Dialogue: 0,1:37:53.14,1:37:55.64,Default,,0000,0000,0000,,You have my deepest condolences.
+Dialogue: 0,1:38:00.48,1:38:02.86,Default,,0000,0000,0000,,One more flag to present.
+Dialogue: 0,1:38:03.02,1:38:05.43,Default,,0000,0000,0000,,This one I think you know.
+Dialogue: 0,1:38:06.92,1:38:11.10,Default,,0000,0000,0000,,On every deployment, Rorke carried this with him.
+Dialogue: 0,1:38:15.09,1:38:17.60,Default,,0000,0000,0000,,Again, my deepest condolences.
+Dialogue: 0,1:38:26.44,1:38:29.05,Default,,0000,0000,0000,,Lieutenant Engel!
+Dialogue: 0,1:38:29.21,1:38:31.85,Default,,0000,0000,0000,,Hoo-yah, Lieutenant Engel!
+Dialogue: 0,1:39:37.48,1:39:41.72,Default,,0000,0000,0000,,Before he died, your father asked me to give you this poem by Tecumseh.
+Dialogue: 0,1:39:41.88,1:39:44.86,Default,,0000,0000,0000,,I told him I 'd fold it into a paper airplane.
+Dialogue: 0,1:39:45.02,1:39:47.76,Default,,0000,0000,0000,,And, in a way, I guess that's what I'm doing,
+Dialogue: 0,1:39:47.92,1:39:51.06,Default,,0000,0000,0000,,sailing it from him to you.
+Dialogue: 0,1:39:54.36,1:39:56.20,Default,,0000,0000,0000,,Live your life that the fear of death
+Dialogue: 0,1:39:56.36,1:39:58.54,Default,,0000,0000,0000,,Can never enter your heart
+Dialogue: 0,1:39:58.70,1:40:01.04,Default,,0000,0000,0000,,Trouble no one about his religion
+Dialogue: 0,1:40:01.17,1:40:03.24,Default,,0000,0000,0000,,Respect others and their views
+Dialogue: 0,1:40:03.40,1:40:06.04,Default,,0000,0000,0000,,And demand they respect yours
+Dialogue: 0,1:40:06.21,1:40:09.28,Default,,0000,0000,0000,,Love your life, perfect your life
+Dialogue: 0,1:40:09.44,1:40:12.22,Default,,0000,0000,0000,,Beautify all things in your life
+Dialogue: 0,1:40:12.38,1:40:16.88,Default,,0000,0000,0000,,Seek to make your life long and of service to your people
+Dialogue: 0,1:40:17.05,1:40:18.96,Default,,0000,0000,0000,,When your time comes to die
+Dialogue: 0,1:40:19.12,1:40:22.57,Default,,0000,0000,0000,,Be not like those whose hearts are filled with fear of death
+Dialogue: 0,1:40:22.69,1:40:24.90,Default,,0000,0000,0000,,So that when their time comes they weep and pray
+Dialogue: 0,1:40:25.06,1:40:28.87,Default,,0000,0000,0000,,For a little more time to live their lives over again in a different way
+Dialogue: 0,1:40:29.06,1:40:30.97,Default,,0000,0000,0000,,Sing your death song
+Dialogue: 0,1:40:31.13,1:40:34.13,Default,,0000,0000,0000,,And die like a hero going home
+

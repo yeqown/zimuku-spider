@@ -1,0 +1,427 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: 名单,FZLanTingHei-EL-GBK,70,&H00711EC5,&H000000FF,&H00000000,&H00101012,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: CN,Microsoft YaHei,40,&H0009090A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 中文,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00523936,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 日语-注释,黑体-简,30,&H00F9F9FB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,140,1
+Style: 韩影样式,黑体-韩语,75,&H00FFFFFF,&H000000FF,&H00111111,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: 日影样式,黑体-日本语,50,&H00FFFFFF,&H000000FF,&H00181818,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 监狱样式,黑体-日本语,50,&H00FFFFFF,&H000000FF,&H00080CA1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 监狱-名单,FZSongHei-B07S,34,&H00020101,&H000000FF,&H00C4C4C5,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: 纯情样式,黑体-日本语,50,&H00FFFFFF,&H000000FF,&H007132C8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 英文样式,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00523936,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 日语,黑体-日本语,50,&H00FFFFFF,&H000000FF,&H007132C8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: 硬字幕,STXinwei,45,&H00203656,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 名单2,建刚草稿体,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 歌曲,,60,&H00EBE9E8,&HFF09090A,&H00000000,&H0009090A,0,0,0,0,100,100,0,0,1,0,2,2,10,10,10,1
+Style: 日-名单,经典黑体简,30,&H00FFFFFF,&H000000FF,&H00BB39C4,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,10,10,10,1
+Style: 特效,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 夏日亡魂标题,Microsoft YaHei,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 回忆top,黑体-日本语,55,&H00FFFFFF,&H000000FF,&H009E7523,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: 上居中,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Default,,0,0,0,,{\fad(1000,0)\shad0\bord0\p1\clip(13,14,192,89)\move(102.4,201.2,102.4,137.2)\fscx11\fscy15}m 0 0 l 0 0 l 282 -337 l 469 -181 l 616 -357 l 1018 -21 l 982 23 l 623 -276 l 513 -145 l 668 -16 l 632 28 l 290 -257 l 43 37 l 43 37 l 0 0 m 306 -165 l 306 -165 l 332 -110 l 392 -101 l 349 -58 l 358 1 l 304 -27 l 250 1 l 260 -60 l 218 -102 l 278 -111 l 306 -165
+Dialogue: 0,0:00:02.00,0:00:06.30,Default,,0,0,0,,{\fad(0,1000)\shad0\bord0\p1\fscx15\fscy15\pos(102.4,137.2)\fscx11\fscy15}m 0 0 l 0 0 l 282 -337 l 469 -181 l 616 -357 l 1018 -21 l 982 23 l 623 -276 l 513 -145 l 668 -16 l 632 28 l 290 -257 l 43 37 l 43 37 l 0 0 m 306 -165 l 306 -165 l 332 -110 l 392 -101 l 349 -58 l 358 1 l 304 -27 l 250 1 l 260 -60 l 218 -102 l 278 -111 l 306 -165
+Dialogue: 0,0:00:01.80,0:00:03.30,Default,,0,0,0,,{\fsp5\shad0\bord0\fnPing Hei\b1\fs25\clip(28,87,177,117)\move(103.333,90.946,103.333,109.232)}SSK字幕組
+Dialogue: 0,0:00:03.30,0:00:06.30,Default,,0,0,0,,{\fad(0,1000)\fsp5\shad0\bord0\fnPing Hei\b1\fs25\pos(103.333,109.232)}SSK字幕組
+Dialogue: 0,0:20:00.00,0:20:02.00,Default,,0,0,0,,{\fad(1000,0)\shad0\bord0\p1\fscx15\fscy15\clip(13,14,192,89)\move(102.4,201.2,102.4,137.2)\fscx11\fscy15}m 0 0 l 0 0 l 282 -337 l 469 -181 l 616 -357 l 1018 -21 l 982 23 l 623 -276 l 513 -145 l 668 -16 l 632 28 l 290 -257 l 43 37 l 43 37 l 0 0 m 306 -165 l 306 -165 l 332 -110 l 392 -101 l 349 -58 l 358 1 l 304 -27 l 250 1 l 260 -60 l 218 -102 l 278 -111 l 306 -165
+Dialogue: 0,0:20:02.00,0:20:06.30,Default,,0,0,0,,{\fad(0,1000)\shad0\bord0\p1\fscx15\fscy15\pos(102.4,137.2)\fscx11\fscy15}m 0 0 l 0 0 l 282 -337 l 469 -181 l 616 -357 l 1018 -21 l 982 23 l 623 -276 l 513 -145 l 668 -16 l 632 28 l 290 -257 l 43 37 l 43 37 l 0 0 m 306 -165 l 306 -165 l 332 -110 l 392 -101 l 349 -58 l 358 1 l 304 -27 l 250 1 l 260 -60 l 218 -102 l 278 -111 l 306 -165
+Dialogue: 0,0:20:01.80,0:20:03.30,Default,,0,0,0,,{\fsp5\shad0\bord0\fnPing Hei\b1\fs25\clip(28,87,177,117)\move(103.333,90.946,103.333,109.232)}SSK字幕組
+Dialogue: 0,0:20:03.00,0:20:06.30,Default,,0,0,0,,{\fad(0,1000)\fsp5\shad0\bord0\fnPing Hei\b1\fs25\pos(103.333,109.232)}SSK字幕組
+Dialogue: 0,0:00:23.00,0:00:25.00,Default,,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,,{\c&HFBF4F8&\shad0\bord0\p1\fscx450\fscy543\move(641.333,639.333,825.333,639.333)\1a&HD1&}m 0 0 l 0 0 l 89 0 l 89 23 l 0 23
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,{\fad(500,500)\shad0\bord0\p1\fscx400\fscy543\pos(449.334,639.333)\c&H120B0A&}m 0 0 l 0 0 l 89 0 l 89 23 l 0 23
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,{\fad(500,500)\K\shad0\bord0\p1\fscx200\fscy20\c&HFBF4F8&\2c&H120B0A&\pos(364.001,634)}m 0 0 l 0 0 l 89 0 l 89 23 l 0 23
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,{\fad(500,500)\shad0\bord0\p1\fscx450\fscy543\pos(825.333,639.333)\c&HFBF4F8&}m 0 0 l 0 0 l 89 0 l 89 23 l 0 23
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,{\fad(500,500)\shad0\bord0\fs50\c&HB3B5B9&\pos(445.13,583.884)}倫敦生活S01E04
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,{\fad(500,500)\shad0\bord0\fs30\c&HB3B5B9&\pos(446.667,623.333)}字幕由{\fs35\c&HFBF4F8&}SSK字幕組{\fs30\c&HB3B5B9&}傾情譯制
+Dialogue: 0,0:00:01.00,0:00:02.50,Default,,0,0,0,,{\fad(500,0)\shad0\bord0\fs30\c&H120B0A&\pos(828,604.666)}字幕僅供學習，勿用於商\N轉載請註明出處，版權歸片方所有
+Dialogue: 0,0:00:02.50,0:00:05.00,Default,,0,0,0,,{\fad(0,500)\shad0\bord0\fs30\c&H120B0A&\pos(828,604.666)}新浪微博@SSK字幕組\N官網：www.sskzmz.com
+Dialogue: 0,0:01:58.85,0:01:59.18,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\frx\t(\frx360)\fry0)\pos(625.718,59.6)}翻譯  {\c&HFFFFFF&} Bellatrix
+Dialogue: 0,0:01:59.18,0:02:01.48,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\pos(625.718,59.6)}翻譯  {\c&HFFFFFF&} Bellatrix
+Dialogue: 0,0:02:01.48,0:02:01.68,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\frx\t(\frx360)\fry0\pos(625.718,59.6)}翻譯  {\c&HFFFFFF&} 洛貍
+Dialogue: 0,0:02:01.68,0:02:03.68,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\pos(625.718,59.6)}翻譯  {\c&HFFFFFF&} 洛貍
+Dialogue: 0,0:02:03.68,0:02:03.88,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\frx\t(\frx360)\fry0\pos(625.718,59.6)}校對  {\c&HFFFFFF&} Luke  {\c&H883A22&}特效{\c&HFFFFFF&}  CAS
+Dialogue: 0,0:02:03.88,0:02:05.88,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\fry0)\pos(625.718,59.6)}校對  {\c&HFFFFFF&} Luke   {\c&H883A22&}特效{\c&HFFFFFF&}  CAS
+Dialogue: 0,0:02:05.88,0:02:06.08,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\frx\t(\frx360)\fry0)\pos(625.718,59.6)}壓制  {\c&HFFFFFF&}hhjie 伊娃格林
+Dialogue: 0,0:02:06.08,0:02:08.08,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&)\pos(625.718,59.6)}壓制  {\c&HFFFFFF&}hhjie 伊娃格林
+Dialogue: 0,0:02:08.08,0:02:08.28,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&\frx\t(\frx360)\fry0)\pos(625.718,59.6)}總監{\c&HFFFFFF&}  LUKE
+Dialogue: 0,0:02:08.28,0:02:10.28,名单,,0,0,0,,{\shad0\bord0\fn方正兰亭纤黑_GBK\fs40\b1\c&H883A22&)\pos(625.718,59.6)}總監{\c&HFFFFFF&}  LUKE
+Dialogue: 0,0:01:57.18,0:01:59.18,Default,,0,0,0,,{\fsp2\fs65\b1\pos(632.876,319.2)}倫敦生活
+Dialogue: 0,0:25:41.50,0:25:42.98,Default,,0,0,0,,{\fsp2\fs160\b1\pos(668.58,668.8)}倫敦生活
+Dialogue: 0,0:24:58.90,0:25:03.22,Default,,0,0,0,,{\shad0\bord0\fs50\frz354.2\frx358\fry2\pos(1112.635,566)}我回家了\N錢放在前台了\N我只想尋求一點安寧\N-克萊爾
+Dialogue: 0,0:00:01.84,0:00:05.52,中文,,0,0,0,,{\pos(640,719)}你不可能知道的 沒有人能記得住一張地圖\N{\3c&H000000&\fs35}You cannot know this. No-one can hold a map in their head.
+Dialogue: 0,0:00:05.55,0:00:08.18,中文,,0,0,0,,但我可以 還有三個路口就到了\N{\3c&H000000&\fs35}I can! It's three turnings away.
+Dialogue: 0,0:00:08.18,0:00:10.46,中文,,0,0,0,,你一定會發現自己錯了的\N{\3c&H000000&\fs35}You're so going to get this wrong.
+Dialogue: 0,0:00:10.46,0:00:11.75,中文,,0,0,0,,-快停下 -怎麼了\N{\3c&H000000&\fs35}- Stop it. - What?
+Dialogue: 0,0:00:11.77,0:00:13.38,中文,,0,0,0,,我感覺你在心裏瞧不起我的駕駛技術\N{\3c&H000000&\fs35}I can feel you judging my driving.
+Dialogue: 0,0:00:13.38,0:00:15.30,中文,,0,0,0,,我沒有瞧不起你的駕駛技術\N{\3c&H000000&\fs35}I'm not judging your driving!
+Dialogue: 0,0:00:16.95,0:00:18.86,中文,,0,0,0,,那你鬆開把手\N{\3c&H000000&\fs35}Let go of the handle, then.
+Dialogue: 0,0:00:18.88,0:00:20.74,中文,,0,0,0,,天哪 我們應該在剛剛那個路口拐彎的\N{\3c&H000000&\fs35}Oh, we were supposed to go down that turning.
+Dialogue: 0,0:00:20.77,0:00:21.98,中文,,0,0,0,,-什麼 -對呀\N{\3c&H000000&\fs35}- What? - Yeah.
+Dialogue: 0,0:00:21.98,0:00:24.73,中文,,0,0,0,,-你說還有三個路口的 -不 我漏掉了一個\N{\3c&H000000&\fs35}- You said three turnings. - No, I missed one.
+Dialogue: 0,0:00:24.73,0:00:27.83,中文,,0,0,0,,你就用一下你的手機不行麼 你手機上有衛星定位的\N{\3c&H000000&\fs35}Just use your phone, you have a Sat Nav on your phone.
+Dialogue: 0,0:00:27.85,0:00:31.66,中文,,0,0,0,,哦 天哪 就在那兒 小心 農場 就在那兒\N{\3c&H000000&\fs35}Oh, my God, there, Mindful. Oh, God. Farm, there it is.
+Dialogue: 0,0:00:31.66,0:00:33.30,中文,,0,0,0,,我們走的是對的路\N{\3c&H000000&\fs35}We're going the right way.
+Dialogue: 0,0:00:33.30,0:00:35.14,中文,,0,0,0,,我是對的\N{\3c&H000000&\fs35}I was right.
+Dialogue: 0,0:00:35.14,0:00:36.34,中文,,0,0,0,,我是對的\N{\3c&H000000&\fs35}Was right.
+Dialogue: 0,0:00:39.38,0:00:42.66,中文,,0,0,0,,你知道類似於基達[男同交友軟體]的女同交友軟體叫什麼嗎\N{\3c&H000000&\fs35}Do you know what the lesbian app for Grindr is called?
+Dialogue: 0,0:00:46.14,0:00:47.46,中文,,0,0,0,,小妞定位\N{\3c&H000000&\fs35}Twat Nav.
+Dialogue: 0,0:00:51.34,0:00:52.98,中文,,0,0,0,,你不要以此取樂\N{\3c&H000000&\fs35}Don't make this fun!
+Dialogue: 0,0:00:59.22,0:01:02.17,中文,,0,0,0,,我還好 我真的還好 我感覺很好\N{\3c&H000000&\fs35}It's OK, I'm fucking OK, I'm excellent.
+Dialogue: 0,0:01:04.94,0:01:08.18,中文,,0,0,0,,-我知道我看起來有病 但我確實沒事 -好吧\N{\3c&H000000&\fs35}- I know I seem mental, but I'm fine. - OK.
+Dialogue: 0,0:01:08.18,0:01:09.86,中文,,0,0,0,,我只是\N{\3c&H000000&\fs35}I just...
+Dialogue: 0,0:01:09.86,0:01:13.98,中文,,0,0,0,,-我只是有時候需要你別 -嘲笑你\N{\3c&H000000&\fs35}- I just sometimes need you not to... - To take the piss.
+Dialogue: 0,0:01:13.98,0:01:16.30,中文,,0,0,0,,你別接我的話\N{\3c&H000000&\fs35}Don't finish my sentences!
+Dialogue: 0,0:01:16.30,0:01:18.34,中文,,0,0,0,,-嘲笑 -你和你的\N{\3c&H000000&\fs35}- Take the piss... - Out of you and your...
+Dialogue: 0,0:01:18.34,0:01:21.82,中文,,0,0,0,,你不是總知道我要說什麼 好嗎\N{\3c&H000000&\fs35}You don't always know what I'm going to say, OK?
+Dialogue: 0,0:01:21.82,0:01:23.30,中文,,0,0,0,,-對不起 當\N{\3c&H000000&\fs35}- Sorry. - Out of...
+Dialogue: 0,0:01:23.30,0:01:25.58,中文,,0,0,0,,當她在開車時取笑她\N{\3c&H000000&\fs35}Out of her when she's driving.
+Dialogue: 0,0:01:25.58,0:01:27.10,中文,,0,0,0,,我在開車時取笑我\N{\3c&H000000&\fs35}...me while I'm driving.
+Dialogue: 0,0:01:29.22,0:01:30.42,中文,,0,0,0,,對不起\N{\3c&H000000&\fs35}I'm sorry.
+Dialogue: 0,0:01:31.58,0:01:34.69,中文,,0,0,0,,是因為家裏的原因還是\N{\3c&H000000&\fs35}Is it at home or...
+Dialogue: 0,0:01:34.72,0:01:36.54,中文,,0,0,0,,因為工作還是馬丁\N{\3c&H000000&\fs35}work or Martin?
+Dialogue: 0,0:01:36.54,0:01:38.74,中文,,0,0,0,,我很好 一切都好\N{\3c&H000000&\fs35}I'm fine, it's fine.
+Dialogue: 0,0:01:38.74,0:01:41.14,中文,,0,0,0,,-馬丁一直很體貼 -真的嗎\N{\3c&H000000&\fs35}- Martin's been lovely. - Really?
+Dialogue: 0,0:01:42.74,0:01:44.14,中文,,0,0,0,,一切都好\N{\3c&H000000&\fs35}It's fine.
+Dialogue: 0,0:01:49.78,0:01:50.94,中文,,0,0,0,,我很好\N{\3c&H000000&\fs35}I'm OK.
+Dialogue: 0,0:01:55.50,0:01:57.14,中文,,0,0,0,,瘋女人\N{\3c&H000000&\fs35}Fucking psycho.
+Dialogue: 0,0:01:57.18,0:01:59.15,中文,,0,0,0,,
+Dialogue: 0,0:02:01.42,0:02:04.14,中文,,0,0,0,,哇 父親這次真的出大血本了\N{\3c&H000000&\fs35}Wow! Dad really splashed out this time.
+Dialogue: 0,0:02:04.14,0:02:06.38,中文,,0,0,0,,他一定是想做什麼骯髒的事\N{\3c&H000000&\fs35}He must be about to do something awful.
+Dialogue: 0,0:02:06.40,0:02:08.34,中文,,0,0,0,,不 只是因為今天是母親節\N{\3c&H000000&\fs35}No, it's just Mother's Day.
+Dialogue: 0,0:02:08.34,0:02:10.98,中文,,0,0,0,,-哦 -母親節快樂\N{\3c&H000000&\fs35}- Oh. - Happy Mother's Day.
+Dialogue: 0,0:02:13.34,0:02:15.26,中文,,0,0,0,,我們不會因為這個活動重歸於好的 對嗎\N{\3c&H000000&\fs35}We're not supposed to bond on this, are we?
+Dialogue: 0,0:02:15.26,0:02:17.74,中文,,0,0,0,,因為我不認為這樣會有個好結局\N{\3c&H000000&\fs35}Because I really don't think that's going to end well.
+Dialogue: 0,0:02:17.74,0:02:19.54,中文,,0,0,0,,我們其實不該有任何交談的\N{\3c&H000000&\fs35}We're not supposed to talk at all.
+Dialogue: 0,0:02:19.54,0:02:21.83,中文,,0,0,0,,幸虧是冥想活動 上帝都在幫我們\N{\3c&H000000&\fs35}It's a silent retreat, God help us.
+Dialogue: 0,0:02:23.98,0:02:25.65,中文,,0,0,0,,咖啡館還好嗎 你\N{\3c&H000000&\fs35}How's everything at the cafe? You...
+Dialogue: 0,0:02:25.67,0:02:27.67,中文,,0,0,0,,-你真的不用勉強找話題 -謝謝你\N{\3c&H000000&\fs35}- You really don't have to. - Thank you.
+Dialogue: 0,0:02:28.72,0:02:29.72,中文,,0,0,0,,你好\N{\3c&H000000&\fs35}Hi.
+Dialogue: 0,0:02:29.75,0:02:30.81,中文,,0,0,0,,-你好 -早上好\N{\3c&H000000&\fs35}- Hi. - Good morning.
+Dialogue: 0,0:02:30.83,0:02:32.11,中文,,0,0,0,,你好 你好\N{\3c&H000000&\fs35}Hello, hello.
+Dialogue: 0,0:02:43.65,0:02:44.93,中文,,0,0,0,,來人呀\N{\3c&H000000&\fs35}Come on.
+Dialogue: 0,0:02:45.78,0:02:48.10,中文,,0,0,0,,他們說不定覺得我們是情侶呢\N{\3c&H000000&\fs35}They're probably going to think we're a couple.
+Dialogue: 0,0:02:48.10,0:02:51.81,中文,,0,0,0,,你的想法都無可救藥了\N{\3c&H000000&\fs35}The fact that your mind even goes there is beyond disturbing.
+Dialogue: 0,0:02:51.83,0:02:54.18,中文,,0,0,0,,嘿 我們會成為很可愛的一對的\N{\3c&H000000&\fs35}Hey! We'd make a really cute couple.
+Dialogue: 0,0:02:56.82,0:02:58.38,中文,,0,0,0,,蕩婦\N{\3c&H000000&\fs35}'Sluts!'
+Dialogue: 0,0:03:01.14,0:03:02.90,中文,,0,0,0,,有事嗎\N{\3c&H000000&\fs35}Yes?
+Dialogue: 0,0:03:02.90,0:03:05.98,中文,,0,0,0,,今天我會死在這兒的 我們都會被姦殺的\N{\3c&H000000&\fs35}I'm going to die here. We're going to be raped and die.
+Dialogue: 0,0:03:07.18,0:03:08.38,中文,,0,0,0,,每一片雲\N{\3c&H000000&\fs35}Every cloud...
+Dialogue: 0,0:03:09.50,0:03:13.63,中文,,0,0,0,,哦 把門打開啊 難道永遠都不能\N{\3c&H000000&\fs35}Oh, just open the fucking door. It's been fucking forev...
+Dialogue: 0,0:03:16.10,0:03:17.30,中文,,0,0,0,,歡迎\N{\3c&H000000&\fs35}Welcome.
+Dialogue: 0,0:03:17.32,0:03:19.32,中文,,0,0,0,,-非常感謝 -你好\N{\3c&H000000&\fs35}- Thank you so much. - Hi. Yeah.
+Dialogue: 0,0:03:19.35,0:03:20.50,中文,,0,0,0,,這裏真不錯\N{\3c&H000000&\fs35}It's really wonderful.
+Dialogue: 0,0:03:20.50,0:03:23.18,中文,,0,0,0,,-地板真好看 -非凡的精氣神\N{\3c&H000000&\fs35}- Really beautiful grounds. - Extraordinary energy, yeah.
+Dialogue: 0,0:03:23.18,0:03:28.14,中文,,0,0,0,,有人請你們兩位來我們這裏做冥想 你們倆真幸運\N{\3c&H000000&\fs35}I see you've been gifted this retreat. How lucky you both are.
+Dialogue: 0,0:03:28.14,0:03:33.02,中文,,0,0,0,,我希望這個週末之後 你們會感到靈魂得以安放 精神受到鼓舞\N{\3c&H000000&\fs35}I hope after this weekend, you will feel rested, inspired.
+Dialogue: 0,0:03:33.02,0:03:35.62,中文,,0,0,0,,-你們這裏有無線網嗎 -沒有\N{\3c&H000000&\fs35}- Do you have Wi-Fi? - No.
+Dialogue: 0,0:03:35.65,0:03:38.56,中文,,0,0,0,,呃 你們是要兩張單人床還是一張雙人床\N{\3c&H000000&\fs35}Erm, would you like two single beds or a double?
+Dialogue: 0,0:03:38.58,0:03:40.30,中文,,0,0,0,,-兩個單人床 -一個雙人床謝謝\N{\3c&H000000&\fs35}- Two singles. - A double, please.
+Dialogue: 0,0:03:41.94,0:03:45.14,中文,,0,0,0,,-事實上 你有沒有分開來的房間 -恐怕沒有\N{\3c&H000000&\fs35}- Actually, do you have a separate room? - I'm afraid not.
+Dialogue: 0,0:03:45.14,0:03:48.15,中文,,0,0,0,,在這裏每個人都要和別人同住 這是共同生活的一部分\N{\3c&H000000&\fs35}Everyone has to share here. It's part of the communal...
+Dialogue: 0,0:03:48.18,0:03:50.66,中文,,0,0,0,,那就單人床吧 你們早上有報紙嗎\N{\3c&H000000&\fs35}Singles, then. Do you get newspapers in the morning?
+Dialogue: 0,0:03:50.66,0:03:53.14,中文,,0,0,0,,不 我們試著在你們住宿期間\N{\3c&H000000&\fs35}No, we try to keep the outside world on the outside
+Dialogue: 0,0:03:53.14,0:03:54.82,中文,,0,0,0,,將外界信息隔絕在外\N{\3c&H000000&\fs35}during your stay here.
+Dialogue: 0,0:03:54.82,0:03:58.18,中文,,0,0,0,,我承諾 你們最終會感激這點的\N{\3c&H000000&\fs35}You'll appreciate it in the end, I promise.
+Dialogue: 0,0:03:58.18,0:04:00.82,中文,,0,0,0,,-好 這是你們的鑰匙 -謝謝\N{\3c&H000000&\fs35}- So, here is your key. - Thank you.
+Dialogue: 0,0:04:00.82,0:04:03.98,中文,,0,0,0,,-祝你們度過一個放鬆的週末 -你也是\N{\3c&H000000&\fs35}- You have a restful weekend. - You too.
+Dialogue: 0,0:04:07.54,0:04:11.66,中文,,0,0,0,,-哇哦 沒有報紙 -你又不讀報\N{\3c&H000000&\fs35}- Wow, no papers. - You don't read the news.
+Dialogue: 0,0:04:11.66,0:04:14.82,中文,,0,0,0,,-不 我讀 -昨天發生了什麼事\N{\3c&H000000&\fs35}- Yes, I do! - What happened yesterday?
+Dialogue: 0,0:04:14.82,0:04:17.43,中文,,0,0,0,,黏糊糊的舊白牛仔褲和一隻小狗卡在了風扇裏\N{\3c&H000000&\fs35}Sting wore white jeans and a puppy got stuck in a fan.
+Dialogue: 0,0:04:18.52,0:04:19.71,中文,,0,0,0,,真是個大日子\N{\3c&H000000&\fs35}Big day.
+Dialogue: 0,0:04:23.46,0:04:25.79,中文,,0,0,0,,-那個是幹什麼的 -塗我的脖子和胸\N{\3c&H000000&\fs35}- What's that for? - My neck and chest.
+Dialogue: 0,0:04:26.29,0:04:29.01,中文,,0,0,0,,-那個是幹什麼的 -塗我的腿和膝蓋\N{\3c&H000000&\fs35}- What's that for? - My legs and knees.
+Dialogue: 0,0:04:29.60,0:04:31.98,中文,,0,0,0,,-那個是幹什麼的 -塗我的發尾\N{\3c&H000000&\fs35}- What's that for? - Ends of my hair.
+Dialogue: 0,0:04:32.08,0:04:34.62,中文,,0,0,0,,-那是幹什麼的 -塗我的眼袋\N{\3c&H000000&\fs35}- What's that? - For my under-eyes.
+Dialogue: 0,0:04:34.78,0:04:37.38,中文,,0,0,0,,-那是幹什麼的 -塗我的臉和全身\N{\3c&H000000&\fs35}- What's that? - That is for my face and body.
+Dialogue: 0,0:04:39.30,0:04:41.39,中文,,0,0,0,,如果有個人把這些都偷走了 你會怎麼辦\N{\3c&H000000&\fs35}What would you do if someone stole all of those?
+Dialogue: 0,0:04:41.42,0:04:43.06,中文,,0,0,0,,我會自殺\N{\3c&H000000&\fs35}I'd kill myself.
+Dialogue: 0,0:04:43.09,0:04:45.54,中文,,0,0,0,,為什麼這裏沒有插座\N{\3c&H000000&\fs35}Why are there no plug sockets in here?
+Dialogue: 0,0:04:45.54,0:04:47.26,中文,,0,0,0,,別碰我的東西\N{\3c&H000000&\fs35}Don't touch my stuff.
+Dialogue: 0,0:04:48.42,0:04:50.98,中文,,0,0,0,,-這些是幹什麼的 -沒什麼\N{\3c&H000000&\fs35}- What are these for? - Nothing.
+Dialogue: 0,0:04:50.98,0:04:53.02,中文,,0,0,0,,-嗯 -怎麼了\N{\3c&H000000&\fs35}- Mm-hm. - What?
+Dialogue: 0,0:04:53.02,0:04:55.02,中文,,0,0,0,,沒什麼 只是\N{\3c&H000000&\fs35}Well, it's just...
+Dialogue: 0,0:04:55.02,0:04:56.75,中文,,0,0,0,,你為什麼要帶這麼小的電池\N{\3c&H000000&\fs35}Why would you bring such tiny batteries?
+Dialogue: 0,0:04:57.94,0:04:59.74,中文,,0,0,0,,我只是準備得充分而已\N{\3c&H000000&\fs35}I'm just prepared.
+Dialogue: 0,0:04:59.74,0:05:00.94,中文,,0,0,0,,只是我曾經\N{\3c&H000000&\fs35}Just I've only ever...
+Dialogue: 0,0:05:01.94,0:05:03.56,中文,,0,0,0,,-看見遙控器裏用過 -對\N{\3c&H000000&\fs35}- seen them used for remote controls. - Yes.
+Dialogue: 0,0:05:03.58,0:05:04.99,中文,,0,0,0,,-或者鬧鐘里 -對\N{\3c&H000000&\fs35}- Or alarm clocks. - Yes, all right.
+Dialogue: 0,0:05:05.01,0:05:07.44,中文,,0,0,0,,-或者震動棒 -對 就是這個\N{\3c&H000000&\fs35}- And vibrators. - Yes! All right!
+Dialogue: 0,0:05:07.46,0:05:09.79,中文,,0,0,0,,你根本不用申請分開的房間\N{\3c&H000000&\fs35}You didn't have to ask for a separate room!
+Dialogue: 0,0:05:09.81,0:05:10.82,中文,,0,0,0,,什麼\N{\3c&H000000&\fs35}What?
+Dialogue: 0,0:05:10.84,0:05:12.89,中文,,0,0,0,,如果你想自慰 我可以給你空間的\N{\3c&H000000&\fs35}If you want to have a wank, I can give you some space.
+Dialogue: 0,0:05:12.91,0:05:13.94,中文,,0,0,0,,哦 我的天哪\N{\3c&H000000&\fs35}Oh, my God!
+Dialogue: 0,0:05:13.94,0:05:15.72,中文,,0,0,0,,不是的 如果你需要花十分鐘\N{\3c&H000000&\fs35}No, if you want to take ten minutes,
+Dialogue: 0,0:05:15.75,0:05:17.87,中文,,0,0,0,,我會去浴室給我的手腕擦點霜\N{\3c&H000000&\fs35}I'll go into the bathroom and moisturise my wrists for a bit.
+Dialogue: 0,0:05:17.90,0:05:20.66,中文,,0,0,0,,-你真幼稚 -我還沒完呢\N{\3c&H000000&\fs35}- You are so immature! - Oh, give it a minute.
+Dialogue: 0,0:05:21.06,0:05:23.74,中文,,0,0,0,,哦 天哪 嚴肅點\N{\3c&H000000&\fs35}Oh, God. Seriously!
+Dialogue: 0,0:05:23.74,0:05:25.66,中文,,0,0,0,,你腦子有什麼問題\N{\3c&H000000&\fs35}- What is wrong with your insides?
+Dialogue: 0,0:05:25.66,0:05:27.86,中文,,0,0,0,,你為什麼要帶這些小電池\N{\3c&H000000&\fs35}- Why did you bring the tiny batteries?
+Dialogue: 0,0:05:36.94,0:05:38.82,中文,,0,0,0,,
+Dialogue: 0,0:05:38.82,0:05:40.70,中文,,0,0,0,,你這個天才\N{\3c&H000000&\fs35}You're a genius.
+Dialogue: 0,0:05:40.70,0:05:43.22,中文,,0,0,0,,總能發現備用品在哪裏\N{\3c&H000000&\fs35}Always know where the reserves are.
+Dialogue: 0,0:05:43.22,0:05:46.86,中文,,0,0,0,,放下你的過去\N{\3c&H000000&\fs35}Let go of your past.
+Dialogue: 0,0:05:46.86,0:05:50.02,中文,,0,0,0,,-說到點子上了 -現在是時候放下了\N{\3c&H000000&\fs35}- Bit on the nose. - Now is the time to let it go.
+Dialogue: 0,0:05:50.02,0:05:54.81,中文,,0,0,0,,開放你的感官 閉上嘴 享受現在\N{\3c&H000000&\fs35}Open up your senses, close your mouth and live now.
+Dialogue: 0,0:05:56.14,0:06:00.82,中文,,0,0,0,,歡迎來到只對女性開放的寂靜之息冥想活動\N{\3c&H000000&\fs35}Welcome to the female-only Breath Of Silence retreat.
+Dialogue: 0,0:06:00.82,0:06:03.54,中文,,0,0,0,,女性們應該沉默\N{\3c&H000000&\fs35}Women don't speak.
+Dialogue: 0,0:06:03.54,0:06:07.38,中文,,0,0,0,,呃 對不起 我覺得我應該在\N{\3c&H000000&\fs35}Erm, sorry. I think I'm meant to be at...
+Dialogue: 0,0:06:07.38,0:06:09.48,中文,,0,0,0,,-「可恨的蕩婦」 -那個活動\N{\3c&H000000&\fs35}- 'Fucking sluts!' - ...that one.
+Dialogue: 0,0:06:12.66,0:06:14.02,中文,,0,0,0,,可惜了\N{\3c&H000000&\fs35}Shame.
+Dialogue: 0,0:06:14.02,0:06:19.63,中文,,0,0,0,,是的 現在最重要的問題是你們為什麼在這裏\N{\3c&H000000&\fs35}Yes, the first major consideration is why are you here?
+Dialogue: 0,0:06:20.66,0:06:23.62,中文,,0,0,0,,現場誰能回答這個問題\N{\3c&H000000&\fs35}Can anyone here answer that question?
+Dialogue: 0,0:06:23.62,0:06:26.54,中文,,0,0,0,,我想隔絕外面的噪音 重新回到我的內心\N{\3c&H000000&\fs35}I want to shut the noise out and reconnect to my inner thoughts
+Dialogue: 0,0:06:26.54,0:06:29.18,中文,,0,0,0,,去獲取更多關於自身的感覺\N{\3c&H000000&\fs35}on the road to feeling more at one with myself.
+Dialogue: 0,0:06:29.18,0:06:30.58,中文,,0,0,0,,不錯的態度\N{\3c&H000000&\fs35}Excellent attitude.
+Dialogue: 0,0:06:31.70,0:06:34.22,中文,,0,0,0,,那麼 你來對了地方\N{\3c&H000000&\fs35}Well, you're in the right place.
+Dialogue: 0,0:06:34.22,0:06:37.70,中文,,0,0,0,,這個週末有關於專注內心\N{\3c&H000000&\fs35}And this weekend is about being mindful.
+Dialogue: 0,0:06:37.70,0:06:40.30,中文,,0,0,0,,關於將你的聲音留在頭腦裏\N{\3c&H000000&\fs35}It's about leaving your voice in your head...
+Dialogue: 0,0:06:41.42,0:06:43.86,中文,,0,0,0,,將你的想法困在頭顱中\N{\3c&H000000&\fs35}...and trapping your thoughts in your skull.
+Dialogue: 0,0:06:43.86,0:06:47.73,中文,,0,0,0,,想像你的大腦中有一個思維監獄\N{\3c&H000000&\fs35}Think of it as a thought prison in your mind.
+Dialogue: 0,0:06:48.42,0:06:51.71,中文,,0,0,0,,首先 我們將會教你如何呼吸\N{\3c&H000000&\fs35}Firstly, we're going to teach you how to breathe.
+Dialogue: 0,0:06:52.30,0:06:54.62,中文,,0,0,0,,接著我們會有一次短暫的冥想\N{\3c&H000000&\fs35}Then we will have a short meditation,
+Dialogue: 0,0:06:54.62,0:06:59.34,中文,,0,0,0,,然後我們會在參加枯燥任務的過程中尋找到我們心靈的庇護所\N{\3c&H000000&\fs35}then we will find our sanctuary in the partaking of menial tasks,
+Dialogue: 0,0:06:59.34,0:07:02.31,中文,,0,0,0,,這一切都在絕對的寂靜中\N{\3c&H000000&\fs35}all in perfect silence.
+Dialogue: 0,0:07:02.94,0:07:05.90,中文,,0,0,0,,原則性的規定就是不要講話\N{\3c&H000000&\fs35}Principal rules are no talking.
+Dialogue: 0,0:07:05.90,0:07:09.70,中文,,0,0,0,,如果你想和我們其中一位監管員交流\N{\3c&H000000&\fs35}If you need to communicate with any of our other superiors,
+Dialogue: 0,0:07:09.70,0:07:12.14,中文,,0,0,0,,你可以寫在那個黑板上\N{\3c&H000000&\fs35}you can write on that board.
+Dialogue: 0,0:07:12.14,0:07:14.94,中文,,0,0,0,,在任何你想交流的情況下\N{\3c&H000000&\fs35}Under no other circumstances must you communicate,
+Dialogue: 0,0:07:14.94,0:07:16.34,中文,,0,0,0,,甚至是想互相交流的時候\N{\3c&H000000&\fs35}even with each other.
+Dialogue: 0,0:07:16.34,0:07:21.50,中文,,0,0,0,,-如果是緊急情況呢 -感謝你們今天到場\N{\3c&H000000&\fs35}- What about an emergency? - Thank you all for coming here today.
+Dialogue: 0,0:07:21.50,0:07:25.79,中文,,0,0,0,,不管發生了什麼 一點聲音都不能發出\N{\3c&H000000&\fs35}No matter what happens, a word must not be heard.
+Dialogue: 0,0:07:49.06,0:07:50.98,中文,,0,0,0,,噓\N{\3c&H000000&\fs35}Shh!
+Dialogue: 0,0:07:50.98,0:07:52.46,中文,,0,0,0,,「蕩婦」\N{\3c&H000000&\fs35}'Slut!'
+Dialogue: 0,0:08:02.74,0:08:04.06,中文,,0,0,0,,「蕩婦」\N{\3c&H000000&\fs35}'Slut!'
+Dialogue: 0,0:08:11.38,0:08:12.74,中文,,0,0,0,,「賤人」\N{\3c&H000000&\fs35}'Bitch!'
+Dialogue: 0,0:08:18.74,0:08:20.42,中文,,0,0,0,,「賤人 賤人」\N{\3c&H000000&\fs35}'Bitch, bitch!'
+Dialogue: 0,0:08:34.02,0:08:36.54,中文,,0,0,0,,可恨的賤人 你就是一坨屎\N{\3c&H000000&\fs35}Fucking bitch! You fucking piece of shit.
+Dialogue: 0,0:08:48.49,0:08:52.70,中文,,0,0,0,,過來 過來 到我這兒來\N{\3c&H000000&\fs35}Back here! Back here, back to me. Back to me.
+Dialogue: 0,0:08:52.70,0:08:56.54,中文,,0,0,0,,好的 現在 不管那些怨言是因為什麼 是因為你的教養也好\N{\3c&H000000&\fs35}All right, now, wherever it's come from... your upbringing,
+Dialogue: 0,0:08:56.54,0:09:02.14,中文,,0,0,0,,或是因為你和女人的經歷也罷 現在是時候改變一下了\N{\3c&H000000&\fs35}your experiences with women, now is the time to turn that around.
+Dialogue: 0,0:09:02.14,0:09:05.22,中文,,0,0,0,,重裝你的思想\N{\3c&H000000&\fs35}To reprogram your mind,
+Dialogue: 0,0:09:05.22,0:09:06.94,中文,,0,0,0,,你的身體 你的嘴\N{\3c&H000000&\fs35}your body and your mouth.
+Dialogue: 0,0:09:08.30,0:09:11.50,中文,,0,0,0,,成為一個更好的男人\N{\3c&H000000&\fs35}To be the better... man.
+Dialogue: 0,0:09:13.62,0:09:14.86,中文,,0,0,0,,好嗎\N{\3c&H000000&\fs35}All right?
+Dialogue: 0,0:09:14.86,0:09:18.74,中文,,0,0,0,,那麼 這位是帕特希亞\N{\3c&H000000&\fs35}So, this... is Patricia.
+Dialogue: 0,0:09:18.74,0:09:21.30,中文,,0,0,0,,好嗎 她是個朋友\N{\3c&H000000&\fs35}Yeah? She's a friend.
+Dialogue: 0,0:09:21.30,0:09:25.18,中文,,0,0,0,,現在 帕特希亞剛剛在工作中獲得升職\N{\3c&H000000&\fs35}Now, Patricia has just earned a promotion at work,
+Dialogue: 0,0:09:25.18,0:09:27.74,中文,,0,0,0,,打敗了其他六位候選者\N{\3c&H000000&\fs35}beating over six other candidates.
+Dialogue: 0,0:09:27.74,0:09:30.27,中文,,0,0,0,,她是獲得這個這個職位最年輕的人\N{\3c&H000000&\fs35}She's the youngest person to ever achieve this role.
+Dialogue: 0,0:09:31.66,0:09:35.06,中文,,0,0,0,,我們在遇見她的時候不能說什麼\N{\3c&H000000&\fs35}What should we not say when we meet her?
+Dialogue: 0,0:09:36.22,0:09:38.32,中文,,0,0,0,,-聰明的小不點 -好極了\N{\3c&H000000&\fs35}- Clever little munchkin? - Excellent.
+Dialogue: 0,0:09:38.34,0:09:40.44,中文,,0,0,0,,-你為誰口交才得到的這個職位 -好\N{\3c&H000000&\fs35}- Who did you blow to get that job? - OK.
+Dialogue: 0,0:09:40.46,0:09:43.87,中文,,0,0,0,,-蕩婦 你這個可惡的蠢蕩婦 -好的\N{\3c&H000000&\fs35}- Slut, you fucking stupid slut. - OK.
+Dialogue: 0,0:09:44.59,0:09:45.71,中文,,0,0,0,,好的\N{\3c&H000000&\fs35}Ok.
+Dialogue: 0,0:09:47.22,0:09:48.58,中文,,0,0,0,,我們應當對她說什麼呢\N{\3c&H000000&\fs35}What should we say to her?
+Dialogue: 0,0:09:51.78,0:09:52.90,中文,,0,0,0,,嗯\N{\3c&H000000&\fs35}Hmm?
+Dialogue: 0,0:09:55.14,0:09:58.26,中文,,0,0,0,,-做的不錯 帕特希亞 -非常好\N{\3c&H000000&\fs35}- Well done, Patricia. - Very good.
+Dialogue: 0,0:09:59.58,0:10:01.62,中文,,0,0,0,,「做的不錯 帕特希亞」\N{\3c&H000000&\fs35}"Well done, Patricia."
+Dialogue: 0,0:10:01.62,0:10:02.86,中文,,0,0,0,,請離開\N{\3c&H000000&\fs35}Please leave.
+Dialogue: 0,0:10:04.34,0:10:06.04,中文,,0,0,0,,-變態 -蕩婦\N{\3c&H000000&\fs35}- Perv. - Slut.
+Dialogue: 0,0:10:06.07,0:10:07.30,中文,,0,0,0,,哇哦\N{\3c&H000000&\fs35}Wow!
+Dialogue: 0,0:10:07.30,0:10:09.94,中文,,0,0,0,,做的不錯 帕特希亞\N{\3c&H000000&\fs35}Well done, Patricia.
+Dialogue: 0,0:10:09.94,0:10:11.82,中文,,0,0,0,,蕩婦\N{\3c&H000000&\fs35}Slut!
+Dialogue: 0,0:10:11.82,0:10:13.94,中文,,0,0,0,,夥計們 沒事\N{\3c&H000000&\fs35}Guys, it's OK.
+Dialogue: 0,0:10:13.94,0:10:15.26,中文,,0,0,0,,凱斯 來\N{\3c&H000000&\fs35}Keith, come.
+Dialogue: 0,0:10:15.26,0:10:18.22,中文,,0,0,0,,我的天哪 對不起女士 你不能來這裏\N{\3c&H000000&\fs35}Oh, my God. Excuse me, miss, you can't be here.
+Dialogue: 0,0:10:18.22,0:10:20.82,中文,,0,0,0,,-好的 -你真的不能到這裏來\N{\3c&H000000&\fs35}- OK. - You really can't be here.
+Dialogue: 0,0:10:20.82,0:10:23.58,中文,,0,0,0,,這會讓他們感覺不好的 求你了\N{\3c&H000000&\fs35}It's a feel-no-good. Please.
+Dialogue: 0,0:10:27.02,0:10:29.34,中文,,0,0,0,,現在 舉起你們的手\N{\3c&H000000&\fs35}And now, hands up.
+Dialogue: 0,0:10:31.22,0:10:33.55,中文,,0,0,0,,掌心相對\N{\3c&H000000&\fs35}Mirror your palms.
+Dialogue: 0,0:10:34.54,0:10:38.54,中文,,0,0,0,,看著對方的眼睛\N{\3c&H000000&\fs35}Look each other in the eye, and...
+Dialogue: 0,0:10:40.01,0:10:41.25,中文,,0,0,0,,然後觸碰\N{\3c&H000000&\fs35}...touch.
+Dialogue: 0,0:10:43.00,0:10:45.04,中文,,0,0,0,,絕對是她最可怕的噩夢\N{\3c&H000000&\fs35}Literally her worst nightmare.
+Dialogue: 0,0:10:48.74,0:10:50.10,中文,,0,0,0,,噁\N{\3c&H000000&\fs35}Eugh!
+Dialogue: 0,0:10:55.86,0:10:57.34,中文,,0,0,0,,你還好嗎\N{\3c&H000000&\fs35}Are you all right?
+Dialogue: 0,0:10:59.78,0:11:01.98,中文,,0,0,0,,-和我說說 -沒什麼\N{\3c&H000000&\fs35}- Talk to me. - It's nothing.
+Dialogue: 0,0:11:04.22,0:11:06.06,中文,,0,0,0,,天哪\N{\3c&H000000&\fs35}God.
+Dialogue: 0,0:11:06.06,0:11:07.58,中文,,0,0,0,,我感覺不到我的腳了\N{\3c&H000000&\fs35}I can't feel my feet.
+Dialogue: 0,0:11:09.70,0:11:11.50,中文,,0,0,0,,你還記得我們曾經玩「從頭到腳」嗎\N{\3c&H000000&\fs35}Do you remember we used to go top-to-toe?
+Dialogue: 0,0:11:11.53,0:11:13.60,中文,,0,0,0,,現在的孩子都很怪\N{\3c&H000000&\fs35}Now kids are so weird.
+Dialogue: 0,0:11:13.62,0:11:15.12,中文,,0,0,0,,-我們以前總是玩那個遊戲\N{\3c&H000000&\fs35}- We used to do that all the time.
+Dialogue: 0,0:11:15.12,0:11:16.62,中文,,0,0,0,,-對呀 我們那時才十歲 也很可愛\N{\3c&H000000&\fs35}- Yeah, when we were ten and cute.
+Dialogue: 0,0:11:16.65,0:11:19.58,中文,,0,0,0,,-現在我們三十歲了 而且憤世嫉俗 -我不是在說我們\N{\3c&H000000&\fs35}- Now we're 30 and angry. - I'm not suggesting that we...
+Dialogue: 0,0:11:19.60,0:11:20.96,中文,,0,0,0,,就是別說了 行嗎\N{\3c&H000000&\fs35}Just don't, OK?
+Dialogue: 0,0:11:30.74,0:11:32.96,中文,,0,0,0,,別偷我的東西了\N{\3c&H000000&\fs35}Stop stealing my things!
+Dialogue: 0,0:11:32.98,0:11:34.74,中文,,0,0,0,,我只是試試它好不好使\N{\3c&H000000&\fs35}I'm just checking it's working.
+Dialogue: 0,0:11:34.74,0:11:36.94,中文,,0,0,0,,哦 它絕對好使\N{\3c&H000000&\fs35}Oh, it's working, it's definitely working.
+Dialogue: 0,0:11:39.78,0:11:41.76,中文,,0,0,0,,噓\N{\3c&H000000&\fs35}'Shh!'
+Dialogue: 0,0:11:47.86,0:11:49.18,中文,,0,0,0,,玩的開心\N{\3c&H000000&\fs35}Have fun.
+Dialogue: 0,0:11:54.86,0:11:57.62,中文,,0,0,0,,這真是個十分體貼的禮物 謝謝你\N{\3c&H000000&\fs35}It's actually a really thoughtful present. Thank you.
+Dialogue: 0,0:11:59.49,0:12:01.58,中文,,0,0,0,,馬丁給我了那個小雕塑\N{\3c&H000000&\fs35}And Martin getting me that sculpture.
+Dialogue: 0,0:12:02.50,0:12:05.42,中文,,0,0,0,,他為了買到這個東西肯定花了不少心血\N{\3c&H000000&\fs35}He must have bent over backwards to get something like that.
+Dialogue: 0,0:12:07.66,0:12:09.10,中文,,0,0,0,,我覺得自己好幸運\N{\3c&H000000&\fs35}I feel very lucky.
+Dialogue: 0,0:12:14.10,0:12:15.46,中文,,0,0,0,,我跟你說啊\N{\3c&H000000&\fs35}I have to tell you something.
+Dialogue: 0,0:12:16.86,0:12:18.14,中文,,0,0,0,,什麼\N{\3c&H000000&\fs35}What?
+Dialogue: 0,0:12:20.66,0:12:25.26,中文,,0,0,0,,那個雕像是我從別人的工作室順手拿的\N{\3c&H000000&\fs35}I stole that sculpture from a certain somebody's studio
+Dialogue: 0,0:12:25.26,0:12:27.30,中文,,0,0,0,,然後想通過馬丁找個買主\N{\3c&H000000&\fs35}and then I tried to sell it through Martin,
+Dialogue: 0,0:12:27.30,0:12:29.08,中文,,0,0,0,,不過馬丁把雕像留下了 還送給了你\N{\3c&H000000&\fs35}but Martin took it and gave it to you.
+Dialogue: 0,0:12:29.10,0:12:31.97,中文,,0,0,0,,這事你可別當著老爸\N{\3c&H000000&\fs35}Just don't put it pride of place when Dad...
+Dialogue: 0,0:12:32.43,0:12:34.01,中文,,0,0,0,,呃 當著他們的面說\N{\3c&H000000&\fs35}well, when they come over.
+Dialogue: 0,0:12:34.04,0:12:36.44,中文,,0,0,0,,-好嗎 因為 -好\N{\3c&H000000&\fs35}- OK? Because... - Right.
+Dialogue: 0,0:12:43.02,0:12:44.38,中文,,0,0,0,,克萊爾\N{\3c&H000000&\fs35}Claire!
+Dialogue: 0,0:12:45.52,0:12:48.26,中文,,0,0,0,,-克萊爾 -噓 快睡吧\N{\3c&H000000&\fs35}- Claire! - Shh. Go to sleep.
+Dialogue: 0,0:12:52.54,0:12:53.82,中文,,0,0,0,,該死\N{\3c&H000000&\fs35}Shit.
+Dialogue: 0,0:13:11.38,0:13:13.22,中文,,0,0,0,,-我們越快適應 -啊\N{\3c&H000000&\fs35}- The sooner we get on... - Ah.
+Dialogue: 0,0:13:17.38,0:13:20.58,中文,,0,0,0,,我們越快適應 就能越快離開這裏\N{\3c&H000000&\fs35}The sooner we get on with it, the sooner we are out of here.
+Dialogue: 0,0:13:20.58,0:13:23.97,中文,,0,0,0,,-這外套真好看 -謝啦\N{\3c&H000000&\fs35}- That's a really nice outfit. - Thanks.
+Dialogue: 0,0:13:27.62,0:13:31.26,中文,,0,0,0,,深入挖掘你的回憶\N{\3c&H000000&\fs35}Delve into your past.
+Dialogue: 0,0:13:31.69,0:13:34.85,中文,,0,0,0,,想想你無法釋懷的東西\N{\3c&H000000&\fs35}Think of something you can't let go of.
+Dialogue: 0,0:13:35.48,0:13:37.85,中文,,0,0,0,,一段噪音\N{\3c&H000000&\fs35}A moment of noise.
+Dialogue: 0,0:13:39.86,0:13:41.98,中文,,0,0,0,,一個緊張時刻\N{\3c&H000000&\fs35}A moment of tension.
+Dialogue: 0,0:13:47.39,0:13:49.69,中文,,0,0,0,,-不要 -現在\N{\3c&H000000&\fs35}- Not for now. - Now...
+Dialogue: 0,0:13:50.69,0:13:53.21,中文,,0,0,0,,想想你覺得內心平靜的時刻\N{\3c&H000000&\fs35}...A moment when you were peaceful.
+Dialogue: 0,0:13:54.58,0:13:55.75,中文,,0,0,0,,要是你能隨心所欲\N{\3c&H000000&\fs35}If you could change
+Dialogue: 0,0:13:55.75,0:13:58.58,中文,,0,0,0,,改變世上的任何東西 你想改變什麼\N{\3c&H000000&\fs35}anything in the whole world, what would it be?
+Dialogue: 0,0:13:58.58,0:14:00.20,中文,,0,0,0,,我的大腿\N{\3c&H000000&\fs35}My thighs.
+Dialogue: 0,0:14:01.14,0:14:02.66,中文,,0,0,0,,整個世界你就想改變這個\N{\3c&H000000&\fs35}In the whole world?
+Dialogue: 0,0:14:02.66,0:14:05.78,中文,,0,0,0,,可別跟別人說 那你呢\N{\3c&H000000&\fs35}Don't tell anyone I said that. You?
+Dialogue: 0,0:14:07.02,0:14:09.24,中文,,0,0,0,,我一直對自己的顏值挺不滿的\N{\3c&H000000&\fs35}I've always been insecure about my face.
+Dialogue: 0,0:14:09.26,0:14:11.06,中文,,0,0,0,,-你明明知道 -我知道\N{\3c&H000000&\fs35}- You know that. - I know.
+Dialogue: 0,0:14:11.06,0:14:13.70,中文,,0,0,0,,-你不用不滿啊 -謝了 不過\N{\3c&H000000&\fs35}- You shouldn't. - Thank you, but...
+Dialogue: 0,0:14:13.70,0:14:16.50,中文,,0,0,0,,不啊 真的 你的鼻子一點問題都沒有\N{\3c&H000000&\fs35}No, seriously, there's nothing wrong with your nose.
+Dialogue: 0,0:14:18.26,0:14:20.11,中文,,0,0,0,,-我的意思是 你的臉 -你再說一遍\N{\3c&H000000&\fs35}- I mean, there's nothing wrong... - Say that again?
+Dialogue: 0,0:14:20.13,0:14:21.46,中文,,0,0,0,,-我的意思是 你的臉 -你說什麼\N{\3c&H000000&\fs35}- I mean, there's nothing wrong... - What?
+Dialogue: 0,0:14:21.49,0:14:22.81,中文,,0,0,0,,不知道\N{\3c&H000000&\fs35}I don't know.
+Dialogue: 0,0:14:22.83,0:14:24.07,中文,,0,0,0,,-啊 -哦天\N{\3c&H000000&\fs35}- Ah! - Oh, my God.
+Dialogue: 0,0:14:24.09,0:14:26.04,中文,,0,0,0,,我總說錯話\N{\3c&H000000&\fs35}I always say the wrong thing!
+Dialogue: 0,0:14:33.54,0:14:35.14,中文,,0,0,0,,啊 啊\N{\3c&H000000&\fs35}Ah! Agh!
+Dialogue: 0,0:14:36.26,0:14:37.38,中文,,0,0,0,,好燙\N{\3c&H000000&\fs35}Hot.
+Dialogue: 0,0:14:46.90,0:14:50.42,中文,,0,0,0,,這是幹嘛 我在自己家都不幹這些活的\N{\3c&H000000&\fs35}What is this? I don't even do this in my own home.
+Dialogue: 0,0:14:50.42,0:14:52.10,中文,,0,0,0,,道理很簡單\N{\3c&H000000&\fs35}Well, it's very simple.
+Dialogue: 0,0:14:52.10,0:14:54.95,中文,,0,0,0,,我們是花錢給人家做掃除 還不能出聲\N{\3c&H000000&\fs35}We've paid them to let us clean their house in silence.
+Dialogue: 0,0:15:01.90,0:15:03.10,中文,,0,0,0,,老天\N{\3c&H000000&\fs35}Jesus.
+Dialogue: 0,0:15:05.50,0:15:08.46,中文,,0,0,0,,我不想像老師一樣批評你們\N{\3c&H000000&\fs35}I don't want to come down on you like a schoolteacher,
+Dialogue: 0,0:15:08.46,0:15:12.14,中文,,0,0,0,,但是你們明目張膽違反這裏的規則\N{\3c&H000000&\fs35}but I'm afraid your flagrant lack of respect for the one rule
+Dialogue: 0,0:15:12.14,0:15:15.50,中文,,0,0,0,,恐怕已經影響到其他學生了\N{\3c&H000000&\fs35}that we have here is now affecting the other students.
+Dialogue: 0,0:15:15.53,0:15:17.20,中文,,0,0,0,,-顧客 -你是說囚犯嗎\N{\3c&H000000&\fs35}- Clients. - Inmates?
+Dialogue: 0,0:15:17.22,0:15:19.22,中文,,0,0,0,,-或者說是清潔工吧 -參與者\N{\3c&H000000&\fs35}- Cleaners? - Participants!
+Dialogue: 0,0:15:20.10,0:15:22.18,中文,,0,0,0,,你們對這個活動有什麼不滿嗎\N{\3c&H000000&\fs35}Do you have a problem with the programme?
+Dialogue: 0,0:15:24.30,0:15:29.02,中文,,0,0,0,,我建議你們在這裏靜坐一小時\N{\3c&H000000&\fs35}I suggest you try sitting here in silence for the next hour.
+Dialogue: 0,0:15:29.79,0:15:31.31,中文,,0,0,0,,對你們有好處的\N{\3c&H000000&\fs35}It will benefit you.
+Dialogue: 0,0:15:31.90,0:15:34.54,中文,,0,0,0,,我以靈魂發誓 肯定有好處\N{\3c&H000000&\fs35}I swear by my soul, it will.
+Dialogue: 0,0:15:57.42,0:15:58.98,中文,,0,0,0,,我翻你的包來著\N{\3c&H000000&\fs35}I went through your bag.
+Dialogue: 0,0:15:59.58,0:16:00.77,中文,,0,0,0,,什麼\N{\3c&H000000&\fs35}What?
+Dialogue: 0,0:16:00.80,0:16:02.30,中文,,0,0,0,,我什麼也沒找到 所以你得\N{\3c&H000000&\fs35}I couldn't find anything, so you're just going to have
+Dialogue: 0,0:16:02.32,0:16:04.19,中文,,0,0,0,,親自告訴我你到底怎麼了\N{\3c&H000000&\fs35}to tell me what's going on with you.
+Dialogue: 0,0:16:04.94,0:16:07.10,中文,,0,0,0,,說話 不然我就喊啦\N{\3c&H000000&\fs35}Talk! Or I will scream.
+Dialogue: 0,0:16:10.70,0:16:12.90,中文,,0,0,0,,我獲得了升職到芬蘭的機會\N{\3c&H000000&\fs35}I got the Finland promotion.
+Dialogue: 0,0:16:12.93,0:16:14.20,中文,,0,0,0,,什麼升職到芬蘭\N{\3c&H000000&\fs35}What Finland promotion?
+Dialogue: 0,0:16:14.20,0:16:16.32,中文,,0,0,0,,你怎麼還問 我都跟你說過了\N{\3c&H000000&\fs35}How can you ask that? I've told you about it!
+Dialogue: 0,0:16:16.34,0:16:18.24,中文,,0,0,0,,我知道 挺好的呀\N{\3c&H000000&\fs35}I know the Finland promotion, that's amazing.
+Dialogue: 0,0:16:18.27,0:16:19.37,中文,,0,0,0,,謝謝\N{\3c&H000000&\fs35}Thank you.
+Dialogue: 0,0:16:19.40,0:16:21.62,中文,,0,0,0,,這是不是就意味著你現在是土豪啦 抱大腿\N{\3c&H000000&\fs35}Does that mean you're a millionaire now? Handy.
+Dialogue: 0,0:16:21.65,0:16:23.06,中文,,0,0,0,,別傻了\N{\3c&H000000&\fs35}Don't be ridiculous.
+Dialogue: 0,0:16:24.10,0:16:25.38,中文,,0,0,0,,是啊 會是\N{\3c&H000000&\fs35}Yes, it would.
+Dialogue: 0,0:16:26.30,0:16:28.22,中文,,0,0,0,,所以你有錢還不開心嗎\N{\3c&H000000&\fs35}All that money makes you cry?
+Dialogue: 0,0:16:29.42,0:16:31.10,中文,,0,0,0,,我準備拒絕掉\N{\3c&H000000&\fs35}I'm turning it down.
+Dialogue: 0,0:16:31.10,0:16:32.98,中文,,0,0,0,,什麼\N{\3c&H000000&\fs35}What?
+Dialogue: 0,0:16:32.98,0:16:34.86,中文,,0,0,0,,為什麼 因為馬丁唄\N{\3c&H000000&\fs35}Why? Martin?
+Dialogue: 0,0:16:34.88,0:16:37.00,中文,,0,0,0,,馬丁說這樣對傑克不公平\N{\3c&H000000&\fs35}Martin says it would be unfair on Jake.
+Dialogue: 0,0:16:39.02,0:16:41.14,中文,,0,0,0,,傑克是她的繼子 他真是個怪胎\N{\3c&H000000&\fs35}Jake's her stepson, he's really weird,
+Dialogue: 0,0:16:41.14,0:16:43.78,中文,,0,0,0,,從癥狀來看是這樣 但是沒人這麼說\N{\3c&H000000&\fs35}probably clinically, but no-one really talks about that.
+Dialogue: 0,0:16:43.78,0:16:46.30,中文,,0,0,0,,要是她有超過一天不在身邊 他就嚇尿了\N{\3c&H000000&\fs35}He freaks out if she's gone for longer than a day
+Dialogue: 0,0:16:46.30,0:16:49.34,中文,,0,0,0,,他甚至想跟她一起洗澡\N{\3c&H000000&\fs35}and he's got this thing about trying to get in the bath with her.
+Dialogue: 0,0:16:54.10,0:16:56.86,中文,,0,0,0,,不 不 不 傑克 不行\N{\3c&H000000&\fs35}No, no. No, Jake. No!
+Dialogue: 0,0:16:56.86,0:16:58.33,中文,,0,0,0,,他都十五歲了\N{\3c&H000000&\fs35}He's 15.
+Dialogue: 0,0:16:59.46,0:17:02.29,中文,,0,0,0,,-他又不是你兒子 -重點不在這\N{\3c&H000000&\fs35}- He's not your son. - That's not the point.
+Dialogue: 0,0:17:02.32,0:17:04.68,中文,,0,0,0,,-去吧 -我就知道你會這麼說\N{\3c&H000000&\fs35}- Go! - I knew you'd say that.
+Dialogue: 0,0:17:04.70,0:17:07.26,中文,,0,0,0,,-你不是一直想要這個機會嗎 -我知道\N{\3c&H000000&\fs35}- This is what you've always wanted. - I know.
+Dialogue: 0,0:17:07.26,0:17:09.93,中文,,0,0,0,,-再也不用穿職業裝 還到處都是雪 -我知道\N{\3c&H000000&\fs35}- No more power suits, fuckload of snow. - I know.
+Dialogue: 0,0:17:09.95,0:17:11.87,中文,,0,0,0,,那地方很適合你這種冷血動物啊\N{\3c&H000000&\fs35}Perfect place for your cold, cold heart.
+Dialogue: 0,0:17:11.90,0:17:13.65,中文,,0,0,0,,我知道 但我做不到\N{\3c&H000000&\fs35}I know, I can't!
+Dialogue: 0,0:17:13.65,0:17:16.33,中文,,0,0,0,,-我有我的責任 -噢 別鬧了\N{\3c&H000000&\fs35}- I have responsibilities. - Oh, come on.
+Dialogue: 0,0:17:17.30,0:17:20.06,中文,,0,0,0,,別讓別人妨礙你追求理想\N{\3c&H000000&\fs35}Don't let other people get in the way of what you really want.
+Dialogue: 0,0:17:20.06,0:17:22.66,中文,,0,0,0,,芬蘭就是你的理想\N{\3c&H000000&\fs35}Finland is what you really want.
+Dialogue: 0,0:17:22.66,0:17:25.58,中文,,0,0,0,,我丈夫可不是什麼「別人」 好嗎\N{\3c&H000000&\fs35}My husband isn't "Other people", OK?
+Dialogue: 0,0:17:25.58,0:17:27.54,中文,,0,0,0,,我丈夫就是我的生活支柱\N{\3c&H000000&\fs35}My husband is my life.
+Dialogue: 0,0:17:27.54,0:17:30.96,中文,,0,0,0,,你丈夫在你生日那天還想親我來著\N{\3c&H000000&\fs35}Your husband tried to kiss me on your birthday.
+Dialogue: 0,0:17:35.18,0:17:36.26,中文,,0,0,0,,真的嗎\N{\3c&H000000&\fs35}Did he?
+Dialogue: 0,0:17:41.46,0:17:42.54,中文,,0,0,0,,真的嗎\N{\3c&H000000&\fs35}Did he?
+Dialogue: 0,0:18:12.70,0:18:14.62,中文,,0,0,0,,蕩婦\N{\3c&H000000&\fs35}'Sluts!'
+Dialogue: 0,0:18:18.66,0:18:20.87,中文,,0,0,0,,蕩婦\N{\3c&H000000&\fs35}'Sluts!'
+Dialogue: 0,0:18:39.98,0:18:42.30,中文,,0,0,0,,蕩婦\N{\3c&H000000&\fs35}Slut!
+Dialogue: 0,0:18:47.58,0:18:50.73,中文,,0,0,0,,-蕩婦 -不錯 不錯\N{\3c&H000000&\fs35}- Slut! - Lovely, lovely.
+Dialogue: 0,0:18:52.14,0:18:53.32,中文,,0,0,0,,好了嗎\N{\3c&H000000&\fs35}Ok?
+Dialogue: 0,0:18:54.12,0:18:58.10,中文,,0,0,0,,站起來 我們要說「對不起 帕特希亞」\N{\3c&H000000&\fs35}Up on your feet. We're going to say, "Sorry, Patricia."
+Dialogue: 0,0:18:58.10,0:19:00.46,中文,,0,0,0,,對不起 帕特希亞\N{\3c&H000000&\fs35}Sorry, Patricia.
+Dialogue: 0,0:19:00.46,0:19:03.42,中文,,0,0,0,,很好 給自己鼓鼓掌吧\N{\3c&H000000&\fs35}Lovely, give yourselves a round of applause.
+Dialogue: 0,0:19:03.42,0:19:05.82,中文,,0,0,0,,好了 各位 做得很好\N{\3c&H000000&\fs35}All right, guys. Well done.
+Dialogue: 0,0:19:05.85,0:19:10.68,中文,,0,0,0,,我們要以嶄新的面貌回到屋裏 好嗎\N{\3c&H000000&\fs35}We are going to head back to that house better men, yeah?
+Dialogue: 0,0:19:10.70,0:19:12.99,中文,,0,0,0,,很好 不錯 很棒\N{\3c&H000000&\fs35}Well done, good work. Great stuff.
+Dialogue: 0,0:19:14.09,0:19:16.09,中文,,0,0,0,,-對 嶄新的面貌 -很好\N{\3c&H000000&\fs35}- Yeah, a new man. - Well done.
+Dialogue: 0,0:19:26.86,0:19:28.22,中文,,0,0,0,,繼續\N{\3c&H000000&\fs35}Go on.
+Dialogue: 0,0:19:29.78,0:19:31.94,中文,,0,0,0,,你可以的\N{\3c&H000000&\fs35}You can do it.
+Dialogue: 0,0:19:31.94,0:19:33.34,中文,,0,0,0,,加油\N{\3c&H000000&\fs35}You're ready.
+Dialogue: 0,0:19:37.62,0:19:40.74,中文,,0,0,0,,嗯 我覺得我認出你了\N{\3c&H000000&\fs35}Yeah, I... thought I recognised you.
+Dialogue: 0,0:19:45.54,0:19:46.82,中文,,0,0,0,,好吧\N{\3c&H000000&\fs35}Fair enough.
+Dialogue: 0,0:19:48.22,0:19:49.86,中文,,0,0,0,,這樣就好\N{\3c&H000000&\fs35}Probably for the best.
+Dialogue: 0,0:19:53.70,0:19:55.06,中文,,0,0,0,,所以 你的生意\N{\3c&H000000&\fs35}So, is your business...
+Dialogue: 0,0:19:57.22,0:19:58.26,中文,,0,0,0,,還好嗎\N{\3c&H000000&\fs35}...surviving?
+Dialogue: 0,0:20:02.90,0:20:04.42,中文,,0,0,0,,對不起\N{\3c&H000000&\fs35}I'm sorry.
+Dialogue: 0,0:20:05.70,0:20:07.22,中文,,0,0,0,,噢 我不想抽了\N{\3c&H000000&\fs35}No, I don't want that.
+Dialogue: 0,0:20:10.50,0:20:11.81,中文,,0,0,0,,所以 你是在\N{\3c&H000000&\fs35}So, you're doing the whole...
+Dialogue: 0,0:20:12.80,0:20:14.50,中文,,0,0,0,,沉默訓練營之類的\N{\3c&H000000&\fs35}silent escape thing.
+Dialogue: 0,0:20:16.34,0:20:17.62,中文,,0,0,0,,看來是的\N{\3c&H000000&\fs35}Indeed.
+Dialogue: 0,0:20:19.02,0:20:20.42,中文,,0,0,0,,還好嗎\N{\3c&H000000&\fs35}Going well?
+Dialogue: 0,0:20:28.30,0:20:30.26,中文,,0,0,0,,我摸了一個同事的胸\N{\3c&H000000&\fs35}I touched a colleague's breast.
+Dialogue: 0,0:20:31.70,0:20:32.96,中文,,0,0,0,,不止一次\N{\3c&H000000&\fs35}More than once.
+Dialogue: 0,0:20:33.96,0:20:35.35,中文,,0,0,0,,在派對上 我\N{\3c&H000000&\fs35}At a party, I...
+Dialogue: 0,0:20:38.30,0:20:40.50,中文,,0,0,0,,他們讓我去參加訓練營\N{\3c&H000000&\fs35}They asked me to go on a workshop to...
+Dialogue: 0,0:20:44.14,0:20:45.86,中文,,0,0,0,,我就是個非常\N{\3c&H000000&\fs35}I'm just a very...
+Dialogue: 0,0:20:47.42,0:20:49.18,中文,,0,0,0,,令人失望的人\N{\3c&H000000&\fs35}...disappointing man.
+Dialogue: 0,0:20:56.38,0:20:58.14,中文,,0,0,0,,不了 謝了 我正在戒呢\N{\3c&H000000&\fs35}No, thanks, I'm trying to quit.
+Dialogue: 0,0:20:59.66,0:21:01.26,中文,,0,0,0,,另一方面 那些人\N{\3c&H000000&\fs35}Those, on the other hand.
+Dialogue: 0,0:21:09.40,0:21:12.96,中文,,0,0,0,,他們一直問我「你想從訓練營得到什麼」\N{\3c&H000000&\fs35}They keep asking me, "What do you want from this workshop?
+Dialogue: 0,0:21:12.98,0:21:14.38,中文,,0,0,0,,「你想要什麼」\N{\3c&H000000&\fs35}"What do you want?"
+Dialogue: 0,0:21:15.78,0:21:17.74,中文,,0,0,0,,我才不會告訴他們我想要什麼\N{\3c&H000000&\fs35}I'm not telling them what I want.
+Dialogue: 0,0:21:19.74,0:21:21.50,中文,,0,0,0,,我想回家\N{\3c&H000000&\fs35}I want to move back home.
+Dialogue: 0,0:21:23.94,0:21:25.62,中文,,0,0,0,,我想抱老婆\N{\3c&H000000&\fs35}I want to hug my wife.
+Dialogue: 0,0:21:28.73,0:21:31.18,中文,,0,0,0,,保護孩子 保護女兒\N{\3c&H000000&\fs35}Protect my children, protect my daughter.
+Dialogue: 0,0:21:34.62,0:21:36.46,中文,,0,0,0,,我想重新開始\N{\3c&H000000&\fs35}I want to move on.
+Dialogue: 0,0:21:39.58,0:21:41.14,中文,,0,0,0,,我想道歉\N{\3c&H000000&\fs35}I want to apologise.
+Dialogue: 0,0:21:43.74,0:21:45.18,中文,,0,0,0,,跟所有人道歉\N{\3c&H000000&\fs35}To everyone.
+Dialogue: 0,0:21:47.86,0:21:49.50,中文,,0,0,0,,想去電影院\N{\3c&H000000&\fs35}Want to go to the theatre.
+Dialogue: 0,0:21:53.78,0:21:57.94,中文,,0,0,0,,我想把乾淨的杯子從洗碗機裏拿出來\N{\3c&H000000&\fs35}I want to take clean cups out of the dishwasher
+Dialogue: 0,0:21:57.94,0:22:01.26,中文,,0,0,0,,放到我家的壁櫥裏\N{\3c&H000000&\fs35}and put them in the cupboard at home...
+Dialogue: 0,0:22:02.62,0:22:06.72,中文,,0,0,0,,第二天早上 我想看著我老婆用這些杯子喝水\N{\3c&H000000&\fs35}...and the next morning, I want to watch my wife drink from them.
+Dialogue: 0,0:22:10.01,0:22:12.54,中文,,0,0,0,,我想讓她開心\N{\3c&H000000&\fs35}And I want to make her feel good.
+Dialogue: 0,0:22:15.02,0:22:17.02,中文,,0,0,0,,我想讓她再次達到高潮\N{\3c&H000000&\fs35}I want to make her orgasm again.
+Dialogue: 0,0:22:19.54,0:22:20.90,中文,,0,0,0,,一遍又一遍\N{\3c&H000000&\fs35}And again.
+Dialogue: 0,0:22:23.82,0:22:25.02,中文,,0,0,0,,真的\N{\3c&H000000&\fs35}Truly.
+Dialogue: 0,0:22:31.82,0:22:33.53,中文,,0,0,0,,我只是想哭\N{\3c&H000000&\fs35}I just want to cry.
+Dialogue: 0,0:22:34.52,0:22:36.08,中文,,0,0,0,,一直都是\N{\3c&H000000&\fs35}All the time.
+Dialogue: 0,0:24:20.52,0:24:21.76,中文,,0,0,0,,克萊爾\N{\3c&H000000&\fs35}Claire?
+Dialogue: 0,0:24:39.58,0:24:41.06,中文,,0,0,0,,你們看見我姐姐沒有\N{\3c&H000000&\fs35}Have you seen my sister?
+Dialogue: 0,0:24:58.96,0:25:03.25,中文,,0,0,0,,
+Dialogue: 0,0:25:25.68,0:25:27.32,中文,,0,0,0,,你好 我是小波\N{\3c&H000000&\fs35}'Hi, this is Boo.
+Dialogue: 0,0:25:27.32,0:25:28.87,中文,,0,0,0,,現在無法接電話\N{\3c&H000000&\fs35}'I can't come to the phone right now,
+Dialogue: 0,0:25:28.87,0:25:30.77,中文,,0,0,0,,請留言\N{\3c&H000000&\fs35}'but please leave me a messiagio,
+Dialogue: 0,0:25:30.80,0:25:33.20,中文,,0,0,0,,稍後我會打給你\N{\3c&H000000&\fs35}'and I'll get back to you.'
+Dialogue: 0,0:25:38.24,0:25:39.97,中文,,0,0,0,,要是有人把電話線拔了就好了\N{\3c&H000000&\fs35}Someone should probably disconnect that.
+Dialogue: 0,0:25:03.22,0:25:05.22,Default,,0,0,0,,
+

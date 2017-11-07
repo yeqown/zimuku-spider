@@ -1,0 +1,1086 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: BT字幕组
+Original Script: ShinY
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: *asd,SimHei,18,&H00FFFFFF,&H0000FFFF,&HC8000000,&H32000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,6,1
+Style: 100,FZHei-B01S,22,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,3,3,1,134
+Style: Default,楷体,18,&H00FFFFFF,&H000000FF,&H000B0B0D,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:10.00,asd,,0,0,0,,{\c&HFFFFFF&\fs17}本電影由{\c&HD5D005&} BT首發論壇 {\c&HFFFFFF&}原創壓制\N{\c&H04F6FF&\fs18}www.BTshoufa.com
+Dialogue: 0,0:00:10.01,0:00:25.00,asd,,0,0,0,,{\c&HD5D005&\fs17}更多超清電影下載盡在 BT首發論壇\N{\c&H04F6FF&\fs18} www.BTshoufa.com
+Dialogue: 0,1:37:07.56,1:37:27.00,asd,,0,0,0,,謝謝觀賞\N{\c&HFFFFFF&\fs17}本電影由{\c&HD5D005&} BT首發論壇 {\c&HFFFFFF&}原創壓制\N{\c&H04F6FF&\fs18}www.BTshoufa.com
+Dialogue: 0,0:00:00.26,0:00:06.39,Default,,0,0,0,,本字幕 由 首發字幕組 原創翻譯 
+Dialogue: 0,0:06:46.26,0:00:16.39,Default,,0,0,0,,翻譯：Tony  YAfish  Jolion Chan  莫夏  萱lo2e  fyemee  校對 ：真中 
+Dialogue: 0,0:01:27.26,0:01:29.39,Default,,0,0,0,,我向妳們宣誓，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I swear to you,
+Dialogue: 0,0:01:29.43,0:01:32.66,Default,,0,0,0,,在我們當中\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}every single mother and daughter,
+Dialogue: 0,0:01:33.73,0:01:37.33,Default,,0,0,0,,被黑死病所殺害的每壹對母女，每壹對父子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}father and son taken from us
+Dialogue: 0,0:01:37.37,0:01:40.17,Default,,0,0,0,,都將可以復仇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}by the Black Plague will be avenged.
+Dialogue: 0,0:01:43.31,0:01:45.54,Default,,0,0,0,,這是他們的女巫王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It is their Witch Queen
+Dialogue: 0,0:01:45.57,0:01:48.58,Default,,0,0,0,,給我們這片大陸帶來詛咒的人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}who brought this curse upon our lands.
+Dialogue: 0,0:01:49.88,0:01:52.85,Default,,0,0,0,,她死後我們就能得到解放了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And in her death lies our salvation.
+Dialogue: 0,0:01:57.55,0:01:59.82,Default,,0,0,0,,小心點，兄弟\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Be warned, brothers.
+Dialogue: 0,0:01:59.86,0:02:02.22,Default,,0,0,0,,她不會真正的死去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}She will never truly perish
+Dialogue: 0,0:02:02.26,0:02:05.86,Default,,0,0,0,,除非她的心臟停止跳動\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}until her heart beats its last.
+Dialogue: 0,0:02:05.90,0:02:08.23,Default,,0,0,0,,我們不要害怕\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Let fear be dead to us.
+Dialogue: 0,0:02:08.26,0:02:10.73,Default,,0,0,0,,我們沒有回頭路了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There is no going back,
+Dialogue: 0,0:02:10.77,0:02:13.64,Default,,0,0,0,,也沒什麽好回頭的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}for there is nothing to go back to.
+Dialogue: 0,0:02:26.48,0:02:28.95,Default,,0,0,0,,這是什麽，多蘭？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is it, Dolan?
+Dialogue: 0,0:02:35.36,0:02:37.73,Default,,0,0,0,,我們周圍充滿了魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Hexen are amongst us.
+Dialogue: 0,0:02:41.30,0:02:43.57,Default,,0,0,0,,這個地方散發著死亡的氣息\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This place reeks of death.
+Dialogue: 0,0:02:43.60,0:02:44.97,Default,,0,0,0,,大家要更註意點\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Keep your wits about you.
+Dialogue: 0,0:02:45.00,0:02:46.94,Default,,0,0,0,,別走散了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stay close.
+Dialogue: 0,0:02:51.47,0:02:52.71,Default,,0,0,0,,是她！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's her!
+Dialogue: 0,0:02:52.74,0:02:54.71,Default,,0,0,0,,是女巫王！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's the Queen!
+Dialogue: 0,0:03:04.52,0:03:06.49,Default,,0,0,0,,這是魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The magic.
+Dialogue: 0,0:03:12.66,0:03:14.93,Default,,0,0,0,,不要靠近\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stay back!
+Dialogue: 0,0:03:36.49,0:03:39.42,Default,,0,0,0,,用冷兵器和火!\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}By iron and fire!
+Dialogue: 0,0:03:41.59,0:03:43.53,Default,,0,0,0,,救我們！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Help us!
+Dialogue: 0,0:03:48.73,0:03:50.67,Default,,0,0,0,,-多蘭！-女巫王！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Dolan! - The Queen!
+Dialogue: 0,0:04:06.75,0:04:08.48,Default,,0,0,0,,天父，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Heavenly Father,
+Dialogue: 0,0:04:08.52,0:04:10.05,Default,,0,0,0,,保護我們免受惡魔的傷害。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}protect us from these demons.
+Dialogue: 0,0:04:14.52,0:04:16.96,Default,,0,0,0,,啊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah!
+Dialogue: 0,0:04:21.73,0:04:24.00,Default,,0,0,0,,保持陣型，兄弟！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stay in formation, men!
+Dialogue: 0,0:04:43.69,0:04:45.49,Default,,0,0,0,,爸爸！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father!
+Dialogue: 0,0:04:45.52,0:04:47.46,Default,,0,0,0,,爸爸！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father!
+Dialogue: 0,0:04:48.99,0:04:53.10,Default,,0,0,0,,爸爸，我好想妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father, I missed you.
+Dialogue: 0,0:04:53.13,0:04:54.73,Default,,0,0,0,,妳不是真的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're not real.
+Dialogue: 0,0:04:54.76,0:04:57.07,Default,,0,0,0,,妳不可能是\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You can't be.
+Dialogue: 0,0:05:31.10,0:05:33.50,Default,,0,0,0,,妳們像老鼠壹樣繁殖\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You breed like rats.
+Dialogue: 0,0:05:33.54,0:05:35.00,Default,,0,0,0,,妳們把石頭疊起來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You put stone on top of stone
+Dialogue: 0,0:05:35.04,0:05:37.54,Default,,0,0,0,,然後住在裏面\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and then live in your own filth.
+Dialogue: 0,0:05:37.57,0:05:41.58,Default,,0,0,0,,妳們是這個世界的入侵者\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are trespassers on our world.
+Dialogue: 0,0:05:41.61,0:05:45.48,Default,,0,0,0,,這就是我制造瘟疫的原因\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is why I created the Plague.
+Dialogue: 0,0:05:45.51,0:05:49.82,Default,,0,0,0,,這就是妳們必須滅亡的原因\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's why every one of you must perish.
+Dialogue: 0,0:06:23.52,0:06:26.22,Default,,0,0,0,,啊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah!
+Dialogue: 0,0:06:37.60,0:06:39.53,Default,,0,0,0,,用冷兵器\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}By iron
+Dialogue: 0,0:06:43.11,0:06:44.91,Default,,0,0,0,,和火\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and fire.
+Dialogue: 0,0:06:44.94,0:06:47.54,Default,,0,0,0,,妳愛的每個人都已經死了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Everyone you love is gone.
+Dialogue: 0,0:06:47.58,0:06:50.05,Default,,0,0,0,,我在妳眼裏看到了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've seen it in your eyes.
+Dialogue: 0,0:06:50.08,0:06:52.88,Default,,0,0,0,,妳希望死去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You wish for death.
+Dialogue: 0,0:06:52.92,0:06:55.05,Default,,0,0,0,,今天我們倆都會死\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Today we both die.
+Dialogue: 0,0:07:10.77,0:07:13.30,Default,,0,0,0,,我用我的生命來詛咒妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I curse you with life.
+Dialogue: 0,0:07:14.64,0:07:17.81,Default,,0,0,0,,永遠看不到和平\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To never know peace.
+Dialogue: 0,0:07:19.98,0:07:23.28,Default,,0,0,0,,永遠的孤獨的活在這個世上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To walk the Earth alone for eternity.
+Dialogue: 0,0:07:26.92,0:07:31.79,Default,,0,0,0,,妳永遠不會死\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You will never die.
+Dialogue: 0,0:08:03.79,0:08:05.82,Default,,0,0,0,,謝謝妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thank you.
+Dialogue: 0,0:08:09.26,0:08:11.33,Default,,0,0,0,,打擾壹下，小姐？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Excuse me, miss?
+Dialogue: 0,0:08:11.36,0:08:13.70,Default,,0,0,0,,先生，需要什麽幫助？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sir, how can I help you?
+Dialogue: 0,0:08:41.69,0:08:43.63,Default,,0,0,0,,魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Magic.
+Dialogue: 0,0:09:23.27,0:09:25.20,Default,,0,0,0,,嘿...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey...
+Dialogue: 0,0:09:26.27,0:09:27.44,Default,,0,0,0,,看這個！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Watch it!
+Dialogue: 0,0:09:27.47,0:09:30.07,Default,,0,0,0,,對不起，都是我的錯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sorry. Totally my fault.
+Dialogue: 0,0:09:32.11,0:09:34.28,Default,,0,0,0,,打擾壹下\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Excuse me.
+Dialogue: 0,0:09:39.32,0:09:40.28,Default,,0,0,0,,妳是女巫獵人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're the witch hunter.
+Dialogue: 0,0:09:40.32,0:09:42.18,Default,,0,0,0,,是的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yeah.
+Dialogue: 0,0:09:42.22,0:09:43.45,Default,,0,0,0,,我什麽都沒做\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I didn't do anything.
+Dialogue: 0,0:09:43.49,0:09:44.95,Default,,0,0,0,,讓我們看看這個\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Let's see it.
+Dialogue: 0,0:09:44.99,0:09:47.06,Default,,0,0,0,,看什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}See what?
+Dialogue: 0,0:09:47.09,0:09:48.26,Default,,0,0,0,,來吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Come on.
+Dialogue: 0,0:09:52.23,0:09:53.26,Default,,0,0,0,,女士們先生們，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ladies and gentlemen,
+Dialogue: 0,0:09:53.30,0:09:54.80,Default,,0,0,0,,飛機遇到突發情況...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the Captain has turned on...
+Dialogue: 0,0:09:54.83,0:09:57.27,Default,,0,0,0,,很高興妳沒弄濕它們\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Be glad you didn't get them wet.
+Dialogue: 0,0:09:59.87,0:10:02.20,Default,,0,0,0,,我找這些東西找了壹段時間了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've been looking for these for a while.
+Dialogue: 0,0:10:02.24,0:10:04.41,Default,,0,0,0,,這是古時候留下來的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}These are ancient runes.
+Dialogue: 0,0:10:04.44,0:10:06.11,Default,,0,0,0,,它們能控制天氣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They can manipulate weather.
+Dialogue: 0,0:10:06.14,0:10:08.98,Default,,0,0,0,,下雨，刮風，寒冷，高溫...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Rain, wind, cold, heat...
+Dialogue: 0,0:10:09.01,0:10:12.08,Default,,0,0,0,,妳就這樣把它們包在壹起扔在包裏？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And you just jammed them together in your bag?
+Dialogue: 0,0:10:12.11,0:10:13.72,Default,,0,0,0,,妳知道在4萬尺的高空\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know what you get when you mix a thunderstorm
+Dialogue: 0,0:10:13.75,0:10:15.85,Default,,0,0,0,,雷暴和潮濕的寒冷空氣混在壹起會發生什麽事嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}with cool, moist air at 40,000 feet?
+Dialogue: 0,0:10:18.32,0:10:20.06,Default,,0,0,0,,這是很簡單的科學常識\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's simple science.
+Dialogue: 0,0:10:26.90,0:10:28.96,Default,,0,0,0,,難以置信\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Unbelievable.
+Dialogue: 0,0:10:29.00,0:10:32.70,Default,,0,0,0,,作為壹個女巫妳竟然不知道妳有什麽樣的能力\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You witches have no idea the power you've got.
+Dialogue: 0,0:11:21.15,0:11:23.15,Default,,0,0,0,,噢，我的天\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, my God.
+Dialogue: 0,0:11:25.49,0:11:27.19,Default,,0,0,0,,妳會把我抓到女巫委員會嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Are you gonna turn me over to the Witch Council?
+Dialogue: 0,0:11:27.22,0:11:28.86,Default,,0,0,0,,不\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No.
+Dialogue: 0,0:11:28.89,0:11:30.49,Default,,0,0,0,,妳要殺了我？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're gonna kill me?
+Dialogue: 0,0:11:30.53,0:11:33.16,Default,,0,0,0,,殺了妳？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kill you?
+Dialogue: 0,0:11:33.20,0:11:36.03,Default,,0,0,0,,我阻止了妳殺了妳自己\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm tryin' to stop you from killing yourself.
+Dialogue: 0,0:11:38.13,0:11:40.20,Default,,0,0,0,,在紐約好好玩吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Enjoy New York.
+Dialogue: 0,0:11:42.50,0:11:44.81,Default,,0,0,0,,先生，“系好安全帶”的信號燈在亮著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sir, "Fasten seatbelts" signs are on.
+Dialogue: 0,0:11:44.84,0:11:45.81,Default,,0,0,0,,妳要坐回去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I need you to take a seat.
+Dialogue: 0,0:11:45.84,0:11:47.81,Default,,0,0,0,,我叫考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}My name is Kaulder.
+Dialogue: 0,0:11:49.08,0:11:51.31,Default,,0,0,0,,妳要坐回妳的位置，考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I need you to get back to your seat, Kaulder.
+Dialogue: 0,0:11:51.35,0:11:54.02,Default,,0,0,0,,我很高興聽到在塞夫魯長大的人的聲音\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'd love to hear about growing up in Sefrou.
+Dialogue: 0,0:11:56.32,0:11:58.25,Default,,0,0,0,,妳怎麽知道？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How'd you know?
+Dialogue: 0,0:11:58.29,0:12:00.26,Default,,0,0,0,,這幾年都沒有口音了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Haven't had an accent in years.
+Dialogue: 0,0:12:00.29,0:12:03.36,Default,,0,0,0,,我在生命中遇到了很多人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've met a lot of people in my life.
+Dialogue: 0,0:12:03.39,0:12:05.80,Default,,0,0,0,,對此妳很驚訝吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You'd be amazed what you pick up.
+Dialogue: 0,0:12:09.23,0:12:12.17,Default,,0,0,0,,女巫在我們之中秘密的生活\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Witches live among us in secret.
+Dialogue: 0,0:12:12.20,0:12:15.37,Default,,0,0,0,,他們的魔法在從遠古的祖先中流傳下來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Their magic passed down from an ancient race,
+Dialogue: 0,0:12:15.40,0:12:19.37,Default,,0,0,0,,衰弱了，大半遺忘了，但仍然危險而強大\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}diluted, half-forgotten, but dangerously powerful.
+Dialogue: 0,0:12:20.41,0:12:24.08,Default,,0,0,0,,經過幾個世紀的沖突，簽署了停戰協議\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}After centuries of conflict, a truce was forged.
+Dialogue: 0,0:12:24.11,0:12:25.85,Default,,0,0,0,,女巫允許正常生活並管理她們自己\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Witches would be allowed to live
+Dialogue: 0,0:12:25.88,0:12:27.62,Default,,0,0,0,,如果她們遵守壹個嚴格的規定\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and govern themselves if they followed
+Dialogue: 0,0:12:27.65,0:12:33.52,Default,,0,0,0,,就是魔法絕對不能對人類使用\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}one strict rule, that magic never be used against humans.
+Dialogue: 0,0:12:33.56,0:12:36.02,Default,,0,0,0,,停火協議是很容易破壞的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But a truce is a fragile thing.
+Dialogue: 0,0:12:36.06,0:12:37.09,Default,,0,0,0,,有些人渴望\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There are some who long for
+Dialogue: 0,0:12:37.13,0:12:40.36,Default,,0,0,0,,恢復以前那樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the return of the old ways,
+Dialogue: 0,0:12:40.40,0:12:43.10,Default,,0,0,0,,女巫王黑暗統治的日子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the dark days of the Witch Queen.
+Dialogue: 0,0:12:43.13,0:12:46.50,Default,,0,0,0,,考爾德要處理的就是這些人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It is those whom Kaulder deals with.
+Dialogue: 0,0:12:46.54,0:12:51.51,Default,,0,0,0,,八百多年來，他為十斧會幹活\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}For 800 years, he has served The Axe and Cross.
+Dialogue: 0,0:12:51.54,0:12:56.51,Default,,0,0,0,,我們壹起看守和維護著和平\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Together we have kept watch and kept the peace.
+Dialogue: 0,0:13:07.56,0:13:09.52,Default,,0,0,0,,唉，對不起，多蘭神父。他在開會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Uh, I'm sorry, Father Dolan. He's in a meeting.
+Dialogue: 0,0:13:09.56,0:13:11.49,Default,,0,0,0,,噢\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh.
+Dialogue: 0,0:13:22.34,0:13:25.51,Default,,0,0,0,,會議結束了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The meeting has concluded.
+Dialogue: 0,0:13:25.54,0:13:27.01,Default,,0,0,0,,我以壹個特別的方式\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I Serve The Axe and Cross
+Dialogue: 0,0:13:27.04,0:13:28.54,Default,,0,0,0,,為十斧會服務\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}in a very different manner.
+Dialogue: 0,0:13:28.58,0:13:32.95,Default,,0,0,0,,我是第36任多蘭，並撰寫了考爾德的歷史\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I am the 36th Dolan, and I write Kaulder's history.
+Dialogue: 0,0:13:32.98,0:13:35.18,Default,,0,0,0,,我是他的左右手，他的教徒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I am his handler, his confessor,
+Dialogue: 0,0:13:35.22,0:13:36.92,Default,,0,0,0,,但是，我喜歡認為我是他的朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and, I like to think, his friend.
+Dialogue: 0,0:13:36.95,0:13:39.69,Default,,0,0,0,,妳沒有時間意識\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You have no sense of time.
+Dialogue: 0,0:13:39.72,0:13:43.16,Default,,0,0,0,,我當然有，只是和妳的不太壹樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Course I do. It's just different than yours.
+Dialogue: 0,0:13:43.19,0:13:46.09,Default,,0,0,0,,我猜妳的任務完成了？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I assume your mission was a success?
+Dialogue: 0,0:13:46.13,0:13:49.03,Default,,0,0,0,,妳安全的獲得了天氣符文\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You recovered the weather runes without incident?
+Dialogue: 0,0:13:49.07,0:13:51.37,Default,,0,0,0,,我給妳的ipad怎麽樣了？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What happened to the iPad I gave you?
+Dialogue: 0,0:13:51.40,0:13:53.47,Default,,0,0,0,,我轉送給別人了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I re-gifted it.
+Dialogue: 0,0:13:53.50,0:13:55.37,Default,,0,0,0,,我跟妳都不適合用這個\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We're not all as adaptable as you.
+Dialogue: 0,0:13:55.40,0:13:57.07,Default,,0,0,0,,妳知道紙張已經過時了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know paper's the past.
+Dialogue: 0,0:13:57.11,0:13:59.97,Default,,0,0,0,,記東西的時候仍然有用\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's also a useful object on which to record it.
+Dialogue: 0,0:14:02.21,0:14:05.18,Default,,0,0,0,,妳還記得路德維希的事嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Are you reminiscing about the Ludwig affair?
+Dialogue: 0,0:14:05.21,0:14:07.92,Default,,0,0,0,,我現在心情不好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm in a sentimental mood.
+Dialogue: 0,0:14:09.39,0:14:11.35,Default,,0,0,0,,啊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah.
+Dialogue: 0,0:14:11.39,0:14:13.39,Default,,0,0,0,,關於我退休的事？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}About my retirement?
+Dialogue: 0,0:14:13.42,0:14:15.32,Default,,0,0,0,,這是妳回來的原因\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's why you've come back.
+Dialogue: 0,0:14:15.36,0:14:17.43,Default,,0,0,0,,我們合作得很好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We have had a good run.
+Dialogue: 0,0:14:17.46,0:14:19.99,Default,,0,0,0,,我們取締了壹些討厭的女巫會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We took out some nasty covens.
+Dialogue: 0,0:14:20.03,0:14:22.10,Default,,0,0,0,,妳真的準備好退休了？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're really ready to call it quits?
+Dialogue: 0,0:14:22.13,0:14:23.50,Default,,0,0,0,,只工作了50年\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's only been 50 years.
+Dialogue: 0,0:14:23.53,0:14:25.30,Default,,0,0,0,,我終於習慣了妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm finally getting used to you.
+Dialogue: 0,0:14:25.33,0:14:26.57,Default,,0,0,0,,噢，這就是妳要說的嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh. Is that all it took?
+Dialogue: 0,0:14:29.37,0:14:31.47,Default,,0,0,0,,我會想妳的，孩子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'll miss you, kid.
+Dialogue: 0,0:14:34.08,0:14:36.01,Default,,0,0,0,,這是華特曼402\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is a Waterman 402.
+Dialogue: 0,0:14:36.05,0:14:37.35,Default,,0,0,0,,我把妳名字首字母刻上去了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I had your initials engraved on it.
+Dialogue: 0,0:14:37.38,0:14:39.01,Default,,0,0,0,,它相當珍貴\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's very rare.
+Dialogue: 0,0:14:39.05,0:14:40.65,Default,,0,0,0,,（把字母刻上去）可能會降低壹點價值\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Probably lowered the value quite a bit.
+Dialogue: 0,0:14:40.68,0:14:42.62,Default,,0,0,0,,對我來說不是\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not to me.
+Dialogue: 0,0:14:45.49,0:14:48.52,Default,,0,0,0,,如果妳重新考慮，妳仍然能擁有這支筆\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You reconsider, you can still keep the pen.
+Dialogue: 0,0:14:48.56,0:14:50.59,Default,,0,0,0,,我認為妳會喜歡我的繼承人的。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I think you'll like my successor.
+Dialogue: 0,0:14:50.63,0:14:53.09,Default,,0,0,0,,我留給妳壹個更現代的幫手\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm leaving you in more modern hands.
+Dialogue: 0,0:14:53.13,0:14:55.06,Default,,0,0,0,,妳的誓言怎麽樣？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What about the vow you took?
+Dialogue: 0,0:14:55.10,0:14:59.23,Default,,0,0,0,,我發誓至死都會站在妳身邊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I vowed to face death at your side.
+Dialogue: 0,0:14:59.27,0:15:02.07,Default,,0,0,0,,除非死去，不然我都會壹直工作\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not to work until I keel over.
+Dialogue: 0,0:15:02.10,0:15:04.64,Default,,0,0,0,,在妳之前有35任多蘭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thirty-five Dolans have come before you.
+Dialogue: 0,0:15:06.37,0:15:08.01,Default,,0,0,0,,只有妳的建議\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Here's to the only one
+Dialogue: 0,0:15:08.04,0:15:09.34,Default,,0,0,0,,我才會聽聽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}whose advice I ever listened to.
+Dialogue: 0,0:15:09.38,0:15:11.61,Default,,0,0,0,,只是之後不采用\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Only to ignore it.
+Dialogue: 0,0:15:13.11,0:15:15.22,Default,,0,0,0,,但是我都有在聽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But I always listen.
+Dialogue: 0,0:15:15.25,0:15:17.02,Default,,0,0,0,,要是妳也退休了呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What if you were retiring, too?
+Dialogue: 0,0:15:18.49,0:15:20.29,Default,,0,0,0,,我是說，妳會做什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I mean, what would you do
+Dialogue: 0,0:15:20.32,0:15:22.09,Default,,0,0,0,,如果下壹個任務是妳最後壹個？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}if your next mission was your last?
+Dialogue: 0,0:15:22.12,0:15:23.19,Default,,0,0,0,,但是不會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But it won't be.
+Dialogue: 0,0:15:23.22,0:15:24.53,Default,,0,0,0,,回答壹下我的問題吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Humor me.
+Dialogue: 0,0:15:24.56,0:15:27.23,Default,,0,0,0,,我沒抱怨\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I have no complaints.
+Dialogue: 0,0:15:27.26,0:15:28.53,Default,,0,0,0,,每天我醒來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Every day I wake up,
+Dialogue: 0,0:15:28.56,0:15:30.17,Default,,0,0,0,,這個世界更寧靜了些\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the world sleeps a little easier.
+Dialogue: 0,0:15:30.20,0:15:32.53,Default,,0,0,0,,考爾德，妳的人生經歷之豐\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, you have tasted more of life
+Dialogue: 0,0:15:32.57,0:15:34.77,Default,,0,0,0,,比我能想象到的還要多\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}than I can ever imagine,
+Dialogue: 0,0:15:34.80,0:15:38.81,Default,,0,0,0,,但是很長壹段時間了妳都沒真正的活著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but it's been a long time since you really lived.
+Dialogue: 0,0:15:38.84,0:15:41.24,Default,,0,0,0,,在我們短暫的存活的這段時間裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're missing out on the best part
+Dialogue: 0,0:15:41.28,0:15:43.68,Default,,0,0,0,,妳錯過了最好的壹段\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}of our brief stay in this world.
+Dialogue: 0,0:15:43.71,0:15:46.55,Default,,0,0,0,,就是妳會跟人分享的這段時間\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The part where you share it.
+Dialogue: 0,0:15:46.58,0:15:49.55,Default,,0,0,0,,找壹個值得信任的人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Find someone to trust.
+Dialogue: 0,0:15:51.35,0:15:53.32,Default,,0,0,0,,我相信妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I trust you.
+Dialogue: 0,0:15:53.35,0:15:55.36,Default,,0,0,0,,或許有人更合適\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Perhaps someone a little more comely.
+Dialogue: 0,0:15:56.59,0:15:59.26,Default,,0,0,0,,我知道，我沒有活的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I know, I haven't lived
+Dialogue: 0,0:15:59.30,0:16:01.06,Default,,0,0,0,,像妳這麽長而豐富\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}as long and rich a life as you,
+Dialogue: 0,0:16:01.10,0:16:02.73,Default,,0,0,0,,但是我知道\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but I do know that there is more to it
+Dialogue: 0,0:16:02.77,0:16:05.07,Default,,0,0,0,,空姐除了要到處旅行之外\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}than a parade of stewardesses
+Dialogue: 0,0:16:05.10,0:16:08.70,Default,,0,0,0,,還會演奏悅耳的月光奏鳴曲\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}marching to the dulcet tones of Moonlight Sonata.
+Dialogue: 0,0:16:10.47,0:16:12.14,Default,,0,0,0,,現在妳對於空姐\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now what in the world do you know
+Dialogue: 0,0:16:12.17,0:16:14.48,Default,,0,0,0,,還知道些什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}about stewardesses anyway?
+Dialogue: 0,0:16:14.51,0:16:16.14,Default,,0,0,0,,我不是牧師出生\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I wasn't born a priest.
+Dialogue: 0,0:16:18.15,0:16:20.78,Default,,0,0,0,,我們幹壹些活先吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Let's do some work.
+Dialogue: 0,0:16:20.82,0:16:22.32,Default,,0,0,0,,我知道妳認為這無聊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I know you think it's dull,
+Dialogue: 0,0:16:22.35,0:16:25.15,Default,,0,0,0,,但是我們還是從頭開始吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but let's start at the beginning.
+Dialogue: 0,0:16:47.51,0:16:49.74,Default,,0,0,0,,壹句話都沒說就走了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It goes without saying,
+Dialogue: 0,0:16:49.78,0:16:52.51,Default,,0,0,0,,但妳的工作真的超級棒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but you've served with great distinction.
+Dialogue: 0,0:16:52.55,0:16:54.78,Default,,0,0,0,,如果可以的話，明天我見考爾夫的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If I may, when I meet Kaulder tomorrow,
+Dialogue: 0,0:16:54.82,0:16:56.69,Default,,0,0,0,,我應該要做得很好才行，對吧？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I should play it cool, right?
+Dialogue: 0,0:16:56.72,0:16:58.82,Default,,0,0,0,,在儀式結束前不喝咖啡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No coffee until after the ritual.
+Dialogue: 0,0:16:58.85,0:17:00.59,Default,,0,0,0,,不要為妳的風格擔心\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Don't worry about your style.
+Dialogue: 0,0:17:00.62,0:17:02.49,Default,,0,0,0,,他怎樣都會給妳難堪的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He'll take the piss out of you anyway.
+Dialogue: 0,0:17:02.53,0:17:04.46,Default,,0,0,0,,但是妳會沒事的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But you'll be fine.
+Dialogue: 0,0:17:05.53,0:17:10.36,Default,,0,0,0,,這就是，唉，我擔心考爾德的地方。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's, uh, Kaulder that I worry about.
+Dialogue: 0,0:17:10.40,0:17:12.20,Default,,0,0,0,,妳擔心考爾德？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You worry about Kaulder?
+Dialogue: 0,0:17:12.23,0:17:13.67,Default,,0,0,0,,妳知道十斧會的長者\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Do you know how the elders
+Dialogue: 0,0:17:13.70,0:17:15.77,Default,,0,0,0,,怎樣評價他嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}of The Axe and Cross refer to him?
+Dialogue: 0,0:17:15.80,0:17:17.14,Default,,0,0,0,,他們說他是“武器”\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They call him "The Weapon."
+Dialogue: 0,0:17:17.17,0:17:18.37,Default,,0,0,0,,在我提交報告的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When I put in my reports,
+Dialogue: 0,0:17:18.41,0:17:19.84,Default,,0,0,0,,他們都只想知道數字而已\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}all they want to know is numbers.
+Dialogue: 0,0:17:19.88,0:17:22.28,Default,,0,0,0,,我拘留了多少個女巫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How many witches I've turned over for detention.
+Dialogue: 0,0:17:22.31,0:17:24.35,Default,,0,0,0,,殺死了多少個違法的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How many slain for breaking the law.
+Dialogue: 0,0:17:24.38,0:17:27.22,Default,,0,0,0,,這妳能怪他們嗎？他所做的都是很重要的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Can you blame them? What he does is so important.
+Dialogue: 0,0:17:27.25,0:17:31.59,Default,,0,0,0,,是的，這是事實，但是他不僅僅是個武器\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yes, that's true, but he isn't just a weapon.
+Dialogue: 0,0:17:31.62,0:17:34.26,Default,,0,0,0,,而我們是那些知道真相的人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And those of us who know the truth,
+Dialogue: 0,0:17:34.29,0:17:36.56,Default,,0,0,0,,我們承擔著責任\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}we bear responsibility.
+Dialogue: 0,0:17:37.66,0:17:42.40,Default,,0,0,0,,不管發生什麽事情，向我保證妳要看護好他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Whatever happens, promise me you'll watch out for him.
+Dialogue: 0,0:17:42.43,0:17:45.80,Default,,0,0,0,,當然，那是我的工作\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Of course. That's my job.
+Dialogue: 0,0:17:54.21,0:17:56.15,Default,,0,0,0,,出租車！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Taxi!
+Dialogue: 0,0:18:37.15,0:18:38.72,Default,,0,0,0,,餵？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hello?
+Dialogue: 0,0:18:38.75,0:18:40.52,Default,,0,0,0,,考爾德？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,0:18:40.56,0:18:43.59,Default,,0,0,0,,多蘭36世在昨晚安詳地去世了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Dolan the 36th passed away peacefully last night.
+Dialogue: 0,0:18:43.63,0:18:45.66,Default,,0,0,0,,明天會舉行葬禮\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The ceremony will be tomorrow.
+Dialogue: 0,0:18:47.23,0:18:49.66,Default,,0,0,0,,請節哀順變\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm sorry for your loss.
+Dialogue: 0,0:18:52.00,0:18:55.00,Default,,0,0,0,,在妳前面已經有36任多蘭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thirty-six have taken the name "Dolan" before you.
+Dialogue: 0,0:18:55.04,0:18:57.94,Default,,0,0,0,,妳是否能配的上第37任這個稱號\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Are you worthy of becoming the 37th?
+Dialogue: 0,0:18:57.97,0:19:00.01,Default,,0,0,0,,我會證明給妳看我配得上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I testify that I am.
+Dialogue: 0,0:19:00.04,0:19:01.58,Default,,0,0,0,,妳願意承諾\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Do you promise to serve
+Dialogue: 0,0:19:01.61,0:19:03.81,Default,,0,0,0,,不顧壹切的為我們的考爾德履行職責麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}our brother Kaulder in all things?
+Dialogue: 0,0:19:03.85,0:19:08.65,Default,,0,0,0,,會像他了解他自己那樣去了解他嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To know him only as he knows himself?
+Dialogue: 0,0:19:08.68,0:19:10.82,Default,,0,0,0,,我願意\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I promise.
+Dialogue: 0,0:19:41.89,0:19:43.99,Default,,0,0,0,,所以，妳是新人咯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So you're the new guy.
+Dialogue: 0,0:19:45.25,0:19:48.02,Default,,0,0,0,,我們之前其實見過\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We've actually met before.
+Dialogue: 0,0:19:49.13,0:19:51.59,Default,,0,0,0,,很久很久以前\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A long time ago.
+Dialogue: 0,0:19:53.56,0:19:55.86,Default,,0,0,0,,妳看到那塊基石嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You see that cornerstone?
+Dialogue: 0,0:19:57.73,0:19:59.13,Default,,0,0,0,,我見人們把它立在那裏的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I watched them lay it in
+Dialogue: 0,0:19:59.17,0:20:02.57,Default,,0,0,0,,那裏無非是塊玉米地\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}when this was nothing more than a cornfield.
+Dialogue: 0,0:20:02.61,0:20:05.47,Default,,0,0,0,,那才是很久很久以前\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That was a long time ago.
+Dialogue: 0,0:20:08.71,0:20:12.78,Default,,0,0,0,,我作為第37任多蘭使者，願意誓死效忠妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I pledge my life and loyalty to you as the 37th Dolan.
+Dialogue: 0,0:20:12.82,0:20:14.92,Default,,0,0,0,,我發誓我會幫妳履行妳的使命...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I swear to help you carry out your duty to the Order...
+Dialogue: 0,0:20:14.95,0:20:17.09,Default,,0,0,0,,當初在建造這個城市的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When they were building this city,
+Dialogue: 0,0:20:17.12,0:20:19.19,Default,,0,0,0,,建築工人在地下60英尺發現了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}construction crews discovered
+Dialogue: 0,0:20:19.22,0:20:23.53,Default,,0,0,0,,壹個大墓地\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}a mass gravesite, 60 feet below ground,
+Dialogue: 0,0:20:23.56,0:20:26.59,Default,,0,0,0,,裏面都是那些被遺忘的奴隸\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}filled with thousands of forgotten slaves.
+Dialogue: 0,0:20:26.63,0:20:28.86,Default,,0,0,0,,知道他們之後怎麽做嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Know what they did?
+Dialogue: 0,0:20:28.90,0:20:30.63,Default,,0,0,0,,不知道\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No.
+Dialogue: 0,0:20:32.57,0:20:33.74,Default,,0,0,0,,他們連夜把這些坑都埋了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Worked by night, filled the hole,
+Dialogue: 0,0:20:33.77,0:20:35.50,Default,,0,0,0,,然後繼續蓋樓\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and kept building.
+Dialogue: 0,0:20:36.81,0:20:39.58,Default,,0,0,0,,到處都是惡魔的身影\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There are shades of evil everywhere.
+Dialogue: 0,0:20:45.32,0:20:47.18,Default,,0,0,0,,所以，我幫妳辦了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So, I'm sorting you out with
+Dialogue: 0,0:20:47.22,0:20:49.75,Default,,0,0,0,,新的信用卡，新的護照和新的身份證\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}fresh credit cards, new passport, and a new identity.
+Dialogue: 0,0:20:49.79,0:20:50.95,Default,,0,0,0,,習慣了用舊的了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Just gettin' used to the old one.
+Dialogue: 0,0:20:50.99,0:20:52.66,Default,,0,0,0,,喔，那都過期了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, it's out of date.
+Dialogue: 0,0:20:52.69,0:20:55.02,Default,,0,0,0,,現在全球資料庫已經是壹體化了，閉路電視\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There are global databases now, CCTV's,
+Dialogue: 0,0:20:55.06,0:20:57.59,Default,,0,0,0,,手機，位置追蹤。世界壹直在改變\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}smartphones and geotracking. The world is changing.
+Dialogue: 0,0:20:57.63,0:20:59.59,Default,,0,0,0,,只僅僅在表面而已\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Only on the surface.
+Dialogue: 0,0:20:59.63,0:21:02.10,Default,,0,0,0,,沒錯，但是保持低調是很重要的。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Right. But it's important to keep a low profile.
+Dialogue: 0,0:21:02.13,0:21:03.20,Default,,0,0,0,,嗯嗯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Mmm-hmm.
+Dialogue: 0,0:21:03.23,0:21:04.77,Default,,0,0,0,,唉。。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Uh...
+Dialogue: 0,0:21:04.80,0:21:07.34,Default,,0,0,0,,我想我們應該感激它不是紅色的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I guess we should be thankful it's not red.
+Dialogue: 0,0:21:07.37,0:21:09.30,Default,,0,0,0,,現在我們去哪？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}May I ask where we're going?
+Dialogue: 0,0:21:09.34,0:21:12.94,Default,,0,0,0,,我看過人們變老，退休，然後逝去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've seen people get old, retire, and die.
+Dialogue: 0,0:21:12.98,0:21:15.28,Default,,0,0,0,,但都發生在同壹天卻很少\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Rarely on the same day.
+Dialogue: 0,0:21:20.02,0:21:22.75,Default,,0,0,0,,他在桌子上被發現的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He was found at his desk.
+Dialogue: 0,0:21:35.03,0:21:37.07,Default,,0,0,0,,我們在找什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What are we looking for?
+Dialogue: 0,0:21:37.10,0:21:40.64,Default,,0,0,0,,妳怎麽知道附近什麽時候有人施展魔法？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How do you know when there's magic in the vicinity?
+Dialogue: 0,0:21:40.67,0:21:42.94,Default,,0,0,0,,施展女巫的魔法來自四種元素\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A witch's magic comes from four elements,
+Dialogue: 0,0:21:42.97,0:21:44.67,Default,,0,0,0,,火，水，土和空氣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}fire, water, earth and air.
+Dialogue: 0,0:21:44.71,0:21:46.11,Default,,0,0,0,,運用正確的煉金術觸發器\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Applying the correct alchemical triggers
+Dialogue: 0,0:21:46.14,0:21:48.08,Default,,0,0,0,,會暴露曾經施法的痕跡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}will reveal its presence.
+Dialogue: 0,0:22:02.69,0:22:03.99,Default,,0,0,0,,這裏沒有使用魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No magic here.
+Dialogue: 0,0:22:04.03,0:22:06.13,Default,,0,0,0,,只是想確認壹下\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Just wanted to be sure.
+Dialogue: 0,0:22:13.80,0:22:15.07,Default,,0,0,0,,如果窗口是關的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If the window hasn't been opened,
+Dialogue: 0,0:22:15.10,0:22:18.74,Default,,0,0,0,,這些蟲子是怎麽進來的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}how did that get in here?
+Dialogue: 0,0:22:18.78,0:22:20.41,Default,,0,0,0,,壹只的話可以忽略\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}One means nothing.
+Dialogue: 0,0:22:20.44,0:22:23.15,Default,,0,0,0,,兩只的話可以說是巧合\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Two, a coincidence.
+Dialogue: 0,0:22:23.18,0:22:26.62,Default,,0,0,0,,三只就意味著麻煩事了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Three, trouble.
+Dialogue: 0,0:22:45.20,0:22:47.14,Default,,0,0,0,,趴下！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Get down!
+Dialogue: 0,0:22:59.21,0:23:01.15,Default,,0,0,0,,什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What?
+Dialogue: 0,0:23:03.25,0:23:04.75,Default,,0,0,0,,他是被巫師殺死的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He was killed by witches.
+Dialogue: 0,0:23:04.79,0:23:06.22,Default,,0,0,0,,在歷史上十斧會的多蘭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Never in the history of The Axe and Cross
+Dialogue: 0,0:23:06.25,0:23:08.22,Default,,0,0,0,,從來沒有被謀殺過\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}has a Dolan ever been murdered.
+Dialogue: 0,0:23:09.29,0:23:10.93,Default,,0,0,0,,妳想退出嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You wanna quit?
+Dialogue: 0,0:23:10.96,0:23:13.06,Default,,0,0,0,,不想\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No.
+Dialogue: 0,0:23:13.10,0:23:15.46,Default,,0,0,0,,我想加人工\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I want a raise.
+Dialogue: 0,0:23:15.50,0:23:16.80,Default,,0,0,0,,這是在宣戰\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is a declaration of war.
+Dialogue: 0,0:23:16.83,0:23:18.30,Default,,0,0,0,,誰會做這些事？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Who could have done this?
+Dialogue: 0,0:23:18.33,0:23:20.10,Default,,0,0,0,,施展這隱秘的魔法是為了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A concealment spell was placed
+Dialogue: 0,0:23:20.14,0:23:21.87,Default,,0,0,0,,讓所有東西都看起來很自然\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}to make everything look normal.
+Dialogue: 0,0:23:21.90,0:23:23.24,Default,,0,0,0,,他們在找\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They were searching for something,
+Dialogue: 0,0:23:23.27,0:23:25.21,Default,,0,0,0,,壹些不想讓我們知道的東西\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}didn't want us to know.
+Dialogue: 0,0:23:27.21,0:23:29.81,Default,,0,0,0,,元素魔法是中立的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Elemental magic is neutral.
+Dialogue: 0,0:23:30.98,0:23:34.38,Default,,0,0,0,,從根本上既不是善的也不是惡的。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}At its root it's neither good nor evil.
+Dialogue: 0,0:23:36.99,0:23:39.46,Default,,0,0,0,,但是這不同\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But this is different.
+Dialogue: 0,0:23:39.49,0:23:41.76,Default,,0,0,0,,這些是黑魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is dark magic.
+Dialogue: 0,0:23:41.79,0:23:43.99,Default,,0,0,0,,淩駕於魔鬼\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Beyond evil.
+Dialogue: 0,0:23:47.90,0:23:50.23,Default,,0,0,0,,他們把他綁在椅子上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They tied him to the chair.
+Dialogue: 0,0:24:01.44,0:24:04.08,Default,,0,0,0,,“死”\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Death."
+Dialogue: 0,0:24:04.11,0:24:06.75,Default,,0,0,0,,這是咒語的壹部分嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Is that part of the spell?
+Dialogue: 0,0:24:06.78,0:24:10.15,Default,,0,0,0,,妳在他死之前到過這裏，對嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You were here last night before he died, right?
+Dialogue: 0,0:24:10.19,0:24:12.12,Default,,0,0,0,,是啊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yes.
+Dialogue: 0,0:24:15.02,0:24:17.43,Default,,0,0,0,,讓我看看妳的手\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Let me see your hands.
+Dialogue: 0,0:24:19.06,0:24:21.00,Default,,0,0,0,,馬上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now.
+Dialogue: 0,0:24:29.34,0:24:31.44,Default,,0,0,0,,我5歲的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I was five years old
+Dialogue: 0,0:24:31.47,0:24:34.11,Default,,0,0,0,,女巫們把我們的屋子燒了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}when witches set our house on fire.
+Dialogue: 0,0:24:34.14,0:24:35.81,Default,,0,0,0,,我的父母被燒死\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}My parents died.
+Dialogue: 0,0:24:35.85,0:24:36.88,Default,,0,0,0,,但是妳走進大火裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But you walked through the flames,
+Dialogue: 0,0:24:36.91,0:24:38.21,Default,,0,0,0,,用毯子把我卷起來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}wrapped me in a blanket,
+Dialogue: 0,0:24:38.25,0:24:40.52,Default,,0,0,0,,然後從二樓的窗口跳出去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and jumped out the second story window.
+Dialogue: 0,0:24:40.55,0:24:42.48,Default,,0,0,0,,用身體墊著我著地\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Your body broke the fall.
+Dialogue: 0,0:24:43.55,0:24:45.99,Default,,0,0,0,,我已經告訴過妳我們之前見過\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I told you we'd met before.
+Dialogue: 0,0:24:48.06,0:24:49.36,Default,,0,0,0,,如果妳不記得，我從頭細說\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If you don't remember, I can refer you to the entry...
+Dialogue: 0,0:24:49.39,0:24:53.20,Default,,0,0,0,,不用了，我記得\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No. I remember.
+Dialogue: 0,0:24:56.60,0:24:59.30,Default,,0,0,0,,妳追捕那些女巫和給他們應有的懲罰\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You hunted down the witches and brought them to justice.
+Dialogue: 0,0:25:01.27,0:25:04.81,Default,,0,0,0,,我等了壹輩子就是為了得到這個機會去幫助妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've waited my entire life for the opportunity to help you.
+Dialogue: 0,0:25:08.14,0:25:10.08,Default,,0,0,0,,那好，現在機會來了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, now's your chance.
+Dialogue: 0,0:25:11.85,0:25:14.48,Default,,0,0,0,,妳可以幫助我追捕幹這事的女巫了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You can help me hunt the witches that did this.
+Dialogue: 0,0:25:18.39,0:25:21.32,Default,,0,0,0,,我不應該要有壹把槍或者鐵棒之類的東西嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Shouldn't I have a gun or an iron mallet or something?
+Dialogue: 0,0:25:22.89,0:25:25.13,Default,,0,0,0,,深呼吸下，集中精神。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Take a deep breath. Center yourself.
+Dialogue: 0,0:25:25.16,0:25:27.00,Default,,0,0,0,,好，當然如此\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Right. Of course.
+Dialogue: 0,0:25:27.03,0:25:28.83,Default,,0,0,0,,因為抵抗魔法需要清醒的頭腦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Because resisting enchantment requires a clear mind.
+Dialogue: 0,0:25:28.87,0:25:30.87,Default,,0,0,0,,馬克斯是14級的巫師\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now, Max is a 14th level warlock,
+Dialogue: 0,0:25:30.90,0:25:33.20,Default,,0,0,0,,沒有什麽東西是妳可以做的。可以放松壹下。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}there's nothing you can do. May as well relax.
+Dialogue: 0,0:25:37.51,0:25:38.84,Default,,0,0,0,,免費試吃，神父？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Free sample, Father?
+Dialogue: 0,0:25:38.88,0:25:41.28,Default,,0,0,0,,噢，謝謝\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh. Thank you.
+Dialogue: 0,0:25:41.31,0:25:43.24,Default,,0,0,0,,吃之前我都要再三考慮壹下\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'd think twice about that.
+Dialogue: 0,0:25:49.35,0:25:51.09,Default,,0,0,0,,只有1萬塊我不知道能不能做哦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I don't know that I can do $10,000.
+Dialogue: 0,0:25:51.12,0:25:52.42,Default,,0,0,0,,妳知道這個級別的魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know the level of enchantment
+Dialogue: 0,0:25:52.45,0:25:54.06,Default,,0,0,0,,其他人都這個價\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}they are getting from that.
+Dialogue: 0,0:25:54.09,0:25:55.29,Default,,0,0,0,,我們的交易沒問題，對吧？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Business is good, right?
+Dialogue: 0,0:25:55.32,0:25:57.19,Default,,0,0,0,,好吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yeah.
+Dialogue: 0,0:25:57.23,0:25:58.36,Default,,0,0,0,,噢，槽糕\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, crap.
+Dialogue: 0,0:25:58.39,0:26:00.40,Default,,0,0,0,,到點關門了，馬克斯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Shop's closed, Max.
+Dialogue: 0,0:26:13.11,0:26:15.64,Default,,0,0,0,,考爾德，好久不見了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder. It has been too long.
+Dialogue: 0,0:26:15.68,0:26:18.45,Default,,0,0,0,,售賣變思蟲不是違法的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It is not illegal to sell mind-altering bugs.
+Dialogue: 0,0:26:18.48,0:26:20.55,Default,,0,0,0,,當他們用在人類身上，這就是非法的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When they're used on humans, it is.
+Dialogue: 0,0:26:20.58,0:26:21.58,Default,,0,0,0,,他們融入到蛋糕裏面\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They're mixing them in the cupcakes.
+Dialogue: 0,0:26:21.62,0:26:23.65,Default,,0,0,0,,我沒有留意\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I hadn't noticed.
+Dialogue: 0,0:26:23.69,0:26:25.62,Default,,0,0,0,,知道這個嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Notice this?
+Dialogue: 0,0:26:27.66,0:26:31.19,Default,,0,0,0,,格裏芬的天仙子，非常稀罕而且是禁止采摘的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Griffin's Henbane. Very rare and forbidden.
+Dialogue: 0,0:26:31.23,0:26:34.23,Default,,0,0,0,,他們被用在通靈術上，黑魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is used in necromancy. Dark magic.
+Dialogue: 0,0:26:34.26,0:26:37.43,Default,,0,0,0,,妳知道我從來都不做這類壞事\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know I do not deal in these kinds of bad things.
+Dialogue: 0,0:26:37.47,0:26:41.40,Default,,0,0,0,,馬克斯，妳足夠聰明不會走上這條路\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Max, you're too smart to go down that road.
+Dialogue: 0,0:26:41.44,0:26:44.41,Default,,0,0,0,,誰能想象我被騙了多少次\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}One can only imagine how many times I've been lied to.
+Dialogue: 0,0:26:44.44,0:26:45.67,Default,,0,0,0,,超過歷史上的任何人，實際上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}More than anyone in history, actually.
+Dialogue: 0,0:26:45.71,0:26:47.98,Default,,0,0,0,,得了吧，考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Come on, Kaulder.
+Dialogue: 0,0:26:48.01,0:26:50.41,Default,,0,0,0,,妳必須明白，誰用上這種草藥\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You must understand, anyone who would use this herb
+Dialogue: 0,0:26:50.45,0:26:53.45,Default,,0,0,0,,都是不怕妳的。那才是讓我害怕的！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}is not afraid of you. And that scares me!
+Dialogue: 0,0:26:53.48,0:26:56.92,Default,,0,0,0,,比我還讓妳害怕？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}More than I scare you?
+Dialogue: 0,0:26:56.95,0:26:59.02,Default,,0,0,0,,馬克斯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Max.
+Dialogue: 0,0:27:01.29,0:27:04.53,Default,,0,0,0,,來見我的那個人皮膚有壹種氣味\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The man who came to see me has an odor on his skin.
+Dialogue: 0,0:27:04.56,0:27:06.59,Default,,0,0,0,,壹種像大蒜但是不是大蒜的氣味\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A whiff of garlic that was not garlic.
+Dialogue: 0,0:27:06.63,0:27:10.16,Default,,0,0,0,,砒霜。還有麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Arsenic. Anything else?
+Dialogue: 0,0:27:11.20,0:27:13.67,Default,,0,0,0,,還有腐朽怨蘋果。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And moldering crabapples.
+Dialogue: 0,0:27:15.70,0:27:17.41,Default,,0,0,0,,多謝妳，馬克斯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thank you, Max.
+Dialogue: 0,0:27:17.44,0:27:18.64,Default,,0,0,0,,小心點\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Be careful.
+Dialogue: 0,0:27:18.67,0:27:19.68,Default,,0,0,0,,沒有那習慣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not in the habit.
+Dialogue: 0,0:27:19.71,0:27:22.21,Default,,0,0,0,,不是妳。是他。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not you. Him.
+Dialogue: 0,0:27:25.38,0:27:28.98,Default,,0,0,0,,所以這些對妳有什麽啟發嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So, all that made sense to you?
+Dialogue: 0,0:27:29.02,0:27:30.99,Default,,0,0,0,,這對妳沒有什麽啟發麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It didn't to you?
+Dialogue: 0,0:27:31.02,0:27:33.69,Default,,0,0,0,,沒有\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No.
+Dialogue: 0,0:27:33.72,0:27:37.16,Default,,0,0,0,,砒霜在內戰裏是用來防腐的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Arsenic was used for embalming back in the Civil War.
+Dialogue: 0,0:27:37.19,0:27:39.36,Default,,0,0,0,,殺了多蘭的人曾經\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Whoever killed Dolan
+Dialogue: 0,0:27:39.40,0:27:42.43,Default,,0,0,0,,住在以前是葬禮堂的地方\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}is likely living in what was once a funeral parlor.
+Dialogue: 0,0:27:43.53,0:27:46.34,Default,,0,0,0,,我們只需要找到有腐朽蘋果樹的地方就可以了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We just have to find one with a crabapple tree.
+Dialogue: 0,0:27:49.00,0:27:50.97,Default,,0,0,0,,這是幹嘛的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What's that for?
+Dialogue: 0,0:27:51.01,0:27:53.31,Default,,0,0,0,,乘車用的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A cab.
+Dialogue: 0,0:27:53.34,0:27:55.71,Default,,0,0,0,,妳不勝任接下來發生的事情\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're not qualified for what happens next.
+Dialogue: 0,0:27:55.74,0:27:57.21,Default,,0,0,0,,噢\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh.
+Dialogue: 0,0:27:57.25,0:28:00.35,Default,,0,0,0,,好的。我會開收據的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Right. I'll get a receipt.
+Dialogue: 0,0:28:36.65,0:28:39.32,Default,,0,0,0,,哇嗷\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Whoa.
+Dialogue: 0,0:28:59.74,0:29:01.64,Default,,0,0,0,,妳媽媽沒有教妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Didn't your mother ever teach you
+Dialogue: 0,0:29:01.68,0:29:03.61,Default,,0,0,0,,不要吃樹上的糖果麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}not to eat candy from trees?
+Dialogue: 0,0:29:11.29,0:29:13.22,Default,,0,0,0,,回家吧，孩子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Go home, kid.
+Dialogue: 0,0:30:00.54,0:30:03.41,Default,,0,0,0,,走開\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Go away.
+Dialogue: 0,0:30:03.44,0:30:04.67,Default,,0,0,0,,沒事的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's okay.
+Dialogue: 0,0:30:04.71,0:30:06.64,Default,,0,0,0,,走開\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Get away from me. - Shh.
+Dialogue: 0,0:30:08.44,0:30:09.64,Default,,0,0,0,,沒事的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's okay.
+Dialogue: 0,0:30:09.68,0:30:11.48,Default,,0,0,0,,快給我走開\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Get away from me now.
+Dialogue: 0,0:30:11.51,0:30:13.78,Default,,0,0,0,,我不會傷害妳的。走開！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- I'm not gonna hurt you. - Go away!
+Dialogue: 0,0:30:15.42,0:30:17.35,Default,,0,0,0,,沒事的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's okay.
+Dialogue: 0,0:30:23.76,0:30:25.69,Default,,0,0,0,,啊...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah...
+Dialogue: 0,0:30:27.90,0:30:29.83,Default,,0,0,0,,噢，我靠\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, shit.
+Dialogue: 0,0:30:40.28,0:30:42.38,Default,,0,0,0,,是妳殺了多蘭。為什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You killed Dolan. Why?
+Dialogue: 0,0:30:42.41,0:30:44.41,Default,,0,0,0,,誰是那該死的多蘭？啊？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Who the bloody hell's Dolan? Huh?
+Dialogue: 0,0:30:44.45,0:30:45.71,Default,,0,0,0,,我這輩子從來沒見過他！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I never met the man in my life!
+Dialogue: 0,0:30:51.55,0:30:54.26,Default,,0,0,0,,妳喜歡我的新筆嗎？啊？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Do you like my new pen? Huh?
+Dialogue: 0,0:31:14.81,0:31:16.51,Default,,0,0,0,,當我想像在委員會面前\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When I imagined my first prosecution
+Dialogue: 0,0:31:16.55,0:31:17.71,Default,,0,0,0,,第壹次起訴\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}in front of the Council,
+Dialogue: 0,0:31:17.75,0:31:18.91,Default,,0,0,0,,我是從來沒想過\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I never thought it would be
+Dialogue: 0,0:31:18.95,0:31:20.95,Default,,0,0,0,,是壹起針對我們的案件\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}for a crime against one of our own.
+Dialogue: 0,0:31:22.38,0:31:23.38,Default,,0,0,0,,艾裏克·雷曼斯奈\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ellic Lemasniel.
+Dialogue: 0,0:31:23.42,0:31:25.55,Default,,0,0,0,,妳好，神父。喔！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hello, Father. Whoo!
+Dialogue: 0,0:31:25.59,0:31:27.29,Default,,0,0,0,,妳看起來很好人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You look like a good man,
+Dialogue: 0,0:31:27.32,0:31:30.19,Default,,0,0,0,,很好吃的樣子，妳，我從來沒。。。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}tasty little thing, you. I never went...
+Dialogue: 0,0:31:31.46,0:31:33.59,Default,,0,0,0,,請不要小看我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Please don't think less of me.
+Dialogue: 0,0:31:39.34,0:31:41.44,Default,,0,0,0,,我遲點會認錯的了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'll confess it later.
+Dialogue: 0,0:32:00.49,0:32:02.46,Default,,0,0,0,,巫師委員會會接收妳的了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Witch Council receives you,
+Dialogue: 0,0:32:02.49,0:32:05.29,Default,,0,0,0,,十斧會第37任多蘭使者。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}37th Dolan of The Axe and Cross.
+Dialogue: 0,0:32:05.33,0:32:07.73,Default,,0,0,0,,和平永存\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The peace endures.
+Dialogue: 0,0:32:08.86,0:32:10.90,Default,,0,0,0,,和平永存\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The peace endures.
+Dialogue: 0,0:32:12.03,0:32:14.00,Default,,0,0,0,,我現在把殺害第36任多蘭使者的被告\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I present the accused,
+Dialogue: 0,0:32:14.04,0:32:15.87,Default,,0,0,0,,艾裏克·雷曼斯奈\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ellic Lemasniel, for judgment,
+Dialogue: 0,0:32:15.90,0:32:19.01,Default,,0,0,0,,帶給妳們審判\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}for the murder of Dolan the 36th.
+Dialogue: 0,0:32:19.04,0:32:21.58,Default,,0,0,0,,我現在呈上在被告住所找到的證物\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I present the evidence found in the accused's dwelling.
+Dialogue: 0,0:32:21.61,0:32:24.75,Default,,0,0,0,,找到的？噢，拜托\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Found? Oh, come on.
+Dialogue: 0,0:32:25.91,0:32:29.02,Default,,0,0,0,,什麽？妳們看起來就像80年代那群糟糕的樂隊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What? You look like a terrible band from the '80s.
+Dialogue: 0,0:32:30.89,0:32:33.55,Default,,0,0,0,,看看妳那頭發！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Look at your hair!
+Dialogue: 0,0:32:33.59,0:32:34.99,Default,,0,0,0,,他會得到應有的罪名的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He will be judged.
+Dialogue: 0,0:32:35.02,0:32:36.76,Default,,0,0,0,,等等等等......\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Blah, blah, blah.
+Dialogue: 0,0:32:37.89,0:32:39.53,Default,,0,0,0,,妳知道我的曾祖父的曾祖父\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know my great-grandfather's
+Dialogue: 0,0:32:39.56,0:32:41.30,Default,,0,0,0,,曾經伺候過女王嗎，啊？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}grandfather served The Queen, huh?
+Dialogue: 0,0:32:41.33,0:32:42.80,Default,,0,0,0,,女王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Queen.
+Dialogue: 0,0:32:42.83,0:32:44.47,Default,,0,0,0,,妳們都是官僚主義的酒囊飯袋\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're a bureaucracy o' cowards
+Dialogue: 0,0:32:44.50,0:32:45.50,Default,,0,0,0,,我不會承認\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and I don't recognize the authority
+Dialogue: 0,0:32:45.53,0:32:47.00,Default,,0,0,0,,在這個委員會上的權威\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}here in this council.
+Dialogue: 0,0:32:47.04,0:32:49.40,Default,,0,0,0,,我也不會遵守妳們的法律\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Nor do I abide by your law.
+Dialogue: 0,0:32:49.44,0:32:53.74,Default,,0,0,0,,法律服務來控制和維持魔法的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The laws serve to control and contain magic.
+Dialogue: 0,0:32:53.78,0:32:56.81,Default,,0,0,0,,只有通過這個委員會的運作\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It is only by the operations of this council
+Dialogue: 0,0:32:56.85,0:32:58.85,Default,,0,0,0,,另壹個戰爭才不會發生\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}that another war does not begin.
+Dialogue: 0,0:32:58.88,0:33:00.81,Default,,0,0,0,,我沒撒謊！我為我所做的感到自豪\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I won't lie! I'm proud of what I done!
+Dialogue: 0,0:33:00.85,0:33:03.05,Default,,0,0,0,,我殺害了妳們的牧師\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I murdered your priest!
+Dialogue: 0,0:33:03.09,0:33:06.85,Default,,0,0,0,,我滴水滴幹他，他就像壹只蠢豬\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I drip-dried him like he was a stuck pig!
+Dialogue: 0,0:33:06.89,0:33:07.92,Default,,0,0,0,,我們的牧師，和我的朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Our priest, and my friend.
+Dialogue: 0,0:33:07.96,0:33:10.39,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,0:33:10.43,0:33:12.43,Default,,0,0,0,,哦，糟糕，又是這家夥\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, shit. This guy again.
+Dialogue: 0,0:33:12.46,0:33:16.43,Default,,0,0,0,,所以我們沒有審訊也要審判他？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So we're to judge him without interrogation?
+Dialogue: 0,0:33:16.46,0:33:18.67,Default,,0,0,0,,有人問過他，他給誰工作嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Has anyone asked him who he was workin' with?
+Dialogue: 0,0:33:22.37,0:33:25.07,Default,,0,0,0,,沒有三個五芒星卡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There's no Three of Pentacles card.
+Dialogue: 0,0:33:25.11,0:33:26.31,Default,,0,0,0,,那就意味著他獨自工作\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That means he worked alone.
+Dialogue: 0,0:33:26.34,0:33:28.48,Default,,0,0,0,,這些卡都是錯的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The cards are wrong.
+Dialogue: 0,0:33:28.51,0:33:30.95,Default,,0,0,0,,他施了壹個形狀轉換的咒語\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He cast a shape-shifting spell.
+Dialogue: 0,0:33:32.98,0:33:35.82,Default,,0,0,0,,800年來我都我沒見過那玩意兒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I haven't seen that crafted in 800 years.
+Dialogue: 0,0:33:35.85,0:33:37.92,Default,,0,0,0,,自從女巫王的時代之後\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not since the time of the Witch Queen.
+Dialogue: 0,0:33:37.95,0:33:39.99,Default,,0,0,0,,哈！女巫王死了很久了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ha! The Witch Queen is long dead.
+Dialogue: 0,0:33:40.02,0:33:42.66,Default,,0,0,0,,她的魔法是不可能重現的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That her magic could return is impossible.
+Dialogue: 0,0:33:42.69,0:33:44.02,Default,,0,0,0,,- 不可能嗎? - 是的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Is it impossible? - It is.
+Dialogue: 0,0:33:44.06,0:33:45.69,Default,,0,0,0,,- 妳擁有權威... - 已經足夠了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- You have the authority... - Enough!
+Dialogue: 0,0:33:45.73,0:33:46.96,Default,,0,0,0,,把這個城市顛倒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To Turn this city inside out.
+Dialogue: 0,0:33:46.99,0:33:48.06,Default,,0,0,0,,對於非法制造罪\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}For the crimes of illegal crafting...
+Dialogue: 0,0:33:48.10,0:33:49.06,Default,,0,0,0,,找出他是和誰壹起工作\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Find who he's working with.
+Dialogue: 0,0:33:49.10,0:33:50.86,Default,,0,0,0,,和人間的祭祀\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And human sacrifice...
+Dialogue: 0,0:33:50.90,0:33:51.87,Default,,0,0,0,,- 我為我所做的感到自豪 - 我們宣判\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- And I'm proud o' what I done. - We sentence...
+Dialogue: 0,0:33:51.90,0:33:52.97,Default,,0,0,0,,艾裏克·雷曼斯奈\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ellic Lemasniel...
+Dialogue: 0,0:33:53.00,0:33:54.57,Default,,0,0,0,,我為我所做的感到驕傲\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm proud o' what I done.
+Dialogue: 0,0:33:54.60,0:33:56.50,Default,,0,0,0,,- 監禁 - 我立場堅定\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- To incarceration... - I took a stand!
+Dialogue: 0,0:33:56.54,0:33:57.77,Default,,0,0,0,,在這房間基石的下方\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}In the bedrock beneath this chamber.
+Dialogue: 0,0:33:57.81,0:33:59.54,Default,,0,0,0,,妳是悲哀的...的反映\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are sad reflections of...
+Dialogue: 0,0:33:59.58,0:34:01.11,Default,,0,0,0,,蘇醒吧，哨兵\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Arise, Sentinel,
+Dialogue: 0,0:34:01.14,0:34:04.61,Default,,0,0,0,,把犯人帶進監獄\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and carry the condemned to prison.
+Dialogue: 0,0:34:15.39,0:34:17.86,Default,,0,0,0,,妳將永遠不見天日\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You'll never see daylight again.
+Dialogue: 0,0:34:21.83,0:34:25.40,Default,,0,0,0,,不不！妳現在可能會抓了我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, no! You may hold me now,
+Dialogue: 0,0:34:25.43,0:34:28.34,Default,,0,0,0,,但是妳們將永遠不會把我們全部抓住\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but you'll never have us all!
+Dialogue: 0,0:34:40.88,0:34:42.82,Default,,0,0,0,,那是什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is that?
+Dialogue: 0,0:34:49.06,0:34:50.76,Default,,0,0,0,,嘿  孩子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey, kid.
+Dialogue: 0,0:34:50.79,0:34:52.76,Default,,0,0,0,,妳在幹什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What are you doing?
+Dialogue: 0,0:35:03.11,0:35:05.44,Default,,0,0,0,,妳好，神父\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hello, Father.
+Dialogue: 0,0:35:14.85,0:35:15.98,Default,,0,0,0,,仍然跟我們在壹起，老朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Still with us, old friend.
+Dialogue: 0,0:35:16.02,0:35:17.49,Default,,0,0,0,,他還活著嗎\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He's alive?
+Dialogue: 0,0:35:17.52,0:35:19.49,Default,,0,0,0,,僅僅活著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Barely.
+Dialogue: 0,0:35:19.52,0:35:21.02,Default,,0,0,0,,他被詛咒了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He's been cursed.
+Dialogue: 0,0:35:21.06,0:35:23.16,Default,,0,0,0,,怎麽的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How?
+Dialogue: 0,0:35:23.19,0:35:24.53,Default,,0,0,0,,蒼蠅座 馬裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Musca Mali.
+Dialogue: 0,0:35:24.56,0:35:25.83,Default,,0,0,0,,瘟疫橫飛\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Plague fly.
+Dialogue: 0,0:35:25.86,0:35:28.10,Default,,0,0,0,,十三世紀的黑魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}13th-century black magic.
+Dialogue: 0,0:35:28.13,0:35:29.86,Default,,0,0,0,,它們是在女巫王的時候的樹上被創造出的，對嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They were created in the tree of the Queen, correct?
+Dialogue: 0,0:35:29.90,0:35:32.10,Default,,0,0,0,,是的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's right.
+Dialogue: 0,0:35:32.13,0:35:34.17,Default,,0,0,0,,為什麽他們沒有殺了他？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Why didn't they just murder him?
+Dialogue: 0,0:35:34.20,0:35:36.47,Default,,0,0,0,,他們想審判他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They wanted to interrogate him.
+Dialogue: 0,0:35:36.51,0:35:38.54,Default,,0,0,0,,當瘟疫駐紮在妳身體裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When a Plague fly burrows inside of you,
+Dialogue: 0,0:35:38.57,0:35:40.51,Default,,0,0,0,,就會破壞妳的意識\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}it breaks your will.
+Dialogue: 0,0:35:40.54,0:35:42.21,Default,,0,0,0,,無論兇手想知道什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Whatever the killers wanted to know,
+Dialogue: 0,0:35:42.24,0:35:45.05,Default,,0,0,0,,他都會告訴他們\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}he would have told them.
+Dialogue: 0,0:35:49.25,0:35:52.89,Default,,0,0,0,,但問題依然存在，他們想知道什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But the question remains, what did they want to know?
+Dialogue: 0,0:35:52.92,0:35:54.62,Default,,0,0,0,,他沒有蘇醒起來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He isn't getting up.
+Dialogue: 0,0:35:54.66,0:35:56.46,Default,,0,0,0,,除非我們能打破詛咒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not unless we could break the curse.
+Dialogue: 0,0:35:56.49,0:35:57.66,Default,,0,0,0,,打破詛咒的唯壹方法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And the only way to do that
+Dialogue: 0,0:35:57.69,0:35:59.19,Default,,0,0,0,,就是殺了施法的女巫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}is to kill the witch who cast it.
+Dialogue: 0,0:35:59.23,0:36:01.16,Default,,0,0,0,,讓艾裏克為他賣命的那個\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The one Ellic works for.
+Dialogue: 0,0:36:02.53,0:36:05.73,Default,,0,0,0,,他頂多還有兩天\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Dolan's got two days, tops.
+Dialogue: 0,0:36:05.77,0:36:07.97,Default,,0,0,0,,為了我，堅持住\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hang in there, for me.
+Dialogue: 0,0:36:24.15,0:36:26.09,Default,,0,0,0,,死亡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Death."
+Dialogue: 0,0:36:26.12,0:36:28.89,Default,,0,0,0,,這是多蘭留下的信息,而不是殺手的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's a message from Dolan, not the killer.
+Dialogue: 0,0:36:34.10,0:36:35.57,Default,,0,0,0,,回想起妳的死亡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Remember your death."
+Dialogue: 0,0:36:35.60,0:36:37.60,Default,,0,0,0,,什麽意思\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What does it mean?
+Dialogue: 0,0:36:39.64,0:36:42.64,Default,,0,0,0,,只有壹個方式回想起我的死亡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There's only one way to remember my death...
+Dialogue: 0,0:36:42.67,0:36:44.57,Default,,0,0,0,,魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Magic.
+Dialogue: 0,0:36:48.68,0:36:50.61,Default,,0,0,0,,嘿，克洛伊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey, Chloe.
+Dialogue: 0,0:36:52.58,0:36:54.52,Default,,0,0,0,,我這裏還有壹杯酒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I have one more drink here.
+Dialogue: 0,0:36:56.12,0:36:58.62,Default,,0,0,0,,- 大家還好嗎 -是的 ,我們都很好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Are you guys okay? - Yeah, we're good.
+Dialogue: 0,0:36:58.66,0:37:00.22,Default,,0,0,0,,我們會有壹個很美好的晚上對吧，先生們？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Are we having a good night, gentlemen?
+Dialogue: 0,0:37:00.26,0:37:02.03,Default,,0,0,0,,我們來談談戀愛吧，寶貝\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Do a love shot with me, baby.
+Dialogue: 0,0:37:02.06,0:37:04.70,Default,,0,0,0,,噢，不，我今晚不想談戀愛\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, no. I'm not looking for love tonight.
+Dialogue: 0,0:37:08.03,0:37:09.90,Default,,0,0,0,,- 大家都還好嗎 -是的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- You guys okay? - Yep.
+Dialogue: 0,0:37:09.93,0:37:11.87,Default,,0,0,0,,- 還想再要壹個嗎 - 好的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Want another one? - All right.
+Dialogue: 0,0:37:33.16,0:37:35.82,Default,,0,0,0,,哦，不，拜托！不，也不是妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, no, come on! No, not you, too.
+Dialogue: 0,0:37:35.86,0:37:37.66,Default,,0,0,0,,我聽說妳也不知道會發生什麽事。好嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I heard that you can't tell before it happens. Okay?
+Dialogue: 0,0:37:37.70,0:37:38.83,Default,,0,0,0,,他只是冰冷的站在那，然後...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He's just standing there all chilly calm, and then...
+Dialogue: 0,0:37:38.86,0:37:40.20,Default,,0,0,0,,砰！他砍下妳的頭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Wham! He cuts your head off
+Dialogue: 0,0:37:40.23,0:37:41.86,Default,,0,0,0,,把它掛在他的腰帶上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and puts it in a sack on his belt.
+Dialogue: 0,0:37:41.90,0:37:42.87,Default,,0,0,0,,拜托！這只是壹個保姆告訴孩子們的故事\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}C'mon! That's just a story nannies tell children
+Dialogue: 0,0:37:42.90,0:37:44.13,Default,,0,0,0,,讓他們聽話而已\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}so they behave.
+Dialogue: 0,0:37:44.17,0:37:47.67,Default,,0,0,0,,克洛伊,妳得離開了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe, you need to leave.
+Dialogue: 0,0:37:47.70,0:37:50.77,Default,,0,0,0,,米蘭達  米蘭達\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Miranda. Miranda!
+Dialogue: 0,0:37:57.05,0:38:00.22,Default,,0,0,0,,我們遵守法律，這裏沒有人類\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We're up to code. There are no humans here.
+Dialogue: 0,0:38:00.25,0:38:02.28,Default,,0,0,0,,好地方\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Beautiful place.
+Dialogue: 0,0:38:02.32,0:38:04.15,Default,,0,0,0,,謝謝妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thank you.
+Dialogue: 0,0:38:04.19,0:38:06.79,Default,,0,0,0,,妳要多少錢\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How much do you charge?
+Dialogue: 0,0:38:06.82,0:38:08.32,Default,,0,0,0,,唉，那得看妳買什麽了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, that depends on what you're buying.
+Dialogue: 0,0:38:08.36,0:38:11.09,Default,,0,0,0,,壹個回憶\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A memory.
+Dialogue: 0,0:38:11.13,0:38:13.13,Default,,0,0,0,,500美金\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Five hundred dollars.
+Dialogue: 0,0:38:15.00,0:38:16.93,Default,,0,0,0,,成交\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Deal.
+Dialogue: 0,0:38:16.97,0:38:20.17,Default,,0,0,0,,我剛剛說的是“百”嗎 ？我...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Did I just say "Hundred"? I...
+Dialogue: 0,0:38:20.20,0:38:23.07,Default,,0,0,0,,不, 妳知道嗎? 我真實的意思是“五千”。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, you know what? I actually meant "Five thousand."
+Dialogue: 0,0:38:23.11,0:38:24.34,Default,,0,0,0,,5000元,這就是妳的意思對吧？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Five thousand, is that what you meant?
+Dialogue: 0,0:38:24.38,0:38:26.21,Default,,0,0,0,,對，就是五千\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I did. I meant "Five thousand."
+Dialogue: 0,0:38:26.24,0:38:28.18,Default,,0,0,0,,成交\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sold.
+Dialogue: 0,0:38:28.21,0:38:30.15,Default,,0,0,0,,5萬塊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Fifty thousand.
+Dialogue: 0,0:38:31.85,0:38:33.85,Default,,0,0,0,,我們可以開始了麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Shall we start?
+Dialogue: 0,0:38:33.88,0:38:35.19,Default,,0,0,0,,不行，妳知道麽？不行。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No. You know what? No.
+Dialogue: 0,0:38:35.22,0:38:38.05,Default,,0,0,0,,我改主意了。我們...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I changed my mind. We're cl...
+Dialogue: 0,0:38:42.13,0:38:44.26,Default,,0,0,0,,恐懼藥劑\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Fear potion.
+Dialogue: 0,0:38:46.36,0:38:49.33,Default,,0,0,0,,在這個世界上還有什麽是妳害怕的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now, what in the world would you be afraid of?
+Dialogue: 0,0:38:49.37,0:38:51.73,Default,,0,0,0,,公眾演講\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Public speaking.
+Dialogue: 0,0:38:51.77,0:38:52.87,Default,,0,0,0,,妳知道我害怕什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know what I'm afraid of?
+Dialogue: 0,0:38:52.90,0:38:54.37,Default,,0,0,0,,說吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Enlighten me.
+Dialogue: 0,0:38:54.41,0:38:57.17,Default,,0,0,0,,我什麽都不怕。這很無聊，真的。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Nothing. It's boring, really.
+Dialogue: 0,0:38:58.38,0:39:02.31,Default,,0,0,0,,妳看，我知道妳們有法律\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}See now, I know that you have a code.
+Dialogue: 0,0:39:02.35,0:39:05.38,Default,,0,0,0,,我還知道我並沒有做錯什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And I also know that I haven't done anything wrong,
+Dialogue: 0,0:39:06.72,0:39:12.05,Default,,0,0,0,,所以除非妳拿把槍指在我的頭上，不然就滾出去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}so unless you're gonna put a gun to my head, get out.
+Dialogue: 0,0:39:12.09,0:39:15.96,Default,,0,0,0,,妳說的沒錯。我是有法律\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know, you're right. I do have a code.
+Dialogue: 0,0:39:15.99,0:39:20.20,Default,,0,0,0,,但我並不會離開\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But I'm also not leaving.
+Dialogue: 0,0:39:22.17,0:39:24.80,Default,,0,0,0,,不管怎麽說，妳究竟要回憶劑幹什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What do you want a memory potion for, anyway?
+Dialogue: 0,0:39:24.84,0:39:26.97,Default,,0,0,0,,妳是正在狩獵女巫嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Are you hunting a witch?
+Dialogue: 0,0:39:27.00,0:39:29.24,Default,,0,0,0,,去救壹個老朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To help an old friend.
+Dialogue: 0,0:39:42.42,0:39:44.89,Default,,0,0,0,,給妳壹句忠告\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But a word of warning to you.
+Dialogue: 0,0:39:44.92,0:39:45.99,Default,,0,0,0,,如果妳在妳的記憶中受傷\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If you get injured in your memory,
+Dialogue: 0,0:39:46.02,0:39:48.22,Default,,0,0,0,,妳也會在現實中受到同樣的傷害\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you get injured out here.
+Dialogue: 0,0:39:48.26,0:39:50.09,Default,,0,0,0,,這意味著如果妳在記憶中死去的話\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Which means to say that if you die in there,
+Dialogue: 0,0:39:50.13,0:39:51.09,Default,,0,0,0,,妳真的會死...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you will also die...
+Dialogue: 0,0:39:51.13,0:39:53.70,Default,,0,0,0,,我在哪都不會死\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I can't die anywhere.
+Dialogue: 0,0:39:53.73,0:39:55.97,Default,,0,0,0,,為了我的安全我必須跟妳說清楚\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I have to make a disclaimer for my insurance.
+Dialogue: 0,0:40:02.31,0:40:04.24,Default,,0,0,0,,開啟按鈕啦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Bottoms up.
+Dialogue: 0,0:40:31.10,0:40:33.24,Default,,0,0,0,,說“女巫獵人”\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Say "Witch hunter."
+Dialogue: 0,0:40:33.27,0:40:35.20,Default,,0,0,0,,女巫獵人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Witch hunter.
+Dialogue: 0,0:40:40.11,0:40:42.08,Default,,0,0,0,,要乖乖的哦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Be nice.
+Dialogue: 0,0:42:41.30,0:42:43.33,Default,,0,0,0,,回憶起妳的死\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Remember your death."
+Dialogue: 0,0:42:43.37,0:42:46.44,Default,,0,0,0,,妳究竟想讓我看到什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What did you want me to see?
+Dialogue: 0,0:42:46.47,0:42:49.37,Default,,0,0,0,,考爾德！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder!
+Dialogue: 0,0:42:49.41,0:42:51.54,Default,,0,0,0,,考爾德。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,0:42:54.31,0:42:56.98,Default,,0,0,0,,考爾德，醒醒。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, wake up.
+Dialogue: 0,0:43:10.29,0:43:12.93,Default,,0,0,0,,妳好，女巫獵人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, hello, witch hunter.
+Dialogue: 0,0:43:16.23,0:43:19.30,Default,,0,0,0,,我曾經有壹次在回憶魔法中被叫醒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I was yanked out of a memory spell once.
+Dialogue: 0,0:43:19.33,0:43:21.77,Default,,0,0,0,,幾個小時之內我分不清東南西北\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}My mind was scrambled eggs for hours.
+Dialogue: 0,0:43:25.37,0:43:27.98,Default,,0,0,0,,要知道，人們就不應該亂翻他們的記憶\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know, people shouldn't root around in their past.
+Dialogue: 0,0:43:28.01,0:43:30.71,Default,,0,0,0,,壹些東西最好被遺忘掉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Some things are best left forgotten.
+Dialogue: 0,0:43:52.20,0:43:54.14,Default,,0,0,0,,唉...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah...
+Dialogue: 0,0:44:25.17,0:44:26.77,Default,,0,0,0,,妳詛咒了我的朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You cursed my friend.
+Dialogue: 0,0:44:30.17,0:44:32.17,Default,,0,0,0,,妳的朋友\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Your friend,
+Dialogue: 0,0:44:32.21,0:44:35.24,Default,,0,0,0,,他比大多數人只多堅持5分鐘\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}he lasted about five minutes longer than most.
+Dialogue: 0,0:44:45.22,0:44:47.26,Default,,0,0,0,,在酒吧打架的時候別拿太多的武器\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Doesn't take much balls to get in a bar fight
+Dialogue: 0,0:44:47.29,0:44:49.22,Default,,0,0,0,,妳不會受傷\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}when you can't get hurt.
+Dialogue: 0,0:44:54.96,0:44:56.26,Default,,0,0,0,,不幸的是，妳的意誌\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Too bad your mind isn't as tough
+Dialogue: 0,0:44:56.30,0:44:58.23,Default,,0,0,0,,並沒有妳其他部分強壯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}as the rest of you.
+Dialogue: 0,0:44:59.30,0:45:00.94,Default,,0,0,0,,不要再去酒吧了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No more bar.
+Dialogue: 0,0:45:00.97,0:45:03.51,Default,,0,0,0,,別再使用記憶藥劑了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No more memory potions for you.
+Dialogue: 0,0:45:51.35,0:45:53.29,Default,,0,0,0,,把它吸進去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Breathe.
+Dialogue: 0,0:45:54.39,0:45:55.42,Default,,0,0,0,,把它吸進去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Breathe.
+Dialogue: 0,0:46:16.65,0:46:20.15,Default,,0,0,0,,800年之後，妳將要死了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}After 800 years, you've run out of time.
+Dialogue: 0,0:46:20.18,0:46:23.02,Default,,0,0,0,,死亡已經來臨，巫師獵人！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Death is coming, witch hunter!
+Dialogue: 0,0:46:38.70,0:46:41.00,Default,,0,0,0,,妳就是他們說的怪物\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are the monster they say you are.
+Dialogue: 0,0:46:42.24,0:46:44.87,Default,,0,0,0,,見鬼！這是我的全部！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Damn you! This place was all I had!
+Dialogue: 0,0:49:11.42,0:49:12.55,Default,,0,0,0,,克洛伊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe!
+Dialogue: 0,0:49:12.59,0:49:14.52,Default,,0,0,0,,抓住我的手！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Grab my hand!
+Dialogue: 0,0:49:33.31,0:49:35.31,Default,,0,0,0,,好美的景色\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Nice view.
+Dialogue: 0,0:49:52.26,0:49:55.26,Default,,0,0,0,,堅持住，孩子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Just hold on, kid.
+Dialogue: 0,0:49:55.30,0:49:58.50,Default,,0,0,0,,我保證我會找到誰對妳做了這些還會打破詛咒。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I promise I'll find who did this and break the curse.
+Dialogue: 0,0:49:58.53,0:50:00.17,Default,,0,0,0,,考爾德！過來看壹下！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder! Come see this!
+Dialogue: 0,0:50:00.20,0:50:02.74,Default,,0,0,0,,我已經黑入了FBI網上數據庫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've got the FBI database online.
+Dialogue: 0,0:50:10.21,0:50:11.25,Default,,0,0,0,,停下，上壹條\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stop, go back one.
+Dialogue: 0,0:50:11.28,0:50:12.28,Default,,0,0,0,,繼續\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Continuing.
+Dialogue: 0,0:50:12.31,0:50:14.22,Default,,0,0,0,,不，不是他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, not him.
+Dialogue: 0,0:50:14.25,0:50:15.35,Default,,0,0,0,,停\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stop.
+Dialogue: 0,0:50:15.38,0:50:17.69,Default,,0,0,0,,是他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's him.
+Dialogue: 0,0:50:17.72,0:50:20.55,Default,,0,0,0,,但是為什麽他不想我去回憶我的死亡呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But why doesn't he want me to remember my death?
+Dialogue: 0,0:50:20.59,0:50:23.12,Default,,0,0,0,,伯恩·巴爾塔薩·凱托拉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Born Baltasar Ketola.
+Dialogue: 0,0:50:23.16,0:50:24.73,Default,,0,0,0,,現用名是彼列，芬蘭國籍。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Goes by Belial. Finnish national.
+Dialogue: 0,0:50:24.76,0:50:27.56,Default,,0,0,0,,艾裏克就是為他工作的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He's the one Ellic was working for.
+Dialogue: 0,0:50:27.60,0:50:30.66,Default,,0,0,0,,他就是那個詛咒多蘭的人？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The one who cursed Dolan?
+Dialogue: 0,0:50:30.70,0:50:32.17,Default,,0,0,0,,每壹代人都會被賜予\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Every generation has to be given
+Dialogue: 0,0:50:32.20,0:50:34.37,Default,,0,0,0,,毀滅世界的機會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}their chance to destroy the world.
+Dialogue: 0,0:50:34.40,0:50:36.91,Default,,0,0,0,,但是大部分人不會像他壹樣，妳知道\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yet most of us aren't like him, you know.
+Dialogue: 0,0:50:36.94,0:50:39.77,Default,,0,0,0,,我們和妳壹樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We're the same as you.
+Dialogue: 0,0:50:39.81,0:50:43.14,Default,,0,0,0,,妳可能看起來像我們，但是妳並不是\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You may look like us, but you're not.
+Dialogue: 0,0:50:43.18,0:50:45.45,Default,,0,0,0,,妳的血液蘊含著魔法的力量\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You've got magic in your blood.
+Dialogue: 0,0:50:45.48,0:50:47.78,Default,,0,0,0,,能做非常壞的事的魔法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Magic that can do very bad things.
+Dialogue: 0,0:50:47.82,0:50:49.45,Default,,0,0,0,,我們在妳的酒吧被打斷了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We were interrupted back in your bar.
+Dialogue: 0,0:50:49.48,0:50:51.25,Default,,0,0,0,,- 對沒錯。 - 我必須要在嘗試壹次。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Oh, yes. - I have to try again.
+Dialogue: 0,0:50:51.29,0:50:53.52,Default,,0,0,0,,對了，我的酒吧！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yes, my bar!
+Dialogue: 0,0:50:53.56,0:50:57.26,Default,,0,0,0,,我所在乎的所有東西都被燒成了灰燼\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Where everything I cared about burnt to the ground.
+Dialogue: 0,0:50:57.29,0:50:59.59,Default,,0,0,0,,但是我並沒有責怪妳毀滅了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But I'm not blaming you for destroying
+Dialogue: 0,0:50:59.63,0:51:01.76,Default,,0,0,0,,我的生活或什麽東西\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}my life or anything.
+Dialogue: 0,0:51:01.80,0:51:04.73,Default,,0,0,0,,我僅僅是在看著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm just making an observation.
+Dialogue: 0,0:51:04.77,0:51:09.27,Default,,0,0,0,,看著妳毀掉我的生活\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}An observation on how you destroyed my life.
+Dialogue: 0,0:51:10.47,0:51:11.84,Default,,0,0,0,,我要走了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm leaving.
+Dialogue: 0,0:51:11.87,0:51:15.48,Default,,0,0,0,,聽著，我就像妳壹樣不喜歡那樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Look, I don't like it any more than you do,
+Dialogue: 0,0:51:15.51,0:51:19.55,Default,,0,0,0,,但是如果妳能幫助我，我保證我會保證妳安全\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but if you help me, I promise to keep you safe.
+Dialogue: 0,0:51:24.49,0:51:25.85,Default,,0,0,0,,我需要更多的斯諾登尼亞水\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'll need more Snowdonia hawkweed
+Dialogue: 0,0:51:25.89,0:51:27.96,Default,,0,0,0,,來制作另壹個記憶藥劑\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}to mix another memory potion.
+Dialogue: 0,0:51:27.99,0:51:29.42,Default,,0,0,0,,米蘭達，那個為我工作的女孩\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Miranda, the girl who works for me,
+Dialogue: 0,0:51:29.46,0:51:30.66,Default,,0,0,0,,有壹個非常好的儲藏室\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}has a pretty good stash.
+Dialogue: 0,0:51:30.69,0:51:31.73,Default,,0,0,0,,唉，我發個信息給他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Um, I'll text her.
+Dialogue: 0,0:51:31.76,0:51:33.70,Default,,0,0,0,,謝謝\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thank you.
+Dialogue: 0,0:51:35.43,0:51:38.23,Default,,0,0,0,,彼列的夾克上有紅色的土壤\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Belial had red soil on his jacket.
+Dialogue: 0,0:51:38.27,0:51:39.60,Default,,0,0,0,,紅土？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Red soil?
+Dialogue: 0,0:51:39.64,0:51:42.27,Default,,0,0,0,,分析壹下看我們能從中得到什麽線索。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Analyze this and see what we get.
+Dialogue: 0,0:51:42.30,0:51:43.47,Default,,0,0,0,,當然\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Of course.
+Dialogue: 0,0:51:47.74,0:51:49.68,Default,,0,0,0,,米蘭達打過來的。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's Miranda.
+Dialogue: 0,0:51:51.38,0:51:53.51,Default,,0,0,0,,她是愛貓人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}She's a cat person.
+Dialogue: 0,0:51:53.55,0:51:55.85,Default,,0,0,0,,海！海，妳好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey! Hey, there.
+Dialogue: 0,0:51:55.88,0:51:58.32,Default,,0,0,0,,不，我還沒死。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, I'm not dead yet.
+Dialogue: 0,0:51:58.35,0:51:59.59,Default,,0,0,0,,好了，當她到這裏的時候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Right, so when she gets here,
+Dialogue: 0,0:51:59.62,0:52:02.26,Default,,0,0,0,,不要做任何突然的動作，可以麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}don't make any sudden moves, okay?
+Dialogue: 0,0:52:02.29,0:52:04.46,Default,,0,0,0,,不要有眼神接觸\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Don't make eye contact.
+Dialogue: 0,0:52:04.49,0:52:06.33,Default,,0,0,0,,或者和她說話\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Or talk.
+Dialogue: 0,0:52:06.36,0:52:08.60,Default,,0,0,0,,哇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Whoa.
+Dialogue: 0,0:52:09.63,0:52:11.57,Default,,0,0,0,,不好意思\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sorry.
+Dialogue: 0,0:52:23.95,0:52:25.88,Default,,0,0,0,,這個就是了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is it here.
+Dialogue: 0,0:52:29.35,0:52:30.95,Default,,0,0,0,,不是，它還沒有發芽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, it hasn't sprouted yet.
+Dialogue: 0,0:52:30.99,0:52:32.42,Default,,0,0,0,,妳壹共加入了多少個\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How many witch hunter
+Dialogue: 0,0:52:32.45,0:52:34.66,Default,,0,0,0,,巫師獵人討論小組？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}discussion groups are you a part of?
+Dialogue: 0,0:52:34.69,0:52:38.26,Default,,0,0,0,,嗜殺、不朽的法西斯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Genocidal immortal fascist..."
+Dialogue: 0,0:52:40.80,0:52:42.93,Default,,0,0,0,,這就是妳們女巫師眼中的我，是麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So that's what you witches think of me, huh?
+Dialogue: 0,0:52:42.96,0:52:45.97,Default,,0,0,0,,不管怎麽說人們眼中的我們又是什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is it that people know about us, anyway?
+Dialogue: 0,0:52:46.00,0:52:48.40,Default,,0,0,0,,綠色的皮膚\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That we have green skin
+Dialogue: 0,0:52:48.44,0:52:49.47,Default,,0,0,0,,喜歡戴尖帽子，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and like to wear pointy hats,
+Dialogue: 0,0:52:49.50,0:52:50.77,Default,,0,0,0,,然後我們是卑鄙的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and that we're mean
+Dialogue: 0,0:52:50.81,0:52:53.64,Default,,0,0,0,,應該被綁在教堂的柱子上燒死？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and got burned at the stake in Salem?
+Dialogue: 0,0:52:56.71,0:52:59.31,Default,,0,0,0,,教會錯了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Salem was wrong,
+Dialogue: 0,0:52:59.35,0:53:01.92,Default,,0,0,0,,那些女人是無辜的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and those women innocent.
+Dialogue: 0,0:53:01.95,0:53:05.05,Default,,0,0,0,,但是如果那些女人真的是巫師呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But what if those women really were witches?
+Dialogue: 0,0:53:05.09,0:53:07.45,Default,,0,0,0,,那是不是這樣對待她們就是正確的呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Would it then have been okay?
+Dialogue: 0,0:53:07.49,0:53:11.83,Default,,0,0,0,,我有時就在想如果我被發現有罪\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}See, I remember thinking if it was me found guilty,
+Dialogue: 0,0:53:13.33,0:53:15.53,Default,,0,0,0,,沒人會關心的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}no one would care.
+Dialogue: 0,0:53:15.56,0:53:17.50,Default,,0,0,0,,我會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I would.
+Dialogue: 0,0:53:26.11,0:53:28.31,Default,,0,0,0,,水蘭不見了。它不見了。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The hawkweed's gone. It's gone.
+Dialogue: 0,0:53:28.34,0:53:30.48,Default,,0,0,0,,我意思是說有人把它拿走了。它不在這。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I mean, someone's taken it. It's not here.
+Dialogue: 0,0:53:32.81,0:53:34.75,Default,,0,0,0,,考爾德？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,0:53:35.78,0:53:37.95,Default,,0,0,0,,怎麽了？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What?
+Dialogue: 0,0:53:37.99,0:53:40.85,Default,,0,0,0,,- 什麽？- 不\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- What? - No.
+Dialogue: 0,0:53:40.89,0:53:42.79,Default,,0,0,0,,米蘭達。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Miranda.
+Dialogue: 0,0:53:42.83,0:53:44.36,Default,,0,0,0,,米蘭達！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Miranda!
+Dialogue: 0,0:53:51.80,0:53:54.44,Default,,0,0,0,,妳來遲了，巫師獵人。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're too late, witch hunter.
+Dialogue: 0,0:53:54.47,0:53:58.11,Default,,0,0,0,,她死的很痛苦，不停的尖叫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}She died badly, screaming.
+Dialogue: 0,0:53:58.14,0:54:00.61,Default,,0,0,0,,孤獨\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Alone.
+Dialogue: 0,0:54:00.64,0:54:02.61,Default,,0,0,0,,妳也會跟她壹樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Just like you will.
+Dialogue: 0,0:54:13.86,0:54:16.13,Default,,0,0,0,,妳壹定會抓到這個人的，是不是？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're gonna get who did this, right?
+Dialogue: 0,0:54:16.16,0:54:19.10,Default,,0,0,0,,我要搞定彼列\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'll handle Belial.
+Dialogue: 0,0:54:19.13,0:54:21.40,Default,,0,0,0,,很好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Good.
+Dialogue: 0,0:54:23.40,0:54:26.47,Default,,0,0,0,,我不知道還有什麽地方可以找到我們需要的東西\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I don't know where else to get the stuff that we need.
+Dialogue: 0,0:54:28.81,0:54:30.94,Default,,0,0,0,,還有壹個地方\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There is one place.
+Dialogue: 0,0:54:33.84,0:54:37.81,Default,,0,0,0,,但是那裏用舊幣，古老的魔法並且危險。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But it's old money, old magic, and dangerous.
+Dialogue: 0,0:54:51.20,0:54:53.13,Default,,0,0,0,,我很抱歉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm sorry.
+Dialogue: 0,0:55:13.22,0:55:14.18,Default,,0,0,0,,考爾德？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,0:55:14.22,0:55:16.15,Default,,0,0,0,,桑婭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sonya.
+Dialogue: 0,0:55:20.62,0:55:22.56,Default,,0,0,0,,丹妮現在真的很忙\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Danique's been so busy,
+Dialogue: 0,0:55:22.59,0:55:24.13,Default,,0,0,0,,我很驚訝她會妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm surprised that she agreed to see you.
+Dialogue: 0,0:55:24.16,0:55:25.13,Default,,0,0,0,,我不認為她會喜歡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I don't think she would have liked
+Dialogue: 0,0:55:25.16,0:55:26.63,Default,,0,0,0,,另壹個選擇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the alternative.
+Dialogue: 0,0:55:44.18,0:55:46.68,Default,,0,0,0,,考爾德先生，妳預定了我的夜晚\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Mr. Kaulder, you've made my night.
+Dialogue: 0,0:55:48.49,0:55:50.45,Default,,0,0,0,,請坐\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Please have a seat.
+Dialogue: 0,0:55:52.02,0:55:54.22,Default,,0,0,0,,妳從哪裏救得小朋友，壹個舊貨商店？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Where'd you rescue your little friend from, a thrift shop?
+Dialogue: 0,0:55:54.26,0:55:55.22,Default,,0,0,0,,- 小朋友....- 噢...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Little friend... - Oh...
+Dialogue: 0,0:55:59.00,0:56:01.73,Default,,0,0,0,,告訴我吧，什麽緊急情況？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So tell me, what is this emergency?
+Dialogue: 0,0:56:01.77,0:56:03.17,Default,,0,0,0,,什麽是妳必須要回憶起來的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is it you just must remember?
+Dialogue: 0,0:56:03.20,0:56:06.47,Default,,0,0,0,,他丟了他的車鑰匙\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He lost his car keys.
+Dialogue: 0,0:56:06.50,0:56:08.17,Default,,0,0,0,,妳要多少錢?\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How much do I owe you?
+Dialogue: 0,0:56:08.21,0:56:10.51,Default,,0,0,0,,壹分錢不收。妳只需跟我喝壹杯就行了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh, nothing. You have a drink with me. That's my price.
+Dialogue: 0,0:56:10.54,0:56:12.64,Default,,0,0,0,,妳知道我來這裏是幹什麽的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know what I'm here for.
+Dialogue: 0,0:56:15.98,0:56:19.25,Default,,0,0,0,,太多人把自己偽裝成壹個不真實的自己\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So many of us pretend to be something that we're not.
+Dialogue: 0,0:56:19.28,0:56:23.62,Default,,0,0,0,,但是妳，妳活了這麽久\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But you, you've lived.
+Dialogue: 0,0:56:23.65,0:56:26.02,Default,,0,0,0,,穿越了整個歷史\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A man who's walked through history.
+Dialogue: 0,0:56:26.06,0:56:29.63,Default,,0,0,0,,見過拿破侖，斯大林，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To have known Napoleon, Stalin,
+Dialogue: 0,0:56:29.66,0:56:31.56,Default,,0,0,0,,希特勒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hitler...
+Dialogue: 0,0:56:31.60,0:56:35.50,Default,,0,0,0,,不需要懷舊他們。已經有夠多的壞蛋了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No need to be nostalgic. We have enough evil now.
+Dialogue: 0,0:56:35.53,0:56:38.70,Default,,0,0,0,,他們跟妳很不壹樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They're not so different than you.
+Dialogue: 0,0:56:38.74,0:56:41.14,Default,,0,0,0,,他們用他們的力量來改變這個世界\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They used their power to change the world.
+Dialogue: 0,0:56:41.17,0:56:43.81,Default,,0,0,0,,而妳做了之後並不能改變什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You can't change what you've done.
+Dialogue: 0,0:56:47.88,0:56:50.75,Default,,0,0,0,,考爾德！這棵植物有點古怪\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder! There's something wrong with this plant.
+Dialogue: 0,0:56:57.56,0:56:58.52,Default,,0,0,0,,妳在這裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're here.
+Dialogue: 0,0:56:58.56,0:57:00.49,Default,,0,0,0,,考爾德...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder...
+Dialogue: 0,0:57:02.73,0:57:04.79,Default,,0,0,0,,考爾德！考爾德！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder! Kaulder!
+Dialogue: 0,0:57:04.83,0:57:06.76,Default,,0,0,0,,- 享受天堂吧。-考爾德！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Enjoy paradise. - Kaulder!
+Dialogue: 0,0:57:06.80,0:57:08.73,Default,,0,0,0,,考爾德，那是煙。不要\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, it's smoke. Don't...
+Dialogue: 0,0:57:15.61,0:57:17.57,Default,,0,0,0,,看，爸爸。快看！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Look, Daddy. Look!
+Dialogue: 0,0:57:17.61,0:57:19.54,Default,,0,0,0,,它們飛往南方過冬\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They're flying south for the winter.
+Dialogue: 0,0:57:25.32,0:57:28.55,Default,,0,0,0,,考爾德，聽我說\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, listen to me.
+Dialogue: 0,0:57:28.59,0:57:31.82,Default,,0,0,0,,妳掉入陷阱了我需要妳現在醒過來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are in a trap and I need you to wake up.
+Dialogue: 0,0:57:41.03,0:57:44.07,Default,,0,0,0,,妳在這裏肯定找不到任何答案\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're not gonna find any answers here.
+Dialogue: 0,0:57:44.10,0:57:46.80,Default,,0,0,0,,妳呆的時間越長越難以逃脫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The longer you wait, the harder it is to get out.
+Dialogue: 0,0:57:55.81,0:57:57.85,Default,,0,0,0,,考爾德，考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder. Kaulder.
+Dialogue: 0,0:57:57.88,0:58:00.88,Default,,0,0,0,,我要妳現在就醒過來，這些都不是真的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I need you to wake up. None of this is real.
+Dialogue: 0,0:58:00.92,0:58:02.95,Default,,0,0,0,,考爾德，妳掉進陷阱裏面了！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, you are in a trap!
+Dialogue: 0,0:58:08.26,0:58:10.19,Default,,0,0,0,,快回來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Come back.
+Dialogue: 0,0:58:12.36,0:58:14.66,Default,,0,0,0,,考爾德，如果妳不能馬上醒來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, if you don't wake up right now,
+Dialogue: 0,0:58:14.70,0:58:17.33,Default,,0,0,0,,我們都會死在這裏！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}we are both going to die!
+Dialogue: 0,0:58:17.37,0:58:19.37,Default,,0,0,0,,給我醒醒！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Wake up!
+Dialogue: 0,0:58:19.40,0:58:21.34,Default,,0,0,0,,克洛伊....\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe...
+Dialogue: 0,0:58:27.68,0:58:31.08,Default,,0,0,0,,這不是真的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This isn't real.
+Dialogue: 0,0:58:31.12,0:58:34.82,Default,,0,0,0,,考爾德！快醒過來！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder! Wake up!
+Dialogue: 0,0:58:36.25,0:58:37.72,Default,,0,0,0,,把車停到小巷子裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Pull the car into the alley
+Dialogue: 0,0:58:37.75,0:58:39.19,Default,,0,0,0,,把他丟到後備箱\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and throw him in the trunk.
+Dialogue: 0,0:58:39.22,0:58:41.06,Default,,0,0,0,,我們會將會被載入史冊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We're going down in history
+Dialogue: 0,0:58:41.09,0:58:43.09,Default,,0,0,0,,作為打倒巫師獵人的人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}as the ones who beat the witch hunter.
+Dialogue: 0,0:58:48.23,0:58:49.83,Default,,0,0,0,,搞定他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Come on.
+Dialogue: 0,0:58:49.87,0:58:51.80,Default,,0,0,0,,出去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Get out.
+Dialogue: 0,0:59:00.28,0:59:02.65,Default,,0,0,0,,墓地的泥土\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Burial dirt.
+Dialogue: 0,0:59:02.68,0:59:05.62,Default,,0,0,0,,用這個來施展黑魔法是厲害的了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Nothing more powerful for dark magic.
+Dialogue: 0,0:59:09.39,0:59:11.72,Default,,0,0,0,,彼列要用這個幹啥？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What does Belial want with it?
+Dialogue: 0,0:59:11.75,0:59:13.76,Default,,0,0,0,,誰？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Who?
+Dialogue: 0,0:59:15.02,0:59:17.36,Default,,0,0,0,,“回憶起我的死亡”\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}"Remember my death."
+Dialogue: 0,0:59:17.39,0:59:20.63,Default,,0,0,0,,他不想讓我看的是什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is it that he doesn't want me to see?
+Dialogue: 0,0:59:22.17,0:59:25.27,Default,,0,0,0,,停下！求妳了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stop! Please.
+Dialogue: 0,0:59:27.97,0:59:29.94,Default,,0,0,0,,彼列什麽都沒和我說\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Belial didn't tell me anything.
+Dialogue: 0,0:59:29.97,0:59:32.11,Default,,0,0,0,,我幫他弄到了泥土\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I helped him get the dirt.
+Dialogue: 0,0:59:32.14,0:59:34.24,Default,,0,0,0,,我只是給自己留了壹點點\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I just took a little bit for myself.
+Dialogue: 0,0:59:34.28,0:59:37.21,Default,,0,0,0,,他有特別多\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He has tons of it.
+Dialogue: 0,0:59:37.25,0:59:39.18,Default,,0,0,0,,請饒了我？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Please?
+Dialogue: 0,0:59:46.22,0:59:48.32,Default,,0,0,0,,謝謝妳的酒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thanks for the drink.
+Dialogue: 0,0:59:51.06,0:59:53.70,Default,,0,0,0,,妳是種族的叛徒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are a traitor to your kind!
+Dialogue: 0,0:59:55.16,0:59:57.77,Default,,0,0,0,,妳知道我最喜歡舊貨店裏的什麽嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know what I like about thrift shops?
+Dialogue: 0,0:59:59.10,1:00:01.24,Default,,0,0,0,,舊貨店裏什麽都是舊的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Everything in them is old.
+Dialogue: 0,1:00:04.48,1:00:07.04,Default,,0,0,0,,哦!\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh!
+Dialogue: 0,1:00:25.26,1:00:27.36,Default,,0,0,0,,婊子！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Bitch.
+Dialogue: 0,1:00:36.51,1:00:38.71,Default,,0,0,0,,所以先在妳知道了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So now you know.
+Dialogue: 0,1:00:43.15,1:00:45.81,Default,,0,0,0,,妳是壹個夢行者。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're a dream-walker.
+Dialogue: 0,1:00:45.85,1:00:48.82,Default,,0,0,0,,每個人都知道夢行是黑色天賦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Everyone knows that dream-walking is a black gift.
+Dialogue: 0,1:00:51.79,1:00:55.86,Default,,0,0,0,,我壹輩子都在躲著這個天賦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've spent my entire life trying to hide from it.
+Dialogue: 0,1:00:55.89,1:00:59.10,Default,,0,0,0,,妳知道我會發現妳的秘密，但是妳不在乎\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You knew I would discover your secret, and you didn't care.
+Dialogue: 0,1:01:01.10,1:01:03.40,Default,,0,0,0,,妳還是把我從陷阱中拉出來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You still pulled me out of that trap.
+Dialogue: 0,1:01:04.43,1:01:07.44,Default,,0,0,0,,膽兒夠大的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It was a very brave thing to do.
+Dialogue: 0,1:01:07.47,1:01:10.41,Default,,0,0,0,,給妳看點東西，過來。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Let me show you something. Come on.
+Dialogue: 0,1:01:11.51,1:01:13.74,Default,,0,0,0,,晚安，馬克思！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Good night, Max!
+Dialogue: 0,1:01:41.34,1:01:43.54,Default,,0,0,0,,妳是我們種族的恥辱\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are a disgrace to our kind.
+Dialogue: 0,1:01:43.57,1:01:45.97,Default,,0,0,0,,彼列，我毫無選擇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Belial, I had no choice.
+Dialogue: 0,1:01:46.01,1:01:48.14,Default,,0,0,0,,考爾德威脅要徒手揍死我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder threatened to beat me to death with his bare hands.
+Dialogue: 0,1:01:48.18,1:01:50.28,Default,,0,0,0,,叛徒，我們幫妳弄了個計劃\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We have plans for you, traitor.
+Dialogue: 0,1:01:52.12,1:01:53.15,Default,,0,0,0,,彼列，妳要諒解我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You must understand, Belial.
+Dialogue: 0,1:01:56.32,1:01:58.05,Default,,0,0,0,,在陰暗裏永劫不覆吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Enjoy the shadows.
+Dialogue: 0,1:02:20.04,1:02:24.58,Default,,0,0,0,,這就是巫師的歷史。妳們的歷史\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This is the history of witches. Your history.
+Dialogue: 0,1:02:26.42,1:02:27.58,Default,,0,0,0,,這是妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's you.
+Dialogue: 0,1:02:27.62,1:02:29.05,Default,,0,0,0,,嗯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yeah.
+Dialogue: 0,1:02:29.09,1:02:31.45,Default,,0,0,0,,至少，他們沒把妳眼睛搞錯。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Least they got your eyes right.
+Dialogue: 0,1:02:33.66,1:02:36.09,Default,,0,0,0,,這些是夢行者\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}These are the dream-walkers.
+Dialogue: 0,1:02:36.13,1:02:38.60,Default,,0,0,0,,巫師皇後的致命殺手\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Witch Queen's deadliest assassins.
+Dialogue: 0,1:02:38.63,1:02:40.43,Default,,0,0,0,,他們習慣於跳進妳的思維中\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Somehow they used to jump into your mind
+Dialogue: 0,1:02:40.46,1:02:43.07,Default,,0,0,0,,找出妳最珍貴的記憶\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and pry out your most precious memories.
+Dialogue: 0,1:02:43.10,1:02:47.24,Default,,0,0,0,,然後再把它們扭曲成噩夢\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And then they'd twist 'em into your worst nightmares.
+Dialogue: 0,1:02:47.27,1:02:48.50,Default,,0,0,0,,妳這是給我上歷史課呢?\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What, you're giving a history lesson here
+Dialogue: 0,1:02:48.54,1:02:50.34,Default,,0,0,0,,還是在嚇我？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}or you're just trying to scare me?
+Dialogue: 0,1:02:50.37,1:02:53.01,Default,,0,0,0,,夢行者的壹些事情別人並不知曉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}There's something no one knows about dream-walkers.
+Dialogue: 0,1:02:54.28,1:02:57.28,Default,,0,0,0,,他們並不需要記憶藥水\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They don't need memory potions.
+Dialogue: 0,1:02:57.31,1:03:00.48,Default,,0,0,0,,他們的力量是與生俱來的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That power lies within them.
+Dialogue: 0,1:03:00.52,1:03:03.05,Default,,0,0,0,,我有些記憶被我深深掩埋了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I have something buried deep in my mind
+Dialogue: 0,1:03:03.09,1:03:05.16,Default,,0,0,0,,但那些是我必須要回憶起的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}that I must remember.
+Dialogue: 0,1:03:07.06,1:03:10.13,Default,,0,0,0,,妳是唯壹可以幫助我的人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And you're the only one that can help me.
+Dialogue: 0,1:03:10.16,1:03:11.39,Default,,0,0,0,,不，我不行\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, I can't.
+Dialogue: 0,1:03:11.43,1:03:13.10,Default,,0,0,0,,克洛伊..\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe...
+Dialogue: 0,1:03:13.13,1:03:15.06,Default,,0,0,0,,不，我不行\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, I can't.
+Dialogue: 0,1:03:17.50,1:03:19.37,Default,,0,0,0,,妳知道，我還有個小弟弟\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know, I have a younger brother,
+Dialogue: 0,1:03:19.40,1:03:21.67,Default,,0,0,0,,並且\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and, uh,
+Dialogue: 0,1:03:21.71,1:03:26.44,Default,,0,0,0,,他總能把我惹毛\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}he had this knack for just pissing me off.
+Dialogue: 0,1:03:26.48,1:03:28.61,Default,,0,0,0,,有壹天他做得太過了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And one day he pushed it too far,
+Dialogue: 0,1:03:28.64,1:03:31.91,Default,,0,0,0,,於是我就進入他的腦子裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and I somehow entered his mind.
+Dialogue: 0,1:03:31.95,1:03:34.48,Default,,0,0,0,,我傷害了他，我不是故意的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I hurt him. I didn't mean to,
+Dialogue: 0,1:03:34.52,1:03:37.95,Default,,0,0,0,,但我傷害他很深\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}but I hurt him badly.
+Dialogue: 0,1:03:37.99,1:03:40.22,Default,,0,0,0,,所以我逃跑了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So I ran away.
+Dialogue: 0,1:03:59.11,1:04:03.55,Default,,0,0,0,,妳老婆和女兒的名字是什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What were their names, your wife and daughter?
+Dialogue: 0,1:04:03.58,1:04:05.52,Default,,0,0,0,,海倫娜\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Helena.
+Dialogue: 0,1:04:06.55,1:04:08.58,Default,,0,0,0,,伊麗莎白\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Elizabeth.
+Dialogue: 0,1:04:11.62,1:04:15.12,Default,,0,0,0,,我很久沒把他們的名字說出來了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I haven't said their names out loud in a long time.
+Dialogue: 0,1:04:20.13,1:04:22.43,Default,,0,0,0,,考爾德，即使我想幫妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, even if I wanted to help you,
+Dialogue: 0,1:04:22.47,1:04:24.40,Default,,0,0,0,,我也不知道怎麽開始\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I wouldn't know where to begin.
+Dialogue: 0,1:04:27.34,1:04:31.31,Default,,0,0,0,,想壹個和我倆都相關的詞\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Think of a word that you associate with me.
+Dialogue: 0,1:04:31.34,1:04:33.98,Default,,0,0,0,,可以是任何事\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Could be anything.
+Dialogue: 0,1:04:34.01,1:04:37.21,Default,,0,0,0,,清空妳的大腦\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Empty everything else out of your head.
+Dialogue: 0,1:04:39.68,1:04:42.62,Default,,0,0,0,,把註意力集中在那個詞\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And just focus on that one word.
+Dialogue: 0,1:04:42.65,1:04:44.59,Default,,0,0,0,,壹個詞\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}One word.
+Dialogue: 0,1:04:46.36,1:04:49.16,Default,,0,0,0,,妳告訴我這個詞，我也把註意力集中在這個詞\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If you tell me the word, I'll focus on it, too.
+Dialogue: 0,1:04:49.19,1:04:51.19,Default,,0,0,0,,有時有用\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Sometimes that helps.
+Dialogue: 0,1:04:51.23,1:04:53.30,Default,,0,0,0,,哪個詞？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What's the word?
+Dialogue: 0,1:04:55.03,1:04:57.03,Default,,0,0,0,,孤獨\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Alone.
+Dialogue: 0,1:05:26.33,1:05:28.46,Default,,0,0,0,,握著我的手\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Take my hand.
+Dialogue: 0,1:06:04.87,1:06:07.67,Default,,0,0,0,,這邊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This way, men!
+Dialogue: 0,1:06:07.70,1:06:09.81,Default,,0,0,0,,多蘭大哥，看\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Brother Dolan, look.
+Dialogue: 0,1:06:15.51,1:06:17.25,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,1:06:20.32,1:06:22.82,Default,,0,0,0,,那是什麽？多蘭？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is that? Dolan?
+Dialogue: 0,1:06:22.85,1:06:25.32,Default,,0,0,0,,小心走過去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Tread with care.
+Dialogue: 0,1:06:25.35,1:06:27.49,Default,,0,0,0,,他做到了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He did it.
+Dialogue: 0,1:06:30.63,1:06:32.56,Default,,0,0,0,,他了結了女巫王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So ends the Queen.
+Dialogue: 0,1:06:36.30,1:06:37.87,Default,,0,0,0,,以神父之名...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}In the name of the Father...
+Dialogue: 0,1:06:37.90,1:06:39.67,Default,,0,0,0,,他被控制了！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}He's possessed!
+Dialogue: 0,1:06:39.70,1:06:41.74,Default,,0,0,0,,考爾德還活著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder is alive.
+Dialogue: 0,1:06:41.77,1:06:43.67,Default,,0,0,0,,我們的噩夢奇跡般地結束了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Our nightmare ends with a miracle.
+Dialogue: 0,1:06:43.71,1:06:46.28,Default,,0,0,0,,救救他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Help him.
+Dialogue: 0,1:06:46.31,1:06:47.81,Default,,0,0,0,,救救他\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Help him.
+Dialogue: 0,1:06:50.88,1:06:52.81,Default,,0,0,0,,是她的心\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's her heart.
+Dialogue: 0,1:06:52.85,1:06:55.89,Default,,0,0,0,,我們摧毀了它，也就摧毀了她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When we destroy it, we destroy her.
+Dialogue: 0,1:06:55.92,1:06:57.85,Default,,0,0,0,,多蘭大哥，了結了它\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}End it, Brother Dolan.
+Dialogue: 0,1:07:18.64,1:07:20.64,Default,,0,0,0,,多蘭，殺了她！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Destroy her, Dolan!
+Dialogue: 0,1:07:23.28,1:07:25.21,Default,,0,0,0,,不！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No!
+Dialogue: 0,1:07:31.32,1:07:33.32,Default,,0,0,0,,妳把它留下了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You kept it.
+Dialogue: 0,1:07:34.56,1:07:38.39,Default,,0,0,0,,結束了，女巫王死了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's over. The Witch Queen is dead.
+Dialogue: 0,1:07:43.27,1:07:45.83,Default,,0,0,0,,從壹開始他們就背叛了妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They betrayed you from the start.
+Dialogue: 0,1:07:45.87,1:07:49.20,Default,,0,0,0,,那就是他們要折磨妳朋友的原因\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's why they tortured your friend.
+Dialogue: 0,1:07:49.24,1:07:51.67,Default,,0,0,0,,因為他知道那顆心臟在哪裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Because he knew where the heart was.
+Dialogue: 0,1:07:51.71,1:07:53.64,Default,,0,0,0,,他們想要將女巫王復活\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They're gonna bring back the Queen.
+Dialogue: 0,1:08:01.62,1:08:03.35,Default,,0,0,0,,過去800年間\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}For eight hundred years,
+Dialogue: 0,1:08:03.39,1:08:05.12,Default,,0,0,0,,我們都在等待她的歸來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}we've waited for her return.
+Dialogue: 0,1:08:06.99,1:08:08.82,Default,,0,0,0,,妳應該感到榮耀，叛徒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You should be honored, traitor.
+Dialogue: 0,1:08:08.86,1:08:11.93,Default,,0,0,0,,妳將會為了我們的事業而被獻祭\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You will be sacrificed for our cause.
+Dialogue: 0,1:08:15.83,1:08:17.70,Default,,0,0,0,,考爾德，我知道彼列在哪買的那些黑土\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, I know where Belial brought all that dirt.
+Dialogue: 0,1:08:17.73,1:08:19.97,Default,,0,0,0,,他租的那臺卡車裝了標準的GPS定位器。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The truck he rented had a standard GPS locator...
+Dialogue: 0,1:08:20.00,1:08:21.54,Default,,0,0,0,,妳撒謊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You lied to me!
+Dialogue: 0,1:08:21.57,1:08:25.74,Default,,0,0,0,,妳保存了她的心臟。“回憶起妳的死”。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You saved her heart. "Remember your death."
+Dialogue: 0,1:08:25.77,1:08:27.74,Default,,0,0,0,,不是妳想的那樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's not what you think.
+Dialogue: 0,1:08:29.98,1:08:32.45,Default,,0,0,0,,妳壹直都知道那意味著什麽，妳卻什麽都沒說\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You knew what it meant all along, and you said nothing.
+Dialogue: 0,1:08:32.48,1:08:34.62,Default,,0,0,0,,因為我不想壹上任就要\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Because I wasn't going to be responsible
+Dialogue: 0,1:08:34.65,1:08:37.29,Default,,0,0,0,,為十斧會的滅亡負責...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}for the dissolution of The Axe and Cross on my very first...
+Dialogue: 0,1:08:37.32,1:08:39.42,Default,,0,0,0,,他們正召回女巫王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They're bringing back the Queen.
+Dialogue: 0,1:08:41.89,1:08:43.93,Default,,0,0,0,,妳都幹了些什麽！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You don't know what you've done.
+Dialogue: 0,1:08:45.26,1:08:48.40,Default,,0,0,0,,我發誓要保守秘密\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I swore an oath to keep it secret.
+Dialogue: 0,1:08:49.57,1:08:53.87,Default,,0,0,0,,數百年來世界沒有因為這個謊言而毀滅\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This lie has kept Apocalypse at bay for hundreds of years.
+Dialogue: 0,1:08:53.90,1:08:56.37,Default,,0,0,0,,我們曾擔心如果女巫王的心被毀滅的話\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We were afraid if the Queen's heart was destroyed,
+Dialogue: 0,1:08:56.41,1:08:58.47,Default,,0,0,0,,妳將會失去妳的永生能力，甚至死掉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you'd lose your immortality. Or die.
+Dialogue: 0,1:08:58.51,1:09:00.71,Default,,0,0,0,,那不是妳要做的選擇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That wasn't your choice to make!
+Dialogue: 0,1:09:04.31,1:09:06.25,Default,,0,0,0,,那是那個老人的想法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}That's what the old man thought.
+Dialogue: 0,1:09:08.72,1:09:11.32,Default,,0,0,0,,他被襲擊的那晚\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The night he was attacked,
+Dialogue: 0,1:09:11.35,1:09:13.46,Default,,0,0,0,,我以為他會毀掉它的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I think he was going to destroy it.
+Dialogue: 0,1:09:14.49,1:09:16.43,Default,,0,0,0,,為了妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}For you.
+Dialogue: 0,1:09:22.00,1:09:24.00,Default,,0,0,0,,為了解放妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}To set you free.
+Dialogue: 0,1:09:34.31,1:09:36.98,Default,,0,0,0,,至少十斧會仍有他們的武器\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}At least The Axe and Cross still has their weapon.
+Dialogue: 0,1:09:43.39,1:09:44.99,Default,,0,0,0,,妳將會侍奉女王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You will serve the Queen...
+Dialogue: 0,1:09:45.02,1:09:47.02,Default,,0,0,0,,請不要這樣！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, please.
+Dialogue: 0,1:09:47.06,1:09:49.86,Default,,0,0,0,,由不得妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Like it or not.
+Dialogue: 0,1:10:02.60,1:10:04.54,Default,,0,0,0,,啊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah!
+Dialogue: 0,1:10:16.72,1:10:19.56,Default,,0,0,0,,去我的公寓，妳在那很安全。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Go to my apartment. You'll be safe there.
+Dialogue: 0,1:10:19.59,1:10:22.39,Default,,0,0,0,,不，說好了我們要在壹起的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, the deal was that we stick together.
+Dialogue: 0,1:10:22.42,1:10:24.03,Default,,0,0,0,,我要自己去，如果我連自己人都不能相信\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm going alone. If I can't trust
+Dialogue: 0,1:10:24.06,1:10:26.53,Default,,0,0,0,,我又怎麽能相信妳呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}my own people, how the hell can I trust you?
+Dialogue: 0,1:10:29.10,1:10:32.40,Default,,0,0,0,,這不像妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This isn't who you are.
+Dialogue: 0,1:10:32.43,1:10:34.60,Default,,0,0,0,,這才是全部的我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's all I am.
+Dialogue: 0,1:11:04.87,1:11:06.87,Default,,0,0,0,,用冷兵器刺她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Pierce her with iron.
+Dialogue: 0,1:11:06.90,1:11:10.14,Default,,0,0,0,,用火燒她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Scour her by fire.
+Dialogue: 0,1:11:10.17,1:11:12.84,Default,,0,0,0,,就可以讓她真正的死去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Bring her endless death.
+Dialogue: 0,1:11:40.10,1:11:43.67,Default,,0,0,0,,我壹直在想妳，考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've missed you, Kaulder.
+Dialogue: 0,1:11:43.71,1:11:46.51,Default,,0,0,0,,這是妳不會明白的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Here's what you don't understand.
+Dialogue: 0,1:11:46.54,1:11:49.48,Default,,0,0,0,,妳們種族都不會明白的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What your kind never understood.
+Dialogue: 0,1:11:49.51,1:11:52.05,Default,,0,0,0,,我已經仁至義盡了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've shown mercy.
+Dialogue: 0,1:11:52.08,1:11:55.48,Default,,0,0,0,,我本來可以殺光妳們每壹個人的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I could have killed every last one of you.
+Dialogue: 0,1:11:55.52,1:11:58.05,Default,,0,0,0,,我已經統計好了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've done the math.
+Dialogue: 0,1:11:58.09,1:12:00.09,Default,,0,0,0,,而且我有的是時間\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've had the time.
+Dialogue: 0,1:12:00.12,1:12:03.93,Default,,0,0,0,,妳現在不同了，如此自信\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're different now. So confident.
+Dialogue: 0,1:12:03.96,1:12:06.40,Default,,0,0,0,,也許妳不應該讓我永生\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Maybe you shouldn't have made me immortal.
+Dialogue: 0,1:12:08.83,1:12:10.90,Default,,0,0,0,,考爾德，我來幫忙了。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, I came to help.
+Dialogue: 0,1:12:10.93,1:12:14.10,Default,,0,0,0,,克洛伊，我告訴過妳不要...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe. I told you not to...
+Dialogue: 0,1:12:44.83,1:12:49.87,Default,,0,0,0,,永生的權利從來都不屬於妳，它是我的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Immortality was never yours. It was mine.
+Dialogue: 0,1:12:52.11,1:12:53.07,Default,,0,0,0,,妳只是幫我保管而已\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You just carried it for me.
+Dialogue: 0,1:12:55.01,1:12:57.31,Default,,0,0,0,,直到現在\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Until now.
+Dialogue: 0,1:13:00.18,1:13:03.82,Default,,0,0,0,,我又重生了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I am reborn.
+Dialogue: 0,1:13:12.16,1:13:14.10,Default,,0,0,0,,啊！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Ah!
+Dialogue: 0,1:13:34.72,1:13:37.69,Default,,0,0,0,,妳們這個種族...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Your race
+Dialogue: 0,1:13:37.72,1:13:41.12,Default,,0,0,0,,總是心存恐懼\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}has always been frightened.
+Dialogue: 0,1:13:44.06,1:13:47.13,Default,,0,0,0,,隱藏在深處\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hiding in caves.
+Dialogue: 0,1:13:47.16,1:13:49.67,Default,,0,0,0,,蜷縮在篝火旁\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Huddling around fire.
+Dialogue: 0,1:13:51.57,1:13:52.87,Default,,0,0,0,,終於\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Finally.
+Dialogue: 0,1:14:57.83,1:15:01.27,Default,,0,0,0,,嘿，孩子。我還擔心來晚了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey, kid. I was afraid I was too late.
+Dialogue: 0,1:15:01.30,1:15:04.21,Default,,0,0,0,,我希望自己看起來不像妳這樣難看\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I hope I don't look as rough as you do.
+Dialogue: 0,1:15:05.24,1:15:07.91,Default,,0,0,0,,好吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Okay.
+Dialogue: 0,1:15:10.88,1:15:12.88,Default,,0,0,0,,我殺了那個詛咒妳的家夥\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I killed the one who cursed you.
+Dialogue: 0,1:15:12.92,1:15:15.35,Default,,0,0,0,,過來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Here.
+Dialogue: 0,1:15:15.38,1:15:17.32,Default,,0,0,0,,喝了這杯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Drink this.
+Dialogue: 0,1:15:22.86,1:15:24.79,Default,,0,0,0,,謝謝\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Thank you.
+Dialogue: 0,1:15:27.33,1:15:29.80,Default,,0,0,0,,女巫王復活了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Witch Queen has returned.
+Dialogue: 0,1:15:31.10,1:15:32.90,Default,,0,0,0,,我曾以為我的永生...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I thought my immortality
+Dialogue: 0,1:15:32.93,1:15:35.40,Default,,0,0,0,,是她用來懲罰我的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}was the way that she punished me.
+Dialogue: 0,1:15:35.44,1:15:39.24,Default,,0,0,0,,但她只是利用我來為她自己保管這種能力\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But she just used me to save it for herself.
+Dialogue: 0,1:15:39.27,1:15:42.28,Default,,0,0,0,,恐怕我得承擔壹些責任\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm afraid I bear some responsibility.
+Dialogue: 0,1:15:42.31,1:15:44.35,Default,,0,0,0,,這樣想真是過分狂妄了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It was hubris to think
+Dialogue: 0,1:15:44.38,1:15:47.85,Default,,0,0,0,,我們的秘密不會被敵人發現\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}that our secret wouldn't be discovered by the enemy.
+Dialogue: 0,1:15:47.88,1:15:50.85,Default,,0,0,0,,我已經預見接下來會發生什麽了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've seen what comes next.
+Dialogue: 0,1:15:50.89,1:15:52.96,Default,,0,0,0,,死亡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Death.
+Dialogue: 0,1:15:54.46,1:15:58.36,Default,,0,0,0,,女巫王將會散播更多的詛咒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Witch Queen will cast another plague curse.
+Dialogue: 0,1:15:58.39,1:16:02.33,Default,,0,0,0,,擁有那種力量的女巫們沒有被摧毀嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Haven't covens with that kind of power been destroyed?
+Dialogue: 0,1:16:02.37,1:16:04.43,Default,,0,0,0,,我們不再消滅女巫了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We don't destroy witches anymore.
+Dialogue: 0,1:16:04.47,1:16:07.17,Default,,0,0,0,,我們監禁她們\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We incarcerate them.
+Dialogue: 0,1:16:09.81,1:16:11.91,Default,,0,0,0,,我們抓住了所有最有力量的女巫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We took all the most powerful witches
+Dialogue: 0,1:16:11.94,1:16:12.98,Default,,0,0,0,,她們曾橫行世上\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}that ever walked the Earth
+Dialogue: 0,1:16:13.01,1:16:15.18,Default,,0,0,0,,把她們關進了壹個地方\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and put 'em in one place.
+Dialogue: 0,1:16:15.21,1:16:17.45,Default,,0,0,0,,女巫監獄\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The witch prison.
+Dialogue: 0,1:16:17.48,1:16:21.95,Default,,0,0,0,,她們仍在等待著，等待著被釋放...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And they've been waiting, waiting to be released.
+Dialogue: 0,1:16:21.98,1:16:24.32,Default,,0,0,0,,等待著復仇\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Waiting to exact revenge.
+Dialogue: 0,1:16:27.09,1:16:29.43,Default,,0,0,0,,我們創造了完美的女巫聚會\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We created the perfect coven.
+Dialogue: 0,1:16:31.36,1:16:35.33,Default,,0,0,0,,現在我回到了原點\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now I'm right back where I started.
+Dialogue: 0,1:16:37.30,1:16:40.33,Default,,0,0,0,,妳打敗過她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You defeated her once.
+Dialogue: 0,1:16:40.37,1:16:43.27,Default,,0,0,0,,妳還會再次擊敗她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You can defeat her again.
+Dialogue: 0,1:16:43.31,1:16:45.24,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder,
+Dialogue: 0,1:16:46.44,1:16:48.38,Default,,0,0,0,,妳得走了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you must go.
+Dialogue: 0,1:16:50.15,1:16:52.11,Default,,0,0,0,,妳必須戰鬥\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You have to fight.
+Dialogue: 0,1:17:08.97,1:17:10.90,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,1:17:16.24,1:17:18.37,Default,,0,0,0,,我從未給它起過名字\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I never had a name for it.
+Dialogue: 0,1:17:20.31,1:17:23.11,Default,,0,0,0,,但我的敵人都叫它“屠巫劍”\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But my enemies came to call it "Hexenbane."
+Dialogue: 0,1:17:24.55,1:17:26.91,Default,,0,0,0,,女巫殺手\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Witch Slayer.
+Dialogue: 0,1:17:26.95,1:17:28.75,Default,,0,0,0,,我也來了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm coming, too.
+Dialogue: 0,1:17:28.79,1:17:31.35,Default,,0,0,0,,我們約定的前提是能保證妳的安全\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Our agreement depended on me keeping you safe.
+Dialogue: 0,1:17:31.39,1:17:33.19,Default,,0,0,0,,不，我們約定的是如果我幫助了妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, our agreement was that if I helped you,
+Dialogue: 0,1:17:33.22,1:17:35.12,Default,,0,0,0,,妳就得保證我的安全\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you'd keep me safe.
+Dialogue: 0,1:17:35.16,1:17:37.39,Default,,0,0,0,,如果我現在受傷了，我就壹直傷著\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If I get hurt now, I stay hurt.
+Dialogue: 0,1:17:37.43,1:17:40.36,Default,,0,0,0,,它會好嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Where would that leave you?
+Dialogue: 0,1:17:40.40,1:17:42.90,Default,,0,0,0,,妳知道，我不管！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know, I don't care!
+Dialogue: 0,1:17:42.93,1:17:45.13,Default,,0,0,0,,誰說了壹個女巫不能獵殺其他女巫？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Who says that a witch can't hunt witches?
+Dialogue: 0,1:18:02.15,1:18:04.09,Default,,0,0,0,,克洛伊...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Chloe.
+Dialogue: 0,1:18:05.29,1:18:07.36,Default,,0,0,0,,克勞德...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,1:18:21.07,1:18:22.97,Default,,0,0,0,,這是什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}What is this?
+Dialogue: 0,1:18:23.01,1:18:25.04,Default,,0,0,0,,這是災難樹。她在這兒。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's a plague tree. She's here.
+Dialogue: 0,1:18:25.07,1:18:26.48,Default,,0,0,0,,當咒語許下\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When the spell is done,
+Dialogue: 0,1:18:26.51,1:18:29.14,Default,,0,0,0,,鋪天蓋地的蒼蠅將會被釋放\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the fly swarm will be released.
+Dialogue: 0,1:18:29.18,1:18:31.35,Default,,0,0,0,,我們沒有太多時間了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We haven't much time.
+Dialogue: 0,1:18:42.19,1:18:44.13,Default,,0,0,0,,跟緊些\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stay close.
+Dialogue: 0,1:18:51.40,1:18:54.04,Default,,0,0,0,,考爾德，犯人去哪了？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder, where are the prisoners?
+Dialogue: 0,1:19:02.08,1:19:04.01,Default,,0,0,0,,天哪！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}My God!
+Dialogue: 0,1:19:06.48,1:19:08.62,Default,,0,0,0,,每壹個我曾抓到過的女巫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Every witch I ever caught.
+Dialogue: 0,1:19:08.65,1:19:11.22,Default,,0,0,0,,女巫正用她們的力量來釋放詛咒\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Queen's using their power to release the plague.
+Dialogue: 0,1:19:11.25,1:19:12.86,Default,,0,0,0,,她是怎麽做到的？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}How?
+Dialogue: 0,1:19:12.89,1:19:14.59,Default,,0,0,0,,用聖歌\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The chant.
+Dialogue: 0,1:19:14.62,1:19:16.02,Default,,0,0,0,,沒有女巫擁有如此強大的力量，\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No witch would be strong enough
+Dialogue: 0,1:19:16.06,1:19:17.29,Default,,0,0,0,,能夠單獨施咒。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}to cast this spell alone.
+Dialogue: 0,1:19:17.33,1:19:18.93,Default,,0,0,0,,但女巫王...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But the Witch Queen's
+Dialogue: 0,1:19:18.96,1:19:20.60,Default,,0,0,0,,卻可以將她們的思想像鎖鏈壹樣連起來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}linking their minds like a chain.
+Dialogue: 0,1:19:20.63,1:19:22.57,Default,,0,0,0,,那我們要怎樣阻止她們呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So how do we stop them?
+Dialogue: 0,1:19:24.07,1:19:26.23,Default,,0,0,0,,每條鎖鏈都有壹個薄弱的環節\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Every chain has a weak link.
+Dialogue: 0,1:19:59.34,1:20:01.37,Default,,0,0,0,,- 這個我來吧.-不！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- I'll do the honors. - No.
+Dialogue: 0,1:20:01.40,1:20:03.27,Default,,0,0,0,,我們不是要毀掉他的身體\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's not his body we need to destroy.
+Dialogue: 0,1:20:03.31,1:20:05.34,Default,,0,0,0,,而是他的意識\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's his mind.
+Dialogue: 0,1:20:07.18,1:20:08.58,Default,,0,0,0,,但如果他死在他的夢裏\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But if he dies in his dreams,
+Dialogue: 0,1:20:08.61,1:20:10.51,Default,,0,0,0,,詛咒將會停止\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the plague will be stopped.
+Dialogue: 0,1:20:10.55,1:20:12.62,Default,,0,0,0,,我希望還有別的辦法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I wish there was another way.
+Dialogue: 0,1:20:16.15,1:20:18.42,Default,,0,0,0,,妳會壹直在這等著我回來，對嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You'll still be here when I get back, right?
+Dialogue: 0,1:20:21.02,1:20:24.23,Default,,0,0,0,,妳要單獨去對付女巫王，是嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're taking on the Queen alone, aren't you?
+Dialogue: 0,1:20:24.26,1:20:26.39,Default,,0,0,0,,必須有個了結\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It has to end.
+Dialogue: 0,1:20:32.30,1:20:34.97,Default,,0,0,0,,嘿！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Hey.
+Dialogue: 0,1:20:35.00,1:20:36.74,Default,,0,0,0,,去那兒小心\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Be careful in there.
+Dialogue: 0,1:20:38.34,1:20:41.31,Default,,0,0,0,,那妳會擔心我嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So are you worried about me then?
+Dialogue: 0,1:20:41.34,1:20:44.05,Default,,0,0,0,,唉，我已經習慣妳了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, I've gotten used to you.
+Dialogue: 0,1:20:46.65,1:20:48.25,Default,,0,0,0,,祝妳獵殺成功\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Good hunting.
+Dialogue: 0,1:20:48.28,1:20:50.39,Default,,0,0,0,,妳也是\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You, too.
+Dialogue: 0,1:21:22.18,1:21:23.52,Default,,0,0,0,,守衛\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Sentinel.
+Dialogue: 0,1:21:23.55,1:21:25.39,Default,,0,0,0,,它不會停止 除非這個囚犯\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And it won't stop until this prisoner
+Dialogue: 0,1:21:25.42,1:21:28.52,Default,,0,0,0,,被押他的牢房\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}is put back in his cell.
+Dialogue: 0,1:21:35.26,1:21:37.70,Default,,0,0,0,,它是沖著艾裏克來的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}It's coming for Ellic.
+Dialogue: 0,1:22:10.77,1:22:12.77,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,1:23:29.81,1:23:31.11,Default,,0,0,0,,如果她有在那邊受到傷害的任何跡象\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}If there's any sign she's getting hurt in there,
+Dialogue: 0,1:23:31.15,1:23:33.28,Default,,0,0,0,,妳必須叫醒她\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you have to wake her up.
+Dialogue: 0,1:23:33.32,1:23:34.58,Default,,0,0,0,,並且向我保證帶她走得\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And promise me you'll get her as far away
+Dialogue: 0,1:23:34.62,1:23:35.78,Default,,0,0,0,,越遠越好\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}from here as you can.
+Dialogue: 0,1:23:35.82,1:23:37.75,Default,,0,0,0,,必須的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Of course.
+Dialogue: 0,1:24:45.35,1:24:48.16,Default,,0,0,0,,聖歌停下來了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The chanting stopped.
+Dialogue: 0,1:24:49.56,1:24:51.69,Default,,0,0,0,,她做到了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}She did it.
+Dialogue: 0,1:25:44.51,1:25:47.85,Default,,0,0,0,,夢行者向妳展示了過去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}A dream-walker shows your past.
+Dialogue: 0,1:25:47.88,1:25:50.75,Default,,0,0,0,,只有我能昭示未來\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Only I can show the future.
+Dialogue: 0,1:25:52.05,1:25:55.86,Default,,0,0,0,,妳們將會失敗，而人類將會墮落\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You will fail, and humanity will fall.
+Dialogue: 0,1:26:02.90,1:26:04.67,Default,,0,0,0,,我把世界恢復成原來那樣了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've taken this world back.
+Dialogue: 0,1:26:04.70,1:26:06.64,Default,,0,0,0,,還沒有\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Not yet.
+Dialogue: 0,1:26:12.01,1:26:14.01,Default,,0,0,0,,感覺到了嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Can you feel it?
+Dialogue: 0,1:26:14.04,1:26:16.71,Default,,0,0,0,,妳的凡身\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Your mortality?
+Dialogue: 0,1:26:16.75,1:26:20.32,Default,,0,0,0,,妳的生命正在流逝\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Your life ebbing away?
+Dialogue: 0,1:26:57.12,1:26:59.06,Default,,0,0,0,,父親\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father!
+Dialogue: 0,1:27:03.53,1:27:04.99,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder.
+Dialogue: 0,1:27:11.13,1:27:13.50,Default,,0,0,0,,妳是我們這個世界的入侵者\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You are trespassers on our world.
+Dialogue: 0,1:27:13.54,1:27:15.54,Default,,0,0,0,,父親\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father!
+Dialogue: 0,1:27:15.57,1:27:17.41,Default,,0,0,0,,我已經透過妳的眼睛看到了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I've seen it in your eyes.
+Dialogue: 0,1:27:17.44,1:27:20.51,Default,,0,0,0,,妳盼望死亡\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You wish for death.
+Dialogue: 0,1:27:52.44,1:27:55.58,Default,,0,0,0,,妳明白永生的好處嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know the benefit of eternal life?
+Dialogue: 0,1:27:55.61,1:27:57.58,Default,,0,0,0,,我應該殺死妳兩次的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I get to kill you twice.
+Dialogue: 0,1:27:59.05,1:28:00.55,Default,,0,0,0,,快住手！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Stop!
+Dialogue: 0,1:28:00.58,1:28:02.75,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder!
+Dialogue: 0,1:28:02.79,1:28:04.09,Default,,0,0,0,,那麽...\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Now...
+Dialogue: 0,1:28:04.12,1:28:05.42,Default,,0,0,0,,—克洛伊...—對不起\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Chloe... - I'm sorry.
+Dialogue: 0,1:28:05.46,1:28:08.16,Default,,0,0,0,,釋放我的女王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Release my Queen.
+Dialogue: 0,1:28:08.19,1:28:10.66,Default,,0,0,0,,當我還是個孩子的時候，妳從那些女巫手中將我救出\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Those witches you rescued me from when I was a kid...
+Dialogue: 0,1:28:10.69,1:28:13.83,Default,,0,0,0,,她們並沒有殺害我的父母，他們就是我的父母\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}They didn't kill my parents. They were my parents.
+Dialogue: 0,1:28:13.86,1:28:15.46,Default,,0,0,0,,但不幸的是，我天生沒有法力。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}But sadly, I was born without magic.
+Dialogue: 0,1:28:15.50,1:28:16.47,Default,,0,0,0,,妳是個女巫\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You're a witch.
+Dialogue: 0,1:28:16.50,1:28:18.43,Default,,0,0,0,,是的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yep.
+Dialogue: 0,1:28:20.07,1:28:22.60,Default,,0,0,0,,—不！不！—快回到這兒！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- No! No! - Get back here!
+Dialogue: 0,1:28:24.51,1:28:26.68,Default,,0,0,0,,快離開他！放開他！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Get away from him! Let go!
+Dialogue: 0,1:28:39.59,1:28:41.52,Default,,0,0,0,,夢行者\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Dream-walker.
+Dialogue: 0,1:29:37.91,1:29:39.55,Default,,0,0,0,,看看妳自己\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Look at you,
+Dialogue: 0,1:29:39.58,1:29:43.05,Default,,0,0,0,,妳那醜陋的女巫臉\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you ugly bitch of a morning.
+Dialogue: 0,1:29:54.76,1:29:56.57,Default,,0,0,0,,妳背叛了那些\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You turned against those
+Dialogue: 0,1:29:56.60,1:29:58.10,Default,,0,0,0,,妳應該要保護的人們\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you were charged with protecting.
+Dialogue: 0,1:29:58.13,1:30:00.00,Default,,0,0,0,,是的，女王\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Yes, my Queen.
+Dialogue: 0,1:30:00.04,1:30:03.17,Default,,0,0,0,,讓我完整吧，幫我到達我的宿命。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Make me whole. Help me reach my destiny.
+Dialogue: 0,1:30:03.21,1:30:05.64,Default,,0,0,0,,賜予我魔力吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Grant me the gift of magic.
+Dialogue: 0,1:30:05.67,1:30:08.14,Default,,0,0,0,,沙土不會變成金子\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Clay cannot be turned to gold.
+Dialogue: 0,1:30:08.18,1:30:12.01,Default,,0,0,0,,沒有法力，妳只是個凡人。\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Without magic, you're just a human.
+Dialogue: 0,1:30:39.74,1:30:41.68,Default,,0,0,0,,父親？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father?
+Dialogue: 0,1:30:46.78,1:30:48.82,Default,,0,0,0,,親愛的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}My love.
+Dialogue: 0,1:30:52.35,1:30:54.69,Default,,0,0,0,,妳必須起床了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You must get up.
+Dialogue: 0,1:30:57.29,1:30:59.90,Default,,0,0,0,,父親，妳得起床了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Father, you need to get up.
+Dialogue: 0,1:31:00.93,1:31:03.06,Default,,0,0,0,,去救他們\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Save them.
+Dialogue: 0,1:31:09.71,1:31:13.21,Default,,0,0,0,,去吧！親愛的，去戰鬥吧！\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Go, my love. Fight.
+Dialogue: 0,1:31:54.35,1:31:57.02,Default,,0,0,0,,妳還在垂死掙紮\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You cling to your pathetic life.
+Dialogue: 0,1:31:57.05,1:31:59.02,Default,,0,0,0,,為了什麽呢？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And for what reason?
+Dialogue: 0,1:32:00.36,1:32:03.12,Default,,0,0,0,,最親近的人背叛了妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Those closest to you betray you,
+Dialogue: 0,1:32:03.16,1:32:06.86,Default,,0,0,0,,而那些妳宣誓要保護的對象甚至都不知道妳的名字\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and those you claim to protect don't even know your name.
+Dialogue: 0,1:32:09.77,1:32:11.77,Default,,0,0,0,,用鋼鐵\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}By iron
+Dialogue: 0,1:32:13.44,1:32:15.67,Default,,0,0,0,,和烈火\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}and fire!
+Dialogue: 0,1:33:16.33,1:33:20.00,Default,,0,0,0,,試著用ipad來做吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Try doing that with an iPad.
+Dialogue: 0,1:33:32.98,1:33:35.45,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder!
+Dialogue: 0,1:33:35.48,1:33:37.42,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,1:33:42.83,1:33:44.89,Default,,0,0,0,,考爾德\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Kaulder?
+Dialogue: 0,1:34:21.33,1:34:23.93,Default,,0,0,0,,只要心臟還在跳動\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}As long as the Hexen heart beats,
+Dialogue: 0,1:34:23.97,1:34:26.40,Default,,0,0,0,,她就不會真的死去\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}she's never truly dead.
+Dialogue: 0,1:34:28.04,1:34:30.44,Default,,0,0,0,,不，妳不要！妳會死的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No, you can't! You'll die.
+Dialogue: 0,1:34:31.87,1:34:33.34,Default,,0,0,0,,我已經準備好面對現實了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm ready to face that reality.
+Dialogue: 0,1:34:33.38,1:34:36.24,Default,,0,0,0,,不！壹定有別的辦法\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}No! There must be another way.
+Dialogue: 0,1:34:36.28,1:34:39.01,Default,,0,0,0,,聽我說\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Listen to me.
+Dialogue: 0,1:34:39.05,1:34:41.18,Default,,0,0,0,,當我被拉入黑暗中時\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}When I was pulled into the shadows,
+Dialogue: 0,1:34:41.22,1:34:44.55,Default,,0,0,0,,我看見了比她更可怕的東西\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I saw that there were things much worse than her.
+Dialogue: 0,1:34:44.59,1:34:48.09,Default,,0,0,0,,在黑暗中，靜靜等候\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}In the darkness. Waiting.
+Dialogue: 0,1:34:48.12,1:34:50.39,Default,,0,0,0,,等待什麽？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Waiting for what?
+Dialogue: 0,1:34:50.43,1:34:52.39,Default,,0,0,0,,壹個沒有妳的世界\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The world without you.
+Dialogue: 0,1:34:53.60,1:34:56.90,Default,,0,0,0,,我們仍需要妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}We still need you.
+Dialogue: 0,1:34:56.93,1:34:59.27,Default,,0,0,0,,我需要妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I need you.
+Dialogue: 0,1:35:03.37,1:35:06.21,Default,,0,0,0,,十斧會背叛了我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Axe and Cross betrayed me.
+Dialogue: 0,1:35:06.24,1:35:07.58,Default,,0,0,0,,我不再相信任何人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I can't trust anyone.
+Dialogue: 0,1:35:07.61,1:35:09.81,Default,,0,0,0,,妳可以相信我\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You can trust me.
+Dialogue: 0,1:35:12.42,1:35:15.28,Default,,0,0,0,,我已經在這條路上走了800年\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}800 years I've been on this road.
+Dialogue: 0,1:35:20.19,1:35:23.39,Default,,0,0,0,,壹直在狩獵\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Always hunting.
+Dialogue: 0,1:35:23.43,1:35:26.49,Default,,0,0,0,,壹直是...孑然壹人\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}- Always... - Alone.
+Dialogue: 0,1:35:26.53,1:35:29.00,Default,,0,0,0,,不會再是了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You wouldn't be.
+Dialogue: 0,1:35:35.54,1:35:38.11,Default,,0,0,0,,另外\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Besides,
+Dialogue: 0,1:35:38.14,1:35:41.41,Default,,0,0,0,,妳還欠我5萬塊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}you still owe me fifty thousand dollars.
+Dialogue: 0,1:35:42.58,1:35:44.11,Default,,0,0,0,,5千塊\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Five thousand.
+Dialogue: 0,1:35:44.15,1:35:47.28,Default,,0,0,0,,好吧，這麽說我們是在砍價了，是嗎？\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Oh. So we're negotiating, then?
+Dialogue: 0,1:35:55.52,1:35:57.59,Default,,0,0,0,,十斧會將很頭疼\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}The Axe and Cross would be bothered that
+Dialogue: 0,1:35:57.63,1:35:58.86,Default,,0,0,0,,她們不再擁有\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}they're no longer in possession
+Dialogue: 0,1:35:58.89,1:36:00.43,Default,,0,0,0,,女巫王的心臟\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}of the Queen's heart.
+Dialogue: 0,1:36:00.46,1:36:03.30,Default,,0,0,0,,我不再幫十斧會工作了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I don't serve The Axe and Cross anymore.
+Dialogue: 0,1:36:03.33,1:36:05.30,Default,,0,0,0,,這次我為自己而做的\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}This time I do it for me.
+Dialogue: 0,1:36:05.33,1:36:07.27,Default,,0,0,0,,好吧，這是關於時間\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, it's about time.
+Dialogue: 0,1:36:10.31,1:36:11.57,Default,,0,0,0,,我過去總認為\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know, I used to think
+Dialogue: 0,1:36:11.61,1:36:14.18,Default,,0,0,0,,宇宙循環往復、周而復始\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}the universe ran in endless circles,
+Dialogue: 0,1:36:14.21,1:36:17.38,Default,,0,0,0,,總在重復著自身，永遠可以預測\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}always repeating itself, always predictable.
+Dialogue: 0,1:36:18.95,1:36:20.88,Default,,0,0,0,,那現在呢\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}And now?
+Dialogue: 0,1:36:22.68,1:36:26.09,Default,,0,0,0,,我不知道接下來會發生什麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I don't know what happens next.
+Dialogue: 0,1:36:26.12,1:36:29.36,Default,,0,0,0,,妳知道我們凡人怎麽稱它嗎\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Do you know what we mortals call that?
+Dialogue: 0,1:36:29.39,1:36:31.39,Default,,0,0,0,,生活\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Living.
+Dialogue: 0,1:36:36.60,1:36:39.17,Default,,0,0,0,,妳知道\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}You know,
+Dialogue: 0,1:36:39.20,1:36:42.14,Default,,0,0,0,,我仍需要妳\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I still need you.
+Dialogue: 0,1:36:42.17,1:36:44.37,Default,,0,0,0,,那麽\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Well, then
+Dialogue: 0,1:36:44.41,1:36:46.58,Default,,0,0,0,,我為妳效勞\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm at your service.
+Dialogue: 0,1:36:49.01,1:36:51.55,Default,,0,0,0,,得了吧，妳不會再年輕了\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Come on. You're not getting any younger.
+Dialogue: 0,1:36:55.18,1:36:57.42,Default,,0,0,0,,妳是準備走，還是怎樣\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}So you ready to go, or what?
+Dialogue: 0,1:36:59.16,1:37:01.09,Default,,0,0,0,,我來開車\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}I'm driving.
+Dialogue: 0,1:37:04.39,1:37:06.56,Default,,0,0,0,,好吧\N{\c&H00F8FB&\4c&HFFFFFF&\fs12\b1}Okay.
